@@ -1,0 +1,3 @@
+Added Component: Designator=XP3(CON: PLL-6(2x3R1.27female))
+Added Pin To Net: NetName=GND Pin=XP3-5
+Added Member To Class: ClassName=plp-ctop_2a Member=Component XP3 2199R05-06G-301523

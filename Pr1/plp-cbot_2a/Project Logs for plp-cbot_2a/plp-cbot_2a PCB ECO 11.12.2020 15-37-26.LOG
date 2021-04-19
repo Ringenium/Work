@@ -1,0 +1,8 @@
+Added Component: Designator=XP2(CON: PLL-6(2x3R1.27female))
+Added Pin To Net: NetName=+Uï Pin=XP2-1
+Added Pin To Net: NetName=+Uï Pin=XP2-2
+Added Pin To Net: NetName=PE Pin=XP2-3
+Added Pin To Net: NetName=PE Pin=XP2-4
+Added Pin To Net: NetName=-Uï Pin=XP2-5
+Added Pin To Net: NetName=-Uï Pin=XP2-6
+Added Member To Class: ClassName=plp-cbot_2a Member=Component XP2 2199R05-06G-301523

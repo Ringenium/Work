@@ -1,0 +1,10 @@
+Removed Pin From Net: NetName=NetCN2_1 Pin=FU1-1
+Removed Pin From Net: NetName=NetD1_2 Pin=FU1-2
+Removed Member From Class: ClassName=Supply System Member=FU1
+Added Component: Designator=FU?(FUSE: 1812)
+Added Pin To Net: NetName=NetCN2_1 Pin=FU?-1
+Added Pin To Net: NetName=NetD1_2 Pin=FU?-2
+Added Member To Class: ClassName=Supply System Member=Component FU? MF-MSMF020/60-2
+Added Room: Name=MCU1
+Added Room: Name=MCU2
+Added Room: Name=Supply System

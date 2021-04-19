@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=+Uï Pin=XS2-1
+Removed Pin From Net: NetName=+Uï Pin=XS2-2
+Removed Pin From Net: NetName=+Uï Pin=XS2-3
+Added Pin To Net: NetName=-Uï Pin=XS2-2
+Added Room: Name=plp-cd_2a

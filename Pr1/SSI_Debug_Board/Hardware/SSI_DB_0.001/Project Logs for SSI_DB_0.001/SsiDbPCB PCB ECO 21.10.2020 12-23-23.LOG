@@ -1,0 +1,4 @@
+Added Pin To Net: NetName=485/SSI_N Pin=SW2-6
+Added Room: Name=MCU1
+Added Room: Name=MCU2
+Added Room: Name=Supply System

@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=SSI_OUT_P Pin=VD2-1
+Removed Pin From Net: NetName=SSI_OUT_N Pin=VD2-2
+Added Pin To Net: NetName=SSI_OUT_N Pin=VD2-1
+Added Pin To Net: NetName=SSI_OUT_P Pin=VD2-2
+Added Differential Pair: Name=SSI_OUT
+Added Room: Name=plp-cd_2a

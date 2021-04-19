@@ -1,0 +1,25 @@
+Change Component Description : Designator=VD2 Old Description=EIA RS-485 ±7V New Description=EIA RS-485 ±7V 
+Change Component Description : Designator=VD1 Old Description=EIA RS-485 ±7V ±12V New Description=EIA RS-485 ±7V ±12V 
+Added Component: Designator=U3(VSSOP-8)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.ti.com/lit/ds/symlink/sn65hvd72.pdf?ts=1607084930164&ref_url=https%253A%252F%252Fwww.ti.com%252Fstore%252Fti%252Fen%252Fp%252Fproduct%252F%253Fp%253DSN65HVD72DRBT"; VariantName = "[No Variations]"
+Added Component: Designator=U4(VSSOP-8)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.ti.com/lit/ds/symlink/sn65hvd72.pdf?ts=1607084930164&ref_url=https%253A%252F%252Fwww.ti.com%252Fstore%252Fti%252Fen%252Fp%252Fproduct%252F%253Fp%253DSN65HVD72DRBT"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=SSI_SCK Pin=U3-1
+Added Pin To Net: NetName=RE1 Pin=U3-2
+Added Pin To Net: NetName=DE1 Pin=U3-3
+Added Pin To Net: NetName=UART1_TX Pin=U3-4
+Added Pin To Net: NetName=GND Pin=U3-5
+Added Pin To Net: NetName=485/SSI_P Pin=U3-6
+Added Pin To Net: NetName=485/SSI_N Pin=U3-7
+Added Pin To Net: NetName=3.3V Pin=U3-8
+Added Pin To Net: NetName=RE2 Pin=U4-2
+Added Pin To Net: NetName=DE2 Pin=U4-3
+Added Pin To Net: NetName=SSI_MISO Pin=U4-4
+Added Pin To Net: NetName=GND Pin=U4-5
+Added Pin To Net: NetName=SSI_OUT_P Pin=U4-6
+Added Pin To Net: NetName=SSI_OUT_N Pin=U4-7
+Added Pin To Net: NetName=3.3V Pin=U4-8
+Added Member To Class: ClassName=plp-cd_2a Member=Component U3 SN65HVD72DGK
+Added Member To Class: ClassName=plp-cd_2a Member=Component U4 SN65HVD72DGK

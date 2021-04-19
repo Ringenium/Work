@@ -1,0 +1,7 @@
+Added Component: Designator=CN5(CON: PLS-1)
+Added Pin To Net: NetName=UART1_TX Pin=CN5-1
+Added Member To Class: ClassName=MCU2 Member=Component C9 Ceramic capacitor, 4.7?F, X7R, ±10%, 10V, 0603, -55...+125°C
+Added Member To Class: ClassName=MCU2 Member=Component CN5
+Added Room: Name=MCU1
+Added Room: Name=MCU2
+Added Room: Name=Supply System

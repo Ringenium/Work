@@ -1,0 +1,4 @@
+Added Component: Designator=PE(1mm PAD)
+Added Pin To Net: NetName=PE Pin=PE-0
+Added Member To Class: ClassName=ολο-u_2ρ Member=Component GND Testpoint-TH-1mm
+Added Member To Class: ClassName=ολο-u_2ρ Member=Component PE Testpoint-TH-1mm

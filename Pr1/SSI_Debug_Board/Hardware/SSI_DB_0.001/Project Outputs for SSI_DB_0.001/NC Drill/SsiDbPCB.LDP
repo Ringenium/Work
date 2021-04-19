@@ -1,0 +1,3 @@
+Layer Pairs Export File for PCB: C:\Users\1\Desktop\SSI_Debug_Board\Hardware\SSI_DB_0.001\SsiDbPCB.PcbDoc
+LayersSetName=Top_Bot_Plated_Thru_Holes|DrillFile=ssidbpcb-plated.txt|DrillLayers=gtl,gbl
+LayersSetName=Top_Bot_NonPlated_Thru_Holes|DrillFile=ssidbpcb-nonplated.txt|DrillLayers=gtl,gbl

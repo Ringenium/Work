@@ -1,0 +1,16 @@
+Removed Pin From Net: NetName=C2CK Pin=XS5-1
+Removed Pin From Net: NetName=C2CK Pin=XS5-2
+Removed Pin From Net: NetName=C2CK Pin=XS5-4
+Removed Pin From Net: NetName=C2CK Pin=XS5-6
+Change Component Description : Designator=VD2 Old Description=EIA RS-485 ±7V New Description=EIA RS-485 ±7V 
+Added Component: Designator=XS2(CON: PLL-6(2x3R1.27male))
+Added Pin To Net: NetName=GND Pin=XS2-1
+Added Pin To Net: NetName=+5 Pin=XS2-2
+Added Pin To Net: NetName=NetR3_2 Pin=XS2-3
+Added Pin To Net: NetName=TD Pin=XS2-4
+Added Pin To Net: NetName=VDD Pin=XS5-1
+Added Pin To Net: NetName=C2D Pin=XS5-2
+Added Pin To Net: NetName=C2D_sense Pin=XS5-4
+Added Pin To Net: NetName=GND Pin=XS5-6
+Added Member To Class: ClassName=plp-cm_2a Member=Component XS2 2199R05-06G-301523
+Added Room: Name=plp-cm_2a

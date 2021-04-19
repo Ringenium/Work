@@ -1,0 +1,25 @@
+Removed Pin From Net: NetName=GND Pin=R6-1
+Removed Pin From Net: NetName=485/SSI_N Pin=R6-2
+Removed Pin From Net: NetName=485/SSI_P Pin=R8-1
+Removed Pin From Net: NetName=3.3V Pin=R8-2
+Removed Pin From Net: NetName=GND Pin=R9-1
+Removed Pin From Net: NetName=SSI_OUT_N Pin=R9-2
+Removed Pin From Net: NetName=SSI_OUT_P Pin=R11-1
+Removed Pin From Net: NetName=3.3V Pin=R11-2
+Removed Member From Class: ClassName=plp-cd_2a Member=R6
+Removed Member From Class: ClassName=plp-cd_2a Member=R8
+Removed Member From Class: ClassName=plp-cd_2a Member=R9
+Removed Member From Class: ClassName=plp-cd_2a Member=R11
+Change Component Footprint: Designator=XS1 Old Footprint=CON: PLD-4(2.00_hl) New Footprint=CON: PLL-6(2x3R1.27male)
+Change Component Footprint: Designator=XS2 Old Footprint=CON: PLD-4(2.00_hl) New Footprint=CON: PLL-6(2x3R1.27male)
+Change Component Footprint: Designator=XS3 Old Footprint=CON: PLD-4(2.00_hl) New Footprint=CON: PLL-6(2x3R1.27male)
+Change Component Footprint: Designator=XS4 Old Footprint=CON: PLD-4(2.00_hl) New Footprint=CON: PLL-6(2x3R1.27male)
+Change Component Footprint: Designator=XS5 Old Footprint=CON: PLLD-6(1.27_VL) New Footprint=CON: PLL-6(2x3R1.27female)
+Change Component Footprint: Designator=XS6 Old Footprint=CON: PLLD-6(1.27_VL) New Footprint=CON: PLL-6(2x3R1.27female)
+Change Component Comment : Designator=XS1 Old Comment=PLD-4 New Comment=2199R05-06G-301523
+Change Component Comment : Designator=XS2 Old Comment=PLD-4 New Comment=2199R05-06G-301523
+Change Component Comment : Designator=XS3 Old Comment=PLD-4 New Comment=2199R05-06G-301523
+Change Component Comment : Designator=XS4 Old Comment=PLD-4 New Comment=2199R05-06G-301523
+Change Component Comment : Designator=XS5 Old Comment=PLLD-6 New Comment=2199R05-06G-301523
+Change Component Comment : Designator=XS6 Old Comment=PLLD-6 New Comment=2199R05-06G-301523
+Added Room: Name=plp-cd_2a

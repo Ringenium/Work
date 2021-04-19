@@ -1,0 +1,120 @@
+Removed Pin From Net: NetName=-Uï Pin=DD1-2
+Removed Pin From Net: NetName=NetR6_2 Pin=VT1-1
+Removed Pin From Net: NetName=+5 Pin=VT1-3
+Removed Pin From Net: NetName=NetR3_2 Pin=VT1-4
+Removed Pin From Net: NetName=NetC10_1 Pin=VT1-6
+Added Component: Designator=C7(CAP_B3528X21N)
+Add component (AddParameter): Name = "Case"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Global Data"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Part Data Sheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "Replacement Data Sheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3URL"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink4Description"; Value = "Replacement 2 Data Sheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink4URL"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Murata"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rated DC Voltage"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ReplacementPart1Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ReplacementPart1PartNumber"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ReplacementPart2Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ReplacementPart2PartNumber"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ripple Current Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "TC Code"; Value = "X7R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Range"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R12(RESC1608(0603)X04L)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Data Sheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://smd.ru/files/upload/1207/ru/chip-resis.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Specific Res Only"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "Replacement Data Sheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3URL"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink4Description"; Value = "Replacement 2 Data Sheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink4URL"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Bourns"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Rated DC Voltage"; Value = "100 Â"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "0603 - {Value} Îì ± 1 %"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = "1/10 Âò"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rated DC Voltage"; Value = "50 Â"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rated T"; Value = "-55 °C to +125 °C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ReplacementPart1Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ReplacementPart1PartNumber"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ReplacementPart2Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ReplacementPart2PartNumber"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Range"; Value = "-55 to +125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "TKR"; Value = "±100 ppm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "±1 %"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "0"; VariantName = "[No Variations]"
+Added Component: Designator=R13(RESC1608(0603)X04L)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Data Sheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://smd.ru/files/upload/1207/ru/chip-resis.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Specific Res Only"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "Replacement Data Sheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3URL"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink4Description"; Value = "Replacement 2 Data Sheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink4URL"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Bourns"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Rated DC Voltage"; Value = "100 Â"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "0603 - {Value} Îì ± 1 %"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = "1/10 Âò"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rated DC Voltage"; Value = "50 Â"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rated T"; Value = "-55 °C to +125 °C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ReplacementPart1Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ReplacementPart1PartNumber"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ReplacementPart2Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ReplacementPart2PartNumber"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Range"; Value = "-55 to +125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "TKR"; Value = "±100 ppm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "±1 %"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "0"; VariantName = "[No Variations]"
+Added Component: Designator=R14(RESC1608(0603)X04L)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Data Sheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://smd.ru/files/upload/1207/ru/chip-resis.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Specific Res Only"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "Replacement Data Sheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3URL"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink4Description"; Value = "Replacement 2 Data Sheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink4URL"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Bourns"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Rated DC Voltage"; Value = "100 Â"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "0603 - {Value} Îì ± 1 %"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = "1/10 Âò"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rated DC Voltage"; Value = "50 Â"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rated T"; Value = "-55 °C to +125 °C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ReplacementPart1Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ReplacementPart1PartNumber"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ReplacementPart2Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ReplacementPart2PartNumber"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Range"; Value = "-55 to +125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "TKR"; Value = "±100 ppm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "±1 %"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "0"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=-Uï Pin=C6-1
+Added Pin To Net: NetName=+5V Pin=C7-1
+Added Pin To Net: NetName=-Uï Pin=C7-2
+Added Pin To Net: NetName=-Uï Pin=R12-1
+Added Pin To Net: NetName=+20V Pin=R12-2
+Added Pin To Net: NetName=-Uï Pin=R13-1
+Added Pin To Net: NetName=-Uï Pin=R13-2
+Added Pin To Net: NetName=-Uï Pin=R14-1
+Added Pin To Net: NetName=+5V Pin=R14-2
+Added Pin To Net: NetName=-Uï Pin=VD5-1
+Added Pin To Net: NetName=NetC10_1 Pin=VT1-1
+Added Pin To Net: NetName=NetR3_2 Pin=VT1-3
+Added Pin To Net: NetName=+5 Pin=VT1-4
+Added Pin To Net: NetName=NetR6_2 Pin=VT1-6
+Added Pin To Net: NetName=-Uï Pin=XP1-2
+Change Net Name : Old Net Name=-Uï New Net Name=-20V
+Added Member To Class: ClassName=plp-cbot_2a Member=Component C7
+Added Member To Class: ClassName=plp-cbot_2a Member=Component R12 0
+Added Member To Class: ClassName=plp-cbot_2a Member=Component R13 0
+Added Member To Class: ClassName=plp-cbot_2a Member=Component R14 0
+Added Room: Name=plp-cbot_2a

@@ -1,0 +1,12 @@
+Change component parameters: Designator = "VD5" ("VD5"); Footprint = "DIODE: SOD523"; UniqueID = "\KJMIZKDH" ("\KJMIZKDH")
+Change component parameters (AddParameter): Name = "Current"; Value = "500mA"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "HelpURL"; Value = "https://www.digikey.com/product-detail/en/diodes-incorporated/MBR0580S1-7/MBR0580S1-7DICT-ND/5080371"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Diodes Incorporated"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "SOD-123"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PartNumber"; Value = "MBR0580S1-7"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RecoveryTime"; Value = "15pF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Temperature"; Value = "-55...+150°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "TypeDiode"; Value = "Schottky diode"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ValueManufacturerPartNumber"; Value = "Schottky diode, 80V, 500mA, 1V, 15pF, SOD-123, -55...+150°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage"; Value = "80V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "VoltageDrop"; Value = "1V"; VariantName = "[No Variations]"

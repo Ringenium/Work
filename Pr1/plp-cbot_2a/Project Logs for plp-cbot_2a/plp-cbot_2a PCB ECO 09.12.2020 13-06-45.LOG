@@ -1,0 +1,30 @@
+Added Component: Designator=C9(CAPC_1812(4532)X16L)
+Add component (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Global Data"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.murata.com/products/capacitor/tech_data/index.html"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Part Data Sheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "Replacement Data Sheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3URL"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink4Description"; Value = "Replacement 2 Data Sheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink4URL"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Murata"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "0603 - 0,1 ìêÔ ± 10 % - 50 Â - X7R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rated DC Voltage"; Value = "3000V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ReplacementPart1Manufacturer"; Value = "TDK"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ReplacementPart1PartNumber"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ReplacementPart2Manufacturer"; Value = "Taiyo Yuden"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ReplacementPart2PartNumber"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ripple Current Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "TC Code"; Value = "X7R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Range"; Value = "-55 to +125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "±10%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "0.001uF"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=-Uï Pin=C9-1
+Added Pin To Net: NetName=PE Pin=C9-2
+Added Pin To Net: NetName=-20V Pin=R1-2
+Added Pin To Net: NetName=+20V Pin=R2-2
+Change Net Name : Old Net Name=+20V New Net Name=+15
+Change Net Name : Old Net Name=-20V New Net Name=-15
+Added Member To Class: ClassName=plp-cbot_2a Member=Component C9 0.001uF
+Added Room: Name=plp-cbot_2a

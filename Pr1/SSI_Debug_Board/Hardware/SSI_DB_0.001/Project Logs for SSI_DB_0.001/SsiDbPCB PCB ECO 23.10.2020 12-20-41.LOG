@@ -1,0 +1,25 @@
+Added Component: Designator=CN9(CON: PLS-2)
+Add component (AddParameter): Name = "CommentText"; Value = ""׀אחתול""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "CurrentMax"; Value = "3A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "https://www.chipdip.ru/product/pls-2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Connfly"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Multichannel"; Value = "2pin"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "PLS-2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pitch"; Value = "2.54mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "TypeConnector"; Value = "Connector"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ValueManufacturerPartNumber"; Value = "Connector, 2pin, 2.54mm, 500VAC, 3A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VoltageMax"; Value = "500VAC"; VariantName = "[No Variations]"
+Added Component: Designator=CN10(CON: PLS-1)
+Added Component: Designator=CN11(CON: PLS-1)
+Added Pin To Net: NetName=NetCN9_1 Pin=CN9-1
+Added Pin To Net: NetName=NetCN9_1 Pin=CN10-1
+Added Net: Name=NetCN9_1
+Added Pin To Net: NetName=NetCN9_2 Pin=CN9-2
+Added Pin To Net: NetName=NetCN9_2 Pin=CN11-1
+Added Net: Name=NetCN9_2
+Added Member To Class: ClassName=MCU1 Member=Component CN9 Connector, 2pin, 2.54mm, 500VAC, 3A
+Added Member To Class: ClassName=MCU1 Member=Component CN10 Test point
+Added Member To Class: ClassName=MCU1 Member=Component CN11 Test point
+Added Room: Name=MCU1
+Added Room: Name=MCU2
+Added Room: Name=Supply System

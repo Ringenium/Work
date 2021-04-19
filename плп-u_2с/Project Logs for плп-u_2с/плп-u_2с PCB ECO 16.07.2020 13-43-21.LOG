@@ -1,0 +1,10 @@
+Added Component: Designator=DD?(SOT23-6)
+Added Pin To Net: NetName=VDD Pin=DD?-1
+Added Pin To Net: NetName=GND Pin=DD?-2
+Added Pin To Net: NetName=PULSE Pin=DD?-4
+Added Pin To Net: NetName=NetDD5_6 Pin=DD?-6
+Change Net Name : Old Net Name=NetDD5_6 New Net Name=NetDD?_6
+Added Pin To Net: NetName=NetDD?_3 Pin=DD?-3
+Added Pin To Net: NetName=NetDD?_3 Pin=R39-2
+Added Net: Name=NetDD?_3
+Added Member To Class: ClassName=ολο-u_2ρ Member=Component DD? TPL5010

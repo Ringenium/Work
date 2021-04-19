@@ -1,0 +1,7 @@
+Change Component Description : Designator=VD2 Old Description=EIA RS-485 ±7V New Description=EIA RS-485 ±7V 
+Added Component: Designator=AIN(TestPoint(1mm_HS))
+Added Pin To Net: NetName=NetAIN_1 Pin=AIN-1
+Added Pin To Net: NetName=NetAIN_1 Pin=R22-1
+Added Net: Name=NetAIN_1
+Added Member To Class: ClassName=plp-cm_2a Member=Component AIN Testpoint_HS1mm
+Added Room: Name=plp-cm_2a

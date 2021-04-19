@@ -1,0 +1,31 @@
+Removed Pin From Net: NetName=MOSI Pin=XS5-1
+Removed Pin From Net: NetName=MOSI Pin=XS5-2
+Removed Pin From Net: NetName=MOSI Pin=XS5-4
+Removed Pin From Net: NetName=MOSI Pin=XS5-5
+Removed Pin From Net: NetName=MOSI Pin=XS5-6
+Added Component: Designator=XP1(CON: PLL-6(2x3R1.27male))
+Added Component: Designator=XP2(CON: PLL-6(2x3R1.27male))
+Added Component: Designator=XP3(CON: PLL-6(2x3R1.27male))
+Added Component: Designator=XP4(CON: PLL-6(2x3R1.27male))
+Added Pin To Net: NetName=+15 Pin=XP1-2
+Added Pin To Net: NetName=+5 Pin=XP1-3
+Added Pin To Net: NetName=GND Pin=XP1-4
+Added Pin To Net: NetName=-15 Pin=XP1-6
+Added Pin To Net: NetName=-Uï Pin=XP2-1
+Added Pin To Net: NetName=-Uï Pin=XP2-2
+Added Pin To Net: NetName=+Uï Pin=XP2-5
+Added Pin To Net: NetName=+Uï Pin=XP2-6
+Added Pin To Net: NetName=GPIO0 Pin=XP3-2
+Added Pin To Net: NetName=GPIO1 Pin=XP3-3
+Added Pin To Net: NetName=GPIO2 Pin=XP3-4
+Added Pin To Net: NetName=+Uï Pin=XP4-1
+Added Pin To Net: NetName=VIOUT Pin=XP4-2
+Added Pin To Net: NetName=-Uï Pin=XP4-3
+Added Pin To Net: NetName=GND Pin=XP4-4
+Added Pin To Net: NetName=CS1 Pin=XS5-4
+Added Pin To Net: NetName=SCK Pin=XS5-5
+Added Pin To Net: NetName=MISO Pin=XS5-6
+Added Member To Class: ClassName=plp-cd_3a Member=Component XP1 PLLD-6R
+Added Member To Class: ClassName=plp-cd_3a Member=Component XP2 PLLD-6R
+Added Member To Class: ClassName=plp-cd_3a Member=Component XP3 PLLD-6R
+Added Member To Class: ClassName=plp-cd_3a Member=Component XP4 PLLD-6R

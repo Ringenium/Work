@@ -1,0 +1,36 @@
+Change Component Footprint: Designator=XP1 Old Footprint=PLD2-4 - розетка New Footprint=CON: PLL-6(2x3R1.27female)
+Change Component Footprint: Designator=XP2 Old Footprint=PLD2-4 - розетка New Footprint=CON: PLL-6(2x3R1.27female)
+Change Component Footprint: Designator=XP3 Old Footprint=PLD2-4 - розетка New Footprint=CON: PLL-6(2x3R1.27female)
+Change Component Footprint: Designator=XP4 Old Footprint=PLD2-4 - розетка New Footprint=CON: PLL-6(2x3R1.27female)
+Change Component Comment : Designator=XP1 Old Comment=PLD2-4-розетка New Comment=2199R05-06G-301523
+Change Component Comment : Designator=XP2 Old Comment=PLD2-4-розетка New Comment=2199R05-06G-301523
+Change Component Comment : Designator=XP3 Old Comment=PLD2-4-розетка New Comment=2199R05-06G-301523
+Change Component Comment : Designator=XP4 Old Comment=PLD2-4-розетка New Comment=2199R05-06G-301523
+Change component parameters: Designator = "XT1" ("XT1"); Footprint = "MKDS 1/2 - 3,5"; UniqueID = "\VNDNEYVH" ("\VNDNEYVH")
+Change component parameters (AddParameter): Name = "Color"; Value = "green"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Data Sheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "http://eshop.phoenixcontact.de/phoenix/treeViewClick.do?UID=1725656&parentUID=852628134&reloadFrame=true"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Poenix Contact"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "OrderCode"; Value = "1751248"; VariantName = "[No Variations]"
+Change component parameters: Designator = "XT2" ("XT2"); Footprint = "MKDS 1/4 - 3,5"; UniqueID = "\CGFDUDCI" ("\CGFDUDCI")
+Change component parameters (AddParameter): Name = "Color"; Value = "green"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Data Sheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "http://eshop.phoenixcontact.de/phoenix/treeViewClick.do?UID=1725656&parentUID=852628134&reloadFrame=true"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Poenix Contact"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "OrderCode"; Value = "1751264"; VariantName = "[No Variations]"
+Change component parameters: Designator = "SW1" ("SW1"); Footprint = "219-3S"; UniqueID = "\JIJTOTVE" ("\JIJTOTVE")
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2Description"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2URL"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink3Description"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink3URL"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PartNumber"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ReplacementPart1Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ReplacementPart1PartNumber"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ReplacementPart2Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ReplacementPart2PartNumber"; Value = ""; VariantName = "[No Variations]"
+Change Class Name : Old Net Name=plp-ctop_1a New Net Name=plp-ctop_2a
+Change Room Name: Old Name=plp-ctop_1a New Name=plp-ctop_2a
+Change Room Scope: Old Scope=InComponentClass('plp-ctop_1a') New Scope=InComponentClass('plp-ctop_2a')

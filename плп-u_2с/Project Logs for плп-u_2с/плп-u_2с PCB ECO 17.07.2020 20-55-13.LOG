@@ -1,0 +1,5 @@
+Added Component: Designator=GND(1mm PAD)
+Added Pin To Net: NetName=GND Pin=GND-0
+Added Member To Class: ClassName=ολο-u_2ρ Member=Component GND Testpoint-TH-1mm
+Change Room Name: Old Name=ptm-1_ρ New Name=ολο-u_2ρ
+Change Room Scope: Old Scope=InComponentClass('ptm-1_ρ') New Scope=InComponentClass('ολο-u_2ρ')

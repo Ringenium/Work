@@ -1,0 +1,3 @@
+Change Class Name : Old Net Name=plp-cbot_1a New Net Name=plp-cbot_2a
+Change Room Name: Old Name=plp-cbot_1a New Name=plp-cbot_2a
+Change Room Scope: Old Scope=InComponentClass('plp-cbot_1a') New Scope=InComponentClass('plp-cbot_2a')

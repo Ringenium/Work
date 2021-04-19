@@ -1,0 +1,11 @@
+Removed Pin From Net: NetName=+15 Pin=XP1-1
+Removed Pin From Net: NetName=-15 Pin=XP1-2
+Removed Pin From Net: NetName=-Uï Pin=XP2-1
+Removed Pin From Net: NetName=-Uï Pin=XP2-2
+Removed Pin From Net: NetName=-Uï Pin=XP2-4
+Removed Pin From Net: NetName=-Uï Pin=XP2-5
+Removed Pin From Net: NetName=-Uï Pin=XP2-6
+Added Pin To Net: NetName=-15 Pin=XP1-1
+Added Pin To Net: NetName=+15 Pin=XP1-2
+Added Pin To Net: NetName=+Uï Pin=XP2-1
+Added Pin To Net: NetName=PE Pin=XP2-4

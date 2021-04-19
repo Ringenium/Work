@@ -1,0 +1,24 @@
+Added Component: Designator=DA1(MicroSIP)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Data Sheet (offline)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "\\axirion\KB\PDF\Стабилизаторы напряжения импульсные\tps63001.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Replacement 1 Data Sheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "Replacement 2 Data Sheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3URL"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "LMZM23600"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ReplacementPart1Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ReplacementPart1PartNumber"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ReplacementPart1TopMarking"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ReplacementPart2Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ReplacementPart2PartNumber"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ReplacementPart2TopMarking"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "TopMarking"; Value = "BPT"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=-Uп Pin=DA1-1
+Added Pin To Net: NetName=-Uп Pin=DA1-2
+Added Pin To Net: NetName=NetC2_1 Pin=DA1-3
+Added Pin To Net: NetName=NetC2_1 Pin=DA1-4
+Added Pin To Net: NetName=5V_LMZ Pin=DA1-6
+Added Pin To Net: NetName=5V_LMZ Pin=DA1-7
+Added Pin To Net: NetName=-Uп Pin=DA1-11
+Added Member To Class: ClassName=plp-cbot_2a Member=Component DA1 LMZM23600

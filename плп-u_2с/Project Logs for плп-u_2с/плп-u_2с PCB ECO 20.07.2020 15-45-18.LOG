@@ -1,0 +1,12 @@
+Change Component Designator: OldDesignator=KT1 NewDesignator=Σ2
+Change Component Designator: OldDesignator=KT2 NewDesignator=Σ1
+Change Component Designator: OldDesignator=KT4 NewDesignator=Σ
+Change Component Designator: OldDesignator=KT5 NewDesignator=ΟΤ
+Change Component Designator: OldDesignator=KT6 NewDesignator=P0.7
+Change Component Designator: OldDesignator=KT7 NewDesignator=P1.0
+Change Component Designator: OldDesignator=KT8 NewDesignator=P1.4
+Change Component Designator: OldDesignator=KT9 NewDesignator=P1.7
+Change Component Designator: OldDesignator=KT10 NewDesignator=P1.5
+Change Component Designator: OldDesignator=KT11 NewDesignator=P1.6
+Change Component Designator: OldDesignator=KT12 NewDesignator=P3.0
+Added Member To Class: ClassName=ολο-u_2ρ Member=Component GND Testpoint-TH-1mm

@@ -1,0 +1,6 @@
+Change Component Description : Designator=VD2 Old Description=EIA RS-485 ±7V New Description=EIA RS-485 ±7V 
+Change Component Description : Designator=VD1 Old Description=EIA RS-485 ±7V ±12V New Description=EIA RS-485 ±7V ±12V 
+Added Pin To Net: NetName=GND Pin=XS6-1
+Added Pin To Net: NetName=GND Pin=XS6-2
+Added Pin To Net: NetName=GND Pin=XS6-3
+Added Pin To Net: NetName=GND Pin=XS6-4

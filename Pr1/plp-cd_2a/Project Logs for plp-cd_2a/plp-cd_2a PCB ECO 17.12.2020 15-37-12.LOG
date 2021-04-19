@@ -1,0 +1,9 @@
+Added Component: Designator=CN1(CON: PLLD-6R(1.27))
+Added Pin To Net: NetName=NetCN1_1 Pin=CN1-1
+Added Pin To Net: NetName=C2D Pin=CN1-2
+Added Pin To Net: NetName=RST Pin=CN1-3
+Added Pin To Net: NetName=C2Dsns Pin=CN1-4
+Added Pin To Net: NetName=C2CK Pin=CN1-5
+Added Pin To Net: NetName=GND Pin=CN1-6
+Added Member To Class: ClassName=plp-cd_2a Member=Component CN1 PBD 1.27-6R
+Added Room: Name=plp-cd_2a

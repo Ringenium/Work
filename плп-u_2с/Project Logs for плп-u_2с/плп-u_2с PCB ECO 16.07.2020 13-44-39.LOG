@@ -1,0 +1,38 @@
+Change Component Designator: OldDesignator=DD? NewDesignator=DD5
+Added Component: Designator=DD3(QFN-32 - efm8 - SiLabs)
+Added Pin To Net: NetName=NetC25_2 Pin=DD3-1
+Added Pin To Net: NetName=VDD Pin=DD3-2
+Added Pin To Net: NetName=VDD Pin=DD3-3
+Added Pin To Net: NetName=NetDD3_4 Pin=DD3-4
+Added Pin To Net: NetName=MODE Pin=DD3-5
+Added Pin To Net: NetName=CS1 Pin=DD3-6
+Added Pin To Net: NetName=CLKON Pin=DD3-7
+Added Pin To Net: NetName=RS485_DE Pin=DD3-8
+Added Pin To Net: NetName=NetDD3_9 Pin=DD3-9
+Added Pin To Net: NetName=NetDD3_10 Pin=DD3-10
+Added Pin To Net: NetName=NetDD3_10 Pin=DD3-11
+Added Pin To Net: NetName=CS0 Pin=DD3-12
+Added Pin To Net: NetName=CS2 Pin=DD3-13
+Added Pin To Net: NetName=PULSE Pin=DD3-14
+Added Pin To Net: NetName=OUT_FREQ Pin=DD3-15
+Added Pin To Net: NetName=SLEEP Pin=DD3-16
+Added Pin To Net: NetName=INTB Pin=DD3-17
+Added Pin To Net: NetName=NetDD3_18 Pin=DD3-18
+Added Pin To Net: NetName=NetDD3_19 Pin=DD3-19
+Added Pin To Net: NetName=NetDD3_20 Pin=DD3-20
+Added Pin To Net: NetName=NetDD3_21 Pin=DD3-21
+Added Pin To Net: NetName=SCL Pin=DD3-22
+Added Pin To Net: NetName=SDA/TD Pin=DD3-23
+Added Pin To Net: NetName=MOSI Pin=DD3-24
+Added Pin To Net: NetName=NetDA6_15 Pin=DD3-25
+Added Pin To Net: NetName=NetDA6_5 Pin=DD3-26
+Added Pin To Net: NetName=MISO Pin=DD3-27
+Added Pin To Net: NetName=RX0 Pin=DD3-28
+Added Pin To Net: NetName=TX0 Pin=DD3-29
+Added Pin To Net: NetName=EXTCLK Pin=DD3-30
+Added Pin To Net: NetName=STOP Pin=DD3-31
+Added Pin To Net: NetName=SCK Pin=DD3-32
+Added Pin To Net: NetName=GND Pin=DD3-33
+Change Net Name : Old Net Name=NetDD?_3 New Net Name=NetDD5_3
+Change Net Name : Old Net Name=NetDD?_6 New Net Name=NetDD5_6
+Added Member To Class: ClassName=ολο-u_2ρ Member=Component DD3 EFM8BB31F64G-A-QFN32

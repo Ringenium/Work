@@ -1,0 +1,4 @@
+Added Component: Designator=XP1(CON: PLL-6(2x3R1.27female))
+Added Pin To Net: NetName=RST Pin=XP1-1
+Added Pin To Net: NetName=GPIO0 Pin=XP1-2
+Added Member To Class: ClassName=plp-ctop_2a Member=Component XP1 2199R05-06G-301523

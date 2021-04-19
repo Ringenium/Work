@@ -1,0 +1,27 @@
+Removed Pin From Net: NetName=PULSE Pin=DD1-1
+Removed Pin From Net: NetName=MODE Pin=DD1-3
+Removed Pin From Net: NetName=NetDD1_6 Pin=DD1-6
+Added Component: Designator=DD7(TDFN-8_4υ4,5mm)
+Added Component: Designator=VT7(SC-70-6)
+Added Pin To Net: NetName=MODE Pin=DD1-1
+Added Pin To Net: NetName=GND Pin=DD1-2
+Added Pin To Net: NetName=PULSE Pin=DD1-3
+Added Pin To Net: NetName=NetDD1_6 Pin=DD1-4
+Added Pin To Net: NetName=VDD Pin=DD1-5
+Added Pin To Net: NetName=CS2 Pin=DD7-1
+Added Pin To Net: NetName=MISO Pin=DD7-2
+Added Pin To Net: NetName=NetC35_2 Pin=DD7-3
+Added Pin To Net: NetName=GND Pin=DD7-4
+Added Pin To Net: NetName=MOSI Pin=DD7-5
+Added Pin To Net: NetName=SCK Pin=DD7-6
+Added Pin To Net: NetName=VDD Pin=DD7-7
+Added Pin To Net: NetName=VDD Pin=DD7-8
+Added Pin To Net: NetName=NetR30_2 Pin=VT7-1
+Added Pin To Net: NetName=NetR28_1 Pin=VT7-2
+Added Pin To Net: NetName=NetR28_2 Pin=VT7-6
+Change Net Name : Old Net Name=NetDD1_6 New Net Name=NetDD1_4
+Added Pin To Net: NetName=NetDD1_6 Pin=DD1-6
+Added Pin To Net: NetName=NetDD1_6 Pin=R32-2
+Added Net: Name=NetDD1_6
+Added Member To Class: ClassName=ολο-u_2ρ Member=Component DD7 FM25CL64B-G
+Added Member To Class: ClassName=ολο-u_2ρ Member=Component VT7 BC847BS

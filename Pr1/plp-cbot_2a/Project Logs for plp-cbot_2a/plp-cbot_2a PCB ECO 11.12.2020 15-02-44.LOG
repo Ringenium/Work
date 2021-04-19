@@ -1,0 +1,27 @@
+Removed Pin From Net: NetName=+15 Pin=XP1-2
+Change Component Comment : Designator=R14 Old Comment=0 New Comment=1K
+Change component parameters: Designator = "R14" ("R14"); Footprint = "RESC1608(0603)X04L"; UniqueID = "\SEBYUKNV" ("\SEBYUKNV")
+Change component parameters (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Data Sheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "http://smd.ru/files/upload/1207/ru/chip-resis.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2Description"; Value = "Specific Res Only"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2URL"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink3Description"; Value = "Replacement Data Sheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink3URL"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink4Description"; Value = "Replacement 2 Data Sheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink4URL"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Bourns"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Rated DC Voltage"; Value = "100 Â"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PartNumber"; Value = "0603 - {Value} Îì ± 1 %"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Power"; Value = "1/10 Âò"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Rated DC Voltage"; Value = "50 Â"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Rated T"; Value = "-55 °C to +125 °C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ReplacementPart1Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ReplacementPart1PartNumber"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ReplacementPart2Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ReplacementPart2PartNumber"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Temperature Range"; Value = "-55 to +125°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "TKR"; Value = "±100 ppm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "±1 %"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "1K"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+15 Pin=XP1-5

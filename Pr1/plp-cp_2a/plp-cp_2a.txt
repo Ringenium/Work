@@ -1,0 +1,176 @@
+Board Information Report
+Filename     : C:\Users\1\Desktop\Pr1\plp-cp_2a\plp-cp_2a.PcbDoc
+Date         : 13.01.2021
+Time         : 17:10:38
+Time Elapsed : 00:00:00
+
+General
+    Board Size, 34mmx21mm
+    Components on board, 18
+count : 2
+
+Routing Information
+    Routing completion, 100,00%
+    Connections, 37
+    Connections routed, 37
+    Connections remaining, 0
+count : 4
+
+Layer, Arcs, Pads, Vias, Tracks, Texts, Fills, Regions, ComponentBodies
+    Top Layer, 0, 27, 0, 102, 0, 0, 24, 0
+    Bottom Layer, 0, 0, 0, 34, 0, 0, 13, 0
+    Mechanical 1, 2, 0, 0, 44, 0, 2, 0, 0
+    Mechanical 2, 0, 0, 0, 0, 0, 0, 0, 0
+    Mechanical 3, 0, 0, 0, 0, 0, 0, 0, 0
+    Mechanical 4, 1, 0, 0, 4, 0, 0, 0, 0
+    Mechanical 5, 0, 0, 0, 0, 0, 0, 0, 0
+    Mechanical 13, 0, 0, 0, 0, 0, 0, 0, 15
+    Mechanical 15, 0, 0, 0, 82, 4, 0, 0, 0
+    Top Overlay, 2, 0, 0, 42, 41, 0, 12, 0
+    Bottom Overlay, 0, 0, 0, 0, 0, 0, 0, 0
+    Top Paste, 0, 0, 0, 0, 0, 0, 0, 0
+    Bottom Paste, 0, 0, 0, 0, 0, 0, 0, 0
+    Top Solder, 0, 0, 0, 0, 0, 0, 0, 0
+    Bottom Solder, 4, 0, 0, 4, 1, 0, 5, 0
+    Drill Guide, 0, 0, 0, 0, 0, 0, 0, 0
+    Keep-Out Layer, 0, 0, 0, 0, 0, 0, 0, 0
+    Drill Drawing, 0, 0, 0, 0, 0, 0, 0, 0
+    Multi-Layer, 0, 26, 29, 0, 0, 0, 2, 0
+count : 19
+
+Drill Pairs, Vias
+    Top Layer - Bottom Layer, 29
+count : 1
+
+Layer, Sq.In., Sq.MM., Percent of layer
+    Top Layer, 0,804, 518,514, 73%
+    Bottom Layer, 0,889, 573,655, 80%
+count : 2
+
+Non-Plated Hole Size, Pads, Vias
+count : 0
+
+Plated Hole Size, Pads, Vias
+    0mm, 27, 0
+    0.3mm, 0, 29
+    0.65mm, 24, 0
+    1mm, 2, 0
+count : 4
+
+Non-Plated Slot Size / Length, Pads
+count : 0
+
+Plated Slot Size / Length, Pads
+count : 0
+
+Non-Plated Square Hole Size, Pads
+count : 0
+
+Plated Square Hole Size, Pads
+count : 0
+
+Top Layer Annular Ring Size, Count
+    0.3mm, 10
+    0.35mm, 24
+    0.4mm, 19
+    0.5mm, 2
+count : 4
+
+Mid Layer Annular Ring Size, Count
+    0.3mm, 10
+    0.35mm, 24
+    0.4mm, 19
+    0.5mm, 2
+count : 4
+
+Bottom Layer Annular Ring Size, Count
+    0.3mm, 10
+    0.35mm, 24
+    0.4mm, 19
+    0.5mm, 2
+count : 4
+
+Pad Solder Mask, Count
+    0.1mm, 53
+count : 1
+
+Pad Paste Mask, Count
+    0mm, 53
+count : 1
+
+Pad Pwr/Gnd Expansion, Count
+    0.508mm, 53
+count : 1
+
+Pad Relief Conductor Width, Count
+    0.254mm, 53
+count : 1
+
+Pad Relief Air Gap, Count
+    0.254mm, 53
+count : 1
+
+Pad Relief Entries, Count
+    4, 53
+count : 1
+
+Via Solder Mask, Count
+    0.05mm, 6
+    0.1mm, 23
+count : 2
+
+Via Pwr/Gnd Expansion, Count
+    0.508mm, 29
+count : 1
+
+Track Width, Count
+    0.1mm, 150
+    0.15mm, 18
+    0.2mm, 10
+    0.25mm, 16
+    0.3mm, 118
+count : 5
+
+Arc Line Width, Count
+    0.1mm, 7
+    0.15mm, 1
+    0.25mm, 1
+count : 3
+
+Arc Radius, Count
+    0.05mm, 1
+    0.125mm, 1
+    4.1mm, 1
+    4.3mm, 2
+    5.5mm, 2
+    10mm, 1
+    10.25mm, 1
+count : 7
+
+Arc Degrees, Count
+    55, 2
+    73, 2
+    360, 5
+count : 3
+
+Text Height, Count
+    0.6mm, 28
+    1mm, 5
+    1.5mm, 1
+    1.524mm, 8
+    2mm, 4
+count : 5
+
+Text Width, Count
+    0.15mm, 32
+    0.2mm, 1
+    0.254mm, 13
+count : 3
+
+Net Track Width, Count
+    0.15mm, 16
+count : 1
+
+Net Via Size, Count
+    0.8mm, 16
+count : 1

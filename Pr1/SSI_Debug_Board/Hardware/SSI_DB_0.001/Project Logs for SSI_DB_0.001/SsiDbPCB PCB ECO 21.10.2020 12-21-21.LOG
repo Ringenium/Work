@@ -1,0 +1,20 @@
+Removed Pin From Net: NetName=485/SSI_N Pin=SW2-6
+Added Component: Designator=R24(RES: 0603)
+Add component (AddParameter): Name = "HelpURL"; Value = "https://www.digikey.com/product-detail/en/yageo/RC0603JR-07100RL/311-100GRCT-ND/729644"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "RC0603JR-07100RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = "0.1W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature"; Value = "-55...+125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "±1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "TypeResistor"; Value = "Resistor film"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "120"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ValueManufacturerPartNumber"; Value = "Resistor film, 120, ±1%, 0603, 0.1W, -55...+125°C"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=485/SSI_N Pin=R24-1
+Added Pin To Net: NetName=NetR24_2 Pin=R24-2
+Added Pin To Net: NetName=NetR24_2 Pin=SW2-6
+Added Net: Name=NetR24_2
+Added Member To Class: ClassName=MCU2 Member=Component R24 Resistor film, 120, ±1%, 0603, 0.1W, -55...+125°C
+Added Room: Name=MCU1
+Added Room: Name=MCU2
+Added Room: Name=Supply System

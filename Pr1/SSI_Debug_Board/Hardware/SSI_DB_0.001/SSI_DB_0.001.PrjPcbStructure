@@ -1,0 +1,4 @@
+Record=TopLevelDocument|FileName=Structural sheme.SchDoc
+Record=SheetSymbol|SourceDocument=Structural sheme.SchDoc|Designator=MCU1|SchDesignator=MCU1|FileName=MCU1.SchDoc|SymbolType=Normal|RawFileName=MCU1.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=Structural sheme.SchDoc|Designator=MCU2|SchDesignator=MCU2|FileName=MCU2.SchDoc|SymbolType=Normal|RawFileName=MCU2.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=Structural sheme.SchDoc|Designator=Supply System|SchDesignator=Supply System|FileName=Supply System.SchDoc|SymbolType=Normal|RawFileName=Supply System.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 

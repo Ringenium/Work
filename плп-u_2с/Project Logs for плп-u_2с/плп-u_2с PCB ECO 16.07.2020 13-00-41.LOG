@@ -1,0 +1,399 @@
+Removed Member From Class: ClassName=ολο-u_2b Member=XS12
+Change Component Designator: OldDesignator=+U NewDesignator=+U1
+Change Component Designator: OldDesignator=A NewDesignator=A1
+Change Component Designator: OldDesignator=B NewDesignator=B1
+Change Component Designator: OldDesignator=GND NewDesignator=GND1
+Change Component Designator: OldDesignator=PWR NewDesignator=PWR1
+Change Component Designator: OldDesignator=TD NewDesignator=TD1
+Added Component: Designator=BQ1(AMPMG)
+Added Component: Designator=C1(CAPC_0603(1608)X080L)
+Added Component: Designator=C2(CAPC_0603(1608)X080L)
+Added Component: Designator=C3(CAPC_0603(1608)X080L)
+Added Component: Designator=C4(CAPC_0603(1608)X080L)
+Added Component: Designator=C5(CAPC_0603(1608)X080L)
+Added Component: Designator=C6(CAPC_0603(1608)X080L)
+Added Component: Designator=C7(CAPC_0603(1608)X080L)
+Added Component: Designator=C8(CAPC_0603(1608)X080L)
+Added Component: Designator=C9(CAPC_0603(1608)X080L)
+Added Component: Designator=C10(CAPC_0603(1608)X080L)
+Added Component: Designator=C11(CAPC_0603(1608)X080L)
+Added Component: Designator=C12(CAPC_0603(1608)X080L)
+Added Component: Designator=C13(CAPC_0603(1608)X080L)
+Added Component: Designator=C14(CAPC_0603(1608)X080L)
+Added Component: Designator=C15(CAPC_0603(1608)X080L)
+Added Component: Designator=C16(CAPC_0603(1608)X080L)
+Added Component: Designator=C17(CAPC_0603(1608)X080L)
+Added Component: Designator=C18(CAPC_0603(1608)X080L)
+Added Component: Designator=C19(CAPC_0603(1608)X080L)
+Added Component: Designator=C20(CAPC_0603(1608)X080L)
+Added Component: Designator=C21(CAPC_0603(1608)X080L)
+Added Component: Designator=C22(CAPC_0603(1608)X080L)
+Added Component: Designator=C23(CAPC_0603(1608)X080L)
+Added Component: Designator=C24(CAPC_0603(1608)X080L)
+Added Component: Designator=C25(CAPC_0603(1608)X080L)
+Added Component: Designator=C26(CAPC_0603(1608)X080L)
+Added Component: Designator=C27(CAPC_0603(1608)X080L)
+Added Component: Designator=C28(CAPC_0603(1608)X080L)
+Added Component: Designator=C29(CAPC_0603(1608)X080L)
+Added Component: Designator=C30(CAPC_0603(1608)X080L)
+Added Component: Designator=C31(CAPC_0603(1608)X080L)
+Added Component: Designator=C32(CAPC_0603(1608)X080L)
+Added Component: Designator=C33(CAPC_0603(1608)X080L)
+Added Component: Designator=C34(CAPC_0603(1608)X080L)
+Added Component: Designator=C35(CAPC_0603(1608)X080L)
+Added Component: Designator=C36(CAPC_0603(1608)X080L)
+Added Component: Designator=C37(CAPC_1206(3216)X10L)
+Added Component: Designator=C38(CAPC_0603(1608)X080L)
+Added Component: Designator=DA1(SC-70-6)
+Added Component: Designator=DA2(SOT23-6)
+Added Component: Designator=DA3(PG-TSON-10)
+Added Component: Designator=DA4(SOT23-6)
+Added Component: Designator=DA6(UQFN-16)
+Added Component: Designator=DD4(TSSOP-14)
+Added Component: Designator=DD6(MSOP-8)
+Added Component: Designator=FU1(0ZCM00xxFF2G)
+Added Component: Designator=FU2(0ZCM00xxFF2G)
+Added Component: Designator=L1(INDC_0603(1608)X045)
+Added Component: Designator=SW1(JS202011SCQN)
+Added Component: Designator=SW2(JS202011SCQN)
+Added Component: Designator=VD1(SMB - UNI)
+Added Component: Designator=VD2(SOD523)
+Added Component: Designator=VD3(SC-70)
+Added Component: Designator=VD4(SOD128)
+Added Component: Designator=VD5(SOD128)
+Added Component: Designator=VD6(SOD128)
+Added Component: Designator=VD7(SC-70)
+Added Component: Designator=VD8(SOD523)
+Added Component: Designator=VD9(SC-70)
+Added Component: Designator=VD10(SOT23)
+Added Component: Designator=XS3(PBD1.27-06S)
+Added Pin To Net: NetName=GND Pin=BQ1-2
+Added Pin To Net: NetName=NetC1_2 Pin=C1-2
+Added Pin To Net: NetName=NetC2_1 Pin=C2-1
+Added Pin To Net: NetName=NetC2_2 Pin=C2-2
+Added Pin To Net: NetName=NetC1_2 Pin=C3-2
+Added Pin To Net: NetName=NetC6_1 Pin=C6-1
+Added Pin To Net: NetName=GND Pin=C6-2
+Added Pin To Net: NetName=NetC8_1 Pin=C8-1
+Added Pin To Net: NetName=NetC1_2 Pin=C8-2
+Added Pin To Net: NetName=NetC8_1 Pin=C9-1
+Added Pin To Net: NetName=NetC1_2 Pin=C9-2
+Added Pin To Net: NetName=NetC10_1 Pin=C10-1
+Added Pin To Net: NetName=NetC12_1 Pin=C12-1
+Added Pin To Net: NetName=NetC12_2 Pin=C12-2
+Added Pin To Net: NetName=GND Pin=C13-1
+Added Pin To Net: NetName=VDD Pin=C13-2
+Added Pin To Net: NetName=NetC15_2 Pin=C15-2
+Added Pin To Net: NetName=GND Pin=C17-1
+Added Pin To Net: NetName=NetC17_2 Pin=C17-2
+Added Pin To Net: NetName=GND Pin=C18-1
+Added Pin To Net: NetName=VDD Pin=C18-2
+Added Pin To Net: NetName=VDD Pin=C19-1
+Added Pin To Net: NetName=GND Pin=C19-2
+Added Pin To Net: NetName=NetC21_1 Pin=C21-1
+Added Pin To Net: NetName=GND Pin=C22-1
+Added Pin To Net: NetName=GND Pin=C23-2
+Added Pin To Net: NetName=GND Pin=C25-1
+Added Pin To Net: NetName=GND Pin=C26-1
+Added Pin To Net: NetName=GND Pin=C27-2
+Added Pin To Net: NetName=GND Pin=C28-1
+Added Pin To Net: NetName=VDD Pin=C28-2
+Added Pin To Net: NetName=GND Pin=C29-1
+Added Pin To Net: NetName=VDD Pin=C29-2
+Added Pin To Net: NetName=GND Pin=C30-1
+Added Pin To Net: NetName=VDD Pin=C30-2
+Added Pin To Net: NetName=GND Pin=C31-1
+Added Pin To Net: NetName=GND Pin=C32-1
+Added Pin To Net: NetName=VDD Pin=C32-2
+Added Pin To Net: NetName=GND Pin=C33-1
+Added Pin To Net: NetName=GND Pin=C34-2
+Added Pin To Net: NetName=GND Pin=C35-1
+Added Pin To Net: NetName=GND Pin=C36-1
+Added Pin To Net: NetName=VDD Pin=C36-2
+Added Pin To Net: NetName=GND Pin=C37-1
+Added Pin To Net: NetName=PE Pin=C37-2
+Added Pin To Net: NetName=VDD Pin=C38-1
+Added Pin To Net: NetName=GND Pin=C38-2
+Added Pin To Net: NetName=NetC1_2 Pin=DA2-2
+Added Pin To Net: NetName=NetC8_1 Pin=DA2-5
+Added Pin To Net: NetName=NetC8_1 Pin=DA2-6
+Added Pin To Net: NetName=NetC6_1 Pin=DA3-1
+Added Pin To Net: NetName=NetC6_1 Pin=DA3-3
+Added Pin To Net: NetName=GND Pin=DA3-5
+Added Pin To Net: NetName=VDD Pin=DA3-9
+Added Pin To Net: NetName=GND Pin=DA3-11
+Added Pin To Net: NetName=NetC2_2 Pin=DA4-3
+Added Pin To Net: NetName=GND Pin=DA6-8
+Added Pin To Net: NetName=VDD Pin=DA6-16
+Added Pin To Net: NetName=PULSE Pin=DD4-3
+Added Pin To Net: NetName=GND Pin=DD4-7
+Added Pin To Net: NetName=VDD Pin=DD4-14
+Added Pin To Net: NetName=GND Pin=DD6-5
+Added Pin To Net: NetName=VDD Pin=DD6-8
+Added Pin To Net: NetName=VDD Pin=L1-1
+Added Pin To Net: NetName=NetC2_2 Pin=SW1-2
+Added Pin To Net: NetName=NetC12_1 Pin=SW2-5
+Added Pin To Net: NetName=GND Pin=VD1-1
+Added Pin To Net: NetName=NetC6_1 Pin=VD2-1
+Added Pin To Net: NetName=NetC15_2 Pin=VD3-2
+Added Pin To Net: NetName=NetC17_2 Pin=VD3-3
+Added Pin To Net: NetName=VDD Pin=VD4-1
+Added Pin To Net: NetName=GND Pin=VD4-2
+Added Pin To Net: NetName=VDD Pin=VD5-1
+Added Pin To Net: NetName=GND Pin=VD5-2
+Added Pin To Net: NetName=VDD Pin=VD6-1
+Added Pin To Net: NetName=GND Pin=VD6-2
+Added Pin To Net: NetName=NetC17_2 Pin=VD7-3
+Added Pin To Net: NetName=GND Pin=VD8-2
+Added Pin To Net: NetName=VDD Pin=VD9-1
+Added Pin To Net: NetName=VDD Pin=VD9-2
+Added Pin To Net: NetName=GND Pin=VD10-3
+Added Pin To Net: NetName=GND Pin=XS3-6
+Added Pin To Net: NetName=CLKON Pin=BQ1-1
+Added Net: Name=CLKON
+Added Net: Name=CS0
+Added Pin To Net: NetName=CS1 Pin=DD4-11
+Added Net: Name=CS1
+Added Net: Name=CS2
+Added Pin To Net: NetName=EXTCLK Pin=BQ1-3
+Added Net: Name=EXTCLK
+Added Pin To Net: NetName=INTB Pin=DD4-8
+Added Net: Name=INTB
+Added Pin To Net: NetName=MISO Pin=DD4-9
+Added Net: Name=MISO
+Added Net: Name=MODE
+Added Pin To Net: NetName=MOSI Pin=DD4-10
+Added Net: Name=MOSI
+Added Pin To Net: NetName=Net+U1_0 Pin=+U1-0
+Added Net: Name=Net+U1_0
+Added Pin To Net: NetName=NetA1_0 Pin=A1-0
+Added Pin To Net: NetName=NetA1_0 Pin=FU2-2
+Added Net: Name=NetA1_0
+Added Pin To Net: NetName=NetB1_0 Pin=B1-0
+Added Pin To Net: NetName=NetB1_0 Pin=FU1-2
+Added Net: Name=NetB1_0
+Added Pin To Net: NetName=NetBQ1_4 Pin=BQ1-4
+Added Pin To Net: NetName=NetBQ1_4 Pin=C27-1
+Added Pin To Net: NetName=NetBQ1_4 Pin=L1-2
+Added Net: Name=NetBQ1_4
+Added Pin To Net: NetName=NetC1_1 Pin=C1-1
+Added Pin To Net: NetName=NetC1_1 Pin=SW2-3
+Added Net: Name=NetC1_1
+Added Pin To Net: NetName=NetC4_1 Pin=C4-1
+Added Pin To Net: NetName=NetC4_1 Pin=DA2-4
+Added Net: Name=NetC4_1
+Added Pin To Net: NetName=NetC4_2 Pin=C4-2
+Added Pin To Net: NetName=NetC4_2 Pin=DA2-1
+Added Pin To Net: NetName=NetC4_2 Pin=SW2-4
+Added Net: Name=NetC4_2
+Added Pin To Net: NetName=NetC5_1 Pin=C5-1
+Added Pin To Net: NetName=NetC5_1 Pin=C7-1
+Added Pin To Net: NetName=NetC5_1 Pin=DA1-5
+Added Pin To Net: NetName=NetC5_1 Pin=DA1-6
+Added Pin To Net: NetName=NetC5_1 Pin=DA4-5
+Added Pin To Net: NetName=NetC5_1 Pin=DA4-6
+Added Net: Name=NetC5_1
+Added Pin To Net: NetName=NetC5_2 Pin=C5-2
+Added Pin To Net: NetName=NetC5_2 Pin=C7-2
+Added Pin To Net: NetName=NetC5_2 Pin=DA1-2
+Added Pin To Net: NetName=NetC5_2 Pin=DA4-2
+Added Net: Name=NetC5_2
+Added Pin To Net: NetName=NetC10_2 Pin=C10-2
+Added Pin To Net: NetName=NetC10_2 Pin=VD3-1
+Added Net: Name=NetC10_2
+Added Pin To Net: NetName=NetC11_1 Pin=C11-1
+Added Pin To Net: NetName=NetC11_1 Pin=C14-1
+Added Net: Name=NetC11_1
+Added Pin To Net: NetName=NetC11_2 Pin=C11-2
+Added Pin To Net: NetName=NetC11_2 Pin=DA4-4
+Added Net: Name=NetC11_2
+Added Pin To Net: NetName=NetC14_2 Pin=C14-2
+Added Pin To Net: NetName=NetC14_2 Pin=DA4-1
+Added Pin To Net: NetName=NetC14_2 Pin=SW2-6
+Added Net: Name=NetC14_2
+Added Pin To Net: NetName=NetC15_1 Pin=C15-1
+Added Net: Name=NetC15_1
+Added Pin To Net: NetName=NetC16_1 Pin=C16-1
+Added Net: Name=NetC16_1
+Added Pin To Net: NetName=NetC16_2 Pin=C16-2
+Added Pin To Net: NetName=NetC16_2 Pin=VD7-1
+Added Net: Name=NetC16_2
+Added Pin To Net: NetName=NetC20_1 Pin=C20-1
+Added Net: Name=NetC20_1
+Added Pin To Net: NetName=NetC20_2 Pin=C20-2
+Added Pin To Net: NetName=NetC20_2 Pin=C26-2
+Added Pin To Net: NetName=NetC20_2 Pin=SW1-1
+Added Pin To Net: NetName=NetC20_2 Pin=SW1-6
+Added Net: Name=NetC20_2
+Added Pin To Net: NetName=NetC21_2 Pin=C21-2
+Added Pin To Net: NetName=NetC21_2 Pin=VD7-2
+Added Net: Name=NetC21_2
+Added Pin To Net: NetName=NetC24_1 Pin=C24-1
+Added Pin To Net: NetName=NetC24_1 Pin=SW2-2
+Added Net: Name=NetC24_1
+Added Pin To Net: NetName=NetC24_2 Pin=C24-2
+Added Net: Name=NetC24_2
+Added Pin To Net: NetName=NetC25_2 Pin=C25-2
+Added Net: Name=NetC25_2
+Added Pin To Net: NetName=NetC31_2 Pin=C31-2
+Added Pin To Net: NetName=NetC31_2 Pin=DD4-13
+Added Net: Name=NetC31_2
+Added Pin To Net: NetName=NetC33_2 Pin=C33-2
+Added Pin To Net: NetName=NetC33_2 Pin=XS3-1
+Added Net: Name=NetC33_2
+Added Pin To Net: NetName=NetC34_1 Pin=C34-1
+Added Pin To Net: NetName=NetC34_1 Pin=XS3-3
+Added Net: Name=NetC34_1
+Added Pin To Net: NetName=NetC35_2 Pin=C35-2
+Added Pin To Net: NetName=NetC35_2 Pin=VD9-3
+Added Net: Name=NetC35_2
+Added Pin To Net: NetName=NetDA1_1 Pin=DA1-1
+Added Pin To Net: NetName=NetDA1_1 Pin=SW2-1
+Added Net: Name=NetDA1_1
+Added Pin To Net: NetName=NetDA1_3 Pin=DA1-3
+Added Net: Name=NetDA1_3
+Added Pin To Net: NetName=NetDA1_4 Pin=DA1-4
+Added Net: Name=NetDA1_4
+Added Pin To Net: NetName=NetDA2_3 Pin=DA2-3
+Added Pin To Net: NetName=NetDA2_3 Pin=SW1-5
+Added Net: Name=NetDA2_3
+Added Pin To Net: NetName=NetDA3_8 Pin=DA3-8
+Added Net: Name=NetDA3_8
+Added Pin To Net: NetName=NetDA6_5 Pin=DA6-5
+Added Net: Name=NetDA6_5
+Added Pin To Net: NetName=NetDA6_6 Pin=DA6-6
+Added Net: Name=NetDA6_6
+Added Pin To Net: NetName=NetDA6_7 Pin=DA6-7
+Added Net: Name=NetDA6_7
+Added Pin To Net: NetName=NetDA6_14 Pin=DA6-14
+Added Net: Name=NetDA6_14
+Added Pin To Net: NetName=NetDA6_15 Pin=DA6-15
+Added Net: Name=NetDA6_15
+Added Net: Name=NetDD3_4
+Added Net: Name=NetDD3_9
+Added Net: Name=NetDD3_10
+Added Net: Name=NetDD3_18
+Added Net: Name=NetDD3_19
+Added Net: Name=NetDD3_20
+Added Net: Name=NetDD3_21
+Added Net: Name=NetDD5_3
+Added Pin To Net: NetName=NetDD5_6 Pin=XS3-5
+Added Net: Name=NetDD5_6
+Added Pin To Net: NetName=NetDD6_6 Pin=DD6-6
+Added Pin To Net: NetName=NetDD6_6 Pin=FU2-1
+Added Pin To Net: NetName=NetDD6_6 Pin=VD10-1
+Added Net: Name=NetDD6_6
+Added Pin To Net: NetName=NetDD6_7 Pin=DD6-7
+Added Pin To Net: NetName=NetDD6_7 Pin=FU1-1
+Added Pin To Net: NetName=NetDD6_7 Pin=VD10-2
+Added Net: Name=NetDD6_7
+Added Pin To Net: NetName=NetPWR1_0 Pin=PWR1-0
+Added Pin To Net: NetName=NetPWR1_0 Pin=VD1-2
+Added Net: Name=NetPWR1_0
+Added Pin To Net: NetName=NetR3_1 Pin=TD1-0
+Added Net: Name=NetR3_1
+Added Pin To Net: NetName=NetR6_2 Pin=VD2-2
+Added Net: Name=NetR6_2
+Added Net: Name=NetR12_1
+Added Pin To Net: NetName=NetR28_1 Pin=VD8-1
+Added Net: Name=NetR28_1
+Added Net: Name=NetR28_2
+Added Pin To Net: NetName=NetR30_1 Pin=XS1-0
+Added Pin To Net: NetName=NetR30_1 Pin=XS2-0
+Added Net: Name=NetR30_1
+Added Net: Name=NetR32_1
+Added Pin To Net: NetName=NetR38_1 Pin=XS3-2
+Added Net: Name=NetR38_1
+Added Pin To Net: NetName=NetR41_2 Pin=XS3-4
+Added Net: Name=NetR41_2
+Added Pin To Net: NetName=OUT_FREQ Pin=DD4-5
+Added Net: Name=OUT_FREQ
+Added Pin To Net: NetName=RS485_DE Pin=DD6-2
+Added Pin To Net: NetName=RS485_DE Pin=DD6-3
+Added Net: Name=RS485_DE
+Added Pin To Net: NetName=RX0 Pin=DD6-1
+Added Net: Name=RX0
+Added Pin To Net: NetName=SCK Pin=DD4-12
+Added Net: Name=SCK
+Added Net: Name=SCL
+Added Net: Name=SDA/TD
+Added Pin To Net: NetName=SLEEP Pin=DA6-10
+Added Pin To Net: NetName=SLEEP Pin=DA6-11
+Added Pin To Net: NetName=SLEEP Pin=DD4-1
+Added Net: Name=SLEEP
+Added Pin To Net: NetName=STOP Pin=DD4-4
+Added Net: Name=STOP
+Added Pin To Net: NetName=TX0 Pin=DD6-4
+Added Net: Name=TX0
+Added Pin To Net: NetName=V1 Pin=SW1-3
+Added Net: Name=V1
+Added Pin To Net: NetName=V2 Pin=SW1-4
+Added Net: Name=V2
+Added Pin To Net: NetName=VA Pin=C22-2
+Added Pin To Net: NetName=VA Pin=C23-1
+Added Net: Name=VA
+Change Class Name : Old Net Name=ολο-u_2b New Net Name=ολο-u_2ρ
+Added Member To Class: ClassName=ολο-u_2ρ Member=Component BQ1 AMPMG
+Added Member To Class: ClassName=ολο-u_2ρ Member=Component C1 Capacitor Ceramic
+Added Member To Class: ClassName=ολο-u_2ρ Member=Component C2 Capacitor Ceramic
+Added Member To Class: ClassName=ολο-u_2ρ Member=Component C3 Capacitor Ceramic
+Added Member To Class: ClassName=ολο-u_2ρ Member=Component C4 Capacitor Ceramic
+Added Member To Class: ClassName=ολο-u_2ρ Member=Component C5 Capacitor Ceramic
+Added Member To Class: ClassName=ολο-u_2ρ Member=Component C6 Capacitor Ceramic
+Added Member To Class: ClassName=ολο-u_2ρ Member=Component C7 Capacitor Ceramic
+Added Member To Class: ClassName=ολο-u_2ρ Member=Component C8 Capacitor Ceramic
+Added Member To Class: ClassName=ολο-u_2ρ Member=Component C9 Capacitor Ceramic
+Added Member To Class: ClassName=ολο-u_2ρ Member=Component C10 Capacitor Ceramic
+Added Member To Class: ClassName=ολο-u_2ρ Member=Component C11 Capacitor Ceramic
+Added Member To Class: ClassName=ολο-u_2ρ Member=Component C12 Capacitor Ceramic
+Added Member To Class: ClassName=ολο-u_2ρ Member=Component C13 Capacitor Ceramic
+Added Member To Class: ClassName=ολο-u_2ρ Member=Component C14 Capacitor Ceramic
+Added Member To Class: ClassName=ολο-u_2ρ Member=Component C15 Capacitor Ceramic
+Added Member To Class: ClassName=ολο-u_2ρ Member=Component C16 Capacitor Ceramic
+Added Member To Class: ClassName=ολο-u_2ρ Member=Component C17 Capacitor Ceramic
+Added Member To Class: ClassName=ολο-u_2ρ Member=Component C18 Capacitor Ceramic
+Added Member To Class: ClassName=ολο-u_2ρ Member=Component C19 Capacitor Ceramic
+Added Member To Class: ClassName=ολο-u_2ρ Member=Component C20 Capacitor Ceramic
+Added Member To Class: ClassName=ολο-u_2ρ Member=Component C21 Capacitor Ceramic
+Added Member To Class: ClassName=ολο-u_2ρ Member=Component C22 Capacitor Ceramic
+Added Member To Class: ClassName=ολο-u_2ρ Member=Component C23 Capacitor Ceramic
+Added Member To Class: ClassName=ολο-u_2ρ Member=Component C24 Capacitor Ceramic
+Added Member To Class: ClassName=ολο-u_2ρ Member=Component C25 0.1uF
+Added Member To Class: ClassName=ολο-u_2ρ Member=Component C26 Capacitor Ceramic
+Added Member To Class: ClassName=ολο-u_2ρ Member=Component C27 0.1uF
+Added Member To Class: ClassName=ολο-u_2ρ Member=Component C28 Capacitor Ceramic
+Added Member To Class: ClassName=ολο-u_2ρ Member=Component C29 0.1uF
+Added Member To Class: ClassName=ολο-u_2ρ Member=Component C30 0.1uF
+Added Member To Class: ClassName=ολο-u_2ρ Member=Component C31 1uF
+Added Member To Class: ClassName=ολο-u_2ρ Member=Component C32 Capacitor Ceramic
+Added Member To Class: ClassName=ολο-u_2ρ Member=Component C33 Capacitor Ceramic
+Added Member To Class: ClassName=ολο-u_2ρ Member=Component C34 Capacitor Ceramic
+Added Member To Class: ClassName=ολο-u_2ρ Member=Component C35 Capacitor Ceramic
+Added Member To Class: ClassName=ολο-u_2ρ Member=Component C36 1uF
+Added Member To Class: ClassName=ολο-u_2ρ Member=Component C37 0.022uF
+Added Member To Class: ClassName=ολο-u_2ρ Member=Component C38 Capacitor Ceramic
+Added Member To Class: ClassName=ολο-u_2ρ Member=Component DA1 OPA607DCK
+Added Member To Class: ClassName=ολο-u_2ρ Member=Component DA2 OPA363AIDBV
+Added Member To Class: ClassName=ολο-u_2ρ Member=Component DA3 IFX30081LDV
+Added Member To Class: ClassName=ολο-u_2ρ Member=Component DA4 OPA363AIDBV
+Added Member To Class: ClassName=ολο-u_2ρ Member=Component DA6 OPA2363RSV
+Added Member To Class: ClassName=ολο-u_2ρ Member=Component DD4 TDC7200PW
+Added Member To Class: ClassName=ολο-u_2ρ Member=Component DD6 MAX3471
+Added Member To Class: ClassName=ολο-u_2ρ Member=Component FU1 0ZCM00xxFF2G
+Added Member To Class: ClassName=ολο-u_2ρ Member=Component FU2 0ZCM00xxFF2G
+Added Member To Class: ClassName=ολο-u_2ρ Member=Component L1 BLM18
+Added Member To Class: ClassName=ολο-u_2ρ Member=Component SW1 JS202011SCQN
+Added Member To Class: ClassName=ολο-u_2ρ Member=Component SW2 JS202011SCQN
+Added Member To Class: ClassName=ολο-u_2ρ Member=Component VD1 Transil Bi
+Added Member To Class: ClassName=ολο-u_2ρ Member=Component VD2 BZX585
+Added Member To Class: ClassName=ολο-u_2ρ Member=Component VD3 BAT54AW
+Added Member To Class: ClassName=ολο-u_2ρ Member=Component VD4 PTVSxP1UTP
+Added Member To Class: ClassName=ολο-u_2ρ Member=Component VD5 PTVSxP1UTP
+Added Member To Class: ClassName=ολο-u_2ρ Member=Component VD6 PTVSxP1UTP
+Added Member To Class: ClassName=ολο-u_2ρ Member=Component VD7 BAT54AW
+Added Member To Class: ClassName=ολο-u_2ρ Member=Component VD8 BZX585
+Added Member To Class: ClassName=ολο-u_2ρ Member=Component VD9 BAT54AW
+Added Member To Class: ClassName=ολο-u_2ρ Member=Component VD10 SM712
+Added Member To Class: ClassName=ολο-u_2ρ Member=Component XS3 PBD1.27-06S
+Change Room Name: Old Name=ολο-u_2b New Name=ολο-u_2ρ
+Change Room Scope: Old Scope=InComponentClass('ολο-u_2b') New Scope=InComponentClass('ολο-u_2ρ')

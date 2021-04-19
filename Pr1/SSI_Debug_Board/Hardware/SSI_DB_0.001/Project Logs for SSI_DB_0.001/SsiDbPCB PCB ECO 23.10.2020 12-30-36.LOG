@@ -1,0 +1,5 @@
+Added Component: Designator=U?(32-QFN(4x4))
+Added Member To Class: ClassName=MCU2 Member=Component U? EFM8BB31F64G-A-QFN32
+Added Room: Name=MCU1
+Added Room: Name=MCU2
+Added Room: Name=Supply System

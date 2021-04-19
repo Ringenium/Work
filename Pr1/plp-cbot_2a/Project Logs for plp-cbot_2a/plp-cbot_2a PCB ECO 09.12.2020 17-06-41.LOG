@@ -1,0 +1,6 @@
+Added Component: Designator=POS(TestPoint(1mm_HS))
+Added Pin To Net: NetName=PULSE_POS Pin=POS-1
+Added Pin To Net: NetName=+Uï Pin=XP2-1
+Added Pin To Net: NetName=-Uï Pin=XP2-3
+Added Pin To Net: NetName=PE Pin=XP2-4
+Added Member To Class: ClassName=plp-cbot_2a Member=Component POS Testpoint_HS1mm

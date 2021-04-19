@@ -1,0 +1,13 @@
+Change Component Comment : Designator=DD4 Old Comment=TLP5010 New Comment=TPL5010
+Change Component Designator: OldDesignator=D1 NewDesignator=VD3
+Change Component Designator: OldDesignator=XS1 NewDesignator=XP1
+Change Component Designator: OldDesignator=XS2 NewDesignator=XP2
+Change Component Designator: OldDesignator=XS3 NewDesignator=XP3
+Change Component Designator: OldDesignator=XS4 NewDesignator=XP4
+Change Component Designator: OldDesignator=XS5 NewDesignator=XS1
+Change Component Designator: OldDesignator=XS6 NewDesignator=XS2
+Change Component Designator: OldDesignator=XS7 NewDesignator=XS3
+Change Component Description : Designator=VD2 Old Description=EIA RS-485 ±7V New Description=EIA RS-485 ±7V 
+Change Net Name : Old Net Name=NetD1_1 New Net Name=NetDD3_6
+Change Net Name : Old Net Name=NetD1_2 New Net Name=NetDD3_7
+Added Room: Name=plp-cm_2a

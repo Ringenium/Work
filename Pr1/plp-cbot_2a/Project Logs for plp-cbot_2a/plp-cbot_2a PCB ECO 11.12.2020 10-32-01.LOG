@@ -1,0 +1,16 @@
+Removed Pin From Net: NetName=D1 Pin=T1-1
+Removed Pin From Net: NetName=D2 Pin=T1-3
+Removed Pin From Net: NetName=NetT1_4 Pin=T2-6
+Removed Pin From Net: NetName=D2 Pin=U1-3
+Removed Pin From Net: NetName=NetT1_6 Pin=VD5-3
+Removed Pin From Net: NetName=NetT1_4 Pin=VD6-1
+Added Pin To Net: NetName=D2 Pin=T1-1
+Added Pin To Net: NetName=D1 Pin=T1-3
+Added Pin To Net: NetName=NetT1_6 Pin=T2-4
+Added Pin To Net: NetName=D1 Pin=U1-3
+Added Pin To Net: NetName=NetT1_4 Pin=VD5-3
+Added Pin To Net: NetName=NetT1_6 Pin=VD6-2
+Added Pin To Net: NetName=NetT2_6 Pin=T2-6
+Added Pin To Net: NetName=NetT2_6 Pin=VD6-1
+Added Net: Name=NetT2_6
+Added Room: Name=plp-cbot_2a

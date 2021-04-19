@@ -1,0 +1,5 @@
+Add Pin To Net: Pin=XS5-1 Old Net=UART_OUT New Net=UART_IN
+Add Pin To Net: Pin=XS5-2 Old Net=NetXS5_2 New Net=UART_IN
+Add Pin To Net: Pin=XS5-4 Old Net=NetXS5_4 New Net=UART_IN
+Add Pin To Net: Pin=XS5-5 Old Net=NetXS5_5 New Net=UART_IN
+Add Pin To Net: Pin=XS5-6 Old Net=NetXS5_6 New Net=UART_IN

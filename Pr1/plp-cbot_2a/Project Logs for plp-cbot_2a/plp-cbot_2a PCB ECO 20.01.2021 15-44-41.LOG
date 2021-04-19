@@ -1,0 +1,7 @@
+Change Component Designator: OldDesignator=U1 NewDesignator=DD2
+Change Component Designator: OldDesignator=XP1 NewDesignator=XS1
+Change Component Designator: OldDesignator=XP2 NewDesignator=XS2
+Change Component Designator: OldDesignator=XP3 NewDesignator=XS3
+Change Component Designator: OldDesignator=XP4 NewDesignator=XS4
+Added Member To Class: ClassName=plp-cbot_2a Member=Component R10 R0603L
+Added Room: Name=plp-cbot_2a

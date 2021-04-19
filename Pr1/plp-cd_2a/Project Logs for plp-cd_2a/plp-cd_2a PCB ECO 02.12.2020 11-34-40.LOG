@@ -1,0 +1,21 @@
+Added Component: Designator=XS1(CON: PLD-4(2.00_hl))
+Added Component: Designator=XS2(CON: PLD-4(2.00_hl))
+Added Component: Designator=XS3(CON: PLD-4(2.00_hl))
+Added Component: Designator=XS4(CON: PLD-4(2.00_hl))
+Added Pin To Net: NetName=GND Pin=XS1-1
+Added Pin To Net: NetName=3.3V_EXT Pin=XS1-2
+Added Pin To Net: NetName=+Uï Pin=XS2-2
+Added Pin To Net: NetName=-Uï Pin=XS2-4
+Added Pin To Net: NetName=SSI OUT A Pin=XS3-1
+Added Pin To Net: NetName=SSI OUT B Pin=XS3-2
+Added Pin To Net: NetName=485/SCKA Pin=XS3-3
+Added Pin To Net: NetName=485/SCKB Pin=XS3-4
+Added Pin To Net: NetName=+Uï Pin=XS4-1
+Added Pin To Net: NetName=P2.6 Pin=XS4-2
+Added Pin To Net: NetName=-Uï Pin=XS4-3
+Added Pin To Net: NetName=GND Pin=XS4-4
+Added Member To Class: ClassName=plp-cd_2a Member=Component XS1 PLD-4
+Added Member To Class: ClassName=plp-cd_2a Member=Component XS2 PLD-4
+Added Member To Class: ClassName=plp-cd_2a Member=Component XS3 PLD-4
+Added Member To Class: ClassName=plp-cd_2a Member=Component XS4 PLD-4
+Added Room: Name=plp-cd_2a

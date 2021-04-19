@@ -1,0 +1,109 @@
+Protel Design System Design Rule Check
+PCB File : C:\Users\1\Desktop\Pr1\plp-ctop_2a\plp-ctop_2a.PcbDoc
+Date     : 12.01.2021
+Time     : 16:32:32
+
+Processing Rule : Clearance Constraint (Gap=0.5mm) (Disabled)(InNet('PE')),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.5mm) (Disabled)(Not (OnBottomLayer Or OnTopLayer)),(IsBoardCutoutRegion Or IsBoardOutline)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.254mm) ((OnLayer('Bottom Layer') OR OnLayer('Top Layer'))),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.2mm) (Disabled)((OnLayer('MidLayer1') OR OnLayer('MidLayer2'))),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.5mm) (InNet('+Uï')),(InNet('GND'))
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.5mm) (InNet('-Uï')),(InNet('GND'))
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.5mm) (Disabled)(InNet('OUT')),(All)
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=Yes) (All),(All)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.15mm) (Max=3mm) (Preferred=0.25mm) (All)
+Rule Violations :0
+
+Processing Rule : Routing Via (MinHoleWidth=0.2mm) (MaxHoleWidth=0.4mm) (PreferredHoleWidth=0.3mm) (MinWidth=0.6mm) (MaxWidth=1.27mm) (PreferedWidth=0.8mm) (All)
+Rule Violations :0
+
+Processing Rule : SMD To Corner (Distance=0.15mm) (All)
+Rule Violations :0
+
+Processing Rule : SMD To Plane Constraint (Distance=0mm) (All)
+Rule Violations :0
+
+Processing Rule : SMD Neck-Down Constraint (Percent=100%) (All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Minimum Annular Ring (Minimum=0.2mm) (All)
+   Violation between Minimum Annular Ring: (0.175mm < 0.2mm) Pad XP1-1(15.97mm,9.554mm) on Multi-Layer (Annular Ring=0.175mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.175mm < 0.2mm) Pad XP1-2(14.7mm,9.554mm) on Multi-Layer (Annular Ring=0.175mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.175mm < 0.2mm) Pad XP1-3(15.97mm,10.824mm) on Multi-Layer (Annular Ring=0.175mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.175mm < 0.2mm) Pad XP1-4(14.7mm,10.824mm) on Multi-Layer (Annular Ring=0.175mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.175mm < 0.2mm) Pad XP1-5(15.97mm,12.094mm) on Multi-Layer (Annular Ring=0.175mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.175mm < 0.2mm) Pad XP1-6(14.7mm,12.094mm) on Multi-Layer (Annular Ring=0.175mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.175mm < 0.2mm) Pad XP2-1(15.97mm,-9.446mm) on Multi-Layer (Annular Ring=0.175mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.175mm < 0.2mm) Pad XP2-2(14.7mm,-9.446mm) on Multi-Layer (Annular Ring=0.175mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.175mm < 0.2mm) Pad XP2-3(15.97mm,-8.176mm) on Multi-Layer (Annular Ring=0.175mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.175mm < 0.2mm) Pad XP2-4(14.7mm,-8.176mm) on Multi-Layer (Annular Ring=0.175mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.175mm < 0.2mm) Pad XP2-5(15.97mm,-6.906mm) on Multi-Layer (Annular Ring=0.175mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.175mm < 0.2mm) Pad XP2-6(14.7mm,-6.906mm) on Multi-Layer (Annular Ring=0.175mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.175mm < 0.2mm) Pad XP3-1(-14.7mm,9.554mm) on Multi-Layer (Annular Ring=0.175mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.175mm < 0.2mm) Pad XP3-2(-15.97mm,9.554mm) on Multi-Layer (Annular Ring=0.175mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.175mm < 0.2mm) Pad XP3-3(-14.7mm,10.824mm) on Multi-Layer (Annular Ring=0.175mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.175mm < 0.2mm) Pad XP3-4(-15.97mm,10.824mm) on Multi-Layer (Annular Ring=0.175mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.175mm < 0.2mm) Pad XP3-5(-14.7mm,12.094mm) on Multi-Layer (Annular Ring=0.175mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.175mm < 0.2mm) Pad XP3-6(-15.97mm,12.094mm) on Multi-Layer (Annular Ring=0.175mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.175mm < 0.2mm) Pad XP4-1(-14.7mm,-9.446mm) on Multi-Layer (Annular Ring=0.175mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.175mm < 0.2mm) Pad XP4-2(-15.97mm,-9.446mm) on Multi-Layer (Annular Ring=0.175mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.175mm < 0.2mm) Pad XP4-3(-14.7mm,-8.176mm) on Multi-Layer (Annular Ring=0.175mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.175mm < 0.2mm) Pad XP4-4(-15.97mm,-8.176mm) on Multi-Layer (Annular Ring=0.175mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.175mm < 0.2mm) Pad XP4-5(-14.7mm,-6.906mm) on Multi-Layer (Annular Ring=0.175mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.175mm < 0.2mm) Pad XP4-6(-15.97mm,-6.906mm) on Multi-Layer (Annular Ring=0.175mm) On (Top Layer)
+Rule Violations :24
+
+Processing Rule : Acute Angle Constraint (Minimum=44.000) (All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=0.2mm) (Max=2.54mm) (All)
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=0.254mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=0mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Silk To Solder Mask (Clearance=0.15mm) (IsPad),(All)
+   Violation between Silk To Solder Mask Clearance Constraint: (0.1mm < 0.15mm) Between Pad VD1-1(0.2mm,-18.525mm) on Bottom Layer And Track (-1.1mm,-19.425mm)(1.5mm,-19.425mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.1mm]
+Rule Violations :1
+
+Processing Rule : Silk to Silk (Clearance=0.15mm) (All),(All)
+   Violation between Silk To Silk Clearance Constraint: (0.112mm < 0.15mm) Between Text "+" (0.8mm,-18.825mm) on Bottom Overlay And Track (1.5mm,-19.425mm)(1.5mm,-12.525mm) on Bottom Overlay Silk Text to Silk Clearance [0.112mm]
+   Violation between Silk To Silk Clearance Constraint: (Collision < 0.15mm) Between Text "Uïèò" (2.175mm,-8.051mm) on Top Overlay And Track (2.25mm,-10.225mm)(2.25mm,-8mm) on Top Overlay Silk Text to Silk Clearance [0mm]
+   Violation between Silk To Silk Clearance Constraint: (Collision < 0.15mm) Between Text "Uïèò" (2.175mm,-8.051mm) on Top Overlay And Track (9.45mm,-10.225mm)(9.45mm,-8mm) on Top Overlay Silk Text to Silk Clearance [0mm]
+Rule Violations :3
+
+Processing Rule : Net Antennae (Tolerance=5mm) (All)
+Rule Violations :0
+
+Processing Rule : Component Clearance Constraint ( Horizontal Gap = 0.254mm, Vertical Gap = 0.254mm ) (All),(All) 
+Rule Violations :0
+
+
+Violations Detected : 28
+Waived Violations : 0
+Time Elapsed        : 00:00:01

@@ -1,0 +1,3 @@
+Layer Pairs Export File for PCB: S:\Altium_projects\ολο-uart\ολο-u_2ρ\ολο-u_2ρ.PcbDoc
+LayersSetName=Top_Bot_Plated_Thru_Holes|DrillFile=ολο-u_2ρ-plated.txt|DrillLayers=gtl,g2,g3,gbl
+LayersSetName=Top_Bot_NonPlated_Thru_Holes|DrillFile=ολο-u_2ρ-nonplated.txt|DrillLayers=gtl,g2,g3,gbl

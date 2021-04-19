@@ -1,0 +1,72 @@
+Removed Pin From Net: NetName=+3.3 Pin=BQ1-4
+Removed Pin From Net: NetName=+3.3 Pin=C12-1
+Removed Pin From Net: NetName=GND Pin=C12-2
+Removed Pin From Net: NetName=+5 Pin=C13-1
+Removed Pin From Net: NetName=+5 Pin=DD3-8
+Removed Pin From Net: NetName=+5 Pin=R11-2
+Removed Pin From Net: NetName=B Pin=R12-1
+Removed Pin From Net: NetName=A Pin=R13-1
+Removed Pin From Net: NetName=GND Pin=VD2-1
+Removed Pin From Net: NetName=B Pin=VD2-2
+Removed Pin From Net: NetName=GND Pin=VD3-1
+Removed Pin From Net: NetName=A Pin=VD3-2
+Change Component Footprint: Designator=C12 Old Footprint=CAPC_0603(1608)X080L New Footprint=CAP: 0603
+Change Component Footprint: Designator=C13 Old Footprint=CAPC_0603(1608)X080L New Footprint=CAP: 0603
+Change Component Footprint: Designator=BQ1 Old Footprint=KXO-V93 New Footprint=AMPMGFB(1.6x1.2)
+Change Component Footprint: Designator=XS6 Old Footprint=PBD1.27-4 New Footprint=CON: PLL-6(2x3R1.27female)
+Change Component Footprint: Designator=XS7 Old Footprint=PBD1.27-4 New Footprint=CON: PLL-6(2x3R1.27female)
+Change Component Footprint: Designator=R12 Old Footprint=RESC1608(0603)X04L New Footprint=RES: 0603
+Change Component Footprint: Designator=VD2 Old Footprint=SMB - UNI New Footprint=SOT23
+Change Component Footprint: Designator=XS1 Old Footprint=smd2.0-edge_2*2pin New Footprint=CON: PLL-6(2x3R1.27male)
+Change Component Footprint: Designator=XS2 Old Footprint=smd2.0-edge_2*2pin New Footprint=CON: PLL-6(2x3R1.27male)
+Change Component Footprint: Designator=XS3 Old Footprint=smd2.0-edge_2*2pin New Footprint=CON: PLL-6(2x3R1.27male)
+Change Component Footprint: Designator=XS4 Old Footprint=smd2.0-edge_2*2pin New Footprint=CON: PLL-6(2x3R1.27male)
+Change Component Footprint: Designator=DD3 Old Footprint=SO-8_N New Footprint=8-SSOP
+Change Component Comment : Designator=DD3 Old Comment=ADM4851 New Comment=SN65HVD72DGK
+Change Component Comment : Designator=C12 Old Comment=Capacitor Ceramic New Comment=Ceramic capacitor, 0.1?F, X7R, ±10%, 50V, 0603, -55...+125°C
+Change Component Comment : Designator=C13 Old Comment=Capacitor Ceramic New Comment=Ceramic capacitor, 0.1?F, X7R, ±10%, 50V, 0603, -55...+125°C
+Change Component Comment : Designator=BQ1 Old Comment=KXO-V93 New Comment=AMPMGFB-48.0000T
+Change Component Comment : Designator=XS6 Old Comment=PBD1.27-4 New Comment=2199R05-06G-301523
+Change Component Comment : Designator=XS7 Old Comment=PBD1.27-4 New Comment=2199R05-06G-301523
+Change Component Comment : Designator=R12 Old Comment=R0603L New Comment=Resistor film, 120, ±1%, 0603, 0.1W, -55...+125°C
+Change Component Comment : Designator=XS1 Old Comment=smd2.0-edge_2*2pin New Comment=2199R05-06G-301523
+Change Component Comment : Designator=XS2 Old Comment=smd2.0-edge_2*2pin New Comment=2199R05-06G-301523
+Change Component Comment : Designator=XS3 Old Comment=smd2.0-edge_2*2pin New Comment=2199R05-06G-301523
+Change Component Comment : Designator=XS4 Old Comment=smd2.0-edge_2*2pin New Comment=2199R05-06G-301523
+Change Component Comment : Designator=VD2 Old Comment=Transil Bi New Comment=SM712
+Added Component: Designator=D1(DIODE: SMB)
+Added Component: Designator=FU1(FUSE: 0603)
+Added Component: Designator=FU2(FUSE: 0603)
+Added Component: Designator=L1(IND: 0603)
+Added Pin To Net: NetName=GND Pin=C12-1
+Added Pin To Net: NetName=+3.3 Pin=C13-1
+Added Pin To Net: NetName=+3.3 Pin=DD3-8
+Added Pin To Net: NetName=B Pin=FU1-2
+Added Pin To Net: NetName=A Pin=FU2-2
+Added Pin To Net: NetName=+3.3 Pin=L1-1
+Added Pin To Net: NetName=+3.3 Pin=R11-2
+Added Pin To Net: NetName=GND Pin=VD2-3
+Change Net Color : Old Net Color=RGB(158, 161, 117) New Net Color=RGB(255, 110, 110)
+Added Pin To Net: NetName=NetBQ1_4 Pin=BQ1-4
+Added Pin To Net: NetName=NetBQ1_4 Pin=C12-2
+Added Pin To Net: NetName=NetBQ1_4 Pin=L1-2
+Added Net: Name=NetBQ1_4
+Added Pin To Net: NetName=NetD1_1 Pin=D1-1
+Added Pin To Net: NetName=NetD1_1 Pin=DD3-7
+Added Pin To Net: NetName=NetD1_1 Pin=FU1-1
+Added Pin To Net: NetName=NetD1_1 Pin=R12-1
+Added Pin To Net: NetName=NetD1_1 Pin=VD2-1
+Added Net: Name=NetD1_1
+Added Pin To Net: NetName=NetD1_2 Pin=D1-2
+Added Pin To Net: NetName=NetD1_2 Pin=DD3-6
+Added Pin To Net: NetName=NetD1_2 Pin=FU2-1
+Added Pin To Net: NetName=NetD1_2 Pin=R12-2
+Added Pin To Net: NetName=NetD1_2 Pin=VD2-2
+Added Net: Name=NetD1_2
+Added Member To Class: ClassName=plp-cm_2a Member=Component BQ1 AMPMGFB-48.0000T
+Added Member To Class: ClassName=plp-cm_2a Member=Component D1 SMBJ10CA-TR
+Added Member To Class: ClassName=plp-cm_2a Member=Component FU1 0zcm0002ff2g
+Added Member To Class: ClassName=plp-cm_2a Member=Component FU2 0zcm0002ff2g
+Added Member To Class: ClassName=plp-cm_2a Member=Component L1 BLM18AG102SN1D
+Change Room Name: Old Name=plp-cm_1a New Name=plp-cm_2a
+Change Room Scope: Old Scope=InComponentClass('plp-cm_1a') New Scope=InComponentClass('plp-cm_2a')

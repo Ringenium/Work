@@ -1,0 +1,5 @@
+Change Component Description : Designator=VD2 Old Description=EIA RS-485 ±7V New Description=EIA RS-485 ±7V 
+Change Component Description : Designator=VD3 Old Description=EIA RS-485 ±7V New Description=EIA RS-485 ±7V 
+Added Room: Name=MCU1
+Added Room: Name=MCU2
+Added Room: Name=Supply System

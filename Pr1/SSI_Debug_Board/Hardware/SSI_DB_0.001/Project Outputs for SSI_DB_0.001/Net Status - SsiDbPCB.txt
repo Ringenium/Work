@@ -1,0 +1,54 @@
+Net Status Report
+Filename     : C:\Users\1\Desktop\SSI_Debug_Board\Hardware\SSI_DB_0.001\SsiDbPCB.PcbDoc
+Date         : 21.10.2020
+Time         : 16:34:51
+Time Elapsed : 00:00:01
+
+Nets, Layer, Length
+    3V3_MCU1, Signal Layers Only, 189.3306mm
+    485/SSI_N, Signal Layers Only, 48.0764mm
+    485/SSI_P, Signal Layers Only, 36.8503mm
+    C2CK, Signal Layers Only, 13.589mm
+    C2CKMCU1, Signal Layers Only, 15.7916mm
+    C2D, Signal Layers Only, 4.3124mm
+    C2DMCU1, Signal Layers Only, 9.057mm
+    C2Dsns, Signal Layers Only, 2.0414mm
+    C2DsnsMCU1, Signal Layers Only, 2.0414mm
+    DE1, Signal Layers Only, 21.492mm
+    DE2, Signal Layers Only, 44.2413mm
+    EXTCLK, Signal Layers Only, 18.0601mm
+    EXTOn, Signal Layers Only, 10.7535mm
+    GND, Signal Layers Only, 27.6048mm
+    MOSI_MCU2, Signal Layers Only, 0mm
+    NetC5_2, Signal Layers Only, 10.977mm
+    NetC7_2, Signal Layers Only, 4.0949mm
+    NetCN2_1, Signal Layers Only, 11.6657mm
+    NetCN3_1, Signal Layers Only, 40.4289mm
+    NetCN3_2, Signal Layers Only, 32.2938mm
+    NetCN7_1, Signal Layers Only, 6.1615mm
+    NetCN7_2, Signal Layers Only, 7.6332mm
+    NetCN7_3, Signal Layers Only, 7.7396mm
+    NetCN7_4, Signal Layers Only, 5.9434mm
+    NetD1_2, Signal Layers Only, 3.0828mm
+    NetR14_2, Signal Layers Only, 6.2727mm
+    NetR15_2, Signal Layers Only, 4.9949mm
+    NetR22_2, Signal Layers Only, 8.9001mm
+    NetR23_1, Signal Layers Only, 8.9001mm
+    NetR4_1, Signal Layers Only, 1.4907mm
+    NetR5_2, Signal Layers Only, 3.9139mm
+    NetR6_2, Signal Layers Only, 2.1064mm
+    NetR7_1, Signal Layers Only, 3.7157mm
+    NetR9_2, Signal Layers Only, 1.6207mm
+    P2.4, Signal Layers Only, 7.5082mm
+    P2.5, Signal Layers Only, 10.4833mm
+    P2.6, Signal Layers Only, 13.4585mm
+    RE1, Signal Layers Only, 21.2549mm
+    RE2, Signal Layers Only, 43.4683mm
+    RST, Signal Layers Only, 5mm
+    RSTMCU1, Signal Layers Only, 5.2414mm
+    SSI_MISO, Signal Layers Only, 62.6949mm
+    SSI_OUT_N, Signal Layers Only, 37.8182mm
+    SSI_OUT_P, Signal Layers Only, 48.2619mm
+    SSI_SCK, Signal Layers Only, 65.8467mm
+    UART1_TX, Signal Layers Only, 50.6098mm
+count : 46

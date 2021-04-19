@@ -1,0 +1,464 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<style type="text/css">
+		h1, h2, h3, h4, h5, h6 {
+			font-family : segoe ui;
+			color : black;
+			background-color : #EDE7D9;
+			padding: 0.3em;
+		}
+
+		h1 {
+			font-size: 1.2em;
+		}		
+
+		h2 {
+			font-size: 1.2em;
+		}
+
+		body {
+			font-family : segoe ui;
+		}
+
+		td, th {
+			padding: 0.5em;
+			text-align : left;
+			width: 10em;
+		}
+		th {
+			background-color : #EEEEEE;
+
+		}
+		th.column1, td.column1 {
+			text-align: left;
+			width : auto;
+		}
+		table {
+			width : 100%;
+			font-size: 0.9em;
+		}
+
+		.DRC_summary_header {
+			padding-bottom : 0.1em;
+			border : 0px solid black;
+			width: 100%;
+			align: left;
+		}
+
+		.DRC_summary_header_col1,
+		.DRC_summary_header_col2, 
+		.DRC_summary_header_col3 {
+			color : black;
+			font-size:100%;
+			padding : 0em;
+			padding-top : 0.2em;
+			padding-bottom 0.2em;
+			border : 0px solid black;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.DRC_summary_header_col1 {
+			font-weight: bold;
+			width: 8em;
+		}
+
+		.DRC_summary_header_col2 {
+			width: 0.1em;
+		
+		}
+
+		.DRC_summary_header_col3 {
+			width : auto;
+		}
+
+		.header_holder {
+		    Width = 100%;
+		    border = 0px solid green;
+		    padding = 0;
+		}
+
+
+		.front_matter, .front_matter_column1, .front_matter_column2, .front_matter_column3
+		{
+			left : 0;
+			top : 0;
+			padding: 0em;
+			padding-top : 0.1em;
+			border : 0px solid black;
+			width : 100%;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.front_matter_column1 {
+			width : 8em;
+			font-weight: bold;
+		}
+
+		.front_matter_column2 {
+			width: 0.1em;
+		}
+
+		.front_matter_column3 {
+			width : auto;
+		}
+
+		.total_column1, .total_column {
+			font-weight : bold;
+		}
+		.total_column1 {
+			text-align : left;
+		}
+		.warning, .error {
+			color : red;
+			font-weight : bold;
+		}
+		tr.onmouseout_odd {
+			background-color : #white;
+		}
+		tr.onmouseout_even { 
+			background-color : #FAFAFA;
+		}
+		tr.onmouseover_odd, tr.onmouseover_even { 
+			background-color : #EEEEEE;
+		} 
+		a:link, a:visited, .q a:link,.q a:active,.q {
+			color: #21489e; 
+		}
+		a:link.callback, a:visited.callback { 
+			color: #21489e;
+		}
+		a:link.customize, a:visited.customize {
+			color: #C0C0C0;
+			position: absolute; 
+			right: 10px;
+		}	
+		p.contents_level1 {
+			font-weight : bold;
+			font-size : 110%;
+			margin : 0.5em;
+		}
+		p.contents_level2 {
+			position : relative;
+			left : 20px;
+			margin : 0.5em;
+		}
+	</style><script type="text/javascript">
+		function coordToMils(coord) {
+			var number = coord / 10000;
+			
+			if (number != number.toFixed(3))
+				number = number.toFixed(3);
+
+			return number + 'mil'
+		}
+
+		function coordToMM(coord) {
+			var number = 0.0254 * coord / 10000;
+			
+			if (number != number.toFixed(4))
+				number = number.toFixed(4);
+			
+			return number + 'mm'
+		}
+	
+		function convertCoord(coordNode, units) {
+			for (var i = 0; i < coordNode.childNodes.length; i++) {
+				coordNode.removeChild(coordNode.childNodes[i]);
+			}
+
+			var coord = coordNode.getAttribute('value');
+			if (coord != null) {
+				if (units == 'mm') {
+					textNode = document.createTextNode(coordToMM(coord));
+					coordNode.appendChild(textNode);
+				} else if (units == 'mil') {
+					textNode = document.createTextNode(coordToMils(coord));		
+					coordNode.appendChild(textNode);	
+				}
+			}
+		}
+	
+		function convertUnits(unitNode, units) {
+			for (var i = 0; i < unitNode.childNodes.length; i++) {
+				unitNode.removeChild(unitNode.childNodes[i]);		
+			}
+		
+			textNode = document.createTextNode(units); 
+			unitNode.appendChild(textNode);
+		}
+	
+		function changeUnits(radio_input, units) {
+			if (radio_input.checked) {
+			
+				var elements = document.getElementsByName('coordinate');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertCoord(elements[i], units);
+					}
+				}
+	
+				var elements = document.getElementsByName('units');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertUnits(elements[i], units);
+					}
+				}
+			}
+		}
+	</script><title>Design Rule Verification Report</title>
+</head>
+<body onload=""><img ALT="Altium" src="
+			file://C:\Users\Public\Documents\Altium\AD20\Templates\AD_logo.png
+		"><h1>Design Rule Verification Report</h1>
+<table class="header_holder">
+<td class="column1">
+<table class="front_matter">
+<tr class="front_matter">
+<td class="front_matter_column1">Date:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">12.01.2021</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">16:32:32</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Elapsed Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">00:00:01</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Filename:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3"><a href="file:///C:\Users\1\Desktop\Pr1\plp-ctop_2a\plp-ctop_2a.PcbDoc" class="file"><acronym title="C:\Users\1\Desktop\Pr1\plp-ctop_2a\plp-ctop_2a.PcbDoc">C:\Users\1\Desktop\Pr1\plp-ctop_2a\plp-ctop_2a.PcbDoc</acronym></a></td>
+</tr>
+</table>
+</td>
+<td class="column2">
+<table class="DRC_summary_header">
+<tr>
+<td class="DRC_summary_header_col1">Warnings:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3">0</td></tr>
+<tr>
+<td class="DRC_summary_header_col1">Rule Violations:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3" style="color : red">28</td></tr>
+</table>
+</td>
+</table><a name="IDTXEKLIFDK15LHTH0E5Z2S2QVRMTLZR5TDRTEZQMI1AVSPL4LBXQ"><h2>Summary</h2></a><table>
+<tr>
+<th class="column1">Warnings</th>
+<th class="column2">Count</th>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">0</td>
+</tr>
+</table><br><table>
+<tr>
+<th class="column1">Rule Violations</th>
+<th class="column2">Count</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDSLLUCGDVADCDFJJTIHY2B1ADXB4HYCY5NDTNV332TDB34A35BKN">Clearance Constraint (Gap=0.5mm) (Disabled)(InNet('PE')),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDX3E2X3YCSSENL4N4WAVJQ5JHQJRNWEP3KAFNZJBOEJCPSWWA44T">Clearance Constraint (Gap=0.5mm) (Disabled)(Not (OnBottomLayer Or OnTopLayer)),(IsBoardCutoutRegion Or IsBoardOutline)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDR2UD3MWDETWMEH3LBSX3NRBBJFLAZG3IZEEDWPL0X5KM2SIFIUCH">Clearance Constraint (Gap=0.254mm) ((OnLayer('Bottom Layer') OR OnLayer('Top Layer'))),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDFMAJJQZH1EIHL1XDHR0VBCESTKFWLEU3EAUEWRJIB5OPSBE5DOFL">Clearance Constraint (Gap=0.2mm) (Disabled)((OnLayer('MidLayer1') OR OnLayer('MidLayer2'))),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDVP0VMAWNCBCJJG34PKOSPTVTZNTG0XNUFLGGYJGOD0WC3S5ASMNM">Clearance Constraint (Gap=0.5mm) (InNet('+Uï')),(InNet('GND'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDDOJK43X2OVLGC1UXSTHR1DII4J0OUBO1K42GAVE4U44K1ONWEDTJ">Clearance Constraint (Gap=0.5mm) (InNet('-Uï')),(InNet('GND'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDY02QVQLESKJQO2SJJS0SE3R4HOEZRSN2ADN1AMPATTH4B4NK0NJG">Clearance Constraint (Gap=0.5mm) (Disabled)(InNet('OUT')),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDRXTEHPXEQO5QCUS3RF5DFOMR1BPVNONWYYJUMGMKQUI4B1JBTMXC">Short-Circuit Constraint (Allowed=Yes) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDSB3ECGQFOHVBLNST0ZYJVHJDTEMXFFV2THOYUG1DPCRIFTAB5YB">Un-Routed Net Constraint ( (All) )</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDILS2OJZU2M0HHNBKVHESKQH40JY4ENRJP10OU1DWLYCDSKUJE42D">Width Constraint (Min=0.15mm) (Max=3mm) (Preferred=0.25mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDDITDQBDZUJF5FFEX0THK3OKTPL0LKZDRE1B0YPMROLEDYYO4L4NM">Routing Via (MinHoleWidth=0.2mm) (MaxHoleWidth=0.4mm) (PreferredHoleWidth=0.3mm) (MinWidth=0.6mm) (MaxWidth=1.27mm) (PreferedWidth=0.8mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#ID4OETWYTARSX0N1PNDVQ11GCQEOF0VYVXWACWB3L5GIRVY3A5QDW">SMD To Corner (Distance=0.15mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDEOT4LP2RGP51CD5NXLDKD5SR1GQUFKX0YN1HJAOMPQCTFPQGR2KH">SMD To Plane Constraint (Distance=0mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDNNWKXW4X30LTJCABGYAB5P2JSG4MJCKCJZKB0FKYDIDR3VVZN1NM">SMD Neck-Down Constraint (Percent=100%) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDUEFGKOLZOT3JEAZUIV3ID234EOCZ1VMW34DDPUMYD11BDNXMFEPJ">Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDXLTYV5NCFXM0KHZTYFILCQRV2O0FHDBLHOSBTBOB5PW4VPKIF00M">Minimum Annular Ring (Minimum=0.2mm) (All)</a></td>
+<td class="column2">24</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDVT21SC5NA5JRJP1N5UOORE110EZFEQID5QOEKXOXE55LCQL0LV5B">Acute Angle Constraint (Minimum=44.000) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#ID2K3CGZPWW1GCKUCHMIPVSVU41BBDS4DTQT0KRAP41EICUJQA2WBP">Hole Size Constraint (Min=0.2mm) (Max=2.54mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDVHUGIEZTSZOLI4T2SFTFLUNOUB1PTEBJLSHT5HGQ052LFMHZ2SJM">Hole To Hole Clearance (Gap=0.254mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDT0SIPCQVJKRLOFC13DPMSQZDLR5BM0XPKGTSKKKH0RRFTLXAP4N">Minimum Solder Mask Sliver (Gap=0mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDZLHRDMHR1PGHBFV531IP3EH5HO2FXYUQG1NYM0PXJQG3DVGK2AGC">Silk To Solder Mask (Clearance=0.15mm) (IsPad),(All)</a></td>
+<td class="column2">1</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#ID0ECVQ1WNIAEGCYVRXCPVIWCIHPZRPAMARFLVQKMF2KKOIXYQRXBN">Silk to Silk (Clearance=0.15mm) (All),(All)</a></td>
+<td class="column2">3</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDO2GPG3MYZ2QJC1DSPNPS1IURHRLWAWIVMDG05P3UAIRLB2TM4QO">Net Antennae (Tolerance=5mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDJ0KGBZGOPB5AECKU0ZQPVBGP1LOATXRFCBBZ4THHEUU3TN0UHL5N">Component Clearance Constraint ( Horizontal Gap = 0.254mm, Vertical Gap = 0.254mm ) (All),(All) </a></td>
+<td class="column2">0</td>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">28</td>
+</tr>
+</table><br><a name="IDXLTYV5NCFXM0KHZTYFILCQRV2O0FHDBLHOSBTBOB5PW4VPKIF00M"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Minimum Annular Ring (Minimum=0.2mm) (All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\1\Desktop\Pr1\plp-ctop_2a\plp-ctop_2a.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4775.702mil|Location2.X=4784.826mil|Location1.Y=4228.518mil|Location2.Y=4237.642mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\1\Desktop\Pr1\plp-ctop_2a\plp-ctop_2a.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4775.702mil|Location2.X=4784.826mil|Location1.Y=4228.518mil|Location2.Y=4237.642mil|Absolute=True">Minimum Annular Ring: (0.175mm &lt; 0.2mm) Pad XP1-1(15.97mm,9.554mm) on Multi-Layer (Annular Ring=0.175mm) On (Top Layer)</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\1\Desktop\Pr1\plp-ctop_2a\plp-ctop_2a.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4725.702mil|Location2.X=4734.826mil|Location1.Y=4228.518mil|Location2.Y=4237.642mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\1\Desktop\Pr1\plp-ctop_2a\plp-ctop_2a.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4725.702mil|Location2.X=4734.826mil|Location1.Y=4228.518mil|Location2.Y=4237.642mil|Absolute=True">Minimum Annular Ring: (0.175mm &lt; 0.2mm) Pad XP1-2(14.7mm,9.554mm) on Multi-Layer (Annular Ring=0.175mm) On (Top Layer)</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\1\Desktop\Pr1\plp-ctop_2a\plp-ctop_2a.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4775.702mil|Location2.X=4784.826mil|Location1.Y=4278.518mil|Location2.Y=4287.642mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\1\Desktop\Pr1\plp-ctop_2a\plp-ctop_2a.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4775.702mil|Location2.X=4784.826mil|Location1.Y=4278.518mil|Location2.Y=4287.642mil|Absolute=True">Minimum Annular Ring: (0.175mm &lt; 0.2mm) Pad XP1-3(15.97mm,10.824mm) on Multi-Layer (Annular Ring=0.175mm) On (Top Layer)</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\1\Desktop\Pr1\plp-ctop_2a\plp-ctop_2a.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4725.702mil|Location2.X=4734.826mil|Location1.Y=4278.518mil|Location2.Y=4287.642mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\1\Desktop\Pr1\plp-ctop_2a\plp-ctop_2a.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4725.702mil|Location2.X=4734.826mil|Location1.Y=4278.518mil|Location2.Y=4287.642mil|Absolute=True">Minimum Annular Ring: (0.175mm &lt; 0.2mm) Pad XP1-4(14.7mm,10.824mm) on Multi-Layer (Annular Ring=0.175mm) On (Top Layer)</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\1\Desktop\Pr1\plp-ctop_2a\plp-ctop_2a.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4775.702mil|Location2.X=4784.826mil|Location1.Y=4328.518mil|Location2.Y=4337.642mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\1\Desktop\Pr1\plp-ctop_2a\plp-ctop_2a.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4775.702mil|Location2.X=4784.826mil|Location1.Y=4328.518mil|Location2.Y=4337.642mil|Absolute=True">Minimum Annular Ring: (0.175mm &lt; 0.2mm) Pad XP1-5(15.97mm,12.094mm) on Multi-Layer (Annular Ring=0.175mm) On (Top Layer)</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\1\Desktop\Pr1\plp-ctop_2a\plp-ctop_2a.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4725.702mil|Location2.X=4734.826mil|Location1.Y=4328.518mil|Location2.Y=4337.642mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\1\Desktop\Pr1\plp-ctop_2a\plp-ctop_2a.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4725.702mil|Location2.X=4734.826mil|Location1.Y=4328.518mil|Location2.Y=4337.642mil|Absolute=True">Minimum Annular Ring: (0.175mm &lt; 0.2mm) Pad XP1-6(14.7mm,12.094mm) on Multi-Layer (Annular Ring=0.175mm) On (Top Layer)</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\1\Desktop\Pr1\plp-ctop_2a\plp-ctop_2a.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4775.702mil|Location2.X=4784.826mil|Location1.Y=3480.487mil|Location2.Y=3489.611mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\1\Desktop\Pr1\plp-ctop_2a\plp-ctop_2a.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4775.702mil|Location2.X=4784.826mil|Location1.Y=3480.487mil|Location2.Y=3489.611mil|Absolute=True">Minimum Annular Ring: (0.175mm &lt; 0.2mm) Pad XP2-1(15.97mm,-9.446mm) on Multi-Layer (Annular Ring=0.175mm) On (Top Layer)</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\1\Desktop\Pr1\plp-ctop_2a\plp-ctop_2a.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4725.702mil|Location2.X=4734.826mil|Location1.Y=3480.487mil|Location2.Y=3489.611mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\1\Desktop\Pr1\plp-ctop_2a\plp-ctop_2a.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4725.702mil|Location2.X=4734.826mil|Location1.Y=3480.487mil|Location2.Y=3489.611mil|Absolute=True">Minimum Annular Ring: (0.175mm &lt; 0.2mm) Pad XP2-2(14.7mm,-9.446mm) on Multi-Layer (Annular Ring=0.175mm) On (Top Layer)</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\1\Desktop\Pr1\plp-ctop_2a\plp-ctop_2a.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4775.702mil|Location2.X=4784.826mil|Location1.Y=3530.487mil|Location2.Y=3539.611mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\1\Desktop\Pr1\plp-ctop_2a\plp-ctop_2a.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4775.702mil|Location2.X=4784.826mil|Location1.Y=3530.487mil|Location2.Y=3539.611mil|Absolute=True">Minimum Annular Ring: (0.175mm &lt; 0.2mm) Pad XP2-3(15.97mm,-8.176mm) on Multi-Layer (Annular Ring=0.175mm) On (Top Layer)</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\1\Desktop\Pr1\plp-ctop_2a\plp-ctop_2a.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4725.702mil|Location2.X=4734.826mil|Location1.Y=3530.487mil|Location2.Y=3539.611mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\1\Desktop\Pr1\plp-ctop_2a\plp-ctop_2a.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4725.702mil|Location2.X=4734.826mil|Location1.Y=3530.487mil|Location2.Y=3539.611mil|Absolute=True">Minimum Annular Ring: (0.175mm &lt; 0.2mm) Pad XP2-4(14.7mm,-8.176mm) on Multi-Layer (Annular Ring=0.175mm) On (Top Layer)</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\1\Desktop\Pr1\plp-ctop_2a\plp-ctop_2a.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4775.702mil|Location2.X=4784.826mil|Location1.Y=3580.487mil|Location2.Y=3589.611mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\1\Desktop\Pr1\plp-ctop_2a\plp-ctop_2a.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4775.702mil|Location2.X=4784.826mil|Location1.Y=3580.487mil|Location2.Y=3589.611mil|Absolute=True">Minimum Annular Ring: (0.175mm &lt; 0.2mm) Pad XP2-5(15.97mm,-6.906mm) on Multi-Layer (Annular Ring=0.175mm) On (Top Layer)</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\1\Desktop\Pr1\plp-ctop_2a\plp-ctop_2a.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4725.702mil|Location2.X=4734.826mil|Location1.Y=3580.487mil|Location2.Y=3589.611mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\1\Desktop\Pr1\plp-ctop_2a\plp-ctop_2a.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4725.702mil|Location2.X=4734.826mil|Location1.Y=3580.487mil|Location2.Y=3589.611mil|Absolute=True">Minimum Annular Ring: (0.175mm &lt; 0.2mm) Pad XP2-6(14.7mm,-6.906mm) on Multi-Layer (Annular Ring=0.175mm) On (Top Layer)</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\1\Desktop\Pr1\plp-ctop_2a\plp-ctop_2a.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3568.222mil|Location2.X=3577.346mil|Location1.Y=4228.518mil|Location2.Y=4237.642mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\1\Desktop\Pr1\plp-ctop_2a\plp-ctop_2a.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3568.222mil|Location2.X=3577.346mil|Location1.Y=4228.518mil|Location2.Y=4237.642mil|Absolute=True">Minimum Annular Ring: (0.175mm &lt; 0.2mm) Pad XP3-1(-14.7mm,9.554mm) on Multi-Layer (Annular Ring=0.175mm) On (Top Layer)</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\1\Desktop\Pr1\plp-ctop_2a\plp-ctop_2a.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3518.222mil|Location2.X=3527.346mil|Location1.Y=4228.518mil|Location2.Y=4237.642mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\1\Desktop\Pr1\plp-ctop_2a\plp-ctop_2a.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3518.222mil|Location2.X=3527.346mil|Location1.Y=4228.518mil|Location2.Y=4237.642mil|Absolute=True">Minimum Annular Ring: (0.175mm &lt; 0.2mm) Pad XP3-2(-15.97mm,9.554mm) on Multi-Layer (Annular Ring=0.175mm) On (Top Layer)</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\1\Desktop\Pr1\plp-ctop_2a\plp-ctop_2a.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3568.222mil|Location2.X=3577.346mil|Location1.Y=4278.518mil|Location2.Y=4287.642mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\1\Desktop\Pr1\plp-ctop_2a\plp-ctop_2a.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3568.222mil|Location2.X=3577.346mil|Location1.Y=4278.518mil|Location2.Y=4287.642mil|Absolute=True">Minimum Annular Ring: (0.175mm &lt; 0.2mm) Pad XP3-3(-14.7mm,10.824mm) on Multi-Layer (Annular Ring=0.175mm) On (Top Layer)</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\1\Desktop\Pr1\plp-ctop_2a\plp-ctop_2a.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3518.222mil|Location2.X=3527.346mil|Location1.Y=4278.518mil|Location2.Y=4287.642mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\1\Desktop\Pr1\plp-ctop_2a\plp-ctop_2a.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3518.222mil|Location2.X=3527.346mil|Location1.Y=4278.518mil|Location2.Y=4287.642mil|Absolute=True">Minimum Annular Ring: (0.175mm &lt; 0.2mm) Pad XP3-4(-15.97mm,10.824mm) on Multi-Layer (Annular Ring=0.175mm) On (Top Layer)</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\1\Desktop\Pr1\plp-ctop_2a\plp-ctop_2a.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3568.222mil|Location2.X=3577.346mil|Location1.Y=4328.518mil|Location2.Y=4337.642mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\1\Desktop\Pr1\plp-ctop_2a\plp-ctop_2a.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3568.222mil|Location2.X=3577.346mil|Location1.Y=4328.518mil|Location2.Y=4337.642mil|Absolute=True">Minimum Annular Ring: (0.175mm &lt; 0.2mm) Pad XP3-5(-14.7mm,12.094mm) on Multi-Layer (Annular Ring=0.175mm) On (Top Layer)</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\1\Desktop\Pr1\plp-ctop_2a\plp-ctop_2a.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3518.222mil|Location2.X=3527.346mil|Location1.Y=4328.518mil|Location2.Y=4337.642mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\1\Desktop\Pr1\plp-ctop_2a\plp-ctop_2a.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3518.222mil|Location2.X=3527.346mil|Location1.Y=4328.518mil|Location2.Y=4337.642mil|Absolute=True">Minimum Annular Ring: (0.175mm &lt; 0.2mm) Pad XP3-6(-15.97mm,12.094mm) on Multi-Layer (Annular Ring=0.175mm) On (Top Layer)</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\1\Desktop\Pr1\plp-ctop_2a\plp-ctop_2a.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3568.222mil|Location2.X=3577.346mil|Location1.Y=3480.487mil|Location2.Y=3489.611mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\1\Desktop\Pr1\plp-ctop_2a\plp-ctop_2a.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3568.222mil|Location2.X=3577.346mil|Location1.Y=3480.487mil|Location2.Y=3489.611mil|Absolute=True">Minimum Annular Ring: (0.175mm &lt; 0.2mm) Pad XP4-1(-14.7mm,-9.446mm) on Multi-Layer (Annular Ring=0.175mm) On (Top Layer)</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\1\Desktop\Pr1\plp-ctop_2a\plp-ctop_2a.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3518.222mil|Location2.X=3527.346mil|Location1.Y=3480.487mil|Location2.Y=3489.611mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\1\Desktop\Pr1\plp-ctop_2a\plp-ctop_2a.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3518.222mil|Location2.X=3527.346mil|Location1.Y=3480.487mil|Location2.Y=3489.611mil|Absolute=True">Minimum Annular Ring: (0.175mm &lt; 0.2mm) Pad XP4-2(-15.97mm,-9.446mm) on Multi-Layer (Annular Ring=0.175mm) On (Top Layer)</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\1\Desktop\Pr1\plp-ctop_2a\plp-ctop_2a.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3568.222mil|Location2.X=3577.346mil|Location1.Y=3530.487mil|Location2.Y=3539.611mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\1\Desktop\Pr1\plp-ctop_2a\plp-ctop_2a.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3568.222mil|Location2.X=3577.346mil|Location1.Y=3530.487mil|Location2.Y=3539.611mil|Absolute=True">Minimum Annular Ring: (0.175mm &lt; 0.2mm) Pad XP4-3(-14.7mm,-8.176mm) on Multi-Layer (Annular Ring=0.175mm) On (Top Layer)</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\1\Desktop\Pr1\plp-ctop_2a\plp-ctop_2a.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3518.222mil|Location2.X=3527.346mil|Location1.Y=3530.487mil|Location2.Y=3539.611mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\1\Desktop\Pr1\plp-ctop_2a\plp-ctop_2a.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3518.222mil|Location2.X=3527.346mil|Location1.Y=3530.487mil|Location2.Y=3539.611mil|Absolute=True">Minimum Annular Ring: (0.175mm &lt; 0.2mm) Pad XP4-4(-15.97mm,-8.176mm) on Multi-Layer (Annular Ring=0.175mm) On (Top Layer)</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\1\Desktop\Pr1\plp-ctop_2a\plp-ctop_2a.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3568.222mil|Location2.X=3577.346mil|Location1.Y=3580.487mil|Location2.Y=3589.611mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\1\Desktop\Pr1\plp-ctop_2a\plp-ctop_2a.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3568.222mil|Location2.X=3577.346mil|Location1.Y=3580.487mil|Location2.Y=3589.611mil|Absolute=True">Minimum Annular Ring: (0.175mm &lt; 0.2mm) Pad XP4-5(-14.7mm,-6.906mm) on Multi-Layer (Annular Ring=0.175mm) On (Top Layer)</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\1\Desktop\Pr1\plp-ctop_2a\plp-ctop_2a.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3518.222mil|Location2.X=3527.346mil|Location1.Y=3580.487mil|Location2.Y=3589.611mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\1\Desktop\Pr1\plp-ctop_2a\plp-ctop_2a.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3518.222mil|Location2.X=3527.346mil|Location1.Y=3580.487mil|Location2.Y=3589.611mil|Absolute=True">Minimum Annular Ring: (0.175mm &lt; 0.2mm) Pad XP4-6(-15.97mm,-6.906mm) on Multi-Layer (Annular Ring=0.175mm) On (Top Layer)</acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDZLHRDMHR1PGHBFV531IP3EH5HO2FXYUQG1NYM0PXJQG3DVGK2AGC"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Silk To Solder Mask (Clearance=0.15mm) (IsPad),(All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\1\Desktop\Pr1\plp-ctop_2a\plp-ctop_2a.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4175.517mil|Location2.X=4182.672mil|Location1.Y=3076.304mil|Location2.Y=3083.46mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\1\Desktop\Pr1\plp-ctop_2a\plp-ctop_2a.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4175.517mil|Location2.X=4182.672mil|Location1.Y=3076.304mil|Location2.Y=3083.46mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.1mm &lt; 0.15mm) Between Pad VD1-1(0.2mm,-18.525mm) on Bottom Layer And Track (-1.1mm,-19.425mm)(1.5mm,-19.425mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.1mm]</acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="ID0ECVQ1WNIAEGCYVRXCPVIWCIHPZRPAMARFLVQKMF2KKOIXYQRXBN"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Silk to Silk (Clearance=0.15mm) (All),(All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\1\Desktop\Pr1\plp-ctop_2a\plp-ctop_2a.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4202.841mil|Location2.X=4209.997mil|Location1.Y=3102.578mil|Location2.Y=3109.733mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\1\Desktop\Pr1\plp-ctop_2a\plp-ctop_2a.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4202.841mil|Location2.X=4209.997mil|Location1.Y=3102.578mil|Location2.Y=3109.733mil|Absolute=True">Silk To Silk Clearance Constraint: (0.112mm &lt; 0.15mm) Between Text "+" (0.8mm,-18.825mm) on Bottom Overlay And Track (1.5mm,-19.425mm)(1.5mm,-12.525mm) on Bottom Overlay Silk Text to Silk Clearance [0.112mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\1\Desktop\Pr1\plp-ctop_2a\plp-ctop_2a.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4237.65mil|Location2.X=4242.587mil|Location1.Y=3523.28mil|Location2.Y=3528.217mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\1\Desktop\Pr1\plp-ctop_2a\plp-ctop_2a.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4237.65mil|Location2.X=4242.587mil|Location1.Y=3523.28mil|Location2.Y=3528.217mil|Absolute=True">Silk To Silk Clearance Constraint: (Collision &lt; 0.15mm) Between Text "Uïèò" (2.175mm,-8.051mm) on Top Overlay And Track (2.25mm,-10.225mm)(2.25mm,-8mm) on Top Overlay Silk Text to Silk Clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\1\Desktop\Pr1\plp-ctop_2a\plp-ctop_2a.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4521.114mil|Location2.X=4526.051mil|Location1.Y=3521.28mil|Location2.Y=3526.217mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\1\Desktop\Pr1\plp-ctop_2a\plp-ctop_2a.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4521.114mil|Location2.X=4526.051mil|Location1.Y=3521.28mil|Location2.Y=3526.217mil|Absolute=True">Silk To Silk Clearance Constraint: (Collision &lt; 0.15mm) Between Text "Uïèò" (2.175mm,-8.051mm) on Top Overlay And Track (9.45mm,-10.225mm)(9.45mm,-8mm) on Top Overlay Silk Text to Silk Clearance [0mm]</acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br></body>
+</html>

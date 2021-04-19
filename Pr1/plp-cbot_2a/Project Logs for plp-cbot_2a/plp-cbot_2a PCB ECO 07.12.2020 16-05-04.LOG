@@ -1,0 +1,17 @@
+Removed Pin From Net: NetName=NetD1_4 Pin=R8-2
+Removed Pin From Net: NetName=NetD2_4 Pin=R9-2
+Change Component Footprint: Designator=XP1 Old Footprint=PLD2-4 - розетка New Footprint=CON: PLL-6(2x3R1.27female)
+Change Component Footprint: Designator=XP2 Old Footprint=PLD2-4 - розетка New Footprint=CON: PLL-6(2x3R1.27female)
+Change Component Footprint: Designator=XP3 Old Footprint=PLD2-4 - розетка New Footprint=CON: PLL-6(2x3R1.27female)
+Change Component Footprint: Designator=XP4 Old Footprint=PLD2-4 - розетка New Footprint=CON: PLL-6(2x3R1.27female)
+Change Component Comment : Designator=XP1 Old Comment=PLD2-4-розетка New Comment=2199R05-06G-301523
+Change Component Comment : Designator=XP2 Old Comment=PLD2-4-розетка New Comment=2199R05-06G-301523
+Change Component Comment : Designator=XP3 Old Comment=PLD2-4-розетка New Comment=2199R05-06G-301523
+Change Component Comment : Designator=XP4 Old Comment=PLD2-4-розетка New Comment=2199R05-06G-301523
+Change component parameters: Designator = "XP1" ("XP1"); Footprint = "PLD2-4 - розетка"; UniqueID = "\TYSIMYIV" ("\TYSIMYIV")
+Change component parameters: Designator = "XP2" ("XP2"); Footprint = "PLD2-4 - розетка"; UniqueID = "\IMWXVMXV" ("\IMWXVMXV")
+Change component parameters: Designator = "XP3" ("XP3"); Footprint = "PLD2-4 - розетка"; UniqueID = "\WPBTDLVZ" ("\WPBTDLVZ")
+Change component parameters: Designator = "XP4" ("XP4"); Footprint = "PLD2-4 - розетка"; UniqueID = "\HAQRTBJZ" ("\HAQRTBJZ")
+Added Pin To Net: NetName=PULSE_POS Pin=R8-2
+Added Pin To Net: NetName=PULSE_NEG Pin=R9-2
+Added Room: Name=plp-cbot_2a

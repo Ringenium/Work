@@ -1,0 +1,15 @@
+Added Component: Designator=XS5(CON: PLLD-6(1.27_VL))
+Added Component: Designator=XS6(CON: PLLD-6(1.27_VL))
+Added Pin To Net: NetName=-Uï Pin=XS2-2
+Added Pin To Net: NetName=+Uï Pin=XS2-4
+Added Pin To Net: NetName=UART_OUT Pin=XS5-1
+Added Pin To Net: NetName=UART_IN Pin=XS5-2
+Added Pin To Net: NetName=GND Pin=XS6-1
+Added Pin To Net: NetName=GND Pin=XS6-2
+Added Pin To Net: NetName=GND Pin=XS6-3
+Added Pin To Net: NetName=GND Pin=XS6-4
+Added Pin To Net: NetName=GND Pin=XS6-5
+Added Pin To Net: NetName=GND Pin=XS6-6
+Added Member To Class: ClassName=plp-cd_2a Member=Component XS5 PLLD-6
+Added Member To Class: ClassName=plp-cd_2a Member=Component XS6 PLLD-6
+Added Room: Name=plp-cd_2a

@@ -1,0 +1,3 @@
+Removed Pin From Net: NetName=TX Pin=DD3-`
+Change Component Footprint: Designator=DD3 Old Footprint=8-SSOP New Footprint=VSSOP-8
+Added Pin To Net: NetName=TX Pin=DD3-4

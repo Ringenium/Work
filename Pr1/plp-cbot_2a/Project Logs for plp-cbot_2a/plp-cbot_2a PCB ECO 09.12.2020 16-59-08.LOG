@@ -1,0 +1,13 @@
+Removed Pin From Net: NetName=PULSE_POS Pin=POS-0
+Removed Pin From Net: NetName=-Uï Pin=XP2-1
+Removed Pin From Net: NetName=-Uï Pin=XP2-2
+Removed Pin From Net: NetName=-Uï Pin=XP2-4
+Removed Pin From Net: NetName=-Uï Pin=XP2-5
+Removed Pin From Net: NetName=-Uï Pin=XP2-6
+Change Component Footprint: Designator=POS Old Footprint=1mm PAD New Footprint=TestPoint(1mm_HS)
+Change Component Comment : Designator=POS Old Comment=Testpoint-TH-1mm New Comment=Testpoint_HS1mm
+Change Component Kind : Designator=POS Old Kind=Net Tie New Kind=Standard
+Added Pin To Net: NetName=PULSE_POS Pin=POS-1
+Added Pin To Net: NetName=+Uï Pin=XP2-1
+Added Pin To Net: NetName=PE Pin=XP2-4
+Added Room: Name=plp-cbot_2a

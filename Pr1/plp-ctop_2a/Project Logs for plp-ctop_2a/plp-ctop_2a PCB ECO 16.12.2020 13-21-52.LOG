@@ -1,0 +1,12 @@
+Added Component: Designator=XT1(MKDS 1/2 - 3,5)
+Added Component: Designator=XT2(MKDS 1/4 - 3,5)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.phoenixcontact.com/online/portal/ru?uri=pxc-oc-itemdetail:pid=1751248&library=ruru&tab=1"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+Uï Pin=XT1-1
+Added Pin To Net: NetName=-Uï Pin=XT1-2
+Added Pin To Net: NetName=SCK_A Pin=XT2-1
+Added Pin To Net: NetName=SCK_B Pin=XT2-2
+Added Pin To Net: NetName=A Pin=XT2-3
+Added Pin To Net: NetName=B Pin=XT2-4
+Added Member To Class: ClassName=plp-ctop_2a Member=Component XT1 MKDS 1/2 - 3,5
+Added Member To Class: ClassName=plp-ctop_2a Member=Component XT2 MKDS 1/4 - 3,5

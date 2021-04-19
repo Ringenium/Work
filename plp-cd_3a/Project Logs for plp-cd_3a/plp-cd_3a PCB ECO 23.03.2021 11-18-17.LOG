@@ -1,0 +1,6 @@
+Added Component: Designator=XP1(CON: PLL-6(2x3R1.27male))
+Added Pin To Net: NetName=+15 Pin=XP1-2
+Added Pin To Net: NetName=+5 Pin=XP1-3
+Added Pin To Net: NetName=GND Pin=XP1-4
+Added Pin To Net: NetName=-15 Pin=XP1-6
+Added Member To Class: ClassName=plp-cd_3a Member=Component XP1 PLLD-6R

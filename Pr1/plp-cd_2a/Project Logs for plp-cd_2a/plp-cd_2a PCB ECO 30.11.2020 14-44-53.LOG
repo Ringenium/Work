@@ -1,0 +1,11 @@
+Removed Pin From Net: NetName=UART_OUT Pin=XS5-2
+Removed Pin From Net: NetName=UART_OUT Pin=XS5-3
+Removed Pin From Net: NetName=UART_OUT Pin=XS5-4
+Removed Pin From Net: NetName=UART_OUT Pin=XS5-5
+Removed Pin From Net: NetName=UART_OUT Pin=XS5-6
+Added Component: Designator=XS2(CON: PLD-4(2.00_hl))
+Added Pin To Net: NetName=-Uï Pin=XS2-2
+Added Pin To Net: NetName=+Uï Pin=XS2-4
+Added Pin To Net: NetName=UART_IN Pin=XS5-3
+Added Member To Class: ClassName=plp-cd_2a Member=Component XS2 PLD-4
+Added Room: Name=plp-cd_2a

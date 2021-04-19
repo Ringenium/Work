@@ -1,0 +1,13 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [ολο-u_2ρ.PrjPcb]
+   Generated File[ολο-u_2ρ-Plated.TXT]
+   Generated File[ολο-u_2ρ-NonPlated.TXT]
+   Generated File[ολο-u_2ρ.LDP]
+   Generated File[ολο-u_2ρ.DRR]
+
+
+Files Generated   : 4
+Documents Printed : 0
+
+Finished Output Generation At 13:18:54 On 04.08.2020

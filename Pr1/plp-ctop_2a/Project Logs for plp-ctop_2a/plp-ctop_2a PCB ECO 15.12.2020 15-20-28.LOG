@@ -1,0 +1,27 @@
+Removed Pin From Net: NetName=GPIO0 Pin=SW1-1
+Removed Pin From Net: NetName=GPIO1 Pin=SW1-2
+Removed Pin From Net: NetName=GPIO2 Pin=SW1-3
+Removed Pin From Net: NetName=GND Pin=SW1-5
+Removed Pin From Net: NetName=GND Pin=SW1-6
+Removed Pin From Net: NetName=A Pin=XT1-1
+Removed Pin From Net: NetName=B Pin=XT1-2
+Removed Pin From Net: NetName=+UÔ Pin=XT2-3
+Removed Pin From Net: NetName=-UÔ Pin=XT2-4
+Change Component Footprint: Designator=SW1 Old Footprint=219-3S New Footprint=JS202011SCQN
+Change Component Comment : Designator=SW1 Old Comment=219-3MST New Comment=JS202011SCQN
+Change component parameters: Designator = "SW1" ("SW1"); Footprint = "219-3S"; UniqueID = "\ZHDVGQXE" ("\ZHDVGQXE")
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Data Sheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.tycoelectronics.com/catalog/pn/en/1571983-4?RQPN=1571983-4"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2Description"; Value = "Replacement 1 DataSheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2URL"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "C&K Component"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PartNumber"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ReplacementPart1Manufacturer"; Value = " ËÚ‡È"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ReplacementPart1PartNumber"; Value = "is-1390"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GPIO0 Pin=SW1-2
+Added Pin To Net: NetName=GND Pin=SW1-3
+Added Pin To Net: NetName=GPIO0 Pin=SW1-5
+Added Pin To Net: NetName=+UÔ Pin=XT1-1
+Added Pin To Net: NetName=-UÔ Pin=XT1-2
+Added Pin To Net: NetName=A Pin=XT2-3
+Added Pin To Net: NetName=B Pin=XT2-4

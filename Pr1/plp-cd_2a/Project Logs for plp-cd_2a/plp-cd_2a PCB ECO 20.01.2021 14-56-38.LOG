@@ -1,0 +1,21 @@
+Change Component Designator: OldDesignator=CN1 NewDesignator=XS1
+Change Component Designator: OldDesignator=D1 NewDesignator=VD5
+Change Component Designator: OldDesignator=D2 NewDesignator=VD3
+Change Component Designator: OldDesignator=D3 NewDesignator=VD4
+Change Component Designator: OldDesignator=G1 NewDesignator=BQ1
+Change Component Designator: OldDesignator=U2 NewDesignator=DA1
+Change Component Designator: OldDesignator=U3 NewDesignator=DD2
+Change Component Designator: OldDesignator=U4 NewDesignator=DD3
+Change Component Designator: OldDesignator=XS1 NewDesignator=XP1
+Change Component Designator: OldDesignator=XS2 NewDesignator=XP2
+Change Component Designator: OldDesignator=XS3 NewDesignator=XP3
+Change Component Designator: OldDesignator=XS4 NewDesignator=XP4
+Change Component Designator: OldDesignator=XS5 NewDesignator=XS2
+Change Component Designator: OldDesignator=XS6 NewDesignator=XS3
+Change Component Description : Designator=VD2 Old Description=EIA RS-485 ±7V New Description=EIA RS-485 ±7V 
+Change Component Description : Designator=VD1 Old Description=EIA RS-485 ±7V ±12V New Description=EIA RS-485 ±7V ±12V 
+Change Net Name : Old Net Name=NetC1_2 New Net Name=NetBQ1_4
+Change Net Name : Old Net Name=NetCN1_1 New Net Name=NetVD5_1
+Change Net Name : Old Net Name=NetR4_1 New Net Name=NetDD1_4
+Change Net Name : Old Net Name=NetR5_1 New Net Name=NetDD1_5
+Added Room: Name=plp-cd_2a

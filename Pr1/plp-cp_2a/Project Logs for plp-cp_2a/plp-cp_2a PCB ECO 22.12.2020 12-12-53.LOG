@@ -1,0 +1,6 @@
+Added Component: Designator=XS4(CON: PLL-6(2x3R1.27male))
+Added Pin To Net: NetName=2 Pin=XS4-2
+Added Pin To Net: NetName=3 Pin=XS4-3
+Added Pin To Net: NetName=4 Pin=XS4-4
+Added Pin To Net: NetName=1 Pin=XS4-5
+Added Member To Class: ClassName=plp-cp_2a Member=Component XS4 2199R05-06G-301523

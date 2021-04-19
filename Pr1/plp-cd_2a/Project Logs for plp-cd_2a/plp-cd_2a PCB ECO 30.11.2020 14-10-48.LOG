@@ -1,0 +1,9 @@
+Change Component Footprint: Designator=XS5 Old Footprint=CON: PLLD-4(1.27_VL) New Footprint=CON: PLLD-6(1.27_HL)
+Change Component Footprint: Designator=XS6 Old Footprint=CON: PLLD-4(1.27_VL) New Footprint=CON: PLLD-6(1.27_HL)
+Change Component Comment : Designator=XS5 Old Comment=PLLD-4 New Comment=PLLD-6
+Change Component Comment : Designator=XS6 Old Comment=PLLD-4 New Comment=PLLD-6
+Added Pin To Net: NetName=-Uï Pin=XS2-2
+Added Pin To Net: NetName=+Uï Pin=XS2-4
+Added Pin To Net: NetName=GND Pin=XS6-5
+Added Pin To Net: NetName=GND Pin=XS6-6
+Added Room: Name=plp-cd_2a

@@ -1,0 +1,16 @@
+Project Outputs Generation Report
+---------------------------------
+Start Output Generation At 13:04:39 On 19.03.2021
+
+Output: NC Drill Files VISUR-topR_a
+Type  : NC Drill
+From  : PCB Document [VISUR-topR_a.PcbDoc]
+   Generated File[VISUR-topR_a.TXT]
+   Generated File[VISUR-topR_a.LDP]
+   Generated File[VISUR-topR_a.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 13:04:39 On 19.03.2021

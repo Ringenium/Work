@@ -1,0 +1,488 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<style type="text/css">
+		h1, h2, h3, h4, h5, h6 { 
+			font-family : segoe ui;
+			color : black;
+			background-color : #EDE7D9;
+			padding: 0.3em;
+		}
+
+		h1 {
+			font-size: 1.2em;
+		}		
+
+		h2 {
+			font-size: 1.2em;
+		}
+
+		body { 
+			font-family : segoe ui;
+		}
+
+		td, th {  
+			padding: 0.5em;
+			text-align : left;
+		}
+		th { 
+			background-color : #EEEEEE;
+		
+		}
+		th.column1, td.column1 { 
+			width : 50%; 
+		}
+
+        th.column2, td.column2 {
+            width : 25%;
+        }
+
+		table { 
+			width : 100%; 
+            font-size: 0.9em;
+		}
+		.front_matter, .front_matter_column1, .front_matter_column2, .front_matter_column3
+		{
+			left : 0;
+			top : 0;
+			padding: 0em;
+			padding-top : 0.1em;
+			border : 0px solid black;
+			width : 100%;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.front_matter_column1 {
+			width : 5em;
+			font-weight: bold;
+		}
+
+		.front_matter_column2 {
+			width: 0.1em;
+		}
+
+		.front_matter_column3 {
+			width : auto;
+		}
+
+		.total_column1, .total_column {
+			font-weight : bold;
+		}
+		.total_column1 {
+			text-align : left;
+		}
+		.warning, .error { 
+			color : red;
+			font-weight : bold;
+		}	
+		tr.onmouseout_odd { 
+			background-color : #white;
+		}
+		tr.onmouseout_even { 
+			background-color : #FAFAFA;
+		}
+		tr.onmouseover_odd, tr.onmouseover_even { 
+			background-color : #EEEEEE;
+		} 
+		a:link, a:visited, .q a:link,.q a:active,.q {
+			color: #21489e; 
+		}
+		a:link.callback, a:visited.callback { 
+			color: #21489e;
+		}
+		a:link.customize, a:visited.customize {
+			color: #C0C0C0;
+			position: absolute; 
+			right: 10px;
+		}	
+		p.contents_level1 {
+			font-weight : bold;
+			font-size : 110%;
+			margin : 0.5em;
+		}
+		p.contents_level2 {
+			position : relative;
+			left : 20px;
+			margin : 0.5em;
+		}
+	</style><script type="text/javascript">
+		function coordToMils(coord) {
+			var number = coord / 10000;
+			
+			if (number != number.toFixed(3))
+				number = number.toFixed(3);
+			
+			return number + 'mil'
+		}
+
+		function coordToMM(coord) {
+			var number = 0.0254 * coord / 10000;
+			
+			if (number != number.toFixed(4))
+				number = number.toFixed(4);
+			
+			return number + 'mm'
+		}
+	
+		function convertCoord(coordNode, units) {
+			for (var i = 0; i < coordNode.childNodes.length; i++) {
+				coordNode.removeChild(coordNode.childNodes[i]);		
+			}
+
+			var coord = coordNode.getAttribute('value');
+			if (coord != null) {
+				if (units == 'mm') {	
+					textNode = document.createTextNode(coordToMM(coord));
+					coordNode.appendChild(textNode);
+				} else if (units == 'mil') {
+					textNode = document.createTextNode(coordToMils(coord));		
+					coordNode.appendChild(textNode);	
+				}
+			}
+		}
+	
+		function convertUnits(unitNode, units) {
+			for (var i = 0; i < unitNode.childNodes.length; i++) {
+				unitNode.removeChild(unitNode.childNodes[i]);		
+			}
+		
+			textNode = document.createTextNode(units); 
+			unitNode.appendChild(textNode);
+		}
+	
+		function changeUnits(radio_input, units) {
+			if (radio_input.checked) {
+			
+				var elements = document.getElementsByName('coordinate');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertCoord(elements[i], units);
+					}
+				}
+	
+				var elements = document.getElementsByName('units');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertUnits(elements[i], units);
+					}
+				}
+			}
+		}	
+	</script><title>Net Status Report</title>
+</head>
+<body onload="document.getElementById('radio_mm').click()"><img ALT="Altium" src="
+			file://C:\Users\Public\Documents\Altium\AD20\Templates\AD_logo.png
+		"><a href="dxpprocess://Client:SetupPreferences?Server=PCB|PageName=Reports" class="customize"><acronym title="dxpprocess://Client:SetupPreferences?Server=PCB|PageName=Reports">customize</acronym></a><h1>Net Status Report</h1>
+<table class="front_matter">
+<tr class="front_matter">
+<td class="front_matter_column1">Date:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">21.10.2020</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">16:34:51</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Elapsed Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">00:00:01</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Filename:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3"><a href="file:///C:\Users\1\Desktop\SSI_Debug_Board\Hardware\SSI_DB_0.001\SsiDbPCB.PcbDoc" class="file"><acronym title="C:\Users\1\Desktop\SSI_Debug_Board\Hardware\SSI_DB_0.001\SsiDbPCB.PcbDoc">C:\Users\1\Desktop\SSI_Debug_Board\Hardware\SSI_DB_0.001\SsiDbPCB.PcbDoc</acronym></a></td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Units:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">
+<form><input type="radio" name="radio_units" id="radio_mm" onclick="changeUnits(this, 'mm')">mm<input type="radio" name="radio_units" id="radio_mil" onclick="changeUnits(this, 'mil')">mils</form>
+</td>
+</tr>
+</table><a name="ID0AACQRG4SXPHMRXUQWYGMR01KECO2RCO05BDFJIXF2C3YOI0IRCB"><table>
+<tr>
+<th class="column1">Nets</th>
+<th class="column2">Layer</th>
+<th class="column3">Length</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\1\Desktop\SSI_Debug_Board\Hardware\SSI_DB_0.001\SsiDbPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2068.898mil|Location2.X=3808.071mil|Location1.Y=1400.87mil|Location2.Y=2942.913mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\1\Desktop\SSI_Debug_Board\Hardware\SSI_DB_0.001\SsiDbPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2068.898mil|Location2.X=3808.071mil|Location1.Y=1400.87mil|Location2.Y=2942.913mil|Absolute=True">3V3_MCU1</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="74539596">189.3306mm
+			</a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\1\Desktop\SSI_Debug_Board\Hardware\SSI_DB_0.001\SsiDbPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3656.496mil|Location2.X=4466.535mil|Location1.Y=2162.402mil|Location2.Y=2736.22mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\1\Desktop\SSI_Debug_Board\Hardware\SSI_DB_0.001\SsiDbPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3656.496mil|Location2.X=4466.535mil|Location1.Y=2162.402mil|Location2.Y=2736.22mil|Absolute=True">485/SSI_N</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="18927710">48.0764mm
+			</a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\1\Desktop\SSI_Debug_Board\Hardware\SSI_DB_0.001\SsiDbPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3656.496mil|Location2.X=4384.764mil|Location1.Y=2356.299mil|Location2.Y=2736.22mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\1\Desktop\SSI_Debug_Board\Hardware\SSI_DB_0.001\SsiDbPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3656.496mil|Location2.X=4384.764mil|Location1.Y=2356.299mil|Location2.Y=2736.22mil|Absolute=True">485/SSI_P</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="14507985">36.8503mm
+			</a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\1\Desktop\SSI_Debug_Board\Hardware\SSI_DB_0.001\SsiDbPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2886.811mil|Location2.X=3145.669mil|Location1.Y=1859.252mil|Location2.Y=2132.874mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\1\Desktop\SSI_Debug_Board\Hardware\SSI_DB_0.001\SsiDbPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2886.811mil|Location2.X=3145.669mil|Location1.Y=1859.252mil|Location2.Y=2132.874mil|Absolute=True">C2CK</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="5349982">13.589mm
+			</a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\1\Desktop\SSI_Debug_Board\Hardware\SSI_DB_0.001\SsiDbPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2473.425mil|Location2.X=2641.732mil|Location1.Y=1393.701mil|Location2.Y=1710.63mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\1\Desktop\SSI_Debug_Board\Hardware\SSI_DB_0.001\SsiDbPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2473.425mil|Location2.X=2641.732mil|Location1.Y=1393.701mil|Location2.Y=1710.63mil|Absolute=True">C2CKMCU1</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="6217173">15.7916mm
+			</a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\1\Desktop\SSI_Debug_Board\Hardware\SSI_DB_0.001\SsiDbPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2886.811mil|Location2.X=3014.764mil|Location1.Y=2056.102mil|Location2.Y=2195.866mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\1\Desktop\SSI_Debug_Board\Hardware\SSI_DB_0.001\SsiDbPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2886.811mil|Location2.X=3014.764mil|Location1.Y=2056.102mil|Location2.Y=2195.866mil|Absolute=True">C2D</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="1697803">4.3124mm
+			</a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\1\Desktop\SSI_Debug_Board\Hardware\SSI_DB_0.001\SsiDbPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2561.024mil|Location2.X=2813.976mil|Location1.Y=1579.725mil|Location2.Y=1710.63mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\1\Desktop\SSI_Debug_Board\Hardware\SSI_DB_0.001\SsiDbPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2561.024mil|Location2.X=2813.976mil|Location1.Y=1579.725mil|Location2.Y=1710.63mil|Absolute=True">C2DMCU1</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="3565733">9.057mm
+			</a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\1\Desktop\SSI_Debug_Board\Hardware\SSI_DB_0.001\SsiDbPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3030.315mil|Location2.X=3069.882mil|Location1.Y=2056.102mil|Location2.Y=2195.866mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\1\Desktop\SSI_Debug_Board\Hardware\SSI_DB_0.001\SsiDbPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3030.315mil|Location2.X=3069.882mil|Location1.Y=2056.102mil|Location2.Y=2195.866mil|Absolute=True">C2Dsns</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="803709">2.0414mm
+			</a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\1\Desktop\SSI_Debug_Board\Hardware\SSI_DB_0.001\SsiDbPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2674.213mil|Location2.X=2813.976mil|Location1.Y=1524.606mil|Location2.Y=1564.173mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\1\Desktop\SSI_Debug_Board\Hardware\SSI_DB_0.001\SsiDbPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2674.213mil|Location2.X=2813.976mil|Location1.Y=1524.606mil|Location2.Y=1564.173mil|Absolute=True">C2DsnsMCU1</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="803709">2.0414mm
+			</a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\1\Desktop\SSI_Debug_Board\Hardware\SSI_DB_0.001\SsiDbPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2768.701mil|Location2.X=3508.858mil|Location1.Y=2381.89mil|Location2.Y=2614.961mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\1\Desktop\SSI_Debug_Board\Hardware\SSI_DB_0.001\SsiDbPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2768.701mil|Location2.X=3508.858mil|Location1.Y=2381.89mil|Location2.Y=2614.961mil|Absolute=True">DE1</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="8461401">21.492mm
+			</a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\1\Desktop\SSI_Debug_Board\Hardware\SSI_DB_0.001\SsiDbPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2768.701mil|Location2.X=3508.858mil|Location1.Y=1516.339mil|Location2.Y=2583.465mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\1\Desktop\SSI_Debug_Board\Hardware\SSI_DB_0.001\SsiDbPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2768.701mil|Location2.X=3508.858mil|Location1.Y=1516.339mil|Location2.Y=2583.465mil|Absolute=True">DE2</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="17417815">44.2413mm
+			</a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\1\Desktop\SSI_Debug_Board\Hardware\SSI_DB_0.001\SsiDbPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2535.433mil|Location2.X=2732.284mil|Location1.Y=1957.677mil|Location2.Y=2322.835mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\1\Desktop\SSI_Debug_Board\Hardware\SSI_DB_0.001\SsiDbPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2535.433mil|Location2.X=2732.284mil|Location1.Y=1957.677mil|Location2.Y=2322.835mil|Absolute=True">EXTCLK</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="7110295">18.0601mm
+			</a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\1\Desktop\SSI_Debug_Board\Hardware\SSI_DB_0.001\SsiDbPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2556.65mil|Location2.X=2661.417mil|Location1.Y=2062.008mil|Location2.Y=2299.213mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\1\Desktop\SSI_Debug_Board\Hardware\SSI_DB_0.001\SsiDbPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2556.65mil|Location2.X=2661.417mil|Location1.Y=2062.008mil|Location2.Y=2299.213mil|Absolute=True">EXTOn</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="4233651">10.7535mm
+			</a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\1\Desktop\SSI_Debug_Board\Hardware\SSI_DB_0.001\SsiDbPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1511.811mil|Location2.X=3970.473mil|Location1.Y=1342.52mil|Location2.Y=2830.709mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\1\Desktop\SSI_Debug_Board\Hardware\SSI_DB_0.001\SsiDbPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1511.811mil|Location2.X=3970.473mil|Location1.Y=1342.52mil|Location2.Y=2830.709mil|Absolute=True">GND</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="10868040">27.6048mm
+			</a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\1\Desktop\SSI_Debug_Board\Hardware\SSI_DB_0.001\SsiDbPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2661.417mil|Location2.X=2673.228mil|Location1.Y=2394.685mil|Location2.Y=2426.181mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\1\Desktop\SSI_Debug_Board\Hardware\SSI_DB_0.001\SsiDbPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2661.417mil|Location2.X=2673.228mil|Location1.Y=2394.685mil|Location2.Y=2426.181mil|Absolute=True">MOSI_MCU2</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="0">0mm
+			</a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\1\Desktop\SSI_Debug_Board\Hardware\SSI_DB_0.001\SsiDbPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2127.953mil|Location2.X=2389.764mil|Location1.Y=1536.417mil|Location2.Y=1753.937mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\1\Desktop\SSI_Debug_Board\Hardware\SSI_DB_0.001\SsiDbPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2127.953mil|Location2.X=2389.764mil|Location1.Y=1536.417mil|Location2.Y=1753.937mil|Absolute=True">NetC5_2</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="4321635">10.977mm
+			</a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\1\Desktop\SSI_Debug_Board\Hardware\SSI_DB_0.001\SsiDbPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2665.354mil|Location2.X=2731.299mil|Location1.Y=2062.008mil|Location2.Y=2191.926mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\1\Desktop\SSI_Debug_Board\Hardware\SSI_DB_0.001\SsiDbPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2665.354mil|Location2.X=2731.299mil|Location1.Y=2062.008mil|Location2.Y=2191.926mil|Absolute=True">NetC7_2</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="1612153">4.0949mm
+			</a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\1\Desktop\SSI_Debug_Board\Hardware\SSI_DB_0.001\SsiDbPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1511.811mil|Location2.X=2068.898mil|Location1.Y=1709.055mil|Location2.Y=1795.276mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\1\Desktop\SSI_Debug_Board\Hardware\SSI_DB_0.001\SsiDbPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1511.811mil|Location2.X=2068.898mil|Location1.Y=1709.055mil|Location2.Y=1795.276mil|Absolute=True">NetCN2_1</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="4592789">11.6657mm
+			</a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\1\Desktop\SSI_Debug_Board\Hardware\SSI_DB_0.001\SsiDbPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2142.126mil|Location2.X=2757.874mil|Location1.Y=1853.347mil|Location2.Y=2456.693mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\1\Desktop\SSI_Debug_Board\Hardware\SSI_DB_0.001\SsiDbPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2142.126mil|Location2.X=2757.874mil|Location1.Y=1853.347mil|Location2.Y=2456.693mil|Absolute=True">NetCN3_1</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="15916885">40.4289mm
+			</a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\1\Desktop\SSI_Debug_Board\Hardware\SSI_DB_0.001\SsiDbPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2242.126mil|Location2.X=2728.347mil|Location1.Y=1853.347mil|Location2.Y=2442.914mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\1\Desktop\SSI_Debug_Board\Hardware\SSI_DB_0.001\SsiDbPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2242.126mil|Location2.X=2728.347mil|Location1.Y=1853.347mil|Location2.Y=2442.914mil|Absolute=True">NetCN3_2</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="12714077">32.2938mm
+			</a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\1\Desktop\SSI_Debug_Board\Hardware\SSI_DB_0.001\SsiDbPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4395.669mil|Location2.X=4588.583mil|Location1.Y=2194.488mil|Location2.Y=2328.74mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\1\Desktop\SSI_Debug_Board\Hardware\SSI_DB_0.001\SsiDbPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4395.669mil|Location2.X=4588.583mil|Location1.Y=2194.488mil|Location2.Y=2328.74mil|Absolute=True">NetCN7_1</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="2425804">6.1615mm
+			</a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\1\Desktop\SSI_Debug_Board\Hardware\SSI_DB_0.001\SsiDbPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4318.898mil|Location2.X=4588.583mil|Location1.Y=2094.488mil|Location2.Y=2328.74mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\1\Desktop\SSI_Debug_Board\Hardware\SSI_DB_0.001\SsiDbPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4318.898mil|Location2.X=4588.583mil|Location1.Y=2094.488mil|Location2.Y=2328.74mil|Absolute=True">NetCN7_2</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="3005198">7.6332mm
+			</a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\1\Desktop\SSI_Debug_Board\Hardware\SSI_DB_0.001\SsiDbPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4318.898mil|Location2.X=4588.583mil|Location1.Y=1844.488mil|Location2.Y=2077.165mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\1\Desktop\SSI_Debug_Board\Hardware\SSI_DB_0.001\SsiDbPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4318.898mil|Location2.X=4588.583mil|Location1.Y=1844.488mil|Location2.Y=2077.165mil|Absolute=True">NetCN7_3</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="3047106">7.7396mm
+			</a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\1\Desktop\SSI_Debug_Board\Hardware\SSI_DB_0.001\SsiDbPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4395.669mil|Location2.X=4588.583mil|Location1.Y=1844.488mil|Location2.Y=1977.165mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\1\Desktop\SSI_Debug_Board\Hardware\SSI_DB_0.001\SsiDbPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4395.669mil|Location2.X=4588.583mil|Location1.Y=1844.488mil|Location2.Y=1977.165mil|Absolute=True">NetCN7_4</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="2339902">5.9434mm
+			</a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\1\Desktop\SSI_Debug_Board\Hardware\SSI_DB_0.001\SsiDbPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1927.165mil|Location2.X=2133.858mil|Location1.Y=1504.331mil|Location2.Y=1578.347mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\1\Desktop\SSI_Debug_Board\Hardware\SSI_DB_0.001\SsiDbPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1927.165mil|Location2.X=2133.858mil|Location1.Y=1504.331mil|Location2.Y=1578.347mil|Absolute=True">NetD1_2</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="1213718">3.0828mm
+			</a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\1\Desktop\SSI_Debug_Board\Hardware\SSI_DB_0.001\SsiDbPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2692.914mil|Location2.X=2869.095mil|Location1.Y=2095.472mil|Location2.Y=2270.669mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\1\Desktop\SSI_Debug_Board\Hardware\SSI_DB_0.001\SsiDbPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2692.914mil|Location2.X=2869.095mil|Location1.Y=2095.472mil|Location2.Y=2270.669mil|Absolute=True">NetR14_2</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="2469554">6.2727mm
+			</a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\1\Desktop\SSI_Debug_Board\Hardware\SSI_DB_0.001\SsiDbPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2708.662mil|Location2.X=2869.095mil|Location1.Y=2158.465mil|Location2.Y=2270.669mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\1\Desktop\SSI_Debug_Board\Hardware\SSI_DB_0.001\SsiDbPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2708.662mil|Location2.X=2869.095mil|Location1.Y=2158.465mil|Location2.Y=2270.669mil|Absolute=True">NetR15_2</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="1966478">4.9949mm
+			</a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\1\Desktop\SSI_Debug_Board\Hardware\SSI_DB_0.001\SsiDbPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3808.268mil|Location2.X=4014.764mil|Location1.Y=2162.402mil|Location2.Y=2463.583mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\1\Desktop\SSI_Debug_Board\Hardware\SSI_DB_0.001\SsiDbPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3808.268mil|Location2.X=4014.764mil|Location1.Y=2162.402mil|Location2.Y=2463.583mil|Absolute=True">NetR22_2</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="3503993">8.9001mm
+			</a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\1\Desktop\SSI_Debug_Board\Hardware\SSI_DB_0.001\SsiDbPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3808.268mil|Location2.X=4014.764mil|Location1.Y=1709.646mil|Location2.Y=2010.827mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\1\Desktop\SSI_Debug_Board\Hardware\SSI_DB_0.001\SsiDbPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3808.268mil|Location2.X=4014.764mil|Location1.Y=1709.646mil|Location2.Y=2010.827mil|Absolute=True">NetR23_1</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="3503992">8.9001mm
+			</a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\1\Desktop\SSI_Debug_Board\Hardware\SSI_DB_0.001\SsiDbPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2648.622mil|Location2.X=2688.977mil|Location1.Y=1853.347mil|Location2.Y=1939.961mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\1\Desktop\SSI_Debug_Board\Hardware\SSI_DB_0.001\SsiDbPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2648.622mil|Location2.X=2688.977mil|Location1.Y=1853.347mil|Location2.Y=1939.961mil|Absolute=True">NetR4_1</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="586884">1.4907mm
+			</a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\1\Desktop\SSI_Debug_Board\Hardware\SSI_DB_0.001\SsiDbPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2501.969mil|Location2.X=2644.685mil|Location1.Y=1728.347mil|Location2.Y=1805.118mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\1\Desktop\SSI_Debug_Board\Hardware\SSI_DB_0.001\SsiDbPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2501.969mil|Location2.X=2644.685mil|Location1.Y=1728.347mil|Location2.Y=1805.118mil|Absolute=True">NetR5_2</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="1540909">3.9139mm
+			</a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\1\Desktop\SSI_Debug_Board\Hardware\SSI_DB_0.001\SsiDbPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2561.024mil|Location2.X=2644.685mil|Location1.Y=1728.347mil|Location2.Y=1789.37mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\1\Desktop\SSI_Debug_Board\Hardware\SSI_DB_0.001\SsiDbPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2561.024mil|Location2.X=2644.685mil|Location1.Y=1728.347mil|Location2.Y=1789.37mil|Absolute=True">NetR6_2</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="829280">2.1064mm
+			</a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\1\Desktop\SSI_Debug_Board\Hardware\SSI_DB_0.001\SsiDbPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2341.535mil|Location2.X=2459.646mil|Location1.Y=1710.63mil|Location2.Y=1829.725mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\1\Desktop\SSI_Debug_Board\Hardware\SSI_DB_0.001\SsiDbPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2341.535mil|Location2.X=2459.646mil|Location1.Y=1710.63mil|Location2.Y=1829.725mil|Absolute=True">NetR7_1</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="1462868">3.7157mm
+			</a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\1\Desktop\SSI_Debug_Board\Hardware\SSI_DB_0.001\SsiDbPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2341.535mil|Location2.X=2380.906mil|Location1.Y=1906.496mil|Location2.Y=2006.89mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\1\Desktop\SSI_Debug_Board\Hardware\SSI_DB_0.001\SsiDbPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2341.535mil|Location2.X=2380.906mil|Location1.Y=1906.496mil|Location2.Y=2006.89mil|Absolute=True">NetR9_2</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="638074">1.6207mm
+			</a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\1\Desktop\SSI_Debug_Board\Hardware\SSI_DB_0.001\SsiDbPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2768.701mil|Location2.X=3004.921mil|Location1.Y=2334.646mil|Location2.Y=2569.685mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\1\Desktop\SSI_Debug_Board\Hardware\SSI_DB_0.001\SsiDbPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2768.701mil|Location2.X=3004.921mil|Location1.Y=2334.646mil|Location2.Y=2569.685mil|Absolute=True">P2.4</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="2955977">7.5082mm
+			</a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\1\Desktop\SSI_Debug_Board\Hardware\SSI_DB_0.001\SsiDbPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2768.701mil|Location2.X=3104.921mil|Location1.Y=2318.898mil|Location2.Y=2569.685mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\1\Desktop\SSI_Debug_Board\Hardware\SSI_DB_0.001\SsiDbPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2768.701mil|Location2.X=3104.921mil|Location1.Y=2318.898mil|Location2.Y=2569.685mil|Absolute=True">P2.5</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="4127295">10.4833mm
+			</a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\1\Desktop\SSI_Debug_Board\Hardware\SSI_DB_0.001\SsiDbPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2768.701mil|Location2.X=3204.921mil|Location1.Y=2303.15mil|Location2.Y=2569.685mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\1\Desktop\SSI_Debug_Board\Hardware\SSI_DB_0.001\SsiDbPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2768.701mil|Location2.X=3204.921mil|Location1.Y=2303.15mil|Location2.Y=2569.685mil|Absolute=True">P2.6</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="5298613">13.4585mm
+			</a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\1\Desktop\SSI_Debug_Board\Hardware\SSI_DB_0.001\SsiDbPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2755.906mil|Location2.X=3508.858mil|Location1.Y=2394.685mil|Location2.Y=2656.89mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\1\Desktop\SSI_Debug_Board\Hardware\SSI_DB_0.001\SsiDbPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2755.906mil|Location2.X=3508.858mil|Location1.Y=2394.685mil|Location2.Y=2656.89mil|Absolute=True">RE1</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="8368053">21.2549mm
+			</a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\1\Desktop\SSI_Debug_Board\Hardware\SSI_DB_0.001\SsiDbPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2768.701mil|Location2.X=3508.858mil|Location1.Y=1566.339mil|Location2.Y=2599.213mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\1\Desktop\SSI_Debug_Board\Hardware\SSI_DB_0.001\SsiDbPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2768.701mil|Location2.X=3508.858mil|Location1.Y=1566.339mil|Location2.Y=2599.213mil|Absolute=True">RE2</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="17113505">43.4683mm
+			</a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\1\Desktop\SSI_Debug_Board\Hardware\SSI_DB_0.001\SsiDbPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2969.488mil|Location2.X=3065.945mil|Location1.Y=1800.197mil|Location2.Y=1999.016mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\1\Desktop\SSI_Debug_Board\Hardware\SSI_DB_0.001\SsiDbPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2969.488mil|Location2.X=3065.945mil|Location1.Y=1800.197mil|Location2.Y=1999.016mil|Absolute=True">RST</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="1968503">5mm
+			</a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\1\Desktop\SSI_Debug_Board\Hardware\SSI_DB_0.001\SsiDbPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2414.37mil|Location2.X=2617.126mil|Location1.Y=1469.488mil|Location2.Y=1569.882mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\1\Desktop\SSI_Debug_Board\Hardware\SSI_DB_0.001\SsiDbPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2414.37mil|Location2.X=2617.126mil|Location1.Y=1469.488mil|Location2.Y=1569.882mil|Absolute=True">RSTMCU1</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="2063549">5.2414mm
+			</a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\1\Desktop\SSI_Debug_Board\Hardware\SSI_DB_0.001\SsiDbPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2233.071mil|Location2.X=3508.858mil|Location1.Y=1464.567mil|Location2.Y=2639.764mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\1\Desktop\SSI_Debug_Board\Hardware\SSI_DB_0.001\SsiDbPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2233.071mil|Location2.X=3508.858mil|Location1.Y=1464.567mil|Location2.Y=2639.764mil|Absolute=True">SSI_MISO</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="24683037">62.6949mm
+			</a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\1\Desktop\SSI_Debug_Board\Hardware\SSI_DB_0.001\SsiDbPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3656.496mil|Location2.X=4384.767mil|Location1.Y=1437.008mil|Location2.Y=1816.929mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\1\Desktop\SSI_Debug_Board\Hardware\SSI_DB_0.001\SsiDbPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3656.496mil|Location2.X=4384.767mil|Location1.Y=1437.008mil|Location2.Y=1816.929mil|Absolute=True">SSI_OUT_N</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="14889042">37.8182mm
+			</a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\1\Desktop\SSI_Debug_Board\Hardware\SSI_DB_0.001\SsiDbPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3656.496mil|Location2.X=4466.535mil|Location1.Y=1437.008mil|Location2.Y=2010.827mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\1\Desktop\SSI_Debug_Board\Hardware\SSI_DB_0.001\SsiDbPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3656.496mil|Location2.X=4466.535mil|Location1.Y=1437.008mil|Location2.Y=2010.827mil|Absolute=True">SSI_OUT_P</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="19000761">48.2619mm
+			</a></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\1\Desktop\SSI_Debug_Board\Hardware\SSI_DB_0.001\SsiDbPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2132.284mil|Location2.X=3508.858mil|Location1.Y=2379.921mil|Location2.Y=2820.866mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\1\Desktop\SSI_Debug_Board\Hardware\SSI_DB_0.001\SsiDbPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2132.284mil|Location2.X=3508.858mil|Location1.Y=2379.921mil|Location2.Y=2820.866mil|Absolute=True">SSI_SCK</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="25923917">65.8467mm
+			</a></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\1\Desktop\SSI_Debug_Board\Hardware\SSI_DB_0.001\SsiDbPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2232.284mil|Location2.X=3508.858mil|Location1.Y=2394.685mil|Location2.Y=2807.087mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\1\Desktop\SSI_Debug_Board\Hardware\SSI_DB_0.001\SsiDbPCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2232.284mil|Location2.X=3508.858mil|Location1.Y=2394.685mil|Location2.Y=2807.087mil|Absolute=True">UART1_TX</acronym></a></td>
+<td class="column2">Signal Layers Only</td>
+<td class="column3"><a name="coordinate" value="19925129">50.6098mm
+			</a></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br></body>
+</html>

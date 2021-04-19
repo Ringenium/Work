@@ -1,0 +1,6 @@
+Added Component: Designator=XS5(CON: PLL-6(2x3R1.27female))
+Added Pin To Net: NetName=MOSI Pin=XS5-3
+Added Pin To Net: NetName=CS1 Pin=XS5-4
+Added Pin To Net: NetName=SCK Pin=XS5-5
+Added Pin To Net: NetName=MISO Pin=XS5-6
+Added Member To Class: ClassName=plp-cd_3a Member=Component XS5 PLLD-6

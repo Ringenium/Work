@@ -1,0 +1,22 @@
+Added Component: Designator=U1(32-QFN(4x4))
+Added Pin To Net: NetName=GND Pin=U1-0
+Added Pin To Net: NetName=3.3V Pin=U1-2
+Added Pin To Net: NetName=3.3V Pin=U1-3
+Added Pin To Net: NetName=NetR4_2 Pin=U1-4
+Added Pin To Net: NetName=NetR5_2 Pin=U1-5
+Added Pin To Net: NetName=P2.6 Pin=U1-11
+Added Pin To Net: NetName=DE2 Pin=U1-14
+Added Pin To Net: NetName=RE2 Pin=U1-15
+Added Pin To Net: NetName=DE1 Pin=U1-16
+Added Pin To Net: NetName=RE1 Pin=U1-17
+Added Pin To Net: NetName=SSI_SCK Pin=U1-21
+Added Pin To Net: NetName=UART1_TX Pin=U1-22
+Added Pin To Net: NetName=MOSI_MCU2 Pin=U1-23
+Added Pin To Net: NetName=SSI_MISO Pin=U1-24
+Added Pin To Net: NetName=SSI_SCK Pin=U1-25
+Added Pin To Net: NetName=UART_IN Pin=U1-28
+Added Pin To Net: NetName=UART_OUT Pin=U1-29
+Added Pin To Net: NetName=EXTCLK Pin=U1-30
+Added Pin To Net: NetName=EXTOn Pin=U1-31
+Added Member To Class: ClassName=plp-cd_2a Member=Component U1 EFM8BB31F64G-A-QFN32
+Added Room: Name=plp-cd_2a

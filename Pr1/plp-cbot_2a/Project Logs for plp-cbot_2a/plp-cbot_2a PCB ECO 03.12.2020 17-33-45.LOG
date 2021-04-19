@@ -1,0 +1,238 @@
+Removed Pin From Net: NetName=NetC4_1 Pin=C5-2
+Removed Pin From Net: NetName=-Uï Pin=C6-1
+Removed Pin From Net: NetName=NetC4_1 Pin=C6-2
+Removed Pin From Net: NetName=+5 Pin=C7-2
+Removed Pin From Net: NetName=+15 Pin=C8-2
+Removed Pin From Net: NetName=-15 Pin=C9-1
+Removed Pin From Net: NetName=+3.3 Pin=C12-2
+Removed Pin From Net: NetName=TD Pin=DD2-1
+Removed Pin From Net: NetName=TD Pin=DD2-2
+Removed Pin From Net: NetName=TD Pin=DD2-3
+Removed Pin From Net: NetName=+3.3 Pin=DD2-8
+Removed Pin From Net: NetName=NetC4_1 Pin=U1-1
+Removed Pin From Net: NetName=-Uï Pin=U1-3
+Removed Pin From Net: NetName=+5 Pin=U1-6
+Removed Pin From Net: NetName=NetC4_1 Pin=U2-1
+Removed Pin From Net: NetName=-Uï Pin=U2-3
+Removed Pin From Net: NetName=-15 Pin=U2-4
+Removed Pin From Net: NetName=+15 Pin=U2-6
+Removed Pin From Net: NetName=+5 Pin=VT1-1
+Removed Pin From Net: NetName=NetDD1_6 Pin=VT1-2
+Removed Pin From Net: NetName=NetR6_2 Pin=VT1-3
+Removed Pin From Net: NetName=NetC10_1 Pin=VT1-4
+Removed Pin From Net: NetName=NetR3_2 Pin=VT1-5
+Removed Pin From Net: NetName=NetR3_2 Pin=VT1-6
+Removed Pin From Net: NetName=+15 Pin=XP1-1
+Removed Pin From Net: NetName=-15 Pin=XP1-2
+Removed Member From Class: ClassName=plp-cbot_2a Member=C7
+Removed Member From Class: ClassName=plp-cbot_2a Member=C8
+Removed Member From Class: ClassName=plp-cbot_2a Member=C9
+Removed Member From Class: ClassName=plp-cbot_2a Member=C12
+Removed Member From Class: ClassName=plp-cbot_2a Member=DD2
+Removed Member From Class: ClassName=plp-cbot_2a Member=U2
+Change Component Footprint: Designator=U1 Old Footprint=MTU1 New Footprint=SOT23-6
+Change Component Comment : Designator=R3 Old Comment=10k New Comment=1k
+Change Component Comment : Designator=R4 Old Comment=10k New Comment=1k
+Change Component Comment : Designator=U1 Old Comment=MTU1S New Comment=SN6505B
+Change component parameters: Designator = "C5" ("C5"); Footprint = "CAPC_0603(1608)X080L"; UniqueID = "\BFFHPETS" ("\BFFHPETS")
+Change component parameters (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Global Data"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.murata.com/products/capacitor/tech_data/index.html"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2Description"; Value = "Part Data Sheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2URL"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink3Description"; Value = "Replacement Data Sheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink3URL"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink4Description"; Value = "Replacement 2 Data Sheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink4URL"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ESR"; Value = "* mOhm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Murata"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "OrderCode"; Value = "0603 - 0,022ìêÔ ±10% - 50Â - X7R"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PartNumber"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Rated DC Voltage"; Value = "25V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ReplacementPart1Manufacturer"; Value = "TDK"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ReplacementPart1PartNumber"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ReplacementPart2Manufacturer"; Value = "Taiyo Yuden"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ReplacementPart2PartNumber"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ripple Current Rating"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "TC Code"; Value = "X7R"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Temperature Range"; Value = "-55 to +125°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "±10%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "4,7uF"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C6" ("C6"); Footprint = "CAPC_0603(1608)X080L"; UniqueID = "\SJKOQXYD" ("\SJKOQXYD")
+Change component parameters (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Global Data"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.murata.com/products/capacitor/tech_data/index.html"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2Description"; Value = "Part Data Sheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2URL"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink3Description"; Value = "Replacement Data Sheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink3URL"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink4Description"; Value = "Replacement 2 Data Sheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink4URL"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ESR"; Value = "* mOhm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Murata"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "OrderCode"; Value = "0603 - 0,022ìêÔ ±10% - 50Â - X7R"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PartNumber"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Rated DC Voltage"; Value = "25V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ReplacementPart1Manufacturer"; Value = "TDK"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ReplacementPart1PartNumber"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ReplacementPart2Manufacturer"; Value = "Taiyo Yuden"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ReplacementPart2PartNumber"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ripple Current Rating"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "TC Code"; Value = "X7R"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Temperature Range"; Value = "-55 to +125°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "±10%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "4,7uF"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R3" ("R3"); Footprint = "RESC1608(0603)X04L"; UniqueID = "\IDFNTRSR" ("\IDFNTRSR")
+Change component parameters (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Data Sheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "http://smd.ru/files/upload/1207/ru/chip-resis.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2Description"; Value = "Specific Res Only"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2URL"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink3Description"; Value = "Replacement Data Sheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink3URL"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink4Description"; Value = "Replacement 2 Data Sheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink4URL"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Bourns"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Rated DC Voltage"; Value = "100 Â"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PartNumber"; Value = "0603 - {Value} Îì ± 1 %"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Power"; Value = "1/10 Âò"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Rated DC Voltage"; Value = "50 Â"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Rated T"; Value = "-55 °C to +125 °C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ReplacementPart1Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ReplacementPart1PartNumber"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ReplacementPart2Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ReplacementPart2PartNumber"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Temperature Range"; Value = "-55 to +125°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "TKR"; Value = "±100 ppm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "±1 %"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "1k"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R4" ("R4"); Footprint = "RESC1608(0603)X04L"; UniqueID = "\TBMIIOTD" ("\TBMIIOTD")
+Change component parameters (AddParameter): Name = "Case"; Value = "0603"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Data Sheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "http://smd.ru/files/upload/1207/ru/chip-resis.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2Description"; Value = "Specific Res Only"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2URL"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink3Description"; Value = "Replacement Data Sheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink3URL"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink4Description"; Value = "Replacement 2 Data Sheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink4URL"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Bourns"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Rated DC Voltage"; Value = "100 Â"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PartNumber"; Value = "0603 - {Value} Îì ± 1 %"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Power"; Value = "1/10 Âò"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Rated DC Voltage"; Value = "50 Â"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Rated T"; Value = "-55 °C to +125 °C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ReplacementPart1Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ReplacementPart1PartNumber"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ReplacementPart2Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ReplacementPart2PartNumber"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Temperature Range"; Value = "-55 to +125°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "TKR"; Value = "±100 ppm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "±1 %"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "1k"; VariantName = "[No Variations]"
+Change component parameters: Designator = "U1" ("U1"); Footprint = "MTU1"; UniqueID = "\JZUMEFSM" ("\JZUMEFSM")
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.ti.com/lit/ds/symlink/sn6505a.pdf?ts=1606984863638&ref_url=https%253A%252F%252Fwww.google.com%252F"; VariantName = "[No Variations]"
+Added Component: Designator=T1(B82805A)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.tdk-electronics.tdk.com/inf/30/ds/b82805a.pdf"; VariantName = "[No Variations]"
+Added Component: Designator=T2(B82805A)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.tdk-electronics.tdk.com/inf/30/ds/b82805a.pdf"; VariantName = "[No Variations]"
+Added Component: Designator=VD5(SC-70)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "DataSheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.nxp.com/documents/data_sheet/BAT54W.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Replacement1DataSheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.onsemi.com/pub_link/Collateral/BAT54SWT1-D.PDF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "Replacement2DataSheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3URL"; Value = "http://www.infineon.com/dgdl/bat54series.pdf?folderId=db3a30431400ef68011425f1ca2505e3&fileId=db3a304314dca3890115190b74210ea6"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "NXP"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "SC-70"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "BAT54SW"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power/Voltage"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ReplacementPart1Manufacturer"; Value = "ON Semiconductor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ReplacementPart1PartNumber"; Value = "BAT54SWT1G"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ReplacementPart1TopMarking"; Value = "B8*"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ReplacementPart2Manufacturer"; Value = "Infineon"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ReplacementPart2PartNumber"; Value = "BAT54-04W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ReplacementPart2TopMarking"; Value = "TS"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "TopMarking"; Value = "44"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=VD6(SC-70)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "DataSheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.nxp.com/documents/data_sheet/BAT54W.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Replacement1DataSheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.onsemi.com/pub_link/Collateral/BAT54CWT1-D.PDF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "Replacement2DataSheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3URL"; Value = "http://www.infineon.com/dgdl/bat54series.pdf?folderId=db3a30431400ef68011425f1ca2505e3&fileId=db3a304314dca3890115190b74210ea6"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "NXP"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "SC-70"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "BAT54CW"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power/Voltage"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ReplacementPart1Manufacturer"; Value = "ON Semiconductor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ReplacementPart1PartNumber"; Value = "BAT54CWT1G"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ReplacementPart1TopMarking"; Value = "5C*"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ReplacementPart2Manufacturer"; Value = "Infineon"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ReplacementPart2PartNumber"; Value = "BAT54-05W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ReplacementPart2TopMarking"; Value = "TC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "TopMarking"; Value = "43"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=-Uï Pin=C6-2
+Added Pin To Net: NetName=-Uï Pin=C10-2
+Added Pin To Net: NetName=-Uï Pin=C11-1
+Added Pin To Net: NetName=-Uï Pin=DD1-2
+Added Pin To Net: NetName=-Uï Pin=GND-0
+Added Pin To Net: NetName=-Uï Pin=GNDT-1
+Added Pin To Net: NetName=-Uï Pin=R8-1
+Added Pin To Net: NetName=NetC4_1 Pin=T1-2
+Added Pin To Net: NetName=NetC4_1 Pin=T2-2
+Added Pin To Net: NetName=-Uï Pin=T2-5
+Added Pin To Net: NetName=NetC4_1 Pin=U1-2
+Added Pin To Net: NetName=-Uï Pin=U1-4
+Added Pin To Net: NetName=NetC4_1 Pin=U1-5
+Added Pin To Net: NetName=-Uï Pin=VD3-1
+Added Pin To Net: NetName=-Uï Pin=VD4-3
+Added Pin To Net: NetName=+5 Pin=VD6-3
+Added Pin To Net: NetName=NetR6_2 Pin=VT1-1
+Added Pin To Net: NetName=NetR3_2 Pin=VT1-2
+Added Pin To Net: NetName=NetR3_2 Pin=VT1-4
+Added Pin To Net: NetName=NetDD1_6 Pin=VT1-5
+Added Pin To Net: NetName=NetC10_1 Pin=VT1-6
+Added Pin To Net: NetName=-Uï Pin=VT2-1
+Added Pin To Net: NetName=-Uï Pin=XP1-3
+Added Pin To Net: NetName=-Uï Pin=XP3-4
+Added Pin To Net: NetName=-Uï Pin=XP4-1
+Change Net Name : Old Net Name=+5 New Net Name=+5V
+Change Net Name : Old Net Name=NetC4_1 New Net Name=5V_LMZ
+Added Pin To Net: NetName=+5 Pin=VT1-3
+Added Net: Name=+5
+Added Pin To Net: NetName=+20V Pin=C5-2
+Added Pin To Net: NetName=+20V Pin=VD5-2
+Added Pin To Net: NetName=+20V Pin=XP1-1
+Added Net: Name=+20V
+Added Pin To Net: NetName=-20V Pin=C6-1
+Added Pin To Net: NetName=-20V Pin=VD5-1
+Added Pin To Net: NetName=-20V Pin=XP1-2
+Added Net: Name=-20V
+Added Pin To Net: NetName=D1 Pin=T1-1
+Added Pin To Net: NetName=D1 Pin=T2-1
+Added Pin To Net: NetName=D1 Pin=U1-1
+Added Net: Name=D1
+Added Pin To Net: NetName=D2 Pin=T1-3
+Added Pin To Net: NetName=D2 Pin=T2-3
+Added Pin To Net: NetName=D2 Pin=U1-3
+Added Net: Name=D2
+Added Pin To Net: NetName=NetT1_4 Pin=T1-4
+Added Pin To Net: NetName=NetT1_4 Pin=T2-6
+Added Pin To Net: NetName=NetT1_4 Pin=VD6-2
+Added Net: Name=NetT1_4
+Added Pin To Net: NetName=NetT1_6 Pin=T1-6
+Added Pin To Net: NetName=NetT1_6 Pin=VD5-3
+Added Net: Name=NetT1_6
+Added Pin To Net: NetName=NetT2_4 Pin=T2-4
+Added Pin To Net: NetName=NetT2_4 Pin=VD6-1
+Added Net: Name=NetT2_4
+Added Member To Class: ClassName=plp-cbot_2a Member=Component T1 B82805A
+Added Member To Class: ClassName=plp-cbot_2a Member=Component T2 B82805A
+Added Member To Class: ClassName=plp-cbot_2a Member=Component VD5 BAT54SW
+Added Member To Class: ClassName=plp-cbot_2a Member=Component VD6 BAT54CW

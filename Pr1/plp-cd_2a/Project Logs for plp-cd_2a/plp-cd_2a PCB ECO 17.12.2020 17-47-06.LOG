@@ -1,0 +1,10 @@
+Added Component: Designator=XS2(CON: PLL-6(2x3R1.27male))
+Added Pin To Net: NetName=-Uï Pin=XS2-1
+Added Pin To Net: NetName=-Uï Pin=XS2-2
+Added Pin To Net: NetName=+Uï Pin=XS2-5
+Added Pin To Net: NetName=+Uï Pin=XS2-6
+Added Pin To Net: NetName=PE Pin=XS2-3
+Added Pin To Net: NetName=PE Pin=XS2-4
+Added Net: Name=PE
+Added Member To Class: ClassName=plp-cd_2a Member=Component XS2 2199R05-06G-301523
+Added Room: Name=plp-cd_2a

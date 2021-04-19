@@ -1,0 +1,240 @@
+PCAD Importer Log
+Project : 81402A.PrjPcb
+
+Section : C:\Users\1\Desktop\81402A.sch
+    Section : Parsing Messages
+        Warning - 1 : Skipping Token defaultPinDes On Line 599
+        Warning - 1 : Skipping Token defaultPinDes On Line 607
+        Warning - 1 : Skipping Token defaultPinDes On Line 615
+        Warning - 1 : Skipping Token defaultPinDes On Line 623
+        Warning - 1 : Skipping Token defaultPinDes On Line 631
+        Warning - 1 : Skipping Token defaultPinDes On Line 639
+        Warning - 1 : Skipping Token defaultPinDes On Line 647
+        Warning - 1 : Skipping Token defaultPinDes On Line 676
+        Warning - 1 : Skipping Token defaultPinDes On Line 684
+        Warning - 1 : Skipping Token defaultPinDes On Line 704
+        Warning - 1 : Skipping Token defaultPinDes On Line 712
+        Warning - 1 : Skipping Token defaultPinDes On Line 720
+        Warning - 1 : Skipping Token defaultPinDes On Line 751
+        Warning - 1 : Skipping Token defaultPinDes On Line 759
+        Warning - 1 : Skipping Token defaultPinDes On Line 767
+        Warning - 1 : Skipping Token defaultPinDes On Line 775
+        Warning - 1 : Skipping Token defaultPinDes On Line 783
+        Warning - 1 : Skipping Token defaultPinDes On Line 791
+        Warning - 1 : Skipping Token defaultPinDes On Line 799
+        Warning - 1 : Skipping Token defaultPinDes On Line 829
+        Warning - 1 : Skipping Token defaultPinDes On Line 837
+        Warning - 1 : Skipping Token defaultPinDes On Line 845
+        Warning - 1 : Skipping Token defaultPinDes On Line 853
+        Warning - 1 : Skipping Token defaultPinDes On Line 861
+        Warning - 1 : Skipping Token defaultPinDes On Line 869
+        Warning - 1 : Skipping Token defaultPinDes On Line 877
+        Warning - 1 : Skipping Token defaultPinDes On Line 905
+        Warning - 1 : Skipping Token defaultPinDes On Line 913
+        Warning - 1 : Skipping Token defaultPinDes On Line 921
+        Warning - 1 : Skipping Token defaultPinDes On Line 929
+        Warning - 1 : Skipping Token defaultPinDes On Line 952
+        Warning - 1 : Skipping Token defaultPinDes On Line 960
+        Warning - 1 : Skipping Token defaultPinDes On Line 1016
+        Warning - 1 : Skipping Token defaultPinDes On Line 1024
+        Warning - 1 : Skipping Token defaultPinDes On Line 1041
+        Warning - 1 : Skipping Token defaultPinDes On Line 1049
+        Warning - 1 : Skipping Token defaultPinDes On Line 1069
+        Warning - 1 : Skipping Token defaultPinDes On Line 1077
+        Warning - 1 : Skipping Token defaultPinDes On Line 1096
+        Warning - 1 : Skipping Token defaultPinDes On Line 1103
+        Warning - 1 : Skipping Token defaultPinDes On Line 1121
+        Warning - 1 : Skipping Token defaultPinDes On Line 1129
+        Warning - 1 : Skipping Token defaultPinDes On Line 1137
+        Warning - 1 : Skipping Token defaultPinDes On Line 1145
+        Warning - 1 : Skipping Token defaultPinDes On Line 1153
+        Warning - 1 : Skipping Token defaultPinDes On Line 1161
+        Warning - 1 : Skipping Token defaultPinDes On Line 1169
+        Warning - 1 : Skipping Token defaultPinDes On Line 1177
+        Warning - 1 : Skipping Token defaultPinDes On Line 1185
+        Warning - 1 : Skipping Token defaultPinDes On Line 1193
+        Warning - 1 : Skipping Token defaultPinDes On Line 1201
+        Warning - 1 : Skipping Token defaultPinDes On Line 1209
+        Warning - 1 : Skipping Token defaultPinDes On Line 1217
+        Warning - 1 : Skipping Token defaultPinDes On Line 1225
+        Warning - 1 : Skipping Token defaultPinDes On Line 1233
+        Warning - 1 : Skipping Token defaultPinDes On Line 1241
+        Warning - 1 : Skipping Token defaultPinDes On Line 1249
+        Warning - 1 : Skipping Token defaultPinDes On Line 1257
+        Warning - 1 : Skipping Token defaultPinDes On Line 1280
+        Warning - 1 : Skipping Token defaultPinDes On Line 1288
+        Warning - 1 : Skipping Token defaultPinDes On Line 1296
+        Warning - 1 : Skipping Token defaultPinDes On Line 1360
+        Warning - 1 : Skipping Token defaultPinDes On Line 1368
+        Warning - 1 : Skipping Token defaultPinDes On Line 1376
+        Warning - 1 : Skipping Token defaultPinDes On Line 1402
+        Warning - 1 : Skipping Token defaultPinDes On Line 1410
+        Warning - 1 : Skipping Token defaultPinDes On Line 1426
+        Warning - 1 : Skipping Token defaultPinDes On Line 1440
+        Warning - 1 : Skipping Token defaultPinDes On Line 1447
+        Warning - 1 : Skipping Token defaultPinDes On Line 1467
+        Warning - 1 : Skipping Token defaultPinDes On Line 1475
+        Warning - 1 : Skipping Token defaultPinDes On Line 1483
+        Warning - 1 : Skipping Token defaultPinDes On Line 1525
+        Warning - 1 : Skipping Token defaultPinDes On Line 1533
+        Warning - 1 : Skipping Token defaultPinDes On Line 1541
+        Warning - 1 : Skipping Token defaultPinDes On Line 1549
+        Warning - 1 : Skipping Token defaultPinDes On Line 1571
+        Warning - 1 : Skipping Token defaultPinDes On Line 1578
+        Warning - 1 : Skipping Token defaultPinDes On Line 1585
+        Warning - 1 : Skipping Token defaultPinDes On Line 1614
+        Warning - 1 : Skipping Token defaultPinDes On Line 1622
+        Warning - 1 : Skipping Token defaultPinDes On Line 1640
+        Warning - 1 : Skipping Token defaultPinDes On Line 1648
+        Warning - 1 : Skipping Token defaultPinDes On Line 1656
+        Warning - 1 : Skipping Token defaultPinDes On Line 1664
+        Warning - 1 : Skipping Token defaultPinDes On Line 1672
+        Warning - 1 : Skipping Token defaultPinDes On Line 1680
+        Warning - 1 : Skipping Token defaultPinDes On Line 1688
+        Warning - 1 : Skipping Token defaultPinDes On Line 1696
+        Warning - 1 : Skipping Token defaultPinDes On Line 1704
+        Warning - 1 : Skipping Token defaultPinDes On Line 1712
+        Warning - 1 : Skipping Token defaultPinDes On Line 1720
+        Warning - 1 : Skipping Token defaultPinDes On Line 1728
+        Warning - 1 : Skipping Token defaultPinDes On Line 1736
+        Warning - 1 : Skipping Token defaultPinDes On Line 1744
+        Warning - 1 : Skipping Token defaultPinDes On Line 1752
+        Warning - 1 : Skipping Token defaultPinDes On Line 1760
+        Warning - 1 : Skipping Token defaultPinDes On Line 1768
+        Warning - 1 : Skipping Token defaultPinDes On Line 1776
+        Warning - 1 : Skipping Token defaultPinDes On Line 1784
+        Warning - 1 : Skipping Token defaultPinDes On Line 1792
+        Warning - 1 : Skipping Token defaultPinDes On Line 1834
+        Warning - 1 : Skipping Token defaultPinDes On Line 1841
+        Warning - 1 : Skipping Token defaultPinDes On Line 1848
+        Warning - 1 : Skipping Token defaultPinDes On Line 1855
+        Warning - 1 : Skipping Token defaultPinDes On Line 1878
+        Warning - 1 : Skipping Token defaultPinDes On Line 1895
+        Warning - 1 : Skipping Token defaultPinDes On Line 1903
+        Warning - 1 : Skipping Token defaultPinDes On Line 1956
+        Warning - 1 : Skipping Token defaultPinDes On Line 1964
+        Warning - 1 : Skipping Token defaultPinDes On Line 2031
+        Warning - 1 : Skipping Token defaultPinDes On Line 2048
+        Warning - 1 : Skipping Token defaultPinDes On Line 2056
+        Warning - 1 : Skipping Token defaultPinDes On Line 2064
+        Warning - 1 : Skipping Token defaultPinDes On Line 2072
+        Warning - 1 : Skipping Token defaultPinDes On Line 2107
+        Warning - 1 : Skipping Token defaultPinDes On Line 2115
+        Warning - 1 : Skipping Token defaultPinDes On Line 2123
+        Warning - 1 : Skipping Token defaultPinDes On Line 2131
+        Warning - 1 : Skipping Token defaultPinDes On Line 2139
+        Warning - 1 : Skipping Token defaultPinDes On Line 2147
+        Warning - 1 : Skipping Token defaultPinDes On Line 2155
+        Warning - 1 : Skipping Token defaultPinDes On Line 2163
+        Warning - 1 : Skipping Token defaultPinDes On Line 2171
+        Warning - 1 : Skipping Token defaultPinDes On Line 2179
+        Warning - 1 : Skipping Token defaultPinDes On Line 2187
+        Warning - 1 : Skipping Token defaultPinDes On Line 2195
+        Warning - 1 : Skipping Token defaultPinDes On Line 2203
+        Warning - 1 : Skipping Token defaultPinDes On Line 2211
+        Warning - 1 : Skipping Token defaultPinDes On Line 2219
+        Warning - 1 : Skipping Token defaultPinDes On Line 2227
+        Warning - 1 : Skipping Token defaultPinDes On Line 2235
+        Warning - 1 : Skipping Token defaultPinDes On Line 2243
+        Warning - 1 : Skipping Token defaultPinDes On Line 2251
+        Warning - 1 : Skipping Token defaultPinDes On Line 2259
+        Warning - 1 : Skipping Token defaultPinDes On Line 2301
+        Warning - 1 : Skipping Token defaultPinDes On Line 2308
+        Warning - 1 : Skipping Token defaultPinDes On Line 2315
+        Warning - 1 : Skipping Token defaultPinDes On Line 2322
+        Warning - 1 : Skipping Token gridDfns On Line 4116
+        Warning - 1 : Skipping Token refPointSize On Line 4122
+        Warning - 1 : Skipping Token infoPointSize On Line 4123
+        Warning - 1 : Skipping Token junctionSize On Line 4124
+        Warning - 1 : Skipping Token refPointSizePrint On Line 4125
+        Warning - 1 : Skipping Token infoPointSizePrint On Line 4126
+        Warning - 1 : Skipping Token junctionSizePrint On Line 4127
+        Warning - 1 : Skipping Token n On Line 4137
+        Warning - 1 : Skipping Token  On Line 4137
+        Warning - 1 : Skipping Token PrintRegion On Line 5303
+        Warning - 1 : Skipping Token schematicPrintSettings On Line 5305
+        Warning - 1 : Skipping Token ecoState On Line 5320
+        Warning - 1 : Skipping Token currentTextStyle On Line 5321
+        Warning - 1 : Skipping Token reportSettings On Line 5324
+    EndSection
+
+    Section : Generating SCH Library - 81402A.SchLib
+        Warning : Create component variant [VD-BZ-DO214AA_VARIANT_1] for component with original name [VD-BZ-DO214AA]
+        Warning : Create component variant [XP-7-PLS-7_VARIANT_1] for component with original name [XP-7-PLS-7]
+    EndSection
+
+    Section : Generating SCH Sheet - Sheet1.SCHDOC
+        Warning : P-CAD vertical port [GNA] at location [9100mil : 6700mil] will be replaced by a horizonal port at location [8600mil : 5844.72mil] with the width [255.28mil] and a wire
+        Warning : P-CAD Port [+5VA] will be replaced by a net label at location [8600mil : 6800mil]
+        Warning : P-CAD vertical port [+5VA] at location [9100mil : 7300mil] will be replaced by a horizonal port at location [8600mil : 6900mil] with the width [255.28mil] and a wire
+        Warning : P-CAD vertical port [GNA] at location [9100mil : 8500mil] will be replaced by a horizonal port at location [8600mil : 7644.72mil] with the width [255.28mil] and a wire
+        Warning : P-CAD vertical port [+5VA] at location [9100mil : 9100mil] will be replaced by a horizonal port at location [8600mil : 8700mil] with the width [255.28mil] and a wire
+        Warning : P-CAD vertical port [GNA] at location [9500mil : 6700mil] will be replaced by a horizonal port at location [9000mil : 5844.72mil] with the width [255.28mil] and a wire
+        Warning : P-CAD Port [+5VA] will be replaced by a net label at location [9000mil : 6800mil]
+        Warning : P-CAD vertical port [+5VA] at location [9500mil : 7300mil] will be replaced by a horizonal port at location [9000mil : 6900mil] with the width [255.28mil] and a wire
+        Warning : P-CAD Port [+5VA] will be replaced by a net label at location [9800mil : 7200mil]
+        Warning : P-CAD vertical port [+5VA] at location [10300mil : 7700mil] will be replaced by a horizonal port at location [9800mil : 7300mil] with the width [255.28mil] and a wire
+        Warning : Unspecified port [+5V] width was re-calculated to [255.28mil]
+        Warning : Unspecified port [+5V] width was re-calculated to [255.28mil]
+        Warning : P-CAD vertical port [GNA] at location [11800mil : 7300mil] will be replaced by a horizonal port at location [11300mil : 6444.72mil] with the width [255.28mil] and a wire
+        Warning : P-CAD vertical port [+5VA] at location [11800mil : 7600mil] will be replaced by a horizonal port at location [11300mil : 7200mil] with the width [255.28mil] and a wire
+        Warning : P-CAD vertical port [GNA] at location [12100mil : 8800mil] will be replaced by a horizonal port at location [11600mil : 7944.72mil] with the width [255.28mil] and a wire
+        Warning : P-CAD Port [+5V] will be replaced by a net label at location [11900mil : 4100mil]
+        Warning : P-CAD vertical port [GNA] at location [12500mil : 8800mil] will be replaced by a horizonal port at location [12000mil : 7944.72mil] with the width [255.28mil] and a wire
+        Warning : P-CAD Port [+UP] will be replaced by a net label at location [12825mil : 9500mil]
+        Warning : Unspecified port [GNA] width was re-calculated to [255.28mil]
+        Warning : P-CAD Port [+5V] will be replaced by a net label at location [13650mil : 4400mil]
+        Warning : P-CAD Port [GLED] will be replaced by a net label at location [14700mil : 5900mil]
+        Warning : P-CAD Port [+UP] will be replaced by a net label at location [15000mil : 4800mil]
+        Warning : Unspecified port [FIN] width was re-calculated to [255.28mil]
+        Warning : Unspecified port [RLED] width was re-calculated to [255.28mil]
+        Warning : Unspecified port [GLED] width was re-calculated to [255.28mil]
+        Warning : Unspecified port [SW] width was re-calculated to [255.28mil]
+        Warning : Unspecified port [R] width was re-calculated to [255.28mil]
+        Warning : Unspecified port [+U] width was re-calculated to [255.28mil]
+        Warning : P-CAD vertical port [GNA] at location [10300mil : 6900mil] will be replaced by a horizonal port at location [9800mil : 6044.72mil] with the width [255.28mil] and a wire
+        Warning : P-CAD Port [+5V] will be replaced by a net label at location [12600mil : 5500mil]
+        Warning : Unspecified port [+5VA] width was re-calculated to [255.28mil]
+        Warning : Unspecified port [+5V] width was re-calculated to [255.28mil]
+        Warning : Unspecified port [+UP] width was re-calculated to [255.28mil]
+        Warning : Unspecified port [BUTT] width was re-calculated to [255.28mil]
+        Warning : P-CAD Port [+2,5V] will be replaced by a net label at location [9700mil : 7400mil]
+        Warning : P-CAD vertical port [GNA] at location [10200mil : 9100mil] will be replaced by a horizonal port at location [9700mil : 8244.72mil] with the width [255.28mil] and a wire
+        Warning : Unspecified port [SW] width was re-calculated to [255.28mil]
+        Warning : Unspecified port [BUTT] width was re-calculated to [255.28mil]
+        Warning : P-CAD vertical port [GNA] at location [13200mil : 7300mil] will be replaced by a horizonal port at location [12700mil : 6444.72mil] with the width [255.28mil] and a wire
+        Warning : Unspecified port [FIN] width was re-calculated to [255.28mil]
+        Warning : Add Power Object for Pin Name [GND] at location [14200mil : 4500mil]
+        Warning : P-CAD Port [RLED] will be replaced by a net label at location [14200mil : 5400mil]
+        Warning : Unspecified port [R] width was re-calculated to [255.28mil]
+        Warning : P-CAD Port [FOUT] will be replaced by a net label at location [9400mil : 7000mil]
+        Warning : Add Power Object for Pin Name [GND] at location [10700mil : 4400mil]
+        Warning : Unspecified port [+5V] width was re-calculated to [255.28mil]
+        Warning : Add Power Object for Pin Name [GND] at location [12100mil : 5500mil]
+        Warning : Add Power Object for Pin Name [GND] at location [12600mil : 9200mil]
+        Warning : Add Power Object for Pin Name [GNDC] at location [13500mil : 3200mil]
+        Warning : Add Power Object for Pin Name [GNDC] at location [13100mil : 9200mil]
+        Warning : Add Power Object for Pin Name [GNDC] at location [15000mil : 3200mil]
+        Warning : Add Power Object for Pin Name [GND] at location [14700mil : 5000mil]
+        Warning : Add Power Object for Pin Name [GND] at location [15000mil : 7100mil]
+        Warning : Add Power Object for Pin Name [GND] at location [16300mil : 7900mil]
+        Warning : Add Power Object for Pin Name [GND] at location [15300mil : 3600mil]
+        Warning : Add Power Object for Pin Name [GND] at location [10400mil : 9200mil]
+    EndSection
+
+    Section : Analyzing SCH Sheet - Sheet1.SCHDOC
+        Warning : P-CAD Port [+2,5V] will be replaced by a net label at location [9700mil : 7400mil]
+        Warning : P-CAD Port [+5V] will be replaced by a net label at location [12600mil : 5500mil]
+        Warning : P-CAD Port [+5V] will be replaced by a net label at location [13650mil : 4400mil]
+        Warning : P-CAD Port [+5V] will be replaced by a net label at location [11900mil : 4100mil]
+        Warning : P-CAD Port [+5VA] will be replaced by a net label at location [9800mil : 7200mil]
+        Warning : P-CAD Port [+5VA] will be replaced by a net label at location [9000mil : 6800mil]
+        Warning : P-CAD Port [+5VA] will be replaced by a net label at location [8600mil : 6800mil]
+        Warning : P-CAD Port [+UP] will be replaced by a net label at location [15000mil : 4800mil]
+        Warning : P-CAD Port [+UP] will be replaced by a net label at location [12825mil : 9500mil]
+        Warning : P-CAD Port [FOUT] will be replaced by a net label at location [9400mil : 7000mil]
+        Warning : P-CAD Port [GLED] will be replaced by a net label at location [14700mil : 5900mil]
+        Warning : P-CAD Port [RLED] will be replaced by a net label at location [14200mil : 5400mil]
+        Warning : Netlabel added for net [NET00024], in sheet [Sheet1] at position [9900mil : 6800mil].
+    EndSection
+EndSection

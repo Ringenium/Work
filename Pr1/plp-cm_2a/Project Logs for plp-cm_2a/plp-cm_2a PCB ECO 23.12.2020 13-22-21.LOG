@@ -1,0 +1,10 @@
+Removed Pin From Net: NetName=C2D_sense Pin=XS5-1
+Removed Pin From Net: NetName=C2D_sense Pin=XS5-2
+Removed Pin From Net: NetName=C2D_sense Pin=XS5-3
+Removed Pin From Net: NetName=C2D_sense Pin=XS5-5
+Removed Pin From Net: NetName=C2D_sense Pin=XS5-6
+Added Pin To Net: NetName=VDD Pin=XS5-1
+Added Pin To Net: NetName=C2D Pin=XS5-2
+Added Pin To Net: NetName=C2CK Pin=XS5-3
+Added Pin To Net: NetName=C2CK Pin=XS5-5
+Added Pin To Net: NetName=GND Pin=XS5-6

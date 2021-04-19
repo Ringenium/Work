@@ -1,0 +1,4 @@
+Added Component: Designator=XS5(CON: PLL-6(2x3R1.27female))
+Added Pin To Net: NetName=UART_OUT Pin=XS5-1
+Added Pin To Net: NetName=UART_IN Pin=XS5-2
+Added Member To Class: ClassName=plp-cd_2a Member=Component XS5 2199R05-06G-301523

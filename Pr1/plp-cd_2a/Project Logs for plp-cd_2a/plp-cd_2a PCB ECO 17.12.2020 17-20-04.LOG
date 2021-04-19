@@ -1,0 +1,26 @@
+Removed Pin From Net: NetName=GND Pin=C2-1
+Removed Pin From Net: NetName=RST Pin=C2-2
+Removed Member From Class: ClassName=plp-cd_2a Member=C2
+Change Component Comment : Designator=R1 Old Comment=Resistor film, 1K, ±1%, 0603, 0.1W, -55...+125°C New Comment=Resistor film, 10K, ±1%, 0603, 0.1W, -55...+125°C
+Change component parameters: Designator = "R1" ("R1"); Footprint = "RES: 0603"; UniqueID = "\CXBRXSXQ" ("\CXBRXSXQ")
+Change component parameters (AddParameter): Name = "HelpURL"; Value = "https://www.digikey.com/product-detail/en/yageo/RC0603JR-07100RL/311-100GRCT-ND/729644"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "0603"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PartNumber"; Value = "RC0603JR-07100RL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Power"; Value = "0.1W"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Temperature"; Value = "-55...+125°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "±1%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "TypeResistor"; Value = "Resistor film"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "10K"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ValueManufacturerPartNumber"; Value = "Resistor film, 10K, ±1%, 0603, 0.1W, -55...+125°C"; VariantName = "[No Variations]"
+Added Component: Designator=XS1(CON: PLL-6(2x3R1.27male))
+Added Pin To Net: NetName=GND Pin=XS1-3
+Added Pin To Net: NetName=3.3V_EXT Pin=XS1-4
+Change Net Name : Old Net Name=3.3V_EXT New Net Name=5V
+Added Pin To Net: NetName=+15 Pin=XS1-1
+Added Net: Name=+15
+Added Pin To Net: NetName=-15 Pin=XS1-5
+Added Net: Name=-15
+Added Member To Class: ClassName=plp-cd_2a Member=Component XS1 2199R05-06G-301523
+Added Member To Class: ClassName=plp-cd_2a Member=Component XS2 2199R05-06G-301523
+Added Room: Name=plp-cd_2a

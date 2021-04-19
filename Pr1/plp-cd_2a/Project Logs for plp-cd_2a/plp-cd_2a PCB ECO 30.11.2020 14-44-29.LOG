@@ -1,0 +1,9 @@
+Removed Pin From Net: NetName=UART_IN Pin=XS5-1
+Removed Pin From Net: NetName=UART_IN Pin=XS5-2
+Removed Pin From Net: NetName=UART_IN Pin=XS5-4
+Removed Pin From Net: NetName=UART_IN Pin=XS5-5
+Removed Pin From Net: NetName=UART_IN Pin=XS5-6
+Added Pin To Net: NetName=-Uï Pin=XS2-2
+Added Pin To Net: NetName=+Uï Pin=XS2-4
+Added Pin To Net: NetName=UART_OUT Pin=XS5-1
+Added Room: Name=plp-cd_2a
