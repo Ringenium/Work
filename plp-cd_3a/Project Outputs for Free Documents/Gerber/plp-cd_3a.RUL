@@ -1,0 +1,12 @@
+DRC Rules Export File for PCB: E:\Work\plp-cd_3a\plp-cd_3a.PcbDoc
+RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=1
+RuleKind=Clearance|RuleName=Clearance_Bound_1|Scope=Board|Minimum=9.84
+RuleKind=Clearance|RuleName=Clearance_Poly_1|Scope=Board|Minimum=0.00
+RuleKind=Clearance|RuleName=Clearance_Bound|Scope=Board|Minimum=19.69
+RuleKind=Clearance|RuleName=Clearance_Poly|Scope=Board|Minimum=7.87
+RuleKind=Clearance|RuleName=Clearance_in|Scope=Board|Minimum=7.87
+RuleKind=Clearance|RuleName=Clearance_out|Scope=Board|Minimum=4.92
+RuleKind=Width|RuleName=Width|Scope=Board|Minimum=5.91
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=3.94
+RuleKind=MinimumAnnularRing|RuleName=MinimumAnnularRing|Scope=Board|Minimum=5.91
+RuleKind=Clearance|RuleName=Clearance_power|Scope=Board|Minimum=19.69

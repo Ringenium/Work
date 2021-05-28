@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : PCB Document [plp-ctop_3a.PcbDoc]
+   Generated File[plp-ctop_3a.TXT]
+   Generated File[plp-ctop_3a.LDP]
+   Generated File[plp-ctop_3a.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 11:03:41 On 20.05.2021
