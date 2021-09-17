@@ -1,1 +1,6 @@
-Record=TopLevelDocument|FileName=Power System.SchDoc
+Record=TopLevelDocument|FileName=Stucture.SchDoc
+Record=SheetSymbol|SourceDocument=Stucture.SchDoc|Designator=MCU|SchDesignator=MCU|FileName=MCU.SchDoc|SymbolType=Normal|RawFileName=MCU.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=Stucture.SchDoc|Designator=Power|SchDesignator=Power|FileName=Power System.SchDoc|SymbolType=Normal|RawFileName=Power System.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=Stucture.SchDoc|Designator=S1|SchDesignator=S1|FileName=Sensor Connection.SchDoc|SymbolType=Normal|RawFileName=Sensor Connection.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=Stucture.SchDoc|Designator=S2|SchDesignator=S2|FileName=Sensor Connection.SchDoc|SymbolType=Normal|RawFileName=Sensor Connection.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=Stucture.SchDoc|Designator=S3|SchDesignator=S3|FileName=Sensor Connection.SchDoc|SymbolType=Normal|RawFileName=Sensor Connection.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 

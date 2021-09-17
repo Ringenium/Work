@@ -1,0 +1,7 @@
+Change Component Footprint: Designator=XS1 Old Footprint=CON: 15EDGVM-3.81-03P New Footprint=CON: 15EDGVM-3.81-04P(Long Pad)
+Change Component Comment : Designator=XS1 Old Comment=15EDGVM-3.81-03P New Comment=15EDGVM-3.81-04P
+Change component parameters: Designator = "XS1" ("XS1"); Footprint = "CON: 15EDGVM-3.81-03P"; UniqueID = "\EKMSUQDO" ("\EKMSUQDO")
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "http://files.xn--e1agecchai.xn--p1ai/pdf/15edgvm-3.81.pdf"; VariantName = "[No Variations]"
+Change Class Name : Old Net Name=plp_com_h4 New Net Name=plp_com_u2
+Added Room: Name=plp_com_u2

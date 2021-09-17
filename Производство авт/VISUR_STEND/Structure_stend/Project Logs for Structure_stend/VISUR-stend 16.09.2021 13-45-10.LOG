@@ -1,0 +1,18 @@
+Added Component: Designator=XS8(CON: PLD2-14-R(Female))
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.compel.ru/item-pdf/1e1366ded138976aeb89dd182fa987b9/ps/kls~kls1-207b.pdf"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=P3.4 Pin=XS8-1
+Added Pin To Net: NetName=P3.3 Pin=XS8-2
+Added Pin To Net: NetName=P3.2 Pin=XS8-3
+Added Pin To Net: NetName=P3.1 Pin=XS8-4
+Added Pin To Net: NetName=P2.6 Pin=XS8-5
+Added Pin To Net: NetName=P2.5 Pin=XS8-6
+Added Pin To Net: NetName=P2.4 Pin=XS8-7
+Added Pin To Net: NetName=P2.3 Pin=XS8-8
+Added Pin To Net: NetName=P2.2 Pin=XS8-9
+Added Pin To Net: NetName=GND Pin=XS8-10
+Added Pin To Net: NetName=GND Pin=XS8-11
+Added Pin To Net: NetName=GND Pin=XS8-12
+Added Pin To Net: NetName=GND Pin=XS8-13
+Added Pin To Net: NetName=GND Pin=XS8-14
+Added Member To Class: ClassName=MCU Member=Component XS8 PLD2-14-R(Female)
