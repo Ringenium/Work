@@ -1,0 +1,101 @@
+Protel Design System Design Rule Check
+PCB File : E:\Work\LoRa\Hardware\biv2-batb_1a\biv2-batb_1a.PcbDoc
+Date     : 11.10.2021
+Time     : 15:59:38
+
+Processing Rule : Clearance Constraint (Gap=0.125mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.2mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.125mm) (InNet('BAT_IN+')),(InNet('BAT_IN+'))
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=Yes) (All),(All)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+Rule Violations :0
+
+Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.1mm) (Max=10mm) (Preferred=0.125mm) (All)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.15mm) (Max=10mm) (Preferred=0.2mm) (All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.2mm) (Conductor Width=0.2mm) (Air Gap=0.2mm) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Minimum Annular Ring (Minimum=0.2mm) (IsPAD)
+Rule Violations :0
+
+Processing Rule : Minimum Annular Ring (Minimum=0.15mm) (IsVia)
+Rule Violations :0
+
+Processing Rule : Minimum Annular Ring (Minimum=0.1mm) (IsVia)
+Rule Violations :0
+
+Processing Rule : Minimum Annular Ring (Minimum=0.15mm) (IsPAD)
+Rule Violations :0
+
+Processing Rule : Acute Angle Constraint (Minimum=35.000) (All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=0.6mm) (Max=5.9mm) (IsPad)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=0.3mm) (Max=5.9mm) (IsVia)
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=0.25mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=0.1mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=0.15mm) (All),(All)
+   Violation between Minimum Solder Mask Sliver Constraint: (0.075mm < 0.15mm) Between Pad DD1-1(-10mm,-6.05mm) on Top Layer And Pad DD1-12(-10.15mm,-5.4mm) on Top Layer [Top Solder] Mask Sliver [0.075mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.075mm < 0.15mm) Between Pad DD1-10(-10mm,-4.25mm) on Top Layer And Pad DD1-11(-10.15mm,-4.9mm) on Top Layer [Top Solder] Mask Sliver [0.075mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.1mm < 0.15mm) Between Pad DD1-11(-10.15mm,-4.9mm) on Top Layer And Pad DD1-13(-9.25mm,-5.15mm) on Top Layer [Top Solder] Mask Sliver [0.1mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.106mm < 0.15mm) Between Pad DD1-11(-10.15mm,-4.9mm) on Top Layer And Pad DD1-9(-9.5mm,-4.25mm) on Top Layer [Top Solder] Mask Sliver [0.106mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.1mm < 0.15mm) Between Pad DD1-12(-10.15mm,-5.4mm) on Top Layer And Pad DD1-13(-9.25mm,-5.15mm) on Top Layer [Top Solder] Mask Sliver [0.1mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.106mm < 0.15mm) Between Pad DD1-12(-10.15mm,-5.4mm) on Top Layer And Pad DD1-2(-9.5mm,-6.05mm) on Top Layer [Top Solder] Mask Sliver [0.106mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.1mm < 0.15mm) Between Pad DD1-13(-9.25mm,-5.15mm) on Top Layer And Pad DD1-2(-9.5mm,-6.05mm) on Top Layer [Top Solder] Mask Sliver [0.1mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.1mm < 0.15mm) Between Pad DD1-13(-9.25mm,-5.15mm) on Top Layer And Pad DD1-3(-9mm,-6.05mm) on Top Layer [Top Solder] Mask Sliver [0.1mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.1mm < 0.15mm) Between Pad DD1-13(-9.25mm,-5.15mm) on Top Layer And Pad DD1-5(-8.35mm,-5.4mm) on Top Layer [Top Solder] Mask Sliver [0.1mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.1mm < 0.15mm) Between Pad DD1-13(-9.25mm,-5.15mm) on Top Layer And Pad DD1-6(-8.35mm,-4.9mm) on Top Layer [Top Solder] Mask Sliver [0.1mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.1mm < 0.15mm) Between Pad DD1-13(-9.25mm,-5.15mm) on Top Layer And Pad DD1-8(-9mm,-4.25mm) on Top Layer [Top Solder] Mask Sliver [0.1mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.1mm < 0.15mm) Between Pad DD1-13(-9.25mm,-5.15mm) on Top Layer And Pad DD1-9(-9.5mm,-4.25mm) on Top Layer [Top Solder] Mask Sliver [0.1mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.106mm < 0.15mm) Between Pad DD1-3(-9mm,-6.05mm) on Top Layer And Pad DD1-5(-8.35mm,-5.4mm) on Top Layer [Top Solder] Mask Sliver [0.106mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.075mm < 0.15mm) Between Pad DD1-4(-8.5mm,-6.05mm) on Top Layer And Pad DD1-5(-8.35mm,-5.4mm) on Top Layer [Top Solder] Mask Sliver [0.075mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.075mm < 0.15mm) Between Pad DD1-6(-8.35mm,-4.9mm) on Top Layer And Pad DD1-7(-8.5mm,-4.25mm) on Top Layer [Top Solder] Mask Sliver [0.075mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.106mm < 0.15mm) Between Pad DD1-6(-8.35mm,-4.9mm) on Top Layer And Pad DD1-8(-9mm,-4.25mm) on Top Layer [Top Solder] Mask Sliver [0.106mm]
+Rule Violations :16
+
+Processing Rule : Silk To Solder Mask (Clearance=0.15mm) (Disabled)(IsPad),(All)
+Rule Violations :0
+
+Processing Rule : Silk to Silk (Clearance=0.15mm) (Disabled)(All),(All)
+Rule Violations :0
+
+Processing Rule : Net Antennae (Tolerance=0mm) (All)
+Rule Violations :0
+
+Processing Rule : Board Clearance Constraint (Gap=0mm) (All)
+   Violation between Board Outline Clearance(Outline Edge): (0.234mm < 0.25mm) Between Board Edge And Pad Free-1(-14.25mm,0mm) on Top Layer 
+Rule Violations :1
+
+Processing Rule : Board Clearance Constraint (Gap=0mm) (All)
+Rule Violations :0
+
+Processing Rule : Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (All)
+Rule Violations :0
+
+
+Violations Detected : 17
+Waived Violations : 0
+Time Elapsed        : 00:00:01

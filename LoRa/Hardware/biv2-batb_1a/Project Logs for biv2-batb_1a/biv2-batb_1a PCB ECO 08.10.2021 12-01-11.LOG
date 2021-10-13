@@ -1,0 +1,33 @@
+Removed Pin From Net: NetName=NetDD1_5 Pin=R1-1
+Removed Pin From Net: NetName=BAT+ Pin=R1-2
+Removed Pin From Net: NetName=NetDD1_4 Pin=R2-1
+Removed Pin From Net: NetName=BAT+ Pin=R2-2
+Change Component Footprint: Designator=R1 Old Footprint=RES: 0603 New Footprint=RES: 0402
+Change Component Footprint: Designator=R2 Old Footprint=RES: 0603 New Footprint=RES: 0402
+Change Component Comment : Designator=R1 Old Comment=Resistor film, 10k, ±5%, 0603, 0.1W, -55...+125°C New Comment=Resistor film, 10k, , 0402, 0.063W, -55...+125°C
+Change Component Comment : Designator=R2 Old Comment=Resistor film, 10k, ±5%, 0603, 0.1W, -55...+125°C New Comment=Resistor film, 10k, , 0402, 0.063W, -55...+125°C
+Change component parameters: Designator = "R1" ("R1"); Footprint = "RES: 0603"; UniqueID = "\TZLLARGS" ("\TZLLARGS")
+Change component parameters (AddParameter): Name = "HelpURL"; Value = "https://www.digikey.com/product-detail/en/yageo/RC0402JR-07100RL/311-100JRCT-ND/729362"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PartNumber"; Value = "RC0402JR-07100RL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Power"; Value = "0.063W"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Temperature"; Value = "-55...+125°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "TypeResistor"; Value = "Resistor film"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ValueManufacturerPartNumber"; Value = "Resistor film, 10k, , 0402, 0.063W, -55...+125°C"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R2" ("R2"); Footprint = "RES: 0603"; UniqueID = "\AKVXRQEQ" ("\AKVXRQEQ")
+Change component parameters (AddParameter): Name = "HelpURL"; Value = "https://www.digikey.com/product-detail/en/yageo/RC0402JR-07100RL/311-100JRCT-ND/729362"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PartNumber"; Value = "RC0402JR-07100RL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Power"; Value = "0.063W"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Temperature"; Value = "-55...+125°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "TypeResistor"; Value = "Resistor film"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ValueManufacturerPartNumber"; Value = "Resistor film, 10k, , 0402, 0.063W, -55...+125°C"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=BAT+ Pin=R1-1
+Added Pin To Net: NetName=NetDD1_5 Pin=R1-2
+Added Pin To Net: NetName=BAT+ Pin=R2-1
+Added Pin To Net: NetName=NetDD1_4 Pin=R2-2
+Added Room: Name=biv2-batb_1a

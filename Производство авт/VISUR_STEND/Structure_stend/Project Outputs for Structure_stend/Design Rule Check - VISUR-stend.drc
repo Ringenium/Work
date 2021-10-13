@@ -1,516 +1,16 @@
 Protel Design System Design Rule Check
 PCB File : E:\Work\Производство авт\VISUR_STEND\Structure_stend\VISUR-stend.1.PcbDoc
-Date     : 17.09.2021
-Time     : 12:55:10
-
-ERROR : More than 500 violations detected, DRC was stopped
+Date     : 24.09.2021
+Time     : 16:40:15
 
 Processing Rule : Clearance Constraint (Gap=0.2mm) (All),(All)
 Rule Violations :0
 
-Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
-   Violation between Short-Circuit Constraint: Between Pad C10-1(64.5mm,53.6mm) on Top Layer And Pad C10-2(73.1mm,53.6mm) on Top Layer Pads have the same JumperID: 1 but different Nets: NetC5_2 and GND
-   Violation between Short-Circuit Constraint: Between Pad C2-1(20.5mm,58.3mm) on Top Layer And Pad C2-2(20.5mm,49.7mm) on Top Layer Pads have the same JumperID: 1 but different Nets: Vin and GND
-   Violation between Short-Circuit Constraint: Between Pad C9-1(64.5mm,64.3mm) on Top Layer And Pad C9-2(73.1mm,64.3mm) on Top Layer Pads have the same JumperID: 1 but different Nets: NetC5_2 and GND
-   Violation between Short-Circuit Constraint: Between Pad DD2-1(17.75mm,40.75mm) on Top Layer And Pad DD2-2(19.75mm,40.75mm) on Top Layer Pads have the same JumperID: 1 but different Nets: Vin and GND
-   Violation between Short-Circuit Constraint: Between Pad DD2-1(17.75mm,40.75mm) on Top Layer And Pad DD2-4(23.75mm,40.75mm) on Top Layer Pads have the same JumperID: 1 but different Nets: Vin and (No Net)
-   Violation between Short-Circuit Constraint: Between Pad DD2-1(17.75mm,40.75mm) on Top Layer And Pad DD2-5(17.75mm,31.25mm) on Top Layer Pads have the same JumperID: 1 but different Nets: Vin and (No Net)
-   Violation between Short-Circuit Constraint: Between Pad DD2-1(17.75mm,40.75mm) on Top Layer And Pad DD2-6(19.75mm,31.25mm) on Top Layer Pads have the same JumperID: 1 but different Nets: Vin and GND
-   Violation between Short-Circuit Constraint: Between Pad DD2-1(17.75mm,40.75mm) on Top Layer And Pad DD2-7(21.75mm,31.25mm) on Top Layer Pads have the same JumperID: 1 but different Nets: Vin and 5V
-   Violation between Short-Circuit Constraint: Between Pad DD2-2(19.75mm,40.75mm) on Top Layer And Pad DD2-4(23.75mm,40.75mm) on Top Layer Pads have the same JumperID: 1 but different Nets: (No Net) and GND
-   Violation between Short-Circuit Constraint: Between Pad DD2-2(19.75mm,40.75mm) on Top Layer And Pad DD2-5(17.75mm,31.25mm) on Top Layer Pads have the same JumperID: 1 but different Nets: (No Net) and GND
-   Violation between Short-Circuit Constraint: Between Pad DD2-2(19.75mm,40.75mm) on Top Layer And Pad DD2-7(21.75mm,31.25mm) on Top Layer Pads have the same JumperID: 1 but different Nets: 5V and GND
-   Violation between Short-Circuit Constraint: Between Pad DD2-4(23.75mm,40.75mm) on Top Layer And Pad DD2-6(19.75mm,31.25mm) on Top Layer Pads have the same JumperID: 1 but different Nets: (No Net) and GND
-   Violation between Short-Circuit Constraint: Between Pad DD2-4(23.75mm,40.75mm) on Top Layer And Pad DD2-7(21.75mm,31.25mm) on Top Layer Pads have the same JumperID: 1 but different Nets: (No Net) and 5V
-   Violation between Short-Circuit Constraint: Between Pad DD2-5(17.75mm,31.25mm) on Top Layer And Pad DD2-6(19.75mm,31.25mm) on Top Layer Pads have the same JumperID: 1 but different Nets: (No Net) and GND
-   Violation between Short-Circuit Constraint: Between Pad DD2-5(17.75mm,31.25mm) on Top Layer And Pad DD2-7(21.75mm,31.25mm) on Top Layer Pads have the same JumperID: 1 but different Nets: (No Net) and 5V
-   Violation between Short-Circuit Constraint: Between Pad DD2-6(19.75mm,31.25mm) on Top Layer And Pad DD2-7(21.75mm,31.25mm) on Top Layer Pads have the same JumperID: 1 but different Nets: 5V and GND
-   Violation between Short-Circuit Constraint: Between Pad DD5-1(62.8mm,27.225mm) on Top Layer And Pad DD5-2(62.8mm,26.575mm) on Top Layer Pads have the same JumperID: 1 but different Nets: Rx/Tx and UART0_RX
-   Violation between Short-Circuit Constraint: Between Pad DD5-1(62.8mm,27.225mm) on Top Layer And Pad DD5-3(62.8mm,25.925mm) on Top Layer Pads have the same JumperID: 1 but different Nets: Rx/Tx and UART0_RX
-   Violation between Short-Circuit Constraint: Between Pad DD5-1(62.8mm,27.225mm) on Top Layer And Pad DD5-4(62.8mm,25.275mm) on Top Layer Pads have the same JumperID: 1 but different Nets: UART0_TX and UART0_RX
-   Violation between Short-Circuit Constraint: Between Pad DD5-1(62.8mm,27.225mm) on Top Layer And Pad DD5-5(67.2mm,25.275mm) on Top Layer Pads have the same JumperID: 1 but different Nets: GND and UART0_RX
-   Violation between Short-Circuit Constraint: Between Pad DD5-1(62.8mm,27.225mm) on Top Layer And Pad DD5-6(67.2mm,25.925mm) on Top Layer Pads have the same JumperID: 1 but different Nets: NetDD5_6 and UART0_RX
-   Violation between Short-Circuit Constraint: Between Pad DD5-1(62.8mm,27.225mm) on Top Layer And Pad DD5-7(67.2mm,26.575mm) on Top Layer Pads have the same JumperID: 1 but different Nets: NetDD5_7 and UART0_RX
-   Violation between Short-Circuit Constraint: Between Pad DD5-1(62.8mm,27.225mm) on Top Layer And Pad DD5-8(67.2mm,27.225mm) on Top Layer Pads have the same JumperID: 1 but different Nets: 3V3 and UART0_RX
-   Violation between Short-Circuit Constraint: Between Pad DD5-2(62.8mm,26.575mm) on Top Layer And Pad DD5-4(62.8mm,25.275mm) on Top Layer Pads have the same JumperID: 1 but different Nets: UART0_TX and Rx/Tx
-   Violation between Short-Circuit Constraint: Between Pad DD5-2(62.8mm,26.575mm) on Top Layer And Pad DD5-5(67.2mm,25.275mm) on Top Layer Pads have the same JumperID: 1 but different Nets: GND and Rx/Tx
-   Violation between Short-Circuit Constraint: Between Pad DD5-2(62.8mm,26.575mm) on Top Layer And Pad DD5-6(67.2mm,25.925mm) on Top Layer Pads have the same JumperID: 1 but different Nets: NetDD5_6 and Rx/Tx
-   Violation between Short-Circuit Constraint: Between Pad DD5-2(62.8mm,26.575mm) on Top Layer And Pad DD5-7(67.2mm,26.575mm) on Top Layer Pads have the same JumperID: 1 but different Nets: NetDD5_7 and Rx/Tx
-   Violation between Short-Circuit Constraint: Between Pad DD5-2(62.8mm,26.575mm) on Top Layer And Pad DD5-8(67.2mm,27.225mm) on Top Layer Pads have the same JumperID: 1 but different Nets: 3V3 and Rx/Tx
-   Violation between Short-Circuit Constraint: Between Pad DD5-3(62.8mm,25.925mm) on Top Layer And Pad DD5-4(62.8mm,25.275mm) on Top Layer Pads have the same JumperID: 1 but different Nets: UART0_TX and Rx/Tx
-   Violation between Short-Circuit Constraint: Between Pad DD5-3(62.8mm,25.925mm) on Top Layer And Pad DD5-5(67.2mm,25.275mm) on Top Layer Pads have the same JumperID: 1 but different Nets: GND and Rx/Tx
-   Violation between Short-Circuit Constraint: Between Pad DD5-3(62.8mm,25.925mm) on Top Layer And Pad DD5-6(67.2mm,25.925mm) on Top Layer Pads have the same JumperID: 1 but different Nets: NetDD5_6 and Rx/Tx
-   Violation between Short-Circuit Constraint: Between Pad DD5-3(62.8mm,25.925mm) on Top Layer And Pad DD5-7(67.2mm,26.575mm) on Top Layer Pads have the same JumperID: 1 but different Nets: NetDD5_7 and Rx/Tx
-   Violation between Short-Circuit Constraint: Between Pad DD5-3(62.8mm,25.925mm) on Top Layer And Pad DD5-8(67.2mm,27.225mm) on Top Layer Pads have the same JumperID: 1 but different Nets: 3V3 and Rx/Tx
-   Violation between Short-Circuit Constraint: Between Pad DD5-4(62.8mm,25.275mm) on Top Layer And Pad DD5-5(67.2mm,25.275mm) on Top Layer Pads have the same JumperID: 1 but different Nets: GND and UART0_TX
-   Violation between Short-Circuit Constraint: Between Pad DD5-4(62.8mm,25.275mm) on Top Layer And Pad DD5-6(67.2mm,25.925mm) on Top Layer Pads have the same JumperID: 1 but different Nets: NetDD5_6 and UART0_TX
-   Violation between Short-Circuit Constraint: Between Pad DD5-4(62.8mm,25.275mm) on Top Layer And Pad DD5-7(67.2mm,26.575mm) on Top Layer Pads have the same JumperID: 1 but different Nets: NetDD5_7 and UART0_TX
-   Violation between Short-Circuit Constraint: Between Pad DD5-4(62.8mm,25.275mm) on Top Layer And Pad DD5-8(67.2mm,27.225mm) on Top Layer Pads have the same JumperID: 1 but different Nets: 3V3 and UART0_TX
-   Violation between Short-Circuit Constraint: Between Pad DD5-5(67.2mm,25.275mm) on Top Layer And Pad DD5-6(67.2mm,25.925mm) on Top Layer Pads have the same JumperID: 1 but different Nets: NetDD5_6 and GND
-   Violation between Short-Circuit Constraint: Between Pad DD5-5(67.2mm,25.275mm) on Top Layer And Pad DD5-7(67.2mm,26.575mm) on Top Layer Pads have the same JumperID: 1 but different Nets: NetDD5_7 and GND
-   Violation between Short-Circuit Constraint: Between Pad DD5-5(67.2mm,25.275mm) on Top Layer And Pad DD5-8(67.2mm,27.225mm) on Top Layer Pads have the same JumperID: 1 but different Nets: 3V3 and GND
-   Violation between Short-Circuit Constraint: Between Pad DD5-6(67.2mm,25.925mm) on Top Layer And Pad DD5-7(67.2mm,26.575mm) on Top Layer Pads have the same JumperID: 1 but different Nets: NetDD5_7 and NetDD5_6
-   Violation between Short-Circuit Constraint: Between Pad DD5-6(67.2mm,25.925mm) on Top Layer And Pad DD5-8(67.2mm,27.225mm) on Top Layer Pads have the same JumperID: 1 but different Nets: 3V3 and NetDD5_6
-   Violation between Short-Circuit Constraint: Between Pad DD5-7(67.2mm,26.575mm) on Top Layer And Pad DD5-8(67.2mm,27.225mm) on Top Layer Pads have the same JumperID: 1 but different Nets: 3V3 and NetDD5_7
-   Violation between Short-Circuit Constraint: Between Pad DD6-1(62mm,14.25mm) on Top Layer And Pad DD6-10(61.1mm,11.45mm) on Top Layer Pads have the same JumperID: 1 but different Nets: NetDD6_1 and UART1_TX
-   Violation between Short-Circuit Constraint: Between Pad DD6-1(62mm,14.25mm) on Top Layer And Pad DD6-11(61.55mm,11.45mm) on Top Layer Pads have the same JumperID: 1 but different Nets: NetDD6_1 and (No Net)
-   Violation between Short-Circuit Constraint: Between Pad DD6-1(62mm,14.25mm) on Top Layer And Pad DD6-12(62mm,11.45mm) on Top Layer Pads have the same JumperID: 1 but different Nets: NetDD6_1 and NetDD6_12
-   Violation between Short-Circuit Constraint: Between Pad DD6-1(62mm,14.25mm) on Top Layer And Pad DD6-13(60.85mm,12.85mm) on Top Layer Pads have the same JumperID: 1 but different Nets: NetDD6_1 and GND
-   Violation between Short-Circuit Constraint: Between Pad DD6-1(62mm,14.25mm) on Top Layer And Pad DD6-2(61.55mm,14.25mm) on Top Layer Pads have the same JumperID: 1 but different Nets: NetC15_2 and NetDD6_1
-   Violation between Short-Circuit Constraint: Between Pad DD6-1(62mm,14.25mm) on Top Layer And Pad DD6-3(61.1mm,14.25mm) on Top Layer Pads have the same JumperID: 1 but different Nets: (No Net) and NetDD6_1
-   Violation between Short-Circuit Constraint: Between Pad DD6-1(62mm,14.25mm) on Top Layer And Pad DD6-4(60.65mm,14.25mm) on Top Layer Pads have the same JumperID: 1 but different Nets: NetDD6_1 and 3V3
-   Violation between Short-Circuit Constraint: Between Pad DD6-1(62mm,14.25mm) on Top Layer And Pad DD6-5(60.2mm,14.25mm) on Top Layer Pads have the same JumperID: 1 but different Nets: NetDD6_1 and GND
-   Violation between Short-Circuit Constraint: Between Pad DD6-1(62mm,14.25mm) on Top Layer And Pad DD6-6(59.75mm,14.25mm) on Top Layer Pads have the same JumperID: 1 but different Nets: NetDD6_1 and (No Net)
-   Violation between Short-Circuit Constraint: Between Pad DD6-1(62mm,14.25mm) on Top Layer And Pad DD6-7(59.75mm,11.45mm) on Top Layer Pads have the same JumperID: 1 but different Nets: NetDD6_1 and UART1_RX
-   Violation between Short-Circuit Constraint: Between Pad DD6-1(62mm,14.25mm) on Top Layer And Pad DD6-8(60.2mm,11.45mm) on Top Layer Pads have the same JumperID: 1 but different Nets: NetDD6_1 and (No Net)
-   Violation between Short-Circuit Constraint: Between Pad DD6-1(62mm,14.25mm) on Top Layer And Pad DD6-9(60.65mm,11.45mm) on Top Layer Pads have the same JumperID: 1 but different Nets: NetDD6_1 and 3V3
-   Violation between Short-Circuit Constraint: Between Pad DD6-10(61.1mm,11.45mm) on Top Layer And Pad DD6-11(61.55mm,11.45mm) on Top Layer Pads have the same JumperID: 1 but different Nets: (No Net) and UART1_TX
-   Violation between Short-Circuit Constraint: Between Pad DD6-10(61.1mm,11.45mm) on Top Layer And Pad DD6-12(62mm,11.45mm) on Top Layer Pads have the same JumperID: 1 but different Nets: NetDD6_12 and UART1_TX
-   Violation between Short-Circuit Constraint: Between Pad DD6-10(61.1mm,11.45mm) on Top Layer And Pad DD6-13(60.85mm,12.85mm) on Top Layer Pads have the same JumperID: 1 but different Nets: GND and UART1_TX
-   Violation between Short-Circuit Constraint: Between Pad DD6-10(61.1mm,11.45mm) on Top Layer And Pad DD6-2(61.55mm,14.25mm) on Top Layer Pads have the same JumperID: 1 but different Nets: NetC15_2 and UART1_TX
-   Violation between Short-Circuit Constraint: Between Pad DD6-10(61.1mm,11.45mm) on Top Layer And Pad DD6-3(61.1mm,14.25mm) on Top Layer Pads have the same JumperID: 1 but different Nets: (No Net) and UART1_TX
-   Violation between Short-Circuit Constraint: Between Pad DD6-10(61.1mm,11.45mm) on Top Layer And Pad DD6-4(60.65mm,14.25mm) on Top Layer Pads have the same JumperID: 1 but different Nets: 3V3 and UART1_TX
-   Violation between Short-Circuit Constraint: Between Pad DD6-10(61.1mm,11.45mm) on Top Layer And Pad DD6-5(60.2mm,14.25mm) on Top Layer Pads have the same JumperID: 1 but different Nets: GND and UART1_TX
-   Violation between Short-Circuit Constraint: Between Pad DD6-10(61.1mm,11.45mm) on Top Layer And Pad DD6-6(59.75mm,14.25mm) on Top Layer Pads have the same JumperID: 1 but different Nets: (No Net) and UART1_TX
-   Violation between Short-Circuit Constraint: Between Pad DD6-10(61.1mm,11.45mm) on Top Layer And Pad DD6-7(59.75mm,11.45mm) on Top Layer Pads have the same JumperID: 1 but different Nets: UART1_RX and UART1_TX
-   Violation between Short-Circuit Constraint: Between Pad DD6-10(61.1mm,11.45mm) on Top Layer And Pad DD6-8(60.2mm,11.45mm) on Top Layer Pads have the same JumperID: 1 but different Nets: (No Net) and UART1_TX
-   Violation between Short-Circuit Constraint: Between Pad DD6-10(61.1mm,11.45mm) on Top Layer And Pad DD6-9(60.65mm,11.45mm) on Top Layer Pads have the same JumperID: 1 but different Nets: 3V3 and UART1_TX
-   Violation between Short-Circuit Constraint: Between Pad DD6-11(61.55mm,11.45mm) on Top Layer And Pad DD6-12(62mm,11.45mm) on Top Layer Pads have the same JumperID: 1 but different Nets: (No Net) and NetDD6_12
-   Violation between Short-Circuit Constraint: Between Pad DD6-11(61.55mm,11.45mm) on Top Layer And Pad DD6-13(60.85mm,12.85mm) on Top Layer Pads have the same JumperID: 1 but different Nets: (No Net) and GND
-   Violation between Short-Circuit Constraint: Between Pad DD6-11(61.55mm,11.45mm) on Top Layer And Pad DD6-2(61.55mm,14.25mm) on Top Layer Pads have the same JumperID: 1 but different Nets: NetC15_2 and (No Net)
-   Violation between Short-Circuit Constraint: Between Pad DD6-11(61.55mm,11.45mm) on Top Layer And Pad DD6-4(60.65mm,14.25mm) on Top Layer Pads have the same JumperID: 1 but different Nets: 3V3 and (No Net)
-   Violation between Short-Circuit Constraint: Between Pad DD6-11(61.55mm,11.45mm) on Top Layer And Pad DD6-5(60.2mm,14.25mm) on Top Layer Pads have the same JumperID: 1 but different Nets: GND and (No Net)
-   Violation between Short-Circuit Constraint: Between Pad DD6-11(61.55mm,11.45mm) on Top Layer And Pad DD6-7(59.75mm,11.45mm) on Top Layer Pads have the same JumperID: 1 but different Nets: (No Net) and UART1_RX
-   Violation between Short-Circuit Constraint: Between Pad DD6-11(61.55mm,11.45mm) on Top Layer And Pad DD6-9(60.65mm,11.45mm) on Top Layer Pads have the same JumperID: 1 but different Nets: 3V3 and (No Net)
-   Violation between Short-Circuit Constraint: Between Pad DD6-12(62mm,11.45mm) on Top Layer And Pad DD6-13(60.85mm,12.85mm) on Top Layer Pads have the same JumperID: 1 but different Nets: NetDD6_12 and GND
-   Violation between Short-Circuit Constraint: Between Pad DD6-12(62mm,11.45mm) on Top Layer And Pad DD6-2(61.55mm,14.25mm) on Top Layer Pads have the same JumperID: 1 but different Nets: NetC15_2 and NetDD6_12
-   Violation between Short-Circuit Constraint: Between Pad DD6-12(62mm,11.45mm) on Top Layer And Pad DD6-3(61.1mm,14.25mm) on Top Layer Pads have the same JumperID: 1 but different Nets: (No Net) and NetDD6_12
-   Violation between Short-Circuit Constraint: Between Pad DD6-12(62mm,11.45mm) on Top Layer And Pad DD6-4(60.65mm,14.25mm) on Top Layer Pads have the same JumperID: 1 but different Nets: 3V3 and NetDD6_12
-   Violation between Short-Circuit Constraint: Between Pad DD6-12(62mm,11.45mm) on Top Layer And Pad DD6-5(60.2mm,14.25mm) on Top Layer Pads have the same JumperID: 1 but different Nets: GND and NetDD6_12
-   Violation between Short-Circuit Constraint: Between Pad DD6-12(62mm,11.45mm) on Top Layer And Pad DD6-6(59.75mm,14.25mm) on Top Layer Pads have the same JumperID: 1 but different Nets: (No Net) and NetDD6_12
-   Violation between Short-Circuit Constraint: Between Pad DD6-12(62mm,11.45mm) on Top Layer And Pad DD6-7(59.75mm,11.45mm) on Top Layer Pads have the same JumperID: 1 but different Nets: NetDD6_12 and UART1_RX
-   Violation between Short-Circuit Constraint: Between Pad DD6-12(62mm,11.45mm) on Top Layer And Pad DD6-8(60.2mm,11.45mm) on Top Layer Pads have the same JumperID: 1 but different Nets: (No Net) and NetDD6_12
-   Violation between Short-Circuit Constraint: Between Pad DD6-12(62mm,11.45mm) on Top Layer And Pad DD6-9(60.65mm,11.45mm) on Top Layer Pads have the same JumperID: 1 but different Nets: 3V3 and NetDD6_12
-   Violation between Short-Circuit Constraint: Between Pad DD6-13(60.85mm,12.85mm) on Top Layer And Pad DD6-2(61.55mm,14.25mm) on Top Layer Pads have the same JumperID: 1 but different Nets: NetC15_2 and GND
-   Violation between Short-Circuit Constraint: Between Pad DD6-13(60.85mm,12.85mm) on Top Layer And Pad DD6-3(61.1mm,14.25mm) on Top Layer Pads have the same JumperID: 1 but different Nets: (No Net) and GND
-   Violation between Short-Circuit Constraint: Between Pad DD6-13(60.85mm,12.85mm) on Top Layer And Pad DD6-4(60.65mm,14.25mm) on Top Layer Pads have the same JumperID: 1 but different Nets: 3V3 and GND
-   Violation between Short-Circuit Constraint: Between Pad DD6-13(60.85mm,12.85mm) on Top Layer And Pad DD6-6(59.75mm,14.25mm) on Top Layer Pads have the same JumperID: 1 but different Nets: (No Net) and GND
-   Violation between Short-Circuit Constraint: Between Pad DD6-13(60.85mm,12.85mm) on Top Layer And Pad DD6-7(59.75mm,11.45mm) on Top Layer Pads have the same JumperID: 1 but different Nets: GND and UART1_RX
-   Violation between Short-Circuit Constraint: Between Pad DD6-13(60.85mm,12.85mm) on Top Layer And Pad DD6-8(60.2mm,11.45mm) on Top Layer Pads have the same JumperID: 1 but different Nets: (No Net) and GND
-   Violation between Short-Circuit Constraint: Between Pad DD6-13(60.85mm,12.85mm) on Top Layer And Pad DD6-9(60.65mm,11.45mm) on Top Layer Pads have the same JumperID: 1 but different Nets: 3V3 and GND
-   Violation between Short-Circuit Constraint: Between Pad DD6-2(61.55mm,14.25mm) on Top Layer And Pad DD6-3(61.1mm,14.25mm) on Top Layer Pads have the same JumperID: 1 but different Nets: (No Net) and NetC15_2
-   Violation between Short-Circuit Constraint: Between Pad DD6-2(61.55mm,14.25mm) on Top Layer And Pad DD6-4(60.65mm,14.25mm) on Top Layer Pads have the same JumperID: 1 but different Nets: NetC15_2 and 3V3
-   Violation between Short-Circuit Constraint: Between Pad DD6-2(61.55mm,14.25mm) on Top Layer And Pad DD6-5(60.2mm,14.25mm) on Top Layer Pads have the same JumperID: 1 but different Nets: NetC15_2 and GND
-   Violation between Short-Circuit Constraint: Between Pad DD6-2(61.55mm,14.25mm) on Top Layer And Pad DD6-6(59.75mm,14.25mm) on Top Layer Pads have the same JumperID: 1 but different Nets: NetC15_2 and (No Net)
-   Violation between Short-Circuit Constraint: Between Pad DD6-2(61.55mm,14.25mm) on Top Layer And Pad DD6-7(59.75mm,11.45mm) on Top Layer Pads have the same JumperID: 1 but different Nets: NetC15_2 and UART1_RX
-   Violation between Short-Circuit Constraint: Between Pad DD6-2(61.55mm,14.25mm) on Top Layer And Pad DD6-8(60.2mm,11.45mm) on Top Layer Pads have the same JumperID: 1 but different Nets: NetC15_2 and (No Net)
-   Violation between Short-Circuit Constraint: Between Pad DD6-2(61.55mm,14.25mm) on Top Layer And Pad DD6-9(60.65mm,11.45mm) on Top Layer Pads have the same JumperID: 1 but different Nets: NetC15_2 and 3V3
-   Violation between Short-Circuit Constraint: Between Pad DD6-3(61.1mm,14.25mm) on Top Layer And Pad DD6-4(60.65mm,14.25mm) on Top Layer Pads have the same JumperID: 1 but different Nets: (No Net) and 3V3
-   Violation between Short-Circuit Constraint: Between Pad DD6-3(61.1mm,14.25mm) on Top Layer And Pad DD6-5(60.2mm,14.25mm) on Top Layer Pads have the same JumperID: 1 but different Nets: (No Net) and GND
-   Violation between Short-Circuit Constraint: Between Pad DD6-3(61.1mm,14.25mm) on Top Layer And Pad DD6-7(59.75mm,11.45mm) on Top Layer Pads have the same JumperID: 1 but different Nets: (No Net) and UART1_RX
-   Violation between Short-Circuit Constraint: Between Pad DD6-3(61.1mm,14.25mm) on Top Layer And Pad DD6-9(60.65mm,11.45mm) on Top Layer Pads have the same JumperID: 1 but different Nets: (No Net) and 3V3
-   Violation between Short-Circuit Constraint: Between Pad DD6-4(60.65mm,14.25mm) on Top Layer And Pad DD6-5(60.2mm,14.25mm) on Top Layer Pads have the same JumperID: 1 but different Nets: GND and 3V3
-   Violation between Short-Circuit Constraint: Between Pad DD6-4(60.65mm,14.25mm) on Top Layer And Pad DD6-6(59.75mm,14.25mm) on Top Layer Pads have the same JumperID: 1 but different Nets: (No Net) and 3V3
-   Violation between Short-Circuit Constraint: Between Pad DD6-4(60.65mm,14.25mm) on Top Layer And Pad DD6-7(59.75mm,11.45mm) on Top Layer Pads have the same JumperID: 1 but different Nets: 3V3 and UART1_RX
-   Violation between Short-Circuit Constraint: Between Pad DD6-4(60.65mm,14.25mm) on Top Layer And Pad DD6-8(60.2mm,11.45mm) on Top Layer Pads have the same JumperID: 1 but different Nets: 3V3 and (No Net)
-   Violation between Short-Circuit Constraint: Between Pad DD6-5(60.2mm,14.25mm) on Top Layer And Pad DD6-6(59.75mm,14.25mm) on Top Layer Pads have the same JumperID: 1 but different Nets: (No Net) and GND
-   Violation between Short-Circuit Constraint: Between Pad DD6-5(60.2mm,14.25mm) on Top Layer And Pad DD6-7(59.75mm,11.45mm) on Top Layer Pads have the same JumperID: 1 but different Nets: GND and UART1_RX
-   Violation between Short-Circuit Constraint: Between Pad DD6-5(60.2mm,14.25mm) on Top Layer And Pad DD6-8(60.2mm,11.45mm) on Top Layer Pads have the same JumperID: 1 but different Nets: GND and (No Net)
-   Violation between Short-Circuit Constraint: Between Pad DD6-5(60.2mm,14.25mm) on Top Layer And Pad DD6-9(60.65mm,11.45mm) on Top Layer Pads have the same JumperID: 1 but different Nets: GND and 3V3
-   Violation between Short-Circuit Constraint: Between Pad DD6-6(59.75mm,14.25mm) on Top Layer And Pad DD6-7(59.75mm,11.45mm) on Top Layer Pads have the same JumperID: 1 but different Nets: (No Net) and UART1_RX
-   Violation between Short-Circuit Constraint: Between Pad DD6-6(59.75mm,14.25mm) on Top Layer And Pad DD6-9(60.65mm,11.45mm) on Top Layer Pads have the same JumperID: 1 but different Nets: (No Net) and 3V3
-   Violation between Short-Circuit Constraint: Between Pad DD6-7(59.75mm,11.45mm) on Top Layer And Pad DD6-8(60.2mm,11.45mm) on Top Layer Pads have the same JumperID: 1 but different Nets: (No Net) and UART1_RX
-   Violation between Short-Circuit Constraint: Between Pad DD6-7(59.75mm,11.45mm) on Top Layer And Pad DD6-9(60.65mm,11.45mm) on Top Layer Pads have the same JumperID: 1 but different Nets: 3V3 and UART1_RX
-   Violation between Short-Circuit Constraint: Between Pad DD6-8(60.2mm,11.45mm) on Top Layer And Pad DD6-9(60.65mm,11.45mm) on Top Layer Pads have the same JumperID: 1 but different Nets: (No Net) and 3V3
-   Violation between Short-Circuit Constraint: Between Pad FU1-1(89.9mm,28mm) on Top Layer And Pad FU1-2(92mm,28mm) on Top Layer Pads have the same JumperID: 1 but different Nets: NetDD5_7 and NetFU1_2
-   Violation between Short-Circuit Constraint: Between Pad FU2-1(90mm,25mm) on Top Layer And Pad FU2-2(92.1mm,25mm) on Top Layer Pads have the same JumperID: 1 but different Nets: NetDD5_6 and NetFU2_2
-   Violation between Short-Circuit Constraint: Between Pad L1-1(44mm,54mm) on Multi-Layer And Pad L1-2(44mm,66mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: NetDD1_3 and NetC5_2
-   Violation between Short-Circuit Constraint: Between Pad R2_S1-1(176.5mm,42.5mm) on Multi-Layer And Pad R2_S1-2(197.5mm,42.5mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: GND and NetR2_S1_2
-   Violation between Short-Circuit Constraint: Between Pad R2_S2-1(342mm,177mm) on Multi-Layer And Pad R2_S2-2(342mm,198mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: NetR2_S2_2 and GND
-   Violation between Short-Circuit Constraint: Between Pad R2_S3-1(351.5mm,269.5mm) on Multi-Layer And Pad R2_S3-2(351.5mm,290.5mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: NetR2_S3_2 and GND
-   Violation between Short-Circuit Constraint: Between Pad R3_S1-1(200.5mm,42.5mm) on Multi-Layer And Pad R3_S1-2(221.5mm,42.5mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: NetR2_S1_2 and NetR3_S1_2
-   Violation between Short-Circuit Constraint: Between Pad R3_S3-1(360.5mm,269.5mm) on Multi-Layer And Pad R3_S3-2(360.5mm,290.5mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: NetR3_S3_2 and NetR2_S3_2
-   Violation between Short-Circuit Constraint: Between Pad R6_S1-1(164mm,62.5mm) on Multi-Layer And Pad R6_S1-2(222mm,62.5mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: NetR5_S1_2 and GND
-   Violation between Short-Circuit Constraint: Between Pad R6_S2-1(271.5mm,142mm) on Multi-Layer And Pad R6_S2-2(271.5mm,200mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: NetR5_S2_2 and GND
-   Violation between Short-Circuit Constraint: Between Pad R6_S3-1(274mm,225.5mm) on Multi-Layer And Pad R6_S3-2(274mm,283.5mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: NetR5_S3_2 and GND
-   Violation between Short-Circuit Constraint: Between Pad R7_S1-1(164mm,51.5mm) on Multi-Layer And Pad R7_S1-2(222mm,51.5mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: NetR5_S1_2 and GND
-   Violation between Short-Circuit Constraint: Between Pad R7_S2-1(282.5mm,142mm) on Multi-Layer And Pad R7_S2-2(282.5mm,200mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: NetR5_S2_2 and GND
-   Violation between Short-Circuit Constraint: Between Pad R7_S3-1(285mm,225.5mm) on Multi-Layer And Pad R7_S3-2(285mm,283.5mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: NetR5_S3_2 and GND
-   Violation between Short-Circuit Constraint: Between Pad XS1_S1-1(242.07mm,66mm) on Multi-Layer And Pad XS1_S1-2(245.88mm,66mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: NetDA1_S1_4 and GND
-   Violation between Short-Circuit Constraint: Between Pad XS1_S1-1(242.07mm,66mm) on Multi-Layer And Pad XS1_S1-3(249.69mm,66mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: NetDA1_S1_4 and Vin
-   Violation between Short-Circuit Constraint: Between Pad XS1_S1-1(242.07mm,66mm) on Multi-Layer And Pad XS1_S1-4(253.5mm,66mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: NetDA1_S1_4 and NetR3_S1_2
-   Violation between Short-Circuit Constraint: Between Pad XS1_S1-1(242.07mm,66mm) on Multi-Layer And Pad XS1_S1-5(257.31mm,66mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: NetDA1_S1_4 and Vin
-   Violation between Short-Circuit Constraint: Between Pad XS1_S1-1(242.07mm,66mm) on Multi-Layer And Pad XS1_S1-6(261.12mm,66mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: NetDA1_S1_4 and NetR5_S1_2
-   Violation between Short-Circuit Constraint: Between Pad XS1_S1-2(245.88mm,66mm) on Multi-Layer And Pad XS1_S1-3(249.69mm,66mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: GND and Vin
-   Violation between Short-Circuit Constraint: Between Pad XS1_S1-2(245.88mm,66mm) on Multi-Layer And Pad XS1_S1-4(253.5mm,66mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: GND and NetR3_S1_2
-   Violation between Short-Circuit Constraint: Between Pad XS1_S1-2(245.88mm,66mm) on Multi-Layer And Pad XS1_S1-5(257.31mm,66mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: GND and Vin
-   Violation between Short-Circuit Constraint: Between Pad XS1_S1-2(245.88mm,66mm) on Multi-Layer And Pad XS1_S1-6(261.12mm,66mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: GND and NetR5_S1_2
-   Violation between Short-Circuit Constraint: Between Pad XS1_S1-3(249.69mm,66mm) on Multi-Layer And Pad XS1_S1-4(253.5mm,66mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: Vin and NetR3_S1_2
-   Violation between Short-Circuit Constraint: Between Pad XS1_S1-3(249.69mm,66mm) on Multi-Layer And Pad XS1_S1-6(261.12mm,66mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: Vin and NetR5_S1_2
-   Violation between Short-Circuit Constraint: Between Pad XS1_S1-4(253.5mm,66mm) on Multi-Layer And Pad XS1_S1-5(257.31mm,66mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: NetR3_S1_2 and Vin
-   Violation between Short-Circuit Constraint: Between Pad XS1_S1-4(253.5mm,66mm) on Multi-Layer And Pad XS1_S1-6(261.12mm,66mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: NetR3_S1_2 and NetR5_S1_2
-   Violation between Short-Circuit Constraint: Between Pad XS1_S1-5(257.31mm,66mm) on Multi-Layer And Pad XS1_S1-6(261.12mm,66mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: Vin and NetR5_S1_2
-   Violation between Short-Circuit Constraint: Between Pad XS1_S2-1(363.5mm,175mm) on Multi-Layer And Pad XS1_S2-2(363.5mm,178.81mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: NetDA1_S2_4 and GND
-   Violation between Short-Circuit Constraint: Between Pad XS1_S2-1(363.5mm,175mm) on Multi-Layer And Pad XS1_S2-3(363.5mm,182.62mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: Vin and NetDA1_S2_4
-   Violation between Short-Circuit Constraint: Between Pad XS1_S2-1(363.5mm,175mm) on Multi-Layer And Pad XS1_S2-4(363.5mm,186.43mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: NetR3_S2_2 and NetDA1_S2_4
-   Violation between Short-Circuit Constraint: Between Pad XS1_S2-1(363.5mm,175mm) on Multi-Layer And Pad XS1_S2-5(363.5mm,190.24mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: Vin and NetDA1_S2_4
-   Violation between Short-Circuit Constraint: Between Pad XS1_S2-1(363.5mm,175mm) on Multi-Layer And Pad XS1_S2-6(363.5mm,194.05mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: NetR5_S2_2 and NetDA1_S2_4
-   Violation between Short-Circuit Constraint: Between Pad XS1_S2-2(363.5mm,178.81mm) on Multi-Layer And Pad XS1_S2-3(363.5mm,182.62mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: Vin and GND
-   Violation between Short-Circuit Constraint: Between Pad XS1_S2-2(363.5mm,178.81mm) on Multi-Layer And Pad XS1_S2-4(363.5mm,186.43mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: NetR3_S2_2 and GND
-   Violation between Short-Circuit Constraint: Between Pad XS1_S2-2(363.5mm,178.81mm) on Multi-Layer And Pad XS1_S2-5(363.5mm,190.24mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: Vin and GND
-   Violation between Short-Circuit Constraint: Between Pad XS1_S2-2(363.5mm,178.81mm) on Multi-Layer And Pad XS1_S2-6(363.5mm,194.05mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: NetR5_S2_2 and GND
-   Violation between Short-Circuit Constraint: Between Pad XS1_S2-3(363.5mm,182.62mm) on Multi-Layer And Pad XS1_S2-4(363.5mm,186.43mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: NetR3_S2_2 and Vin
-   Violation between Short-Circuit Constraint: Between Pad XS1_S2-3(363.5mm,182.62mm) on Multi-Layer And Pad XS1_S2-6(363.5mm,194.05mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: NetR5_S2_2 and Vin
-   Violation between Short-Circuit Constraint: Between Pad XS1_S2-4(363.5mm,186.43mm) on Multi-Layer And Pad XS1_S2-5(363.5mm,190.24mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: Vin and NetR3_S2_2
-   Violation between Short-Circuit Constraint: Between Pad XS1_S2-4(363.5mm,186.43mm) on Multi-Layer And Pad XS1_S2-6(363.5mm,194.05mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: NetR5_S2_2 and NetR3_S2_2
-   Violation between Short-Circuit Constraint: Between Pad XS1_S2-5(363.5mm,190.24mm) on Multi-Layer And Pad XS1_S2-6(363.5mm,194.05mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: NetR5_S2_2 and Vin
-   Violation between Short-Circuit Constraint: Between Pad XS1_S3-1(366mm,258.5mm) on Multi-Layer And Pad XS1_S3-2(366mm,262.31mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: NetDA1_S3_4 and GND
-   Violation between Short-Circuit Constraint: Between Pad XS1_S3-1(366mm,258.5mm) on Multi-Layer And Pad XS1_S3-3(366mm,266.12mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: Vin and NetDA1_S3_4
-   Violation between Short-Circuit Constraint: Between Pad XS1_S3-2(366mm,262.31mm) on Multi-Layer And Pad XS1_S3-3(366mm,266.12mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: Vin and GND
-   Violation between Short-Circuit Constraint: Between Pad XS1_S3-2(366mm,262.31mm) on Multi-Layer And Pad XS1_S3-4(366mm,269.93mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: NetR3_S3_2 and GND
-   Violation between Short-Circuit Constraint: Between Pad XS1_S3-2(366mm,262.31mm) on Multi-Layer And Pad XS1_S3-5(366mm,273.74mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: Vin and GND
-   Violation between Short-Circuit Constraint: Between Pad XS1_S3-2(366mm,262.31mm) on Multi-Layer And Pad XS1_S3-6(366mm,277.55mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: NetR5_S3_2 and GND
-   Violation between Short-Circuit Constraint: Between Pad XS1_S3-3(366mm,266.12mm) on Multi-Layer And Pad XS1_S3-4(366mm,269.93mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: NetR3_S3_2 and Vin
-   Violation between Short-Circuit Constraint: Between Pad XS1_S3-3(366mm,266.12mm) on Multi-Layer And Pad XS1_S3-6(366mm,277.55mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: NetR5_S3_2 and Vin
-   Violation between Short-Circuit Constraint: Between Pad XS1_S3-5(366mm,273.74mm) on Multi-Layer And Pad XS1_S3-6(366mm,277.55mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: NetR5_S3_2 and Vin
-   Violation between Short-Circuit Constraint: Between Pad XS2_S1-1(246.38mm,58mm) on Multi-Layer And Pad XS2_S1-2(250.19mm,58mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: GND and NetDA1_S1_4
-   Violation between Short-Circuit Constraint: Between Pad XS2_S1-1(246.38mm,58mm) on Multi-Layer And Pad XS2_S1-3(254mm,58mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: Vin and NetDA1_S1_4
-   Violation between Short-Circuit Constraint: Between Pad XS2_S1-1(246.38mm,58mm) on Multi-Layer And Pad XS2_S1-4(257.81mm,58mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: NetR3_S1_2 and NetDA1_S1_4
-   Violation between Short-Circuit Constraint: Between Pad XS2_S1-2(250.19mm,58mm) on Multi-Layer And Pad XS2_S1-3(254mm,58mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: Vin and GND
-   Violation between Short-Circuit Constraint: Between Pad XS2_S1-2(250.19mm,58mm) on Multi-Layer And Pad XS2_S1-4(257.81mm,58mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: NetR3_S1_2 and GND
-   Violation between Short-Circuit Constraint: Between Pad XS2_S1-3(254mm,58mm) on Multi-Layer And Pad XS2_S1-4(257.81mm,58mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: NetR3_S1_2 and Vin
-   Violation between Short-Circuit Constraint: Between Pad XS2_S2-1(373.5mm,182mm) on Multi-Layer And Pad XS2_S2-2(373.5mm,185.81mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: NetDA1_S2_4 and GND
-   Violation between Short-Circuit Constraint: Between Pad XS2_S2-2(373.5mm,185.81mm) on Multi-Layer And Pad XS2_S2-3(373.5mm,189.62mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: Vin and GND
-   Violation between Short-Circuit Constraint: Between Pad XS2_S2-2(373.5mm,185.81mm) on Multi-Layer And Pad XS2_S2-4(373.5mm,193.43mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: NetR3_S2_2 and GND
-   Violation between Short-Circuit Constraint: Between Pad XS2_S3-1(376mm,265.5mm) on Multi-Layer And Pad XS2_S3-2(376mm,269.31mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: NetDA1_S3_4 and GND
-   Violation between Short-Circuit Constraint: Between Pad XS2_S3-1(376mm,265.5mm) on Multi-Layer And Pad XS2_S3-3(376mm,273.12mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: NetDA1_S3_4 and Vin
-   Violation between Short-Circuit Constraint: Between Pad XS2_S3-1(376mm,265.5mm) on Multi-Layer And Pad XS2_S3-4(376mm,276.93mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: NetDA1_S3_4 and NetR3_S3_2
-   Violation between Short-Circuit Constraint: Between Pad XS2_S3-2(376mm,269.31mm) on Multi-Layer And Pad XS2_S3-3(376mm,273.12mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: Vin and GND
-   Violation between Short-Circuit Constraint: Between Pad XS2_S3-2(376mm,269.31mm) on Multi-Layer And Pad XS2_S3-4(376mm,276.93mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: NetR3_S3_2 and GND
-   Violation between Short-Circuit Constraint: Between Pad XS2_S3-3(376mm,273.12mm) on Multi-Layer And Pad XS2_S3-4(376mm,276.93mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: Vin and NetR3_S3_2
-   Violation between Short-Circuit Constraint: Between Pad XS3_S1-1(250.19mm,50mm) on Multi-Layer And Pad XS3_S1-2(254mm,50mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: NetDA1_S1_4 and GND
-   Violation between Short-Circuit Constraint: Between Pad XS3_S2-1(400.69mm,176mm) on Multi-Layer And Pad XS3_S2-2(404.5mm,176mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: NetDA1_S2_4 and GND
-   Violation between Short-Circuit Constraint: Between Pad XS3_S3-1(386mm,273.5mm) on Multi-Layer And Pad XS3_S3-2(386mm,277.31mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: NetDA1_S3_4 and GND
-   Violation between Short-Circuit Constraint: Between Pad XS4-1(9.25mm,54.5mm) on Multi-Layer And Pad XS4-2(9.25mm,50.69mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: Vin and GND
-   Violation between Short-Circuit Constraint: Between Pad XS5-1(85mm,11.45mm) on Multi-Layer And Pad XS5-2(82.5mm,11.45mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: D- and VBUS
-   Violation between Short-Circuit Constraint: Between Pad XS5-1(85mm,11.45mm) on Multi-Layer And Pad XS5-3(82.5mm,8.25mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: D+ and VBUS
-   Violation between Short-Circuit Constraint: Between Pad XS5-1(85mm,11.45mm) on Multi-Layer And Pad XS5-4(85mm,8.25mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: GND and VBUS
-   Violation between Short-Circuit Constraint: Between Pad XS5-1(85mm,11.45mm) on Multi-Layer And Pad XS5-5(77.73mm,8.75mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: (No Net) and VBUS
-   Violation between Short-Circuit Constraint: Between Pad XS5-1(85mm,11.45mm) on Multi-Layer And Pad XS5-5(89.77mm,8.75mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: (No Net) and VBUS
-   Violation between Short-Circuit Constraint: Between Pad XS5-2(82.5mm,11.45mm) on Multi-Layer And Pad XS5-3(82.5mm,8.25mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: D- and D+
-   Violation between Short-Circuit Constraint: Between Pad XS5-2(82.5mm,11.45mm) on Multi-Layer And Pad XS5-4(85mm,8.25mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: D- and GND
-   Violation between Short-Circuit Constraint: Between Pad XS5-2(82.5mm,11.45mm) on Multi-Layer And Pad XS5-5(77.73mm,8.75mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: D- and (No Net)
-   Violation between Short-Circuit Constraint: Between Pad XS5-2(82.5mm,11.45mm) on Multi-Layer And Pad XS5-5(89.77mm,8.75mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: D- and (No Net)
-   Violation between Short-Circuit Constraint: Between Pad XS5-3(82.5mm,8.25mm) on Multi-Layer And Pad XS5-4(85mm,8.25mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: D+ and GND
-   Violation between Short-Circuit Constraint: Between Pad XS5-3(82.5mm,8.25mm) on Multi-Layer And Pad XS5-5(77.73mm,8.75mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: D+ and (No Net)
-   Violation between Short-Circuit Constraint: Between Pad XS5-3(82.5mm,8.25mm) on Multi-Layer And Pad XS5-5(89.77mm,8.75mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: D+ and (No Net)
-   Violation between Short-Circuit Constraint: Between Pad XS5-4(85mm,8.25mm) on Multi-Layer And Pad XS5-5(77.73mm,8.75mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: GND and (No Net)
-   Violation between Short-Circuit Constraint: Between Pad XS5-4(85mm,8.25mm) on Multi-Layer And Pad XS5-5(89.77mm,8.75mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: GND and (No Net)
-   Violation between Short-Circuit Constraint: Between Pad XS6-1(20.52mm,9.52mm) on Multi-Layer And Pad XS6-2(20.52mm,8.25mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: NetVD4_1 and C2D
-   Violation between Short-Circuit Constraint: Between Pad XS6-1(20.52mm,9.52mm) on Multi-Layer And Pad XS6-3(19.25mm,9.52mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: RST and NetVD4_1
-   Violation between Short-Circuit Constraint: Between Pad XS6-1(20.52mm,9.52mm) on Multi-Layer And Pad XS6-4(19.25mm,8.25mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: NetVD4_1 and C2D
-   Violation between Short-Circuit Constraint: Between Pad XS6-1(20.52mm,9.52mm) on Multi-Layer And Pad XS6-5(17.98mm,9.52mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: NetVD4_1 and NetR14_2
-   Violation between Short-Circuit Constraint: Between Pad XS6-1(20.52mm,9.52mm) on Multi-Layer And Pad XS6-6(17.98mm,8.25mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: NetVD4_1 and GND
-   Violation between Short-Circuit Constraint: Between Pad XS6-2(20.52mm,8.25mm) on Multi-Layer And Pad XS6-3(19.25mm,9.52mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: RST and C2D
-   Violation between Short-Circuit Constraint: Between Pad XS6-2(20.52mm,8.25mm) on Multi-Layer And Pad XS6-5(17.98mm,9.52mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: C2D and NetR14_2
-   Violation between Short-Circuit Constraint: Between Pad XS6-2(20.52mm,8.25mm) on Multi-Layer And Pad XS6-6(17.98mm,8.25mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: C2D and GND
-   Violation between Short-Circuit Constraint: Between Pad XS6-3(19.25mm,9.52mm) on Multi-Layer And Pad XS6-4(19.25mm,8.25mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: RST and C2D
-   Violation between Short-Circuit Constraint: Between Pad XS6-3(19.25mm,9.52mm) on Multi-Layer And Pad XS6-5(17.98mm,9.52mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: RST and NetR14_2
-   Violation between Short-Circuit Constraint: Between Pad XS6-3(19.25mm,9.52mm) on Multi-Layer And Pad XS6-6(17.98mm,8.25mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: RST and GND
-   Violation between Short-Circuit Constraint: Between Pad XS6-4(19.25mm,8.25mm) on Multi-Layer And Pad XS6-5(17.98mm,9.52mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: C2D and NetR14_2
-   Violation between Short-Circuit Constraint: Between Pad XS6-4(19.25mm,8.25mm) on Multi-Layer And Pad XS6-6(17.98mm,8.25mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: C2D and GND
-   Violation between Short-Circuit Constraint: Between Pad XS6-5(17.98mm,9.52mm) on Multi-Layer And Pad XS6-6(17.98mm,8.25mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: GND and NetR14_2
-   Violation between Short-Circuit Constraint: Between Pad XS8-1(36.5mm,6.5mm) on Multi-Layer And Pad XS8-10(44.5mm,4.5mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: P3.4 and GND
-   Violation between Short-Circuit Constraint: Between Pad XS8-1(36.5mm,6.5mm) on Multi-Layer And Pad XS8-11(46.5mm,6.5mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: P3.4 and GND
-   Violation between Short-Circuit Constraint: Between Pad XS8-1(36.5mm,6.5mm) on Multi-Layer And Pad XS8-12(46.5mm,4.5mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: P3.4 and GND
-   Violation between Short-Circuit Constraint: Between Pad XS8-1(36.5mm,6.5mm) on Multi-Layer And Pad XS8-13(48.5mm,6.5mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: P3.4 and GND
-   Violation between Short-Circuit Constraint: Between Pad XS8-1(36.5mm,6.5mm) on Multi-Layer And Pad XS8-14(48.5mm,4.5mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: P3.4 and GND
-   Violation between Short-Circuit Constraint: Between Pad XS8-1(36.5mm,6.5mm) on Multi-Layer And Pad XS8-2(36.5mm,4.5mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: P3.3 and P3.4
-   Violation between Short-Circuit Constraint: Between Pad XS8-1(36.5mm,6.5mm) on Multi-Layer And Pad XS8-3(38.5mm,6.5mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: P3.2 and P3.4
-   Violation between Short-Circuit Constraint: Between Pad XS8-1(36.5mm,6.5mm) on Multi-Layer And Pad XS8-4(38.5mm,4.5mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: P3.1 and P3.4
-   Violation between Short-Circuit Constraint: Between Pad XS8-1(36.5mm,6.5mm) on Multi-Layer And Pad XS8-5(40.5mm,6.5mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: P2.6 and P3.4
-   Violation between Short-Circuit Constraint: Between Pad XS8-1(36.5mm,6.5mm) on Multi-Layer And Pad XS8-6(40.5mm,4.5mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: P2.5 and P3.4
-   Violation between Short-Circuit Constraint: Between Pad XS8-1(36.5mm,6.5mm) on Multi-Layer And Pad XS8-7(42.5mm,6.5mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: P2.4 and P3.4
-   Violation between Short-Circuit Constraint: Between Pad XS8-1(36.5mm,6.5mm) on Multi-Layer And Pad XS8-8(42.5mm,4.5mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: P2.3 and P3.4
-   Violation between Short-Circuit Constraint: Between Pad XS8-1(36.5mm,6.5mm) on Multi-Layer And Pad XS8-9(44.5mm,6.5mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: P2.2 and P3.4
-   Violation between Short-Circuit Constraint: Between Pad XS8-10(44.5mm,4.5mm) on Multi-Layer And Pad XS8-2(36.5mm,4.5mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: P3.3 and GND
-   Violation between Short-Circuit Constraint: Between Pad XS8-10(44.5mm,4.5mm) on Multi-Layer And Pad XS8-3(38.5mm,6.5mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: P3.2 and GND
-   Violation between Short-Circuit Constraint: Between Pad XS8-10(44.5mm,4.5mm) on Multi-Layer And Pad XS8-4(38.5mm,4.5mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: P3.1 and GND
-   Violation between Short-Circuit Constraint: Between Pad XS8-10(44.5mm,4.5mm) on Multi-Layer And Pad XS8-5(40.5mm,6.5mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: P2.6 and GND
-   Violation between Short-Circuit Constraint: Between Pad XS8-10(44.5mm,4.5mm) on Multi-Layer And Pad XS8-6(40.5mm,4.5mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: P2.5 and GND
-   Violation between Short-Circuit Constraint: Between Pad XS8-10(44.5mm,4.5mm) on Multi-Layer And Pad XS8-7(42.5mm,6.5mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: P2.4 and GND
-   Violation between Short-Circuit Constraint: Between Pad XS8-10(44.5mm,4.5mm) on Multi-Layer And Pad XS8-8(42.5mm,4.5mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: P2.3 and GND
-   Violation between Short-Circuit Constraint: Between Pad XS8-10(44.5mm,4.5mm) on Multi-Layer And Pad XS8-9(44.5mm,6.5mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: P2.2 and GND
-   Violation between Short-Circuit Constraint: Between Pad XS8-11(46.5mm,6.5mm) on Multi-Layer And Pad XS8-2(36.5mm,4.5mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: P3.3 and GND
-   Violation between Short-Circuit Constraint: Between Pad XS8-11(46.5mm,6.5mm) on Multi-Layer And Pad XS8-3(38.5mm,6.5mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: P3.2 and GND
-   Violation between Short-Circuit Constraint: Between Pad XS8-11(46.5mm,6.5mm) on Multi-Layer And Pad XS8-4(38.5mm,4.5mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: P3.1 and GND
-   Violation between Short-Circuit Constraint: Between Pad XS8-11(46.5mm,6.5mm) on Multi-Layer And Pad XS8-5(40.5mm,6.5mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: P2.6 and GND
-   Violation between Short-Circuit Constraint: Between Pad XS8-11(46.5mm,6.5mm) on Multi-Layer And Pad XS8-6(40.5mm,4.5mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: P2.5 and GND
-   Violation between Short-Circuit Constraint: Between Pad XS8-11(46.5mm,6.5mm) on Multi-Layer And Pad XS8-7(42.5mm,6.5mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: P2.4 and GND
-   Violation between Short-Circuit Constraint: Between Pad XS8-11(46.5mm,6.5mm) on Multi-Layer And Pad XS8-8(42.5mm,4.5mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: P2.3 and GND
-   Violation between Short-Circuit Constraint: Between Pad XS8-11(46.5mm,6.5mm) on Multi-Layer And Pad XS8-9(44.5mm,6.5mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: P2.2 and GND
-   Violation between Short-Circuit Constraint: Between Pad XS8-12(46.5mm,4.5mm) on Multi-Layer And Pad XS8-2(36.5mm,4.5mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: P3.3 and GND
-   Violation between Short-Circuit Constraint: Between Pad XS8-12(46.5mm,4.5mm) on Multi-Layer And Pad XS8-3(38.5mm,6.5mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: P3.2 and GND
-   Violation between Short-Circuit Constraint: Between Pad XS8-12(46.5mm,4.5mm) on Multi-Layer And Pad XS8-4(38.5mm,4.5mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: P3.1 and GND
-   Violation between Short-Circuit Constraint: Between Pad XS8-12(46.5mm,4.5mm) on Multi-Layer And Pad XS8-5(40.5mm,6.5mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: P2.6 and GND
-   Violation between Short-Circuit Constraint: Between Pad XS8-12(46.5mm,4.5mm) on Multi-Layer And Pad XS8-6(40.5mm,4.5mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: P2.5 and GND
-   Violation between Short-Circuit Constraint: Between Pad XS8-12(46.5mm,4.5mm) on Multi-Layer And Pad XS8-7(42.5mm,6.5mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: P2.4 and GND
-   Violation between Short-Circuit Constraint: Between Pad XS8-12(46.5mm,4.5mm) on Multi-Layer And Pad XS8-8(42.5mm,4.5mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: P2.3 and GND
-   Violation between Short-Circuit Constraint: Between Pad XS8-12(46.5mm,4.5mm) on Multi-Layer And Pad XS8-9(44.5mm,6.5mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: P2.2 and GND
-   Violation between Short-Circuit Constraint: Between Pad XS8-13(48.5mm,6.5mm) on Multi-Layer And Pad XS8-2(36.5mm,4.5mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: P3.3 and GND
-   Violation between Short-Circuit Constraint: Between Pad XS8-13(48.5mm,6.5mm) on Multi-Layer And Pad XS8-3(38.5mm,6.5mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: P3.2 and GND
-   Violation between Short-Circuit Constraint: Between Pad XS8-13(48.5mm,6.5mm) on Multi-Layer And Pad XS8-4(38.5mm,4.5mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: P3.1 and GND
-   Violation between Short-Circuit Constraint: Between Pad XS8-13(48.5mm,6.5mm) on Multi-Layer And Pad XS8-5(40.5mm,6.5mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: P2.6 and GND
-   Violation between Short-Circuit Constraint: Between Pad XS8-13(48.5mm,6.5mm) on Multi-Layer And Pad XS8-6(40.5mm,4.5mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: P2.5 and GND
-   Violation between Short-Circuit Constraint: Between Pad XS8-13(48.5mm,6.5mm) on Multi-Layer And Pad XS8-7(42.5mm,6.5mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: P2.4 and GND
-   Violation between Short-Circuit Constraint: Between Pad XS8-13(48.5mm,6.5mm) on Multi-Layer And Pad XS8-8(42.5mm,4.5mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: P2.3 and GND
-   Violation between Short-Circuit Constraint: Between Pad XS8-13(48.5mm,6.5mm) on Multi-Layer And Pad XS8-9(44.5mm,6.5mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: P2.2 and GND
-   Violation between Short-Circuit Constraint: Between Pad XS8-14(48.5mm,4.5mm) on Multi-Layer And Pad XS8-2(36.5mm,4.5mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: P3.3 and GND
-   Violation between Short-Circuit Constraint: Between Pad XS8-14(48.5mm,4.5mm) on Multi-Layer And Pad XS8-3(38.5mm,6.5mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: P3.2 and GND
-   Violation between Short-Circuit Constraint: Between Pad XS8-14(48.5mm,4.5mm) on Multi-Layer And Pad XS8-4(38.5mm,4.5mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: P3.1 and GND
-   Violation between Short-Circuit Constraint: Between Pad XS8-14(48.5mm,4.5mm) on Multi-Layer And Pad XS8-5(40.5mm,6.5mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: P2.6 and GND
-   Violation between Short-Circuit Constraint: Between Pad XS8-14(48.5mm,4.5mm) on Multi-Layer And Pad XS8-6(40.5mm,4.5mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: P2.5 and GND
-   Violation between Short-Circuit Constraint: Between Pad XS8-14(48.5mm,4.5mm) on Multi-Layer And Pad XS8-7(42.5mm,6.5mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: P2.4 and GND
-   Violation between Short-Circuit Constraint: Between Pad XS8-14(48.5mm,4.5mm) on Multi-Layer And Pad XS8-8(42.5mm,4.5mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: P2.3 and GND
-   Violation between Short-Circuit Constraint: Between Pad XS8-14(48.5mm,4.5mm) on Multi-Layer And Pad XS8-9(44.5mm,6.5mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: P2.2 and GND
-   Violation between Short-Circuit Constraint: Between Pad XS8-2(36.5mm,4.5mm) on Multi-Layer And Pad XS8-3(38.5mm,6.5mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: P3.2 and P3.3
-   Violation between Short-Circuit Constraint: Between Pad XS8-2(36.5mm,4.5mm) on Multi-Layer And Pad XS8-4(38.5mm,4.5mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: P3.1 and P3.3
-   Violation between Short-Circuit Constraint: Between Pad XS8-2(36.5mm,4.5mm) on Multi-Layer And Pad XS8-5(40.5mm,6.5mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: P2.6 and P3.3
-   Violation between Short-Circuit Constraint: Between Pad XS8-2(36.5mm,4.5mm) on Multi-Layer And Pad XS8-6(40.5mm,4.5mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: P2.5 and P3.3
-   Violation between Short-Circuit Constraint: Between Pad XS8-2(36.5mm,4.5mm) on Multi-Layer And Pad XS8-7(42.5mm,6.5mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: P2.4 and P3.3
-   Violation between Short-Circuit Constraint: Between Pad XS8-2(36.5mm,4.5mm) on Multi-Layer And Pad XS8-8(42.5mm,4.5mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: P2.3 and P3.3
-   Violation between Short-Circuit Constraint: Between Pad XS8-2(36.5mm,4.5mm) on Multi-Layer And Pad XS8-9(44.5mm,6.5mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: P2.2 and P3.3
-   Violation between Short-Circuit Constraint: Between Pad XS8-3(38.5mm,6.5mm) on Multi-Layer And Pad XS8-4(38.5mm,4.5mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: P3.1 and P3.2
-   Violation between Short-Circuit Constraint: Between Pad XS8-3(38.5mm,6.5mm) on Multi-Layer And Pad XS8-5(40.5mm,6.5mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: P2.6 and P3.2
-   Violation between Short-Circuit Constraint: Between Pad XS8-3(38.5mm,6.5mm) on Multi-Layer And Pad XS8-6(40.5mm,4.5mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: P2.5 and P3.2
-   Violation between Short-Circuit Constraint: Between Pad XS8-3(38.5mm,6.5mm) on Multi-Layer And Pad XS8-7(42.5mm,6.5mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: P2.4 and P3.2
-   Violation between Short-Circuit Constraint: Between Pad XS8-3(38.5mm,6.5mm) on Multi-Layer And Pad XS8-8(42.5mm,4.5mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: P2.3 and P3.2
-   Violation between Short-Circuit Constraint: Between Pad XS8-3(38.5mm,6.5mm) on Multi-Layer And Pad XS8-9(44.5mm,6.5mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: P2.2 and P3.2
-   Violation between Short-Circuit Constraint: Between Pad XS8-4(38.5mm,4.5mm) on Multi-Layer And Pad XS8-5(40.5mm,6.5mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: P2.6 and P3.1
-   Violation between Short-Circuit Constraint: Between Pad XS8-4(38.5mm,4.5mm) on Multi-Layer And Pad XS8-6(40.5mm,4.5mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: P2.5 and P3.1
-   Violation between Short-Circuit Constraint: Between Pad XS8-4(38.5mm,4.5mm) on Multi-Layer And Pad XS8-7(42.5mm,6.5mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: P2.4 and P3.1
-   Violation between Short-Circuit Constraint: Between Pad XS8-4(38.5mm,4.5mm) on Multi-Layer And Pad XS8-8(42.5mm,4.5mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: P2.3 and P3.1
-   Violation between Short-Circuit Constraint: Between Pad XS8-4(38.5mm,4.5mm) on Multi-Layer And Pad XS8-9(44.5mm,6.5mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: P2.2 and P3.1
-   Violation between Short-Circuit Constraint: Between Pad XS8-5(40.5mm,6.5mm) on Multi-Layer And Pad XS8-6(40.5mm,4.5mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: P2.5 and P2.6
-   Violation between Short-Circuit Constraint: Between Pad XS8-5(40.5mm,6.5mm) on Multi-Layer And Pad XS8-7(42.5mm,6.5mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: P2.4 and P2.6
-   Violation between Short-Circuit Constraint: Between Pad XS8-5(40.5mm,6.5mm) on Multi-Layer And Pad XS8-8(42.5mm,4.5mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: P2.3 and P2.6
-   Violation between Short-Circuit Constraint: Between Pad XS8-5(40.5mm,6.5mm) on Multi-Layer And Pad XS8-9(44.5mm,6.5mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: P2.2 and P2.6
-   Violation between Short-Circuit Constraint: Between Pad XS8-6(40.5mm,4.5mm) on Multi-Layer And Pad XS8-7(42.5mm,6.5mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: P2.4 and P2.5
-   Violation between Short-Circuit Constraint: Between Pad XS8-6(40.5mm,4.5mm) on Multi-Layer And Pad XS8-8(42.5mm,4.5mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: P2.3 and P2.5
-   Violation between Short-Circuit Constraint: Between Pad XS8-6(40.5mm,4.5mm) on Multi-Layer And Pad XS8-9(44.5mm,6.5mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: P2.2 and P2.5
-   Violation between Short-Circuit Constraint: Between Pad XS8-7(42.5mm,6.5mm) on Multi-Layer And Pad XS8-8(42.5mm,4.5mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: P2.3 and P2.4
-   Violation between Short-Circuit Constraint: Between Pad XS8-7(42.5mm,6.5mm) on Multi-Layer And Pad XS8-9(44.5mm,6.5mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: P2.2 and P2.4
-   Violation between Short-Circuit Constraint: Between Pad XS8-8(42.5mm,4.5mm) on Multi-Layer And Pad XS8-9(44.5mm,6.5mm) on Multi-Layer Pads have the same JumperID: 1 but different Nets: P2.2 and P2.3
-Rule Violations :292
+Processing Rule : Short-Circuit Constraint (Allowed=Yes) (All),(All)
+Rule Violations :0
 
 Processing Rule : Un-Routed Net Constraint ( (All) )
-   Violation between Un-Routed Net Constraint: Net EXTOn Between Pad DD7-31(44.975mm,17.25mm) on Top Layer And Pad BQ1-1(48.95mm,17.6mm) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad BQ1-2(47.75mm,17.6mm) on Top Layer And Pad C18-1(49.25mm,15.1mm) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad C22-1(45.625mm,21.25mm) on Top Layer And Pad BQ1-2(47.75mm,17.6mm) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad BQ1-2(47.75mm,17.6mm) on Top Layer And Pad VD7-1(53.55mm,19.3mm) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net EXTCLK Between Pad DD7-30(44.975mm,16.85mm) on Top Layer And Pad BQ1-3(47.75mm,16.85mm) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net NetBQ1_4 Between Pad BQ1-4(48.95mm,16.85mm) on Top Layer And Pad L2-2(50.5mm,16.9mm) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad C1_S1-1(241mm,38.85mm) on Top Layer And Pad DA1_S1-2(244mm,38.2mm) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad VD2_S1-1(208.95mm,38.3mm) on Bottom Layer And Pad C1_S1-1(241mm,38.85mm) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net 3V3 Between Pad C1_S1-2(241mm,40.15mm) on Top Layer And Pad DA1_S1-5(243.05mm,40.8mm) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net 3V3 Between Pad DD5-8(67.2mm,27.225mm) on Top Layer And Pad C1_S1-2(241mm,40.15mm) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad C1_S2-1(352.5mm,198.35mm) on Top Layer And Pad XS1_S2-2(363.5mm,178.81mm) on Multi-Layer 
-   Violation between Un-Routed Net Constraint: Net 3V3 Between Pad C1_S2-2(352.5mm,199.65mm) on Top Layer And Pad C1_S3-2(355mm,284.15mm) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net 3V3 Between Pad C1_S2-2(352.5mm,199.65mm) on Top Layer And Pad DA1_S2-5(383.7mm,151.55mm) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad R2_S3-1(351.5mm,269.5mm) on Multi-Layer And Pad C1_S3-1(355mm,282.85mm) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net 3V3 Between Pad C1_S3-2(355mm,284.15mm) on Top Layer And Pad DA1_S3-5(396.05mm,283.8mm) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad C5-1(59.5mm,51.2mm) on Bottom Layer And Pad C10-2(73.1mm,53.6mm) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad C10-2(73.1mm,53.6mm) on Top Layer And Pad C9-2(73.1mm,64.3mm) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad C12-1(28.5mm,12.1mm) on Top Layer And Pad C11-1(28.5mm,21.35mm) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad C11-1(28.5mm,21.35mm) on Top Layer And Pad C20-1(40.25mm,21.4mm) on Bottom Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad DD4-2(23.7mm,21.75mm) on Top Layer And Pad C11-1(28.5mm,21.35mm) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net 3V3 Between Pad DD4-5(26.3mm,22.7mm) on Top Layer And Pad C11-2(28.5mm,22.65mm) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net 3V3 Between Pad C11-2(28.5mm,22.65mm) on Top Layer And Pad R13-1(30mm,16.15mm) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad XS6-6(17.98mm,8.25mm) on Multi-Layer And Pad C12-1(28.5mm,12.1mm) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net RST Between Pad C12-2(28.5mm,13.4mm) on Top Layer And Pad R14-1(28.5mm,14.85mm) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net RST Between Pad XS6-3(19.25mm,9.52mm) on Multi-Layer And Pad C12-2(28.5mm,13.4mm) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad C17-1(66.75mm,18.1mm) on Top Layer And Pad C13-1(69.75mm,18.1mm) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad C13-1(69.75mm,18.1mm) on Top Layer And Pad XS5-4(85mm,8.25mm) on Multi-Layer 
-   Violation between Un-Routed Net Constraint: Net VBUS Between Pad C17-2(66.75mm,19.4mm) on Top Layer And Pad C13-2(69.75mm,19.4mm) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net VBUS Between Pad C13-2(69.75mm,19.4mm) on Top Layer And Pad XS5-1(85mm,11.45mm) on Multi-Layer 
-   Violation between Un-Routed Net Constraint: Net 3V3 Between Pad C16-2(59.65mm,17.25mm) on Top Layer And Pad C14-1(64.35mm,23.5mm) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net 3V3 Between Pad C14-1(64.35mm,23.5mm) on Top Layer And Pad DD5-8(67.2mm,27.225mm) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad C14-2(65.65mm,23.5mm) on Top Layer And Pad C17-1(66.75mm,18.1mm) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad C14-2(65.65mm,23.5mm) on Top Layer And Pad DD5-5(67.2mm,25.275mm) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad C16-1(58.35mm,17.25mm) on Top Layer And Pad C15-1(63.65mm,17.25mm) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad C15-1(63.65mm,17.25mm) on Top Layer And Pad C17-1(66.75mm,18.1mm) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net NetC15_2 Between Pad DD6-2(61.55mm,14.25mm) on Top Layer And Pad C15-2(62.35mm,17.25mm) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net NetC15_2 Between Pad C15-2(62.35mm,17.25mm) on Top Layer And Pad R20-1(62.35mm,19.5mm) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad C16-1(58.35mm,17.25mm) on Top Layer And Pad DD6-5(60.2mm,14.25mm) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad VD7-1(53.55mm,19.3mm) on Top Layer And Pad C16-1(58.35mm,17.25mm) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net 3V3 Between Pad C16-2(59.65mm,17.25mm) on Top Layer And Pad DD6-4(60.65mm,14.25mm) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net 3V3 Between Pad L2-1(50.5mm,18.3mm) on Top Layer And Pad C16-2(59.65mm,17.25mm) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net VBUS Between Pad R20-2(63.65mm,19.5mm) on Top Layer And Pad C17-2(66.75mm,19.4mm) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad XS8-13(48.5mm,6.5mm) on Multi-Layer And Pad C18-1(49.25mm,15.1mm) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net NetBQ1_4 Between Pad L2-2(50.5mm,16.9mm) on Top Layer And Pad C18-2(50.55mm,15.1mm) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad C20-1(40.25mm,21.4mm) on Bottom Layer And Pad C19-1(42mm,21.4mm) on Bottom Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad C19-1(42mm,21.4mm) on Bottom Layer And Pad C21-1(43.75mm,21.4mm) on Bottom Layer 
-   Violation between Un-Routed Net Constraint: Net 3V3 Between Pad C20-2(40.25mm,20.1mm) on Bottom Layer And Pad C19-2(42mm,20.1mm) on Bottom Layer 
-   Violation between Un-Routed Net Constraint: Net 3V3 Between Pad C19-2(42mm,20.1mm) on Bottom Layer And Pad C21-2(43.75mm,20.1mm) on Bottom Layer 
-   Violation between Un-Routed Net Constraint: Net 3V3 Between Pad DD3-5(37.8mm,35.55mm) on Bottom Layer And Pad C20-2(40.25mm,20.1mm) on Bottom Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad C21-1(43.75mm,21.4mm) on Bottom Layer And Pad C22-1(45.625mm,21.25mm) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Via (43mm,16.25mm) from Top Layer to Bottom Layer And Pad C21-1(43.75mm,21.4mm) on Bottom Layer 
-   Violation between Un-Routed Net Constraint: Net 3V3 Between Pad DD7-3(43.6mm,18.225mm) on Top Layer And Pad C21-2(43.75mm,20.1mm) on Bottom Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad C2-2(20.5mm,49.7mm) on Top Layer And Pad C3-1(27mm,54.3mm) on Bottom Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad DD2-2(19.75mm,40.75mm) on Top Layer And Pad C2-2(20.5mm,49.7mm) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad XS4-2(9.25mm,50.69mm) on Multi-Layer And Pad C2-2(20.5mm,49.7mm) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net NetC22_2 Between Pad C22-2(44.325mm,21.25mm) on Top Layer And Pad DD7-1(44.4mm,18.225mm) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad C3-1(27mm,54.3mm) on Bottom Layer And Pad DD1-1(37.9mm,53mm) on Bottom Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad C6-1(56mm,51.2mm) on Bottom Layer And Pad C5-1(59.5mm,51.2mm) on Bottom Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad C8-1(52.5mm,51.2mm) on Bottom Layer And Pad C6-1(56mm,51.2mm) on Bottom Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad DD2-6(19.75mm,31.25mm) on Top Layer And Pad C7-1(20.35mm,25.75mm) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad C7-1(20.35mm,25.75mm) on Top Layer And Pad DD4-2(23.7mm,21.75mm) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net 5V Between Pad C7-2(21.65mm,25.75mm) on Top Layer And Pad DD2-7(21.75mm,31.25mm) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net 5V Between Pad C7-2(21.65mm,25.75mm) on Top Layer And Pad DD4-1(23.7mm,22.7mm) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad R12-1(39.15mm,49mm) on Bottom Layer And Pad C8-1(52.5mm,51.2mm) on Bottom Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad C9-2(73.1mm,64.3mm) on Top Layer And Pad R6_S1-1(164mm,62.5mm) on Multi-Layer 
-   Violation between Un-Routed Net Constraint: Net NetDA1_S1_1 Between Pad DD7-27(44.975mm,15.65mm) on Top Layer And Pad DA1_S1-1(243.05mm,38.2mm) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad DA1_S1-2(244mm,38.2mm) on Top Layer And Pad XS3_S1-2(254mm,50mm) on Multi-Layer 
-   Violation between Un-Routed Net Constraint: Net NetC5_2 Between Via (66.75mm,52mm) from Top Layer to Bottom Layer And Pad DA1_S1-3(244.95mm,38.2mm) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net 3V3 Between Pad DA1_S1-5(243.05mm,40.8mm) on Top Layer And Pad DA1_S2-5(383.7mm,151.55mm) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net NetDA1_S2_1 Between Pad DD7-26(44.975mm,15.25mm) on Top Layer And Pad DA1_S2-1(386.3mm,151.55mm) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad DA1_S2-2(386.3mm,152.5mm) on Top Layer And Pad XS3_S2-2(404.5mm,176mm) on Multi-Layer 
-   Violation between Un-Routed Net Constraint: Net NetC5_2 Between Pad DA1_S2-3(386.3mm,153.45mm) on Top Layer And Pad DA1_S3-3(397.95mm,281.2mm) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net NetC5_2 Between Pad R1_S2-1(335.4mm,164mm) on Top Layer And Pad DA1_S2-3(386.3mm,153.45mm) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net NetDA1_S2_4 Between Pad XS2_S2-1(373.5mm,182mm) on Multi-Layer And Pad DA1_S2-4(383.7mm,153.45mm) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net NetDA1_S3_1 Between Pad DD7-25(44.975mm,14.85mm) on Top Layer And Pad DA1_S3-1(396.05mm,281.2mm) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad XS3_S3-2(386mm,277.31mm) on Multi-Layer And Pad DA1_S3-2(397mm,281.2mm) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net NetC5_2 Between Pad DA1_S3-3(397.95mm,281.2mm) on Top Layer And Pad R1_S3-1(409mm,277.4mm) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net NetDA1_S3_4 Between Pad DA1_S3-4(397.95mm,283.8mm) on Top Layer And Pad R1_S3-2(409mm,283.6mm) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net NetDA1_S3_4 Between Pad XS3_S3-1(386mm,273.5mm) on Multi-Layer And Pad DA1_S3-4(397.95mm,283.8mm) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad DD1-1(37.9mm,53mm) on Bottom Layer And Pad R12-1(39.15mm,49mm) on Bottom Layer 
-   Violation between Un-Routed Net Constraint: Net Vin Between Pad DD2-1(17.75mm,40.75mm) on Top Layer And Via (22.25mm,56mm) from Top Layer to Bottom Layer 
-   Violation between Un-Routed Net Constraint: Net NetDD3_1 Between Pad DD3-1(35.2mm,35.55mm) on Bottom Layer And Pad VT1-2(37mm,40.7mm) on Bottom Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad DD3-2(35.2mm,36.5mm) on Bottom Layer And Pad R10-2(40.5mm,36.1mm) on Bottom Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad R9-2(32.5mm,36.1mm) on Bottom Layer And Pad DD3-2(35.2mm,36.5mm) on Bottom Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad VD3-1(34.855mm,45.575mm) on Bottom Layer And Pad DD3-2(35.2mm,36.5mm) on Bottom Layer 
-   Violation between Un-Routed Net Constraint: Net NetDD3_3 Between Pad R9-1(32.5mm,37.4mm) on Bottom Layer And Pad DD3-3(35.2mm,37.45mm) on Bottom Layer 
-   Violation between Un-Routed Net Constraint: Net NetDD3_4 Between Pad DD3-4(37.8mm,37.45mm) on Bottom Layer And Pad R10-1(40.5mm,37.4mm) on Bottom Layer 
-   Violation between Un-Routed Net Constraint: Net NetDD3_4 Between Pad VT1-1(37.75mm,40.7mm) on Bottom Layer And Pad DD3-4(37.8mm,37.45mm) on Bottom Layer 
-   Violation between Un-Routed Net Constraint: Net 5V Between Pad DD4-3(23.7mm,20.8mm) on Top Layer And Pad DD4-1(23.7mm,22.7mm) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net UART0_RX Between Pad DD7-28(44.975mm,16.05mm) on Top Layer And Pad DD5-1(62.8mm,27.225mm) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net Rx/Tx Between Pad DD7-32(44.975mm,17.65mm) on Top Layer And Pad DD5-3(62.8mm,25.925mm) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net UART0_TX Between Pad DD7-29(44.975mm,16.45mm) on Top Layer And Pad DD5-4(62.8mm,25.275mm) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad DD5-5(67.2mm,25.275mm) on Top Layer And Pad VD5-3(76.05mm,27.2mm) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net NetDD5_6 Between Pad DD5-6(67.2mm,25.925mm) on Top Layer And Pad R16-1(72mm,25.35mm) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net NetDD5_7 Between Pad DD5-7(67.2mm,26.575mm) on Top Layer And Pad R16-2(72mm,26.65mm) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net NetDD6_1 Between Pad DD6-1(62mm,14.25mm) on Top Layer And Pad R17-1(69.85mm,13.75mm) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net UART1_TX Between Pad DD7-24(44.4mm,14.275mm) on Top Layer And Pad DD6-10(61.1mm,11.45mm) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net NetDD6_12 Between Pad DD6-12(62mm,11.45mm) on Top Layer And Pad R18-1(69.85mm,11.25mm) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net UART1_RX Between Pad DD7-23(44mm,14.275mm) on Top Layer And Pad DD6-7(59.75mm,11.45mm) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net NetDD7_10 Between Pad R8-2(30.25mm,36.1mm) on Bottom Layer And Pad DD7-10(41.025mm,17.25mm) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net P2.6 Between Pad XS8-5(40.5mm,6.5mm) on Multi-Layer And Pad DD7-11(41.025mm,16.85mm) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net P2.5 Between Pad XS8-6(40.5mm,4.5mm) on Multi-Layer And Pad DD7-12(41.025mm,16.45mm) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net P2.4 Between Pad DD7-13(41.025mm,16.05mm) on Top Layer And Pad XS8-7(42.5mm,6.5mm) on Multi-Layer 
-   Violation between Un-Routed Net Constraint: Net P2.3 Between Pad DD7-14(41.025mm,15.65mm) on Top Layer And Pad XS8-8(42.5mm,4.5mm) on Multi-Layer 
-   Violation between Un-Routed Net Constraint: Net P2.2 Between Pad DD7-15(41.025mm,15.25mm) on Top Layer And Pad XS8-9(44.5mm,6.5mm) on Multi-Layer 
-   Violation between Un-Routed Net Constraint: Net USB_SNS Between Pad DD7-16(41.025mm,14.85mm) on Top Layer And Pad VD7-2(54.5mm,21.7mm) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net NetDD7_17 Between Pad DD7-17(41.6mm,14.275mm) on Top Layer And Pad VD1_S3-2(295mm,283.7mm) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net NetDD7_18 Between Pad DD7-18(42mm,14.275mm) on Top Layer And Pad VD2_S3-2(315.5mm,265.2mm) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net NetDD7_19 Between Pad DD7-19(42.4mm,14.275mm) on Top Layer And Pad VD2_S2-2(311.5mm,163.7mm) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net 3V3 Between Pad DD7-3(43.6mm,18.225mm) on Top Layer And Pad DD7-2(44mm,18.225mm) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net 3V3 Between Pad DD7-2(44mm,18.225mm) on Top Layer And Pad L2-1(50.5mm,18.3mm) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net NetDD7_20 Between Pad DD7-20(42.8mm,14.275mm) on Top Layer And Pad VD1_S2-2(292.5mm,200.2mm) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net NetDD7_21 Between Pad DD7-21(43.2mm,14.275mm) on Top Layer And Pad VD2_S1-2(208mm,40.7mm) on Bottom Layer 
-   Violation between Un-Routed Net Constraint: Net NetDD7_22 Between Pad DD7-22(43.6mm,14.275mm) on Top Layer And Pad VD1_S1-2(192.5mm,56.2mm) on Bottom Layer 
-   Violation between Un-Routed Net Constraint: Net 3V3 Between Pad R13-1(30mm,16.15mm) on Top Layer And Pad DD7-3(43.6mm,18.225mm) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net RST_MCU Between Pad R15-2(41.65mm,23.25mm) on Top Layer And Pad DD7-4(43.2mm,18.225mm) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net C2D_MCU Between Pad R19-1(41.675mm,21.25mm) on Top Layer And Pad DD7-5(42.8mm,18.225mm) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net P3.4 Between Pad XS8-1(36.5mm,6.5mm) on Multi-Layer And Pad DD7-6(42.4mm,18.225mm) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net P3.3 Between Pad XS8-2(36.5mm,4.5mm) on Multi-Layer And Pad DD7-7(42mm,18.225mm) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net P3.2 Between Pad XS8-3(38.5mm,6.5mm) on Multi-Layer And Pad DD7-8(41.6mm,18.225mm) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net P3.1 Between Pad XS8-4(38.5mm,4.5mm) on Multi-Layer And Pad DD7-9(41.025mm,17.65mm) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net NetDD5_7 Between Pad VD6-2(83mm,28.3mm) on Top Layer And Pad FU1-1(89.9mm,28mm) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net NetFU1_2 Between Pad FU1-2(92mm,28mm) on Top Layer And Pad XS7-1(108mm,12mm) on Multi-Layer 
-   Violation between Un-Routed Net Constraint: Net NetDD5_6 Between Pad VD6-1(83mm,23.7mm) on Top Layer And Pad FU2-1(90mm,25mm) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net NetFU2_2 Between Pad FU2-2(92.1mm,25mm) on Top Layer And Pad XS7-2(103mm,12mm) on Multi-Layer 
-   Violation between Un-Routed Net Constraint: Net NetC5_2 Between Track (249.5mm,39mm)(250mm,38.5mm) on Top Layer And Pad R1_S2-1(335.4mm,164mm) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net NetDA1_S2_4 Between Pad R1_S2-2(341.6mm,164mm) on Top Layer And Pad XS1_S2-1(363.5mm,175mm) on Multi-Layer 
-   Violation between Un-Routed Net Constraint: Net NetDD1_2 Between Pad VT1-6(37.75mm,42.8mm) on Bottom Layer And Pad R11-1(37.85mm,47mm) on Bottom Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad VD3-1(34.855mm,45.575mm) on Bottom Layer And Pad R12-1(39.15mm,49mm) on Bottom Layer 
-   Violation between Un-Routed Net Constraint: Net 3V3 Between Pad VD4-2(20.5mm,16.75mm) on Top Layer And Pad R13-1(30mm,16.15mm) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net RST Between Pad R14-1(28.5mm,14.85mm) on Top Layer And Pad R13-2(30mm,14.85mm) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net NetR14_2 Between Pad R14-2(28.5mm,16.15mm) on Top Layer And Pad R15-1(40.35mm,23.25mm) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net NetR14_2 Between Pad XS6-5(17.98mm,9.52mm) on Multi-Layer And Pad R14-2(28.5mm,16.15mm) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net NetDD5_6 Between Pad R16-1(72mm,25.35mm) on Top Layer And Pad VD5-2(77mm,24.8mm) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net NetDD5_7 Between Pad R16-2(72mm,26.65mm) on Top Layer And Pad VD5-1(77.95mm,27.2mm) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net D- Between Pad R17-2(71.15mm,13.75mm) on Top Layer And Pad XS5-2(82.5mm,11.45mm) on Multi-Layer 
-   Violation between Un-Routed Net Constraint: Net D+ Between Pad R18-2(71.15mm,11.25mm) on Top Layer And Pad XS5-3(82.5mm,8.25mm) on Multi-Layer 
-   Violation between Un-Routed Net Constraint: Net C2D Between Pad XS6-2(20.52mm,8.25mm) on Multi-Layer And Pad R19-2(40.375mm,21.25mm) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad R7_S1-1(164mm,51.5mm) on Multi-Layer And Pad R2_S1-1(176.5mm,42.5mm) on Multi-Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad R2_S1-1(176.5mm,42.5mm) on Multi-Layer And Pad VD1_S1-1(193.45mm,53.8mm) on Bottom Layer 
-   Violation between Un-Routed Net Constraint: Net NetR2_S1_2 Between Pad R2_S1-2(197.5mm,42.5mm) on Multi-Layer And Pad R3_S1-1(200.5mm,42.5mm) on Multi-Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad VD2_S2-1(310.55mm,161.3mm) on Top Layer And Pad R2_S2-1(342mm,177mm) on Multi-Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad R2_S2-1(342mm,177mm) on Multi-Layer And Pad XS1_S2-2(363.5mm,178.81mm) on Multi-Layer 
-   Violation between Un-Routed Net Constraint: Net NetR2_S2_2 Between Pad R2_S2-2(342mm,198mm) on Multi-Layer And Pad R3_S2-1(354mm,173.5mm) on Multi-Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad VD2_S3-1(314.55mm,262.8mm) on Top Layer And Pad R2_S3-1(351.5mm,269.5mm) on Multi-Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad R2_S3-1(351.5mm,269.5mm) on Multi-Layer And Pad XS1_S3-2(366mm,262.31mm) on Multi-Layer 
-   Violation between Un-Routed Net Constraint: Net NetR2_S3_2 Between Pad R2_S3-2(351.5mm,290.5mm) on Multi-Layer And Pad R3_S3-1(360.5mm,269.5mm) on Multi-Layer 
-   Violation between Un-Routed Net Constraint: Net VBUS Between Pad R20-2(63.65mm,19.5mm) on Top Layer And Pad R21-2(63.65mm,21.75mm) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net USB_SNS Between Pad VD7-2(54.5mm,21.7mm) on Top Layer And Pad R21-1(62.35mm,21.75mm) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net NetR3_S1_2 Between Pad R4_S1-2(195.35mm,58mm) on Bottom Layer And Pad R3_S1-2(221.5mm,42.5mm) on Multi-Layer 
-   Violation between Un-Routed Net Constraint: Net NetR3_S1_2 Between Pad R3_S1-2(221.5mm,42.5mm) on Multi-Layer And Pad XS2_S1-4(257.81mm,58mm) on Multi-Layer 
-   Violation between Un-Routed Net Constraint: Net NetR3_S2_2 Between Pad R4_S2-2(324.5mm,200.65mm) on Top Layer And Pad R3_S2-2(354mm,194.5mm) on Multi-Layer 
-   Violation between Un-Routed Net Constraint: Net NetR3_S2_2 Between Pad R3_S2-2(354mm,194.5mm) on Multi-Layer And Pad XS1_S2-4(363.5mm,186.43mm) on Multi-Layer 
-   Violation between Un-Routed Net Constraint: Net NetR3_S3_2 Between Pad R4_S3-2(327mm,284.15mm) on Top Layer And Pad R3_S3-2(360.5mm,290.5mm) on Multi-Layer 
-   Violation between Un-Routed Net Constraint: Net NetR3_S3_2 Between Pad R3_S3-2(360.5mm,290.5mm) on Multi-Layer And Pad XS1_S3-4(366mm,269.93mm) on Multi-Layer 
-   Violation between Un-Routed Net Constraint: Net NetDD7_22 Between Pad VD1_S1-2(192.5mm,56.2mm) on Bottom Layer And Pad R4_S1-1(196.65mm,58mm) on Bottom Layer 
-   Violation between Un-Routed Net Constraint: Net NetDD7_20 Between Pad VD1_S2-2(292.5mm,200.2mm) on Top Layer And Pad R4_S2-1(324.5mm,199.35mm) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net NetDD7_17 Between Pad VD1_S3-2(295mm,283.7mm) on Top Layer And Pad R4_S3-1(327mm,282.85mm) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net NetDD7_21 Between Pad VD2_S1-2(208mm,40.7mm) on Bottom Layer And Pad R5_S1-1(212.15mm,42.5mm) on Bottom Layer 
-   Violation between Un-Routed Net Constraint: Net NetR5_S1_2 Between Pad R5_S1-2(210.85mm,42.5mm) on Bottom Layer And Pad R7_S1-2(222mm,51.5mm) on Multi-Layer 
-   Violation between Un-Routed Net Constraint: Net NetDD7_19 Between Pad VD2_S2-2(311.5mm,163.7mm) on Top Layer And Pad R5_S2-1(321.5mm,162.85mm) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net NetR5_S2_2 Between Pad R7_S2-2(282.5mm,200mm) on Multi-Layer And Pad R5_S2-2(321.5mm,164.15mm) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net NetR5_S2_2 Between Pad R5_S2-2(321.5mm,164.15mm) on Top Layer And Pad XS1_S2-6(363.5mm,194.05mm) on Multi-Layer 
-   Violation between Un-Routed Net Constraint: Net NetDD7_18 Between Pad VD2_S3-2(315.5mm,265.2mm) on Top Layer And Pad R5_S3-1(325.5mm,264.35mm) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net NetR5_S3_2 Between Pad R7_S3-2(285mm,283.5mm) on Multi-Layer And Pad R5_S3-2(325.5mm,265.65mm) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net NetR5_S3_2 Between Pad R5_S3-2(325.5mm,265.65mm) on Top Layer And Pad XS1_S3-6(366mm,277.55mm) on Multi-Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad R7_S1-1(164mm,51.5mm) on Multi-Layer And Pad R6_S1-1(164mm,62.5mm) on Multi-Layer 
-   Violation between Un-Routed Net Constraint: Net NetR5_S1_2 Between Pad R7_S1-2(222mm,51.5mm) on Multi-Layer And Pad R6_S1-2(222mm,62.5mm) on Multi-Layer 
-   Violation between Un-Routed Net Constraint: Net NetR5_S1_2 Between Pad R6_S1-2(222mm,62.5mm) on Multi-Layer And Pad XS1_S1-6(261.12mm,66mm) on Multi-Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad R6_S2-1(271.5mm,142mm) on Multi-Layer And Pad R7_S2-1(282.5mm,142mm) on Multi-Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad XS1_S1-2(245.88mm,66mm) on Multi-Layer And Pad R6_S2-1(271.5mm,142mm) on Multi-Layer 
-   Violation between Un-Routed Net Constraint: Net NetR5_S2_2 Between Pad R6_S2-2(271.5mm,200mm) on Multi-Layer And Pad R7_S2-2(282.5mm,200mm) on Multi-Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad R6_S3-1(274mm,225.5mm) on Multi-Layer And Pad R7_S3-1(285mm,225.5mm) on Multi-Layer 
-   Violation between Un-Routed Net Constraint: Net NetR5_S3_2 Between Pad R6_S3-2(274mm,283.5mm) on Multi-Layer And Pad R7_S3-2(285mm,283.5mm) on Multi-Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad R7_S2-1(282.5mm,142mm) on Multi-Layer And Pad VD2_S2-1(310.55mm,161.3mm) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad R7_S3-1(285mm,225.5mm) on Multi-Layer And Pad VD1_S2-1(291.55mm,197.8mm) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad R7_S3-1(285mm,225.5mm) on Multi-Layer And Pad VD1_S3-1(294.05mm,281.3mm) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net NetDD3_3 Between Pad R8-1(30.25mm,37.4mm) on Bottom Layer And Pad R9-1(32.5mm,37.4mm) on Bottom Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad VD1_S1-1(193.45mm,53.8mm) on Bottom Layer And Pad VD2_S1-1(208.95mm,38.3mm) on Bottom Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad VD1_S2-1(291.55mm,197.8mm) on Top Layer And Pad VD2_S2-1(310.55mm,161.3mm) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad VD1_S3-1(294.05mm,281.3mm) on Top Layer And Pad VD2_S3-1(314.55mm,262.8mm) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net NetVD4_1 Between Pad VD4-1(20.5mm,15.45mm) on Top Layer And Pad XS6-1(20.52mm,9.52mm) on Multi-Layer 
-   Violation between Un-Routed Net Constraint: Net NetDD5_7 Between Pad VD5-1(77.95mm,27.2mm) on Top Layer And Pad VD6-2(83mm,28.3mm) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net NetDD5_6 Between Pad VD5-2(77mm,24.8mm) on Top Layer And Pad VD6-1(83mm,23.7mm) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net NetDA1_S1_4 Between Pad XS1_S1-1(242.07mm,66mm) on Multi-Layer And Pad XS2_S1-1(246.38mm,58mm) on Multi-Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad XS1_S1-2(245.88mm,66mm) on Multi-Layer And Pad XS2_S1-2(250.19mm,58mm) on Multi-Layer 
-   Violation between Un-Routed Net Constraint: Net Vin Between Via (22.25mm,60.974mm) from Top Layer to Bottom Layer And Pad XS1_S1-3(249.69mm,66mm) on Multi-Layer 
-   Violation between Un-Routed Net Constraint: Net NetR3_S1_2 Between Pad XS1_S1-4(253.5mm,66mm) on Multi-Layer And Pad XS2_S1-4(257.81mm,58mm) on Multi-Layer 
-   Violation between Un-Routed Net Constraint: Net Vin Between Pad XS1_S1-5(257.31mm,66mm) on Multi-Layer And Pad XS1_S2-3(363.5mm,182.62mm) on Multi-Layer 
-   Violation between Un-Routed Net Constraint: Net Vin Between Pad XS2_S1-3(254mm,58mm) on Multi-Layer And Pad XS1_S1-5(257.31mm,66mm) on Multi-Layer 
-   Violation between Un-Routed Net Constraint: Net NetDA1_S2_4 Between Pad XS1_S2-1(363.5mm,175mm) on Multi-Layer And Pad XS2_S2-1(373.5mm,182mm) on Multi-Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad XS1_S2-2(363.5mm,178.81mm) on Multi-Layer And Pad XS2_S2-2(373.5mm,185.81mm) on Multi-Layer 
-   Violation between Un-Routed Net Constraint: Net NetR3_S2_2 Between Pad XS1_S2-4(363.5mm,186.43mm) on Multi-Layer And Pad XS2_S2-4(373.5mm,193.43mm) on Multi-Layer 
-   Violation between Un-Routed Net Constraint: Net Vin Between Pad XS1_S2-5(363.5mm,190.24mm) on Multi-Layer And Pad XS1_S3-3(366mm,266.12mm) on Multi-Layer 
-   Violation between Un-Routed Net Constraint: Net Vin Between Pad XS1_S2-5(363.5mm,190.24mm) on Multi-Layer And Pad XS2_S2-3(373.5mm,189.62mm) on Multi-Layer 
-   Violation between Un-Routed Net Constraint: Net NetDA1_S3_4 Between Pad XS1_S3-1(366mm,258.5mm) on Multi-Layer And Pad XS2_S3-1(376mm,265.5mm) on Multi-Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad XS1_S3-2(366mm,262.31mm) on Multi-Layer And Pad XS2_S3-2(376mm,269.31mm) on Multi-Layer 
-   Violation between Un-Routed Net Constraint: Net NetR3_S3_2 Between Pad XS1_S3-4(366mm,269.93mm) on Multi-Layer And Pad XS2_S3-4(376mm,276.93mm) on Multi-Layer 
-   Violation between Un-Routed Net Constraint: Net Vin Between Pad XS1_S3-5(366mm,273.74mm) on Multi-Layer And Pad XS2_S3-3(376mm,273.12mm) on Multi-Layer 
-   Violation between Un-Routed Net Constraint: Net NetDA1_S1_4 Between Pad XS2_S1-1(246.38mm,58mm) on Multi-Layer And Pad XS3_S1-1(250.19mm,50mm) on Multi-Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad XS2_S1-2(250.19mm,58mm) on Multi-Layer And Pad XS3_S1-2(254mm,50mm) on Multi-Layer 
-   Violation between Un-Routed Net Constraint: Net NetDA1_S2_4 Between Pad XS2_S2-1(373.5mm,182mm) on Multi-Layer And Pad XS3_S2-1(400.69mm,176mm) on Multi-Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad XS2_S2-2(373.5mm,185.81mm) on Multi-Layer And Pad XS3_S2-2(404.5mm,176mm) on Multi-Layer 
-   Violation between Un-Routed Net Constraint: Net NetDA1_S3_4 Between Pad XS2_S3-1(376mm,265.5mm) on Multi-Layer And Pad XS3_S3-1(386mm,273.5mm) on Multi-Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad XS2_S3-2(376mm,269.31mm) on Multi-Layer And Pad XS3_S3-2(386mm,277.31mm) on Multi-Layer 
-   Violation between Un-Routed Net Constraint: Net NetDA1_S1_4 Between Track (250mm,42.6mm)(250.19mm,42.79mm) on Top Layer And Pad XS3_S1-1(250.19mm,50mm) on Multi-Layer 
-Rule Violations :206
+Rule Violations :0
 
 Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
 Rule Violations :0
@@ -524,26 +24,123 @@ Rule Violations :0
 Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.2mm) (Conductor Width=0.2mm) (Air Gap=0.2mm) (Entries=4) (All)
 Rule Violations :0
 
-Processing Rule : Minimum Annular Ring (Minimum=0.2mm) (IsPAD)
-Rule Violations :0
-
 Processing Rule : Minimum Annular Ring (Minimum=0.15mm) (IsVia)
 Rule Violations :0
+
+Processing Rule : Minimum Annular Ring (Minimum=0.2mm) (IsPAD)
+   Violation between Minimum Annular Ring: (0.175mm < 0.2mm) Pad XS6-1(20.52mm,9.52mm) on Multi-Layer (Annular Ring=0.175mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.175mm < 0.2mm) Pad XS6-2(20.52mm,8.25mm) on Multi-Layer (Annular Ring=0.175mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.175mm < 0.2mm) Pad XS6-3(19.25mm,9.52mm) on Multi-Layer (Annular Ring=0.175mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.175mm < 0.2mm) Pad XS6-4(19.25mm,8.25mm) on Multi-Layer (Annular Ring=0.175mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.175mm < 0.2mm) Pad XS6-5(17.98mm,9.52mm) on Multi-Layer (Annular Ring=0.175mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.175mm < 0.2mm) Pad XS6-6(17.98mm,8.25mm) on Multi-Layer (Annular Ring=0.175mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.15mm < 0.2mm) Pad XS7-1(108mm,12mm) on Multi-Layer (Annular Ring=0.15mm) On (Top Layer)
+   Violation between Minimum Annular Ring: (0.15mm < 0.2mm) Pad XS7-2(103mm,12mm) on Multi-Layer (Annular Ring=0.15mm) On (Top Layer)
+Rule Violations :8
 
 Processing Rule : Acute Angle Constraint (Minimum=35.000) (All)
 Rule Violations :0
 
-Processing Rule : Hole Size Constraint (Min=0.6mm) (Max=5.9mm) (IsPad)
+Processing Rule : Hole Size Constraint (Min=0.3mm) (Max=5.9mm) (IsVia)
 Rule Violations :0
 
-Processing Rule : Hole Size Constraint (Min=0.3mm) (Max=5.9mm) (IsVia)
+Processing Rule : Hole Size Constraint (Min=0.6mm) (Max=5.9mm) (IsPad)
 Rule Violations :0
 
 Processing Rule : Hole To Hole Clearance (Gap=0.25mm) (All),(All)
 Rule Violations :0
 
 Processing Rule : Minimum Solder Mask Sliver (Gap=0.15mm) (All),(All)
-Rule Violations :0
+   Violation between Minimum Solder Mask Sliver Constraint: (0.1mm < 0.15mm) Between Pad DD5-1(62.8mm,27.225mm) on Top Layer And Pad DD5-2(62.8mm,26.575mm) on Top Layer [Top Solder] Mask Sliver [0.1mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.1mm < 0.15mm) Between Pad DD5-2(62.8mm,26.575mm) on Top Layer And Pad DD5-3(62.8mm,25.925mm) on Top Layer [Top Solder] Mask Sliver [0.1mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.1mm < 0.15mm) Between Pad DD5-3(62.8mm,25.925mm) on Top Layer And Pad DD5-4(62.8mm,25.275mm) on Top Layer [Top Solder] Mask Sliver [0.1mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.1mm < 0.15mm) Between Pad DD5-5(67.2mm,25.275mm) on Top Layer And Pad DD5-6(67.2mm,25.925mm) on Top Layer [Top Solder] Mask Sliver [0.1mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.1mm < 0.15mm) Between Pad DD5-6(67.2mm,25.925mm) on Top Layer And Pad DD5-7(67.2mm,26.575mm) on Top Layer [Top Solder] Mask Sliver [0.1mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.1mm < 0.15mm) Between Pad DD5-7(67.2mm,26.575mm) on Top Layer And Pad DD5-8(67.2mm,27.225mm) on Top Layer [Top Solder] Mask Sliver [0.1mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.125mm < 0.15mm) Between Pad DD6-1(62mm,14.25mm) on Top Layer And Pad DD6-13(60.85mm,12.85mm) on Top Layer [Top Solder] Mask Sliver [0.125mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.1mm < 0.15mm) Between Pad DD6-1(62mm,14.25mm) on Top Layer And Pad DD6-2(61.55mm,14.25mm) on Top Layer [Top Solder] Mask Sliver [0.1mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.1mm < 0.15mm) Between Pad DD6-10(61.1mm,11.45mm) on Top Layer And Pad DD6-11(61.55mm,11.45mm) on Top Layer [Top Solder] Mask Sliver [0.1mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.125mm < 0.15mm) Between Pad DD6-10(61.1mm,11.45mm) on Top Layer And Pad DD6-13(60.85mm,12.85mm) on Top Layer [Top Solder] Mask Sliver [0.125mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.1mm < 0.15mm) Between Pad DD6-10(61.1mm,11.45mm) on Top Layer And Pad DD6-9(60.65mm,11.45mm) on Top Layer [Top Solder] Mask Sliver [0.1mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.1mm < 0.15mm) Between Pad DD6-11(61.55mm,11.45mm) on Top Layer And Pad DD6-12(62mm,11.45mm) on Top Layer [Top Solder] Mask Sliver [0.1mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.125mm < 0.15mm) Between Pad DD6-11(61.55mm,11.45mm) on Top Layer And Pad DD6-13(60.85mm,12.85mm) on Top Layer [Top Solder] Mask Sliver [0.125mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.125mm < 0.15mm) Between Pad DD6-12(62mm,11.45mm) on Top Layer And Pad DD6-13(60.85mm,12.85mm) on Top Layer [Top Solder] Mask Sliver [0.125mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.125mm < 0.15mm) Between Pad DD6-13(60.85mm,12.85mm) on Top Layer And Pad DD6-2(61.55mm,14.25mm) on Top Layer [Top Solder] Mask Sliver [0.125mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.125mm < 0.15mm) Between Pad DD6-13(60.85mm,12.85mm) on Top Layer And Pad DD6-3(61.1mm,14.25mm) on Top Layer [Top Solder] Mask Sliver [0.125mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.125mm < 0.15mm) Between Pad DD6-13(60.85mm,12.85mm) on Top Layer And Pad DD6-4(60.65mm,14.25mm) on Top Layer [Top Solder] Mask Sliver [0.125mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.125mm < 0.15mm) Between Pad DD6-13(60.85mm,12.85mm) on Top Layer And Pad DD6-5(60.2mm,14.25mm) on Top Layer [Top Solder] Mask Sliver [0.125mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.125mm < 0.15mm) Between Pad DD6-13(60.85mm,12.85mm) on Top Layer And Pad DD6-6(59.75mm,14.25mm) on Top Layer [Top Solder] Mask Sliver [0.125mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.125mm < 0.15mm) Between Pad DD6-13(60.85mm,12.85mm) on Top Layer And Pad DD6-7(59.75mm,11.45mm) on Top Layer [Top Solder] Mask Sliver [0.125mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.125mm < 0.15mm) Between Pad DD6-13(60.85mm,12.85mm) on Top Layer And Pad DD6-8(60.2mm,11.45mm) on Top Layer [Top Solder] Mask Sliver [0.125mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.125mm < 0.15mm) Between Pad DD6-13(60.85mm,12.85mm) on Top Layer And Pad DD6-9(60.65mm,11.45mm) on Top Layer [Top Solder] Mask Sliver [0.125mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.1mm < 0.15mm) Between Pad DD6-2(61.55mm,14.25mm) on Top Layer And Pad DD6-3(61.1mm,14.25mm) on Top Layer [Top Solder] Mask Sliver [0.1mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.1mm < 0.15mm) Between Pad DD6-3(61.1mm,14.25mm) on Top Layer And Pad DD6-4(60.65mm,14.25mm) on Top Layer [Top Solder] Mask Sliver [0.1mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.1mm < 0.15mm) Between Pad DD6-4(60.65mm,14.25mm) on Top Layer And Pad DD6-5(60.2mm,14.25mm) on Top Layer [Top Solder] Mask Sliver [0.1mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.1mm < 0.15mm) Between Pad DD6-5(60.2mm,14.25mm) on Top Layer And Pad DD6-6(59.75mm,14.25mm) on Top Layer [Top Solder] Mask Sliver [0.1mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.1mm < 0.15mm) Between Pad DD6-7(59.75mm,11.45mm) on Top Layer And Pad DD6-8(60.2mm,11.45mm) on Top Layer [Top Solder] Mask Sliver [0.1mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.1mm < 0.15mm) Between Pad DD6-8(60.2mm,11.45mm) on Top Layer And Pad DD6-9(60.65mm,11.45mm) on Top Layer [Top Solder] Mask Sliver [0.1mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.075mm < 0.15mm) Between Pad DD7-0(43mm,16.25mm) on Top Layer And Pad DD7-1(44.4mm,18.225mm) on Top Layer [Top Solder] Mask Sliver [0.075mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.075mm < 0.15mm) Between Pad DD7-0(43mm,16.25mm) on Top Layer And Pad DD7-10(41.025mm,17.25mm) on Top Layer [Top Solder] Mask Sliver [0.075mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.075mm < 0.15mm) Between Pad DD7-0(43mm,16.25mm) on Top Layer And Pad DD7-11(41.025mm,16.85mm) on Top Layer [Top Solder] Mask Sliver [0.075mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.075mm < 0.15mm) Between Pad DD7-0(43mm,16.25mm) on Top Layer And Pad DD7-12(41.025mm,16.45mm) on Top Layer [Top Solder] Mask Sliver [0.075mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.075mm < 0.15mm) Between Pad DD7-0(43mm,16.25mm) on Top Layer And Pad DD7-13(41.025mm,16.05mm) on Top Layer [Top Solder] Mask Sliver [0.075mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.075mm < 0.15mm) Between Pad DD7-0(43mm,16.25mm) on Top Layer And Pad DD7-14(41.025mm,15.65mm) on Top Layer [Top Solder] Mask Sliver [0.075mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.075mm < 0.15mm) Between Pad DD7-0(43mm,16.25mm) on Top Layer And Pad DD7-15(41.025mm,15.25mm) on Top Layer [Top Solder] Mask Sliver [0.075mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.075mm < 0.15mm) Between Pad DD7-0(43mm,16.25mm) on Top Layer And Pad DD7-16(41.025mm,14.85mm) on Top Layer [Top Solder] Mask Sliver [0.075mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.075mm < 0.15mm) Between Pad DD7-0(43mm,16.25mm) on Top Layer And Pad DD7-17(41.6mm,14.275mm) on Top Layer [Top Solder] Mask Sliver [0.075mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.075mm < 0.15mm) Between Pad DD7-0(43mm,16.25mm) on Top Layer And Pad DD7-18(42mm,14.275mm) on Top Layer [Top Solder] Mask Sliver [0.075mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.075mm < 0.15mm) Between Pad DD7-0(43mm,16.25mm) on Top Layer And Pad DD7-19(42.4mm,14.275mm) on Top Layer [Top Solder] Mask Sliver [0.075mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.075mm < 0.15mm) Between Pad DD7-0(43mm,16.25mm) on Top Layer And Pad DD7-2(44mm,18.225mm) on Top Layer [Top Solder] Mask Sliver [0.075mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.075mm < 0.15mm) Between Pad DD7-0(43mm,16.25mm) on Top Layer And Pad DD7-20(42.8mm,14.275mm) on Top Layer [Top Solder] Mask Sliver [0.075mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.075mm < 0.15mm) Between Pad DD7-0(43mm,16.25mm) on Top Layer And Pad DD7-21(43.2mm,14.275mm) on Top Layer [Top Solder] Mask Sliver [0.075mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.075mm < 0.15mm) Between Pad DD7-0(43mm,16.25mm) on Top Layer And Pad DD7-22(43.6mm,14.275mm) on Top Layer [Top Solder] Mask Sliver [0.075mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.075mm < 0.15mm) Between Pad DD7-0(43mm,16.25mm) on Top Layer And Pad DD7-23(44mm,14.275mm) on Top Layer [Top Solder] Mask Sliver [0.075mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.075mm < 0.15mm) Between Pad DD7-0(43mm,16.25mm) on Top Layer And Pad DD7-24(44.4mm,14.275mm) on Top Layer [Top Solder] Mask Sliver [0.075mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.075mm < 0.15mm) Between Pad DD7-0(43mm,16.25mm) on Top Layer And Pad DD7-25(44.975mm,14.85mm) on Top Layer [Top Solder] Mask Sliver [0.075mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.075mm < 0.15mm) Between Pad DD7-0(43mm,16.25mm) on Top Layer And Pad DD7-26(44.975mm,15.25mm) on Top Layer [Top Solder] Mask Sliver [0.075mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.075mm < 0.15mm) Between Pad DD7-0(43mm,16.25mm) on Top Layer And Pad DD7-27(44.975mm,15.65mm) on Top Layer [Top Solder] Mask Sliver [0.075mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.075mm < 0.15mm) Between Pad DD7-0(43mm,16.25mm) on Top Layer And Pad DD7-28(44.975mm,16.05mm) on Top Layer [Top Solder] Mask Sliver [0.075mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.075mm < 0.15mm) Between Pad DD7-0(43mm,16.25mm) on Top Layer And Pad DD7-29(44.975mm,16.45mm) on Top Layer [Top Solder] Mask Sliver [0.075mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.075mm < 0.15mm) Between Pad DD7-0(43mm,16.25mm) on Top Layer And Pad DD7-3(43.6mm,18.225mm) on Top Layer [Top Solder] Mask Sliver [0.075mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.075mm < 0.15mm) Between Pad DD7-0(43mm,16.25mm) on Top Layer And Pad DD7-30(44.975mm,16.85mm) on Top Layer [Top Solder] Mask Sliver [0.075mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.075mm < 0.15mm) Between Pad DD7-0(43mm,16.25mm) on Top Layer And Pad DD7-31(44.975mm,17.25mm) on Top Layer [Top Solder] Mask Sliver [0.075mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.075mm < 0.15mm) Between Pad DD7-0(43mm,16.25mm) on Top Layer And Pad DD7-32(44.975mm,17.65mm) on Top Layer [Top Solder] Mask Sliver [0.075mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.075mm < 0.15mm) Between Pad DD7-0(43mm,16.25mm) on Top Layer And Pad DD7-4(43.2mm,18.225mm) on Top Layer [Top Solder] Mask Sliver [0.075mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.075mm < 0.15mm) Between Pad DD7-0(43mm,16.25mm) on Top Layer And Pad DD7-5(42.8mm,18.225mm) on Top Layer [Top Solder] Mask Sliver [0.075mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.075mm < 0.15mm) Between Pad DD7-0(43mm,16.25mm) on Top Layer And Pad DD7-6(42.4mm,18.225mm) on Top Layer [Top Solder] Mask Sliver [0.075mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.075mm < 0.15mm) Between Pad DD7-0(43mm,16.25mm) on Top Layer And Pad DD7-7(42mm,18.225mm) on Top Layer [Top Solder] Mask Sliver [0.075mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.075mm < 0.15mm) Between Pad DD7-0(43mm,16.25mm) on Top Layer And Pad DD7-8(41.6mm,18.225mm) on Top Layer [Top Solder] Mask Sliver [0.075mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.075mm < 0.15mm) Between Pad DD7-0(43mm,16.25mm) on Top Layer And Pad DD7-9(41.025mm,17.65mm) on Top Layer [Top Solder] Mask Sliver [0.075mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.1mm < 0.15mm) Between Pad DD7-1(44.4mm,18.225mm) on Top Layer And Pad DD7-2(44mm,18.225mm) on Top Layer [Top Solder] Mask Sliver [0.1mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.1mm < 0.15mm) Between Pad DD7-10(41.025mm,17.25mm) on Top Layer And Pad DD7-11(41.025mm,16.85mm) on Top Layer [Top Solder] Mask Sliver [0.1mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.1mm < 0.15mm) Between Pad DD7-10(41.025mm,17.25mm) on Top Layer And Pad DD7-9(41.025mm,17.65mm) on Top Layer [Top Solder] Mask Sliver [0.1mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.1mm < 0.15mm) Between Pad DD7-11(41.025mm,16.85mm) on Top Layer And Pad DD7-12(41.025mm,16.45mm) on Top Layer [Top Solder] Mask Sliver [0.1mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.1mm < 0.15mm) Between Pad DD7-12(41.025mm,16.45mm) on Top Layer And Pad DD7-13(41.025mm,16.05mm) on Top Layer [Top Solder] Mask Sliver [0.1mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.1mm < 0.15mm) Between Pad DD7-13(41.025mm,16.05mm) on Top Layer And Pad DD7-14(41.025mm,15.65mm) on Top Layer [Top Solder] Mask Sliver [0.1mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.1mm < 0.15mm) Between Pad DD7-14(41.025mm,15.65mm) on Top Layer And Pad DD7-15(41.025mm,15.25mm) on Top Layer [Top Solder] Mask Sliver [0.1mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.1mm < 0.15mm) Between Pad DD7-15(41.025mm,15.25mm) on Top Layer And Pad DD7-16(41.025mm,14.85mm) on Top Layer [Top Solder] Mask Sliver [0.1mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.1mm < 0.15mm) Between Pad DD7-17(41.6mm,14.275mm) on Top Layer And Pad DD7-18(42mm,14.275mm) on Top Layer [Top Solder] Mask Sliver [0.1mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.1mm < 0.15mm) Between Pad DD7-18(42mm,14.275mm) on Top Layer And Pad DD7-19(42.4mm,14.275mm) on Top Layer [Top Solder] Mask Sliver [0.1mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.1mm < 0.15mm) Between Pad DD7-19(42.4mm,14.275mm) on Top Layer And Pad DD7-20(42.8mm,14.275mm) on Top Layer [Top Solder] Mask Sliver [0.1mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.1mm < 0.15mm) Between Pad DD7-2(44mm,18.225mm) on Top Layer And Pad DD7-3(43.6mm,18.225mm) on Top Layer [Top Solder] Mask Sliver [0.1mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.1mm < 0.15mm) Between Pad DD7-20(42.8mm,14.275mm) on Top Layer And Pad DD7-21(43.2mm,14.275mm) on Top Layer [Top Solder] Mask Sliver [0.1mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.1mm < 0.15mm) Between Pad DD7-21(43.2mm,14.275mm) on Top Layer And Pad DD7-22(43.6mm,14.275mm) on Top Layer [Top Solder] Mask Sliver [0.1mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.1mm < 0.15mm) Between Pad DD7-22(43.6mm,14.275mm) on Top Layer And Pad DD7-23(44mm,14.275mm) on Top Layer [Top Solder] Mask Sliver [0.1mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.1mm < 0.15mm) Between Pad DD7-23(44mm,14.275mm) on Top Layer And Pad DD7-24(44.4mm,14.275mm) on Top Layer [Top Solder] Mask Sliver [0.1mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.1mm < 0.15mm) Between Pad DD7-25(44.975mm,14.85mm) on Top Layer And Pad DD7-26(44.975mm,15.25mm) on Top Layer [Top Solder] Mask Sliver [0.1mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.1mm < 0.15mm) Between Pad DD7-26(44.975mm,15.25mm) on Top Layer And Pad DD7-27(44.975mm,15.65mm) on Top Layer [Top Solder] Mask Sliver [0.1mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.1mm < 0.15mm) Between Pad DD7-27(44.975mm,15.65mm) on Top Layer And Pad DD7-28(44.975mm,16.05mm) on Top Layer [Top Solder] Mask Sliver [0.1mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.1mm < 0.15mm) Between Pad DD7-28(44.975mm,16.05mm) on Top Layer And Pad DD7-29(44.975mm,16.45mm) on Top Layer [Top Solder] Mask Sliver [0.1mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.1mm < 0.15mm) Between Pad DD7-29(44.975mm,16.45mm) on Top Layer And Pad DD7-30(44.975mm,16.85mm) on Top Layer [Top Solder] Mask Sliver [0.1mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.1mm < 0.15mm) Between Pad DD7-3(43.6mm,18.225mm) on Top Layer And Pad DD7-4(43.2mm,18.225mm) on Top Layer [Top Solder] Mask Sliver [0.1mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.1mm < 0.15mm) Between Pad DD7-30(44.975mm,16.85mm) on Top Layer And Pad DD7-31(44.975mm,17.25mm) on Top Layer [Top Solder] Mask Sliver [0.1mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.1mm < 0.15mm) Between Pad DD7-31(44.975mm,17.25mm) on Top Layer And Pad DD7-32(44.975mm,17.65mm) on Top Layer [Top Solder] Mask Sliver [0.1mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.1mm < 0.15mm) Between Pad DD7-4(43.2mm,18.225mm) on Top Layer And Pad DD7-5(42.8mm,18.225mm) on Top Layer [Top Solder] Mask Sliver [0.1mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.1mm < 0.15mm) Between Pad DD7-5(42.8mm,18.225mm) on Top Layer And Pad DD7-6(42.4mm,18.225mm) on Top Layer [Top Solder] Mask Sliver [0.1mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.1mm < 0.15mm) Between Pad DD7-6(42.4mm,18.225mm) on Top Layer And Pad DD7-7(42mm,18.225mm) on Top Layer [Top Solder] Mask Sliver [0.1mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.1mm < 0.15mm) Between Pad DD7-7(42mm,18.225mm) on Top Layer And Pad DD7-8(41.6mm,18.225mm) on Top Layer [Top Solder] Mask Sliver [0.1mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.11mm < 0.15mm) Between Pad VD3-1(34.855mm,45.575mm) on Bottom Layer And Pad VD3-3(33.49mm,45.575mm) on Bottom Layer [Bottom Solder] Mask Sliver [0.11mm]
+Rule Violations :89
 
 Processing Rule : Silk To Solder Mask (Clearance=0.15mm) (Disabled)(IsPad),(All)
 Rule Violations :0
@@ -557,21 +154,10 @@ Rule Violations :0
 Processing Rule : Board Clearance Constraint (Gap=0mm) (All)
 Rule Violations :0
 
-Processing Rule : Room S1 (Bounding Region = (193.5mm, 26mm, 317mm, 98mm) (InComponentClass('S1'))
-Rule Violations :0
-
-Processing Rule : Room S2 (Bounding Region = (296.5mm, 167mm, 443.5mm, 231mm) (InComponentClass('S2'))
-Rule Violations :0
-
-Processing Rule : Room S3 (Bounding Region = (299mm, 250.5mm, 446mm, 314.5mm) (InComponentClass('S3'))
-   Violation between Room Definition: Between Room S3 (Bounding Region = (299mm, 250.5mm, 446mm, 314.5mm) (InComponentClass('S3')) And Small Component R2_S3-120 (351.5mm,271mm) on Top Layer 
-   Violation between Room Definition: Between Room S3 (Bounding Region = (299mm, 250.5mm, 446mm, 314.5mm) (InComponentClass('S3')) And Small Component R3_S3-120 (360.5mm,271mm) on Top Layer 
-Rule Violations :2
-
 Processing Rule : Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (All)
 Rule Violations :0
 
 
-Violations Detected : 500
+Violations Detected : 97
 Waived Violations : 0
-Time Elapsed        : 00:00:02
+Time Elapsed        : 00:00:10

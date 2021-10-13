@@ -1,0 +1,431 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<style type="text/css">
+		h1, h2, h3, h4, h5, h6 {
+			font-family : segoe ui;
+			color : black;
+			background-color : #EDE7D9;
+			padding: 0.3em;
+		}
+
+		h1 {
+			font-size: 1.2em;
+		}		
+
+		h2 {
+			font-size: 1.2em;
+		}
+
+		body {
+			font-family : segoe ui;
+		}
+
+		td, th {
+			padding: 0.5em;
+			text-align : left;
+			width: 10em;
+		}
+		th {
+			background-color : #EEEEEE;
+
+		}
+		th.column1, td.column1 {
+			text-align: left;
+			width : auto;
+		}
+		table {
+			width : 100%;
+			font-size: 0.9em;
+		}
+
+		.DRC_summary_header {
+			padding-bottom : 0.1em;
+			border : 0px solid black;
+			width: 100%;
+			align: left;
+		}
+
+		.DRC_summary_header_col1,
+		.DRC_summary_header_col2, 
+		.DRC_summary_header_col3 {
+			color : black;
+			font-size:100%;
+			padding : 0em;
+			padding-top : 0.2em;
+			padding-bottom 0.2em;
+			border : 0px solid black;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.DRC_summary_header_col1 {
+			font-weight: bold;
+			width: 8em;
+		}
+
+		.DRC_summary_header_col2 {
+			width: 0.1em;
+		
+		}
+
+		.DRC_summary_header_col3 {
+			width : auto;
+		}
+
+		.header_holder {
+		    Width = 100%;
+		    border = 0px solid green;
+		    padding = 0;
+		}
+
+
+		.front_matter, .front_matter_column1, .front_matter_column2, .front_matter_column3
+		{
+			left : 0;
+			top : 0;
+			padding: 0em;
+			padding-top : 0.1em;
+			border : 0px solid black;
+			width : 100%;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.front_matter_column1 {
+			width : 8em;
+			font-weight: bold;
+		}
+
+		.front_matter_column2 {
+			width: 0.1em;
+		}
+
+		.front_matter_column3 {
+			width : auto;
+		}
+
+		.total_column1, .total_column {
+			font-weight : bold;
+		}
+		.total_column1 {
+			text-align : left;
+		}
+		.warning, .error {
+			color : red;
+			font-weight : bold;
+		}
+		tr.onmouseout_odd {
+			background-color : #white;
+		}
+		tr.onmouseout_even { 
+			background-color : #FAFAFA;
+		}
+		tr.onmouseover_odd, tr.onmouseover_even { 
+			background-color : #EEEEEE;
+		} 
+		a:link, a:visited, .q a:link,.q a:active,.q {
+			color: #21489e; 
+		}
+		a:link.callback, a:visited.callback { 
+			color: #21489e;
+		}
+		a:link.customize, a:visited.customize {
+			color: #C0C0C0;
+			position: absolute; 
+			right: 10px;
+		}	
+		p.contents_level1 {
+			font-weight : bold;
+			font-size : 110%;
+			margin : 0.5em;
+		}
+		p.contents_level2 {
+			position : relative;
+			left : 20px;
+			margin : 0.5em;
+		}
+	</style><script type="text/javascript">
+		function coordToMils(coord) {
+			var number = coord / 10000;
+			
+			if (number != number.toFixed(3))
+				number = number.toFixed(3);
+
+			return number + 'mil'
+		}
+
+		function coordToMM(coord) {
+			var number = 0.0254 * coord / 10000;
+			
+			if (number != number.toFixed(4))
+				number = number.toFixed(4);
+			
+			return number + 'mm'
+		}
+	
+		function convertCoord(coordNode, units) {
+			for (var i = 0; i < coordNode.childNodes.length; i++) {
+				coordNode.removeChild(coordNode.childNodes[i]);
+			}
+
+			var coord = coordNode.getAttribute('value');
+			if (coord != null) {
+				if (units == 'mm') {
+					textNode = document.createTextNode(coordToMM(coord));
+					coordNode.appendChild(textNode);
+				} else if (units == 'mil') {
+					textNode = document.createTextNode(coordToMils(coord));		
+					coordNode.appendChild(textNode);	
+				}
+			}
+		}
+	
+		function convertUnits(unitNode, units) {
+			for (var i = 0; i < unitNode.childNodes.length; i++) {
+				unitNode.removeChild(unitNode.childNodes[i]);		
+			}
+		
+			textNode = document.createTextNode(units); 
+			unitNode.appendChild(textNode);
+		}
+	
+		function changeUnits(radio_input, units) {
+			if (radio_input.checked) {
+			
+				var elements = document.getElementsByName('coordinate');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertCoord(elements[i], units);
+					}
+				}
+	
+				var elements = document.getElementsByName('units');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertUnits(elements[i], units);
+					}
+				}
+			}
+		}
+	</script><title>Design Rule Verification Report</title>
+</head>
+<body onload=""><img ALT="Altium" src="
+			file://C:\Users\Public\Documents\Altium\AD20\Templates\AD_logo.png
+		"><h1>Design Rule Verification Report</h1>
+<table class="header_holder">
+<td class="column1">
+<table class="front_matter">
+<tr class="front_matter">
+<td class="front_matter_column1">Date:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">11.10.2021</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">15:59:38</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Elapsed Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">00:00:01</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Filename:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3"><a href="file:///E:\Work\LoRa\Hardware\biv2-batb_1a\biv2-batb_1a.PcbDoc" class="file"><acronym title="E:\Work\LoRa\Hardware\biv2-batb_1a\biv2-batb_1a.PcbDoc">E:\Work\LoRa\Hardware\biv2-batb_1a\biv2-batb_1a.PcbDoc</acronym></a></td>
+</tr>
+</table>
+</td>
+<td class="column2">
+<table class="DRC_summary_header">
+<tr>
+<td class="DRC_summary_header_col1">Warnings:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3">0</td></tr>
+<tr>
+<td class="DRC_summary_header_col1">Rule Violations:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3" style="color : red">17</td></tr>
+</table>
+</td>
+</table><a name="IDGX3GME0Y3MVHC20TY34GJ0I1WCZNLJF1SFO0EYSI01XAGKXBUBI"><h2>Summary</h2></a><table>
+<tr>
+<th class="column1">Warnings</th>
+<th class="column2">Count</th>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">0</td>
+</tr>
+</table><br><table>
+<tr>
+<th class="column1">Rule Violations</th>
+<th class="column2">Count</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDFQAULNBR2KPPGASFNLUVUEBQ2EZFXVMV3B1U0MFV5LA2MB5SS2TF">Clearance Constraint (Gap=0.125mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDHRZSIWCIR4H4PXCO25ZYVMN4GDO5PQR2FRKUNSIDQJVQYVOOBZN">Clearance Constraint (Gap=0.2mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDT1LC55KAU2HZN3LP1DQICKMM5GLMCI1FI1AQECOHNWUXAUTDQZWO">Clearance Constraint (Gap=0.125mm) (InNet('BAT_IN+')),(InNet('BAT_IN+'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDXY1BYVRVCQ3OHV5PO4CDUP2AABYPURORT0IR3RP4DTTU1YCU42F">Short-Circuit Constraint (Allowed=Yes) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID1UMUUOP4A1NWCMHXXN4BVYM4UERMCQU4MPOJFGCNLIHRLT4SEO4E">Un-Routed Net Constraint ( (All) )</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDYWR2VMXS520GGRAWQYKOQXIW2YLIONKZRA3MKICVNY22TH4SIQP">Modified Polygon (Allow modified: No), (Allow shelved: No)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID5UUPCMUTLPEKBEBM15WQP2QVNOFYLIZP2SSX0KBSSODLXCFMBVMJ">Width Constraint (Min=0.1mm) (Max=10mm) (Preferred=0.125mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDS2DLJOQA3NHTLKQC0YT4HMUNIBS00QVOTERRGTDHBK1ZSIWLTLMF">Width Constraint (Min=0.15mm) (Max=10mm) (Preferred=0.2mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDTS2RHCBY0PSBHBVIFQLOZ3A4MLHOCV35QXUKRKIIC2D5IMECRCXE">Power Plane Connect Rule(Relief Connect )(Expansion=0.2mm) (Conductor Width=0.2mm) (Air Gap=0.2mm) (Entries=4) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDBIIIHPE4ULFKK4CURWQZYHTTEFRXBSKXAFLVYPOYQWUPUMRBHHFC">Minimum Annular Ring (Minimum=0.2mm) (IsPAD)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDBFCXTS5GRSR2JXIQQ5VPWVI0KMXOKMZJI5PYIUPV5VNE3VJX4Q0B">Minimum Annular Ring (Minimum=0.15mm) (IsVia)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDRIXTREF0S2PZCCB2RFBZLRERGWSTOCTJWCN5XLCKZQ1Y2HSTHQL">Minimum Annular Ring (Minimum=0.1mm) (IsVia)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDYATGRCSVEG4LLNWNQHRGHKH0PMSKXBMQEXARQFP12SGNZNPS10XL">Minimum Annular Ring (Minimum=0.15mm) (IsPAD)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDUKI54ET2XSKXKVLYAD3BHHVWWC0GDNLXWN1IGRMIOD4UOZH20OWN">Acute Angle Constraint (Minimum=35.000) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDUP5HGGKBUTNZFLZMHFG0WJAOFHPCNJJSG4UI3TCDTGK43MN14IRE">Hole Size Constraint (Min=0.6mm) (Max=5.9mm) (IsPad)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDBUL0KLO45BZEL1ODYIOOO1PY2WHTCCKJXLMQ1K0BQ1GEJOFKI5L">Hole Size Constraint (Min=0.3mm) (Max=5.9mm) (IsVia)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDNHJR5ER1KIUHOROSZIXDTB05BO0QFKE201VWM3DOZULVHJVJ4YBO">Hole To Hole Clearance (Gap=0.25mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#ID2BSTLWDYSC20I5Y240YCW321WNK3L2CVK4XCU2NZ01UHUGTUXNRE">Minimum Solder Mask Sliver (Gap=0.1mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDXYHRVR2D144HCUVDECGIOVASTLUMMQRDXFE23GEAG10UHZX1DXC">Minimum Solder Mask Sliver (Gap=0.15mm) (All),(All)</a></td>
+<td class="column2">16</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDCXZ3NCNSDM1EGMM5ISPFFBQKSMFGYB4YFY0L1MMHCZPIGHYBPV5E">Silk To Solder Mask (Clearance=0.15mm) (Disabled)(IsPad),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDTWEFYUWWUYNMF40FMH0M5DNQZJJU4PVPNW20IDTGIMYFF35OQTB">Silk to Silk (Clearance=0.15mm) (Disabled)(All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDQQYDW2ZY4HOYGSD53J1LNPQYBNJS3ISVZ1MBMEPN4NYW1GAC3O1C">Net Antennae (Tolerance=0mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDFQHRNDR1CSV5HOH0PTY1241XLIYPE5RGKM1WVWGB3IRECILYW2WD">Board Clearance Constraint (Gap=0mm) (All)</a></td>
+<td class="column2">1</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDONVD2J2HFFFLCJOCXYTVQUOBYSXRBULXYDXR4ERCTZU3NY3VOBJ">Board Clearance Constraint (Gap=0mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDYN0EA1R5F4XENIIJKARZS3IJXONDGIE3WLWKABK1TCORU5ARJE1P">Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">17</td>
+</tr>
+</table><br><a name="IDXYHRVR2D144HCUVDECGIOVASTLUMMQRDXFE23GEAG10UHZX1DXC"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Minimum Solder Mask Sliver (Gap=0.15mm) (All),(All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Work\LoRa\Hardware\biv2-batb_1a\biv2-batb_1a.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2509.218mil|Location2.X=2516.373mil|Location1.Y=1862.072mil|Location2.Y=1869.227mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Work\LoRa\Hardware\biv2-batb_1a\biv2-batb_1a.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2509.218mil|Location2.X=2516.373mil|Location1.Y=1862.072mil|Location2.Y=1869.227mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.075mm &lt; 0.15mm) Between Pad DD1-1(-10mm,-6.05mm) on Top Layer And Pad DD1-12(-10.15mm,-5.4mm) on Top Layer [Top Solder] Mask Sliver [0.075mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Work\LoRa\Hardware\biv2-batb_1a\biv2-batb_1a.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2509.218mil|Location2.X=2516.373mil|Location1.Y=1898.489mil|Location2.Y=1905.645mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Work\LoRa\Hardware\biv2-batb_1a\biv2-batb_1a.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2509.218mil|Location2.X=2516.373mil|Location1.Y=1898.489mil|Location2.Y=1905.645mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.075mm &lt; 0.15mm) Between Pad DD1-10(-10mm,-4.25mm) on Top Layer And Pad DD1-11(-10.15mm,-4.9mm) on Top Layer [Top Solder] Mask Sliver [0.075mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Work\LoRa\Hardware\biv2-batb_1a\biv2-batb_1a.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2527.918mil|Location2.X=2535.074mil|Location1.Y=1883.233mil|Location2.Y=1890.389mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Work\LoRa\Hardware\biv2-batb_1a\biv2-batb_1a.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2527.918mil|Location2.X=2535.074mil|Location1.Y=1883.233mil|Location2.Y=1890.389mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.1mm &lt; 0.15mm) Between Pad DD1-11(-10.15mm,-4.9mm) on Top Layer And Pad DD1-13(-9.25mm,-5.15mm) on Top Layer [Top Solder] Mask Sliver [0.1mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Work\LoRa\Hardware\biv2-batb_1a\biv2-batb_1a.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2527.426mil|Location2.X=2535.435mil|Location1.Y=1897.707mil|Location2.Y=1905.645mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Work\LoRa\Hardware\biv2-batb_1a\biv2-batb_1a.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2527.426mil|Location2.X=2535.435mil|Location1.Y=1897.707mil|Location2.Y=1905.645mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.106mm &lt; 0.15mm) Between Pad DD1-11(-10.15mm,-4.9mm) on Top Layer And Pad DD1-9(-9.5mm,-4.25mm) on Top Layer [Top Solder] Mask Sliver [0.106mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Work\LoRa\Hardware\biv2-batb_1a\biv2-batb_1a.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2527.918mil|Location2.X=2535.074mil|Location1.Y=1864.533mil|Location2.Y=1871.688mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Work\LoRa\Hardware\biv2-batb_1a\biv2-batb_1a.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2527.918mil|Location2.X=2535.074mil|Location1.Y=1864.533mil|Location2.Y=1871.688mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.1mm &lt; 0.15mm) Between Pad DD1-12(-10.15mm,-5.4mm) on Top Layer And Pad DD1-13(-9.25mm,-5.15mm) on Top Layer [Top Solder] Mask Sliver [0.1mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Work\LoRa\Hardware\biv2-batb_1a\biv2-batb_1a.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2527.426mil|Location2.X=2535.364mil|Location1.Y=1862.072mil|Location2.Y=1870.08mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Work\LoRa\Hardware\biv2-batb_1a\biv2-batb_1a.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2527.426mil|Location2.X=2535.364mil|Location1.Y=1862.072mil|Location2.Y=1870.08mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.106mm &lt; 0.15mm) Between Pad DD1-12(-10.15mm,-5.4mm) on Top Layer And Pad DD1-2(-9.5mm,-6.05mm) on Top Layer [Top Solder] Mask Sliver [0.106mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Work\LoRa\Hardware\biv2-batb_1a\biv2-batb_1a.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2529.887mil|Location2.X=2537.042mil|Location1.Y=1862.564mil|Location2.Y=1869.719mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Work\LoRa\Hardware\biv2-batb_1a\biv2-batb_1a.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2529.887mil|Location2.X=2537.042mil|Location1.Y=1862.564mil|Location2.Y=1869.719mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.1mm &lt; 0.15mm) Between Pad DD1-13(-9.25mm,-5.15mm) on Top Layer And Pad DD1-2(-9.5mm,-6.05mm) on Top Layer [Top Solder] Mask Sliver [0.1mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Work\LoRa\Hardware\biv2-batb_1a\biv2-batb_1a.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2548.588mil|Location2.X=2555.743mil|Location1.Y=1862.564mil|Location2.Y=1869.719mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Work\LoRa\Hardware\biv2-batb_1a\biv2-batb_1a.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2548.588mil|Location2.X=2555.743mil|Location1.Y=1862.564mil|Location2.Y=1869.719mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.1mm &lt; 0.15mm) Between Pad DD1-13(-9.25mm,-5.15mm) on Top Layer And Pad DD1-3(-9mm,-6.05mm) on Top Layer [Top Solder] Mask Sliver [0.1mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Work\LoRa\Hardware\biv2-batb_1a\biv2-batb_1a.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2563.352mil|Location2.X=2570.507mil|Location1.Y=1864.533mil|Location2.Y=1871.688mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Work\LoRa\Hardware\biv2-batb_1a\biv2-batb_1a.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2563.352mil|Location2.X=2570.507mil|Location1.Y=1864.533mil|Location2.Y=1871.688mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.1mm &lt; 0.15mm) Between Pad DD1-13(-9.25mm,-5.15mm) on Top Layer And Pad DD1-5(-8.35mm,-5.4mm) on Top Layer [Top Solder] Mask Sliver [0.1mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Work\LoRa\Hardware\biv2-batb_1a\biv2-batb_1a.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2563.352mil|Location2.X=2570.507mil|Location1.Y=1883.233mil|Location2.Y=1890.389mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Work\LoRa\Hardware\biv2-batb_1a\biv2-batb_1a.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2563.352mil|Location2.X=2570.507mil|Location1.Y=1883.233mil|Location2.Y=1890.389mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.1mm &lt; 0.15mm) Between Pad DD1-13(-9.25mm,-5.15mm) on Top Layer And Pad DD1-6(-8.35mm,-4.9mm) on Top Layer [Top Solder] Mask Sliver [0.1mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Work\LoRa\Hardware\biv2-batb_1a\biv2-batb_1a.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2548.588mil|Location2.X=2555.743mil|Location1.Y=1897.997mil|Location2.Y=1905.152mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Work\LoRa\Hardware\biv2-batb_1a\biv2-batb_1a.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2548.588mil|Location2.X=2555.743mil|Location1.Y=1897.997mil|Location2.Y=1905.152mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.1mm &lt; 0.15mm) Between Pad DD1-13(-9.25mm,-5.15mm) on Top Layer And Pad DD1-8(-9mm,-4.25mm) on Top Layer [Top Solder] Mask Sliver [0.1mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Work\LoRa\Hardware\biv2-batb_1a\biv2-batb_1a.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2529.887mil|Location2.X=2537.042mil|Location1.Y=1897.997mil|Location2.Y=1905.152mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Work\LoRa\Hardware\biv2-batb_1a\biv2-batb_1a.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2529.887mil|Location2.X=2537.042mil|Location1.Y=1897.997mil|Location2.Y=1905.152mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.1mm &lt; 0.15mm) Between Pad DD1-13(-9.25mm,-5.15mm) on Top Layer And Pad DD1-9(-9.5mm,-4.25mm) on Top Layer [Top Solder] Mask Sliver [0.1mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Work\LoRa\Hardware\biv2-batb_1a\biv2-batb_1a.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2563.844mil|Location2.X=2571.852mil|Location1.Y=1861.29mil|Location2.Y=1869.227mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Work\LoRa\Hardware\biv2-batb_1a\biv2-batb_1a.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2563.844mil|Location2.X=2571.852mil|Location1.Y=1861.29mil|Location2.Y=1869.227mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.106mm &lt; 0.15mm) Between Pad DD1-3(-9mm,-6.05mm) on Top Layer And Pad DD1-5(-8.35mm,-5.4mm) on Top Layer [Top Solder] Mask Sliver [0.106mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Work\LoRa\Hardware\biv2-batb_1a\biv2-batb_1a.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2568.273mil|Location2.X=2575.428mil|Location1.Y=1862.072mil|Location2.Y=1869.227mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Work\LoRa\Hardware\biv2-batb_1a\biv2-batb_1a.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2568.273mil|Location2.X=2575.428mil|Location1.Y=1862.072mil|Location2.Y=1869.227mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.075mm &lt; 0.15mm) Between Pad DD1-4(-8.5mm,-6.05mm) on Top Layer And Pad DD1-5(-8.35mm,-5.4mm) on Top Layer [Top Solder] Mask Sliver [0.075mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Work\LoRa\Hardware\biv2-batb_1a\biv2-batb_1a.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2568.273mil|Location2.X=2575.428mil|Location1.Y=1898.489mil|Location2.Y=1905.645mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Work\LoRa\Hardware\biv2-batb_1a\biv2-batb_1a.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2568.273mil|Location2.X=2575.428mil|Location1.Y=1898.489mil|Location2.Y=1905.645mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.075mm &lt; 0.15mm) Between Pad DD1-6(-8.35mm,-4.9mm) on Top Layer And Pad DD1-7(-8.5mm,-4.25mm) on Top Layer [Top Solder] Mask Sliver [0.075mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Work\LoRa\Hardware\biv2-batb_1a\biv2-batb_1a.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2563.844mil|Location2.X=2571.782mil|Location1.Y=1898.489mil|Location2.Y=1906.498mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Work\LoRa\Hardware\biv2-batb_1a\biv2-batb_1a.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2563.844mil|Location2.X=2571.782mil|Location1.Y=1898.489mil|Location2.Y=1906.498mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.106mm &lt; 0.15mm) Between Pad DD1-6(-8.35mm,-4.9mm) on Top Layer And Pad DD1-8(-9mm,-4.25mm) on Top Layer [Top Solder] Mask Sliver [0.106mm]</acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDFQHRNDR1CSV5HOH0PTY1241XLIYPE5RGKM1WVWGB3IRECILYW2WD"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Board Clearance Constraint (Gap=0mm) (All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Work\LoRa\Hardware\biv2-batb_1a\biv2-batb_1a.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2263.54mil|Location2.X=2274.632mil|Location1.Y=2049.308mil|Location2.Y=2060.4mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Work\LoRa\Hardware\biv2-batb_1a\biv2-batb_1a.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2263.54mil|Location2.X=2274.632mil|Location1.Y=2049.308mil|Location2.Y=2060.4mil|Absolute=True">Board Outline Clearance(Outline Edge): (0.234mm &lt; 0.25mm) Between Board Edge And Pad Free-1(-14.25mm,0mm) on Top Layer </acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br></body>
+</html>
