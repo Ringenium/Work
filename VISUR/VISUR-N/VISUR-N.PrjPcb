@@ -69,7 +69,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=RCNNUPDM
 
 [Document3]
 DocumentPath=VISUR-N_a.SchDoc
@@ -121,138 +121,6 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
-
-[GeneratedDocument1]
-DocumentPath=Project Outputs for VISUR-N\NC Drill\VISUR-botN_a.DRR
-DItemRevisionGUID=
-
-[GeneratedDocument2]
-DocumentPath=Project Outputs for Free Documents\Gerber\VISUR-botN_a.EXTREP
-DItemRevisionGUID=
-
-[GeneratedDocument3]
-DocumentPath=Project Outputs for VISUR-N\Gerber\VISUR-botN_a.EXTREP
-DItemRevisionGUID=
-
-[GeneratedDocument4]
-DocumentPath=Project Outputs for Free Documents\Gerber\VISUR-botN_a.GBL
-DItemRevisionGUID=
-
-[GeneratedDocument5]
-DocumentPath=Project Outputs for VISUR-N\Gerber\VISUR-botN_a.GBL
-DItemRevisionGUID=
-
-[GeneratedDocument6]
-DocumentPath=Project Outputs for Free Documents\Gerber\VISUR-botN_a.GBO
-DItemRevisionGUID=
-
-[GeneratedDocument7]
-DocumentPath=Project Outputs for VISUR-N\Gerber\VISUR-botN_a.GBO
-DItemRevisionGUID=
-
-[GeneratedDocument8]
-DocumentPath=Project Outputs for Free Documents\Gerber\VISUR-botN_a.GBS
-DItemRevisionGUID=
-
-[GeneratedDocument9]
-DocumentPath=Project Outputs for VISUR-N\Gerber\VISUR-botN_a.GBS
-DItemRevisionGUID=
-
-[GeneratedDocument10]
-DocumentPath=Project Outputs for Free Documents\Gerber\VISUR-botN_a.GM4
-DItemRevisionGUID=
-
-[GeneratedDocument11]
-DocumentPath=Project Outputs for VISUR-N\Gerber\VISUR-botN_a.GM4
-DItemRevisionGUID=
-
-[GeneratedDocument12]
-DocumentPath=Project Outputs for Free Documents\Gerber\VISUR-botN_a.GTL
-DItemRevisionGUID=
-
-[GeneratedDocument13]
-DocumentPath=Project Outputs for VISUR-N\Gerber\VISUR-botN_a.GTL
-DItemRevisionGUID=
-
-[GeneratedDocument14]
-DocumentPath=Project Outputs for Free Documents\Gerber\VISUR-botN_a.GTS
-DItemRevisionGUID=
-
-[GeneratedDocument15]
-DocumentPath=Project Outputs for VISUR-N\Gerber\VISUR-botN_a.GTS
-DItemRevisionGUID=
-
-[GeneratedDocument16]
-DocumentPath=Project Outputs for VISUR-N\NC Drill\VISUR-botN_a.LDP
-DItemRevisionGUID=
-
-[GeneratedDocument17]
-DocumentPath=Project Outputs for Free Documents\Gerber\VISUR-botN_a.REP
-DItemRevisionGUID=
-
-[GeneratedDocument18]
-DocumentPath=Project Outputs for VISUR-N\Gerber\VISUR-botN_a.REP
-DItemRevisionGUID=
-
-[GeneratedDocument19]
-DocumentPath=Project Outputs for Free Documents\Gerber\VISUR-botN_a.RUL
-DItemRevisionGUID=
-
-[GeneratedDocument20]
-DocumentPath=Project Outputs for VISUR-N\Gerber\VISUR-botN_a.RUL
-DItemRevisionGUID=
-
-[GeneratedDocument21]
-DocumentPath=Project Outputs for VISUR-N\NC Drill\VISUR-botN_a.TXT
-DItemRevisionGUID=
-
-[GeneratedDocument22]
-DocumentPath=Project Outputs for VISUR-N\NC Drill\VISUR-topN_a.DRR
-DItemRevisionGUID=
-
-[GeneratedDocument23]
-DocumentPath=Project Outputs for VISUR-N\Gerber\VISUR-topN_a.EXTREP
-DItemRevisionGUID=
-
-[GeneratedDocument24]
-DocumentPath=Project Outputs for VISUR-N\Gerber\VISUR-topN_a.GBL
-DItemRevisionGUID=
-
-[GeneratedDocument25]
-DocumentPath=Project Outputs for VISUR-N\Gerber\VISUR-topN_a.GBS
-DItemRevisionGUID=
-
-[GeneratedDocument26]
-DocumentPath=Project Outputs for VISUR-N\Gerber\VISUR-topN_a.GM4
-DItemRevisionGUID=
-
-[GeneratedDocument27]
-DocumentPath=Project Outputs for VISUR-N\Gerber\VISUR-topN_a.GTL
-DItemRevisionGUID=
-
-[GeneratedDocument28]
-DocumentPath=Project Outputs for VISUR-N\Gerber\VISUR-topN_a.GTO
-DItemRevisionGUID=
-
-[GeneratedDocument29]
-DocumentPath=Project Outputs for VISUR-N\Gerber\VISUR-topN_a.GTS
-DItemRevisionGUID=
-
-[GeneratedDocument30]
-DocumentPath=Project Outputs for VISUR-N\NC Drill\VISUR-topN_a.LDP
-DItemRevisionGUID=
-
-[GeneratedDocument31]
-DocumentPath=Project Outputs for VISUR-N\Gerber\VISUR-topN_a.REP
-DItemRevisionGUID=
-
-[GeneratedDocument32]
-DocumentPath=Project Outputs for VISUR-N\Gerber\VISUR-topN_a.RUL
-DItemRevisionGUID=
-
-[GeneratedDocument33]
-DocumentPath=Project Outputs for VISUR-N\NC Drill\VISUR-topN_a.TXT
-DItemRevisionGUID=
 
 [Configuration1]
 Name=Sources
@@ -865,36 +733,6 @@ OutputName11=Specctra Design PCB
 OutputDocumentPath11=
 OutputVariantName11=
 OutputDefault11=0
-OutputType12=Ansoft Neutral
-OutputName12=Ansoft Neutral (AutoPCB)
-OutputDocumentPath12=
-OutputVariantName12=
-OutputDefault12=0
-OutputType13=HyperLynx
-OutputName13=HyperLynx (AutoPCB)
-OutputDocumentPath13=
-OutputVariantName13=
-OutputDefault13=0
-OutputType14=Orcad v7 Capture Design
-OutputName14=Orcad v7 Capture Design (AutoSCH)
-OutputDocumentPath14=
-OutputVariantName14=
-OutputDefault14=0
-OutputType15=P-CAD ASCII
-OutputName15=P-CAD ASCII (AutoPCB)
-OutputDocumentPath15=
-OutputVariantName15=
-OutputDefault15=0
-OutputType16=P-CAD V16 Schematic Design
-OutputName16=P-CAD V16 Schematic Design (AutoSCH)
-OutputDocumentPath16=
-OutputVariantName16=
-OutputDefault16=0
-OutputType17=SiSoft
-OutputName17=SiSoft (AutoPCB)
-OutputDocumentPath17=
-OutputVariantName17=
-OutputDefault17=0
 
 [OutputGroup10]
 Name=PostProcess Outputs

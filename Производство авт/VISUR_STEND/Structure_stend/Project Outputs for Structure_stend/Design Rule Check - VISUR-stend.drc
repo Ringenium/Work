@@ -1,9 +1,12 @@
 Protel Design System Design Rule Check
 PCB File : E:\Work\Производство авт\VISUR_STEND\Structure_stend\VISUR-stend.1.PcbDoc
-Date     : 24.09.2021
-Time     : 16:40:15
+Date     : 18.10.2021
+Time     : 10:18:52
 
 Processing Rule : Clearance Constraint (Gap=0.2mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.2mm) (InNet('NetDA1_S1_4','NetDA1_S2_4','NetDA1_S3_4','NetC5_2','Vin','NetR5_S1_2','NetR3_S1_2','NetR5_S2_2','NetR3_S2_2','NetR5_S3_2','NetR3_S3_2')),(InNet('GND'))
 Rule Violations :0
 
 Processing Rule : Short-Circuit Constraint (Allowed=Yes) (All),(All)

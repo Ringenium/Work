@@ -1,0 +1,17 @@
+Output: Gerber Files
+Type  : Gerber
+From  : Variant [[No Variations]] of PCB Document [biv2-batb_1a.PcbDoc]
+   Generated File[biv2-batb_1a.GTS]
+   Generated File[biv2-batb_1a.GTL]
+   Generated File[biv2-batb_1a.GBL]
+   Generated File[biv2-batb_1a.GBS]
+   Generated File[biv2-batb_1a.GM4]
+   Generated File[biv2-batb_1a.RUL]
+   Generated File[biv2-batb_1a.EXTREP]
+   Generated File[biv2-batb_1a.REP]
+
+
+Files Generated   : 8
+Documents Printed : 0
+
+Finished Output Generation At 16:20:55 On 18.10.2021

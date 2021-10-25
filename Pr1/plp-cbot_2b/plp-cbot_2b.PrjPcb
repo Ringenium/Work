@@ -89,82 +89,34 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [GeneratedDocument1]
-DocumentPath=Project Outputs for plp-cbot_2b\NC Drill\plp-cbot_2b.DRR
-DItemRevisionGUID=
-
-[GeneratedDocument2]
-DocumentPath=Project Outputs for plp-cbot_2b\Gerber\plp-cbot_2b.EXTREP
-DItemRevisionGUID=
-
-[GeneratedDocument3]
-DocumentPath=Project Outputs for Free Documents\Gerber\plp-cbot_2b.GBL
-DItemRevisionGUID=
-
-[GeneratedDocument4]
 DocumentPath=Project Outputs for plp-cbot_2b\Gerber\plp-cbot_2b.GBL
 DItemRevisionGUID=
 
-[GeneratedDocument5]
-DocumentPath=Project Outputs for Free Documents\Gerber\plp-cbot_2b.GBO
-DItemRevisionGUID=
-
-[GeneratedDocument6]
+[GeneratedDocument2]
 DocumentPath=Project Outputs for plp-cbot_2b\Gerber\plp-cbot_2b.GBO
 DItemRevisionGUID=
 
-[GeneratedDocument7]
-DocumentPath=Project Outputs for Free Documents\Gerber\plp-cbot_2b.GBS
-DItemRevisionGUID=
-
-[GeneratedDocument8]
+[GeneratedDocument3]
 DocumentPath=Project Outputs for plp-cbot_2b\Gerber\plp-cbot_2b.GBS
 DItemRevisionGUID=
 
-[GeneratedDocument9]
-DocumentPath=Project Outputs for Free Documents\Gerber\plp-cbot_2b.GM4
-DItemRevisionGUID=
-
-[GeneratedDocument10]
+[GeneratedDocument4]
 DocumentPath=Project Outputs for plp-cbot_2b\Gerber\plp-cbot_2b.GM4
 DItemRevisionGUID=
 
-[GeneratedDocument11]
-DocumentPath=Project Outputs for Free Documents\Gerber\plp-cbot_2b.GTL
-DItemRevisionGUID=
-
-[GeneratedDocument12]
+[GeneratedDocument5]
 DocumentPath=Project Outputs for plp-cbot_2b\Gerber\plp-cbot_2b.GTL
 DItemRevisionGUID=
 
-[GeneratedDocument13]
-DocumentPath=Project Outputs for Free Documents\Gerber\plp-cbot_2b.GTO
-DItemRevisionGUID=
-
-[GeneratedDocument14]
+[GeneratedDocument6]
 DocumentPath=Project Outputs for plp-cbot_2b\Gerber\plp-cbot_2b.GTO
 DItemRevisionGUID=
 
-[GeneratedDocument15]
-DocumentPath=Project Outputs for Free Documents\Gerber\plp-cbot_2b.GTS
-DItemRevisionGUID=
-
-[GeneratedDocument16]
+[GeneratedDocument7]
 DocumentPath=Project Outputs for plp-cbot_2b\Gerber\plp-cbot_2b.GTS
 DItemRevisionGUID=
 
-[GeneratedDocument17]
-DocumentPath=Project Outputs for plp-cbot_2b\NC Drill\plp-cbot_2b.LDP
-DItemRevisionGUID=
-
-[GeneratedDocument18]
-DocumentPath=Project Outputs for plp-cbot_2b\Gerber\plp-cbot_2b.REP
-DItemRevisionGUID=
-
-[GeneratedDocument19]
-DocumentPath=Project Outputs for plp-cbot_2b\Gerber\plp-cbot_2b.RUL
-DItemRevisionGUID=
-
-[GeneratedDocument20]
+[GeneratedDocument8]
 DocumentPath=Project Outputs for plp-cbot_2b\NC Drill\plp-cbot_2b.TXT
 DItemRevisionGUID=
 

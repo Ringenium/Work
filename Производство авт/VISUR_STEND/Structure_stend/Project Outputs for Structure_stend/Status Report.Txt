@@ -1,0 +1,21 @@
+Output: Gerber Files
+Type  : Gerber
+From  : Variant [[No Variations]] of PCB Document [VISUR-stend.1.PcbDoc]
+   Generated File[VISUR-stend.1.GTO]
+   Generated File[VISUR-stend.1.GTS]
+   Generated File[VISUR-stend.1.GTL]
+   Generated File[VISUR-stend.1.G1]
+   Generated File[VISUR-stend.1.G2]
+   Generated File[VISUR-stend.1.GBL]
+   Generated File[VISUR-stend.1.GBS]
+   Generated File[VISUR-stend.1.GBO]
+   Generated File[VISUR-stend.1.GM4]
+   Generated File[VISUR-stend.1.RUL]
+   Generated File[VISUR-stend.1.EXTREP]
+   Generated File[VISUR-stend.1.REP]
+
+
+Files Generated   : 12
+Documents Printed : 0
+
+Finished Output Generation At 10:19:26 On 18.10.2021
