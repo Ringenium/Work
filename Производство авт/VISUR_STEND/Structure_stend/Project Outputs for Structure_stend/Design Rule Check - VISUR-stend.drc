@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
 PCB File : E:\Work\Производство авт\VISUR_STEND\Structure_stend\VISUR-stend.1.PcbDoc
-Date     : 18.10.2021
-Time     : 10:18:52
+Date     : 12.11.2021
+Time     : 16:39:12
 
 Processing Rule : Clearance Constraint (Gap=0.2mm) (All),(All)
 Rule Violations :0
@@ -163,4 +163,4 @@ Rule Violations :0
 
 Violations Detected : 97
 Waived Violations : 0
-Time Elapsed        : 00:00:10
+Time Elapsed        : 00:00:11

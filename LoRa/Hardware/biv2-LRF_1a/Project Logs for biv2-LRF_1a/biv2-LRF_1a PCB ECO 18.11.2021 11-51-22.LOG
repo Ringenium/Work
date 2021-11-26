@@ -1,0 +1,11 @@
+Added Component: Designator=XS10(CON: PBD-10-1.27S)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://neokt593.ru/PBD%201.27%20-%2008SA%20PBD1.27-08SA"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetR5_1 Pin=XS10-1
+Added Pin To Net: NetName=NetR1_1 Pin=XS10-2
+Added Pin To Net: NetName=NetR2_1 Pin=XS10-3
+Added Pin To Net: NetName=VDD Pin=XS10-4
+Added Pin To Net: NetName=NetR3_1 Pin=XS10-5
+Added Pin To Net: NetName=NetR6_1 Pin=XS10-7
+Added Pin To Net: NetName=NetR4_1 Pin=XS10-9
+Added Member To Class: ClassName=MCUModule Member=Component XS10 PBD1.27-10SA

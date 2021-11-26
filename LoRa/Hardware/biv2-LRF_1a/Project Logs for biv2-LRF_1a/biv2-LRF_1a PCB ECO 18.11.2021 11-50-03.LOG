@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=NetR1_1 Pin=XS10-1
+Removed Pin From Net: NetName=NetR5_1 Pin=XS10-2
+Added Pin To Net: NetName=NetR5_1 Pin=XS10-1
+Added Pin To Net: NetName=NetR1_1 Pin=XS10-2
+Added Room: Name=LoraModule
+Added Room: Name=MCUModule

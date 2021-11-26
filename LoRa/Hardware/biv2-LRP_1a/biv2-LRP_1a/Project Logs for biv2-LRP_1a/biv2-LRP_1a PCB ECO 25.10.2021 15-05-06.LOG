@@ -1,0 +1,52 @@
+Added Component: Designator=XS1(TestPoint(without 3D))
+Added Component: Designator=XS2(TestPoint(without 3D))
+Added Component: Designator=XS3(TestPoint(without 3D))
+Added Component: Designator=XS4(TestPoint(without 3D))
+Added Component: Designator=XS5(TestPoint(without 3D))
+Added Component: Designator=XS6(TestPoint(without 3D))
+Added Component: Designator=XS7(TestPoint(without 3D))
+Added Component: Designator=XS8(TestPoint(without 3D))
+Added Component: Designator=XS9(TestPoint(without 3D))
+Added Component: Designator=XS10(TestPoint(without 3D))
+Added Component: Designator=XS11(TestPoint(without 3D))
+Added Component: Designator=XS12(TestPoint(without 3D))
+Added Component: Designator=XS13(TestPoint(without 3D))
+Added Component: Designator=XS14(TestPoint(without 3D))
+Added Component: Designator=XS15(TestPoint(without 3D))
+Added Component: Designator=XS16(TestPoint(without 3D))
+Added Component: Designator=XS17(TestPoint(without 3D))
+Added Pin To Net: NetName=MODE Pin=XS1-1
+Added Pin To Net: NetName=DC_EN Pin=XS2-1
+Added Pin To Net: NetName=SDA_BAT Pin=XS3-1
+Added Pin To Net: NetName=SCL_BAT Pin=XS4-1
+Added Pin To Net: NetName=+U Pin=XS5-1
+Added Pin To Net: NetName=RX Pin=XS6-1
+Added Pin To Net: NetName=TX Pin=XS7-1
+Added Pin To Net: NetName=RE Pin=XS8-1
+Added Pin To Net: NetName=DE Pin=XS9-1
+Added Pin To Net: NetName=+U Pin=XS10-1
+Added Pin To Net: NetName=GND Pin=XS11-1
+Added Pin To Net: NetName=SDA_BAT Pin=XS12-1
+Added Pin To Net: NetName=SCL_BAT Pin=XS13-1
+Added Pin To Net: NetName=NetR8_1 Pin=XS14-1
+Added Pin To Net: NetName=GND Pin=XS15-1
+Added Pin To Net: NetName=NetR5_2 Pin=XS16-1
+Added Pin To Net: NetName=NetR6_2 Pin=XS17-1
+Added Member To Class: ClassName=Sheet1 Member=Component XS1 Testpoint_HS1mm
+Added Member To Class: ClassName=Sheet1 Member=Component XS2 Testpoint_HS1mm
+Added Member To Class: ClassName=Sheet1 Member=Component XS3 Testpoint_HS1mm
+Added Member To Class: ClassName=Sheet1 Member=Component XS4 Testpoint_HS1mm
+Added Member To Class: ClassName=Sheet1 Member=Component XS5 Testpoint_HS1mm
+Added Member To Class: ClassName=Sheet1 Member=Component XS6 Testpoint_HS1mm
+Added Member To Class: ClassName=Sheet1 Member=Component XS7 Testpoint_HS1mm
+Added Member To Class: ClassName=Sheet1 Member=Component XS8 Testpoint_HS1mm
+Added Member To Class: ClassName=Sheet1 Member=Component XS9 Testpoint_HS1mm
+Added Member To Class: ClassName=Sheet1 Member=Component XS10 Testpoint_HS1mm
+Added Member To Class: ClassName=Sheet1 Member=Component XS11 Testpoint_HS1mm
+Added Member To Class: ClassName=Sheet1 Member=Component XS12 Testpoint_HS1mm
+Added Member To Class: ClassName=Sheet1 Member=Component XS13 Testpoint_HS1mm
+Added Member To Class: ClassName=Sheet1 Member=Component XS14 Testpoint_HS1mm
+Added Member To Class: ClassName=Sheet1 Member=Component XS15 Testpoint_HS1mm
+Added Member To Class: ClassName=Sheet1 Member=Component XS16 Testpoint_HS1mm
+Added Member To Class: ClassName=Sheet1 Member=Component XS17 Testpoint_HS1mm
+Added Room: Name=Sheet1

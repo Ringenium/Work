@@ -1,0 +1,21 @@
+Change Component Designator: OldDesignator=XS16 NewDesignator=XS7
+Change Component Designator: OldDesignator=XS17 NewDesignator=XS8
+Added Component: Designator=XS1(TestPoint(1mm_HS))
+Added Component: Designator=XS2(TestPoint(1mm_HS))
+Added Component: Designator=XS3(TestPoint(1mm_HS))
+Added Component: Designator=XS4(TestPoint(1mm_HS))
+Added Component: Designator=XS5(TestPoint(1mm_HS))
+Added Component: Designator=XS6(TestPoint(1mm_HS))
+Added Pin To Net: NetName=+U Pin=XS1-1
+Added Pin To Net: NetName=GND Pin=XS2-1
+Added Pin To Net: NetName=SDA_BAT Pin=XS3-1
+Added Pin To Net: NetName=SCL_BAT Pin=XS4-1
+Added Pin To Net: NetName=NetR8_1 Pin=XS5-1
+Added Pin To Net: NetName=GND Pin=XS6-1
+Added Member To Class: ClassName=Sheet1 Member=Component XS1 Testpoint_HS1mm
+Added Member To Class: ClassName=Sheet1 Member=Component XS2 Testpoint_HS1mm
+Added Member To Class: ClassName=Sheet1 Member=Component XS3 Testpoint_HS1mm
+Added Member To Class: ClassName=Sheet1 Member=Component XS4 Testpoint_HS1mm
+Added Member To Class: ClassName=Sheet1 Member=Component XS5 Testpoint_HS1mm
+Added Member To Class: ClassName=Sheet1 Member=Component XS6 Testpoint_HS1mm
+Added Room: Name=Sheet1

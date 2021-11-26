@@ -1,0 +1,15 @@
+Removed Pin From Net: NetName=VDD Pin=XP1-1
+Removed Pin From Net: NetName=VDD Pin=XP1-2
+Removed Pin From Net: NetName=VDD Pin=XP1-3
+Removed Pin From Net: NetName=VDD Pin=XP1-4
+Removed Pin From Net: NetName=VDD Pin=XP1-5
+Removed Pin From Net: NetName=VDD Pin=XP1-6
+Removed Pin From Net: NetName=VDD Pin=XP1-7
+Removed Pin From Net: NetName=VDD Pin=XP1-9
+Removed Pin From Net: NetName=VDD Pin=XP1-10
+Added Pin To Net: NetName=LED6 Pin=XP1-1
+Added Pin To Net: NetName=LED5 Pin=XP1-3
+Added Pin To Net: NetName=LED4 Pin=XP1-5
+Added Pin To Net: NetName=LED3 Pin=XP1-7
+Added Pin To Net: NetName=LED1 Pin=XP1-9
+Added Pin To Net: NetName=LED2 Pin=XP1-10

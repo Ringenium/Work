@@ -1,0 +1,36 @@
+Added Component: Designator=VD1(KM2520SURCK09)
+Added Component: Designator=VD2(KM2520SURCK09)
+Added Component: Designator=VD3(KM2520SURCK09)
+Added Component: Designator=VD4(KM2520SURCK09)
+Added Component: Designator=VD5(KM2520SURCK09)
+Added Component: Designator=VD6(KM2520SURCK09)
+Added Component: Designator=XP1(CON: PLLD-10S)
+Added Component: Designator=XP2(CON: PLLD-10S)
+Added Pin To Net: NetName=LED1 Pin=VD1-2
+Added Pin To Net: NetName=LED1 Pin=XP1-2
+Added Net: Name=LED1
+Added Pin To Net: NetName=LED2 Pin=VD2-2
+Added Pin To Net: NetName=LED2 Pin=XP1-1
+Added Net: Name=LED2
+Added Pin To Net: NetName=LED3 Pin=VD3-2
+Added Pin To Net: NetName=LED3 Pin=XP1-4
+Added Net: Name=LED3
+Added Pin To Net: NetName=LED4 Pin=VD4-2
+Added Pin To Net: NetName=LED4 Pin=XP1-6
+Added Net: Name=LED4
+Added Pin To Net: NetName=LED5 Pin=VD5-2
+Added Pin To Net: NetName=LED5 Pin=XP1-8
+Added Net: Name=LED5
+Added Pin To Net: NetName=LED6 Pin=VD6-2
+Added Pin To Net: NetName=LED6 Pin=XP1-10
+Added Net: Name=LED6
+Added Pin To Net: NetName=VDD Pin=VD1-1
+Added Pin To Net: NetName=VDD Pin=VD2-1
+Added Pin To Net: NetName=VDD Pin=VD3-1
+Added Pin To Net: NetName=VDD Pin=VD4-1
+Added Pin To Net: NetName=VDD Pin=VD5-1
+Added Pin To Net: NetName=VDD Pin=VD6-1
+Added Pin To Net: NetName=VDD Pin=XP1-3
+Added Net: Name=VDD
+Added Class: Name=biv2-LRTP_1a
+Added Room: Name=biv2-LRTP_1a

@@ -1,0 +1,22 @@
+Removed Pin From Net: NetName=SWDIO Pin=XS13-2
+Removed Pin From Net: NetName=nRST Pin=XS13-3
+Removed Pin From Net: NetName=SWCLK Pin=XS13-4
+Removed Pin From Net: NetName=GND Pin=XS13-6
+Removed Member From Class: ClassName=LoraModule Member=XS13
+Added Component: Designator=TP15(TestPoint(without hole))
+Added Component: Designator=TP16(TestPoint(without hole))
+Added Component: Designator=TP17(TestPoint(without hole))
+Added Component: Designator=TP18(TestPoint(without hole))
+Added Component: Designator=TP19(TestPoint(without hole))
+Added Pin To Net: NetName=nRST Pin=TP16-1
+Added Pin To Net: NetName=SWDIO Pin=TP17-1
+Added Pin To Net: NetName=SWCLK Pin=TP18-1
+Added Pin To Net: NetName=GND Pin=TP19-1
+Added Pin To Net: NetName=NetTP15_1 Pin=TP15-1
+Added Pin To Net: NetName=NetTP15_1 Pin=VD2-1
+Added Net: Name=NetTP15_1
+Added Member To Class: ClassName=LoraModule Member=Component TP15 Testpoint_HS1mm
+Added Member To Class: ClassName=LoraModule Member=Component TP16 Testpoint_HS1mm
+Added Member To Class: ClassName=LoraModule Member=Component TP17 Testpoint_HS1mm
+Added Member To Class: ClassName=LoraModule Member=Component TP18 Testpoint_HS1mm
+Added Member To Class: ClassName=LoraModule Member=Component TP19 Testpoint_HS1mm

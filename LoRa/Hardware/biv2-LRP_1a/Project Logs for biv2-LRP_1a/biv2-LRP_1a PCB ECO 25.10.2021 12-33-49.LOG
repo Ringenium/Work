@@ -1,0 +1,4 @@
+Removed Member From Class: ClassName=Sheet1 Member=XS1
+Added Pin To Net: NetName=MODE Pin=DA3-3
+Added Net: Name=MODE
+Added Room: Name=Sheet1

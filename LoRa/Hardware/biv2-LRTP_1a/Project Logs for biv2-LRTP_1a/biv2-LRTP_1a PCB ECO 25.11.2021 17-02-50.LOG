@@ -1,0 +1,7 @@
+Change Net Name : Old Net Name=LED1 New Net Name=LED2
+Change Net Name : Old Net Name=LED2 New Net Name=LED3
+Change Net Name : Old Net Name=LED3 New Net Name=LED4
+Change Net Name : Old Net Name=LED4 New Net Name=LED5
+Change Net Name : Old Net Name=LED5 New Net Name=LED6
+Change Net Name : Old Net Name=LED6 New Net Name=LED1
+Change Net Name : Old Net Name=LED6_GND New Net Name=LED1_GND

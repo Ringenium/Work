@@ -1,0 +1,2 @@
+Removed Pin From Net: NetName=LED6 Pin=XP1-10
+Added Pin To Net: NetName=LED6 Pin=XP1-2

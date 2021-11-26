@@ -1,0 +1,60 @@
+Removed Pin From Net: NetName=+U Pin=+BAT-1
+Removed Pin From Net: NetName=GND Pin=-BAT-1
+Removed Pin From Net: NetName=SCL_BAT Pin=SCL-1
+Removed Pin From Net: NetName=SDA_BAT Pin=SDA-1
+Removed Pin From Net: NetName=NetR8_1 Pin=XS5-1
+Removed Pin From Net: NetName=GND Pin=XS6-1
+Removed Pin From Net: NetName=NetR5_2 Pin=XS7-1
+Removed Pin From Net: NetName=NetR6_2 Pin=XS8-1
+Removed Member From Class: ClassName=Sheet1 Member=+BAT
+Removed Member From Class: ClassName=Sheet1 Member=-BAT
+Removed Member From Class: ClassName=Sheet1 Member=SCL
+Removed Member From Class: ClassName=Sheet1 Member=SDA
+Added Component: Designator=XS1(TestPoint(1mm_HS))
+Added Component: Designator=XS2(TestPoint(1mm_HS))
+Added Component: Designator=XS3(TestPoint(1mm_HS))
+Added Component: Designator=XS4(TestPoint(1mm_HS))
+Added Component: Designator=XS5(TestPoint(1mm_HS))
+Added Component: Designator=XS6(TestPoint(1mm_HS))
+Added Component: Designator=XS7(TestPoint(1mm_HS))
+Added Component: Designator=XS8(TestPoint(1mm_HS))
+Added Component: Designator=XS9(TestPoint(1mm_HS))
+Added Component: Designator=XS10(TestPoint(1mm_HS))
+Added Component: Designator=XS11(TestPoint(1mm_HS))
+Added Component: Designator=XS12(TestPoint(1mm_HS))
+Added Component: Designator=XS13(TestPoint(1mm_HS))
+Added Component: Designator=XS14(TestPoint(1mm_HS))
+Added Component: Designator=XS15(TestPoint(1mm_HS))
+Added Component: Designator=XS16(TestPoint(1mm_HS))
+Added Component: Designator=XS17(TestPoint(1mm_HS))
+Added Pin To Net: NetName=DC_EN Pin=XS1-1
+Added Pin To Net: NetName=SDA_BAT Pin=XS2-1
+Added Pin To Net: NetName=SCL_BAT Pin=XS3-1
+Added Pin To Net: NetName=+U Pin=XS4-1
+Added Pin To Net: NetName=RX Pin=XS5-1
+Added Pin To Net: NetName=TX Pin=XS6-1
+Added Pin To Net: NetName=RE Pin=XS7-1
+Added Pin To Net: NetName=DE Pin=XS8-1
+Added Pin To Net: NetName=MODE Pin=XS9-1
+Added Pin To Net: NetName=+U Pin=XS10-1
+Added Pin To Net: NetName=GND Pin=XS11-1
+Added Pin To Net: NetName=SDA_BAT Pin=XS12-1
+Added Pin To Net: NetName=SCL_BAT Pin=XS13-1
+Added Pin To Net: NetName=NetR8_1 Pin=XS14-1
+Added Pin To Net: NetName=GND Pin=XS15-1
+Added Pin To Net: NetName=NetR5_2 Pin=XS16-1
+Added Pin To Net: NetName=NetR6_2 Pin=XS17-1
+Added Member To Class: ClassName=Sheet1 Member=Component XS1 Testpoint_HS1mm
+Added Member To Class: ClassName=Sheet1 Member=Component XS2 Testpoint_HS1mm
+Added Member To Class: ClassName=Sheet1 Member=Component XS3 Testpoint_HS1mm
+Added Member To Class: ClassName=Sheet1 Member=Component XS4 Testpoint_HS1mm
+Added Member To Class: ClassName=Sheet1 Member=Component XS9 Testpoint_HS1mm
+Added Member To Class: ClassName=Sheet1 Member=Component XS10 Testpoint_HS1mm
+Added Member To Class: ClassName=Sheet1 Member=Component XS11 Testpoint_HS1mm
+Added Member To Class: ClassName=Sheet1 Member=Component XS12 Testpoint_HS1mm
+Added Member To Class: ClassName=Sheet1 Member=Component XS13 Testpoint_HS1mm
+Added Member To Class: ClassName=Sheet1 Member=Component XS14 Testpoint_HS1mm
+Added Member To Class: ClassName=Sheet1 Member=Component XS15 Testpoint_HS1mm
+Added Member To Class: ClassName=Sheet1 Member=Component XS16 Testpoint_HS1mm
+Added Member To Class: ClassName=Sheet1 Member=Component XS17 Testpoint_HS1mm
+Added Room: Name=Sheet1

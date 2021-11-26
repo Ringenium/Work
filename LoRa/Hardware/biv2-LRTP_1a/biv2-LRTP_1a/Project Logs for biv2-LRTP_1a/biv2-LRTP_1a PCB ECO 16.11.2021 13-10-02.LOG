@@ -1,0 +1,11 @@
+Added Component: Designator=XP1(CON: PLLD-10S)
+Added Component: Designator=XP2(CON: PLLD-10S)
+Added Pin To Net: NetName=LED5 Pin=XP1-1
+Added Pin To Net: NetName=LED4 Pin=XP1-3
+Added Pin To Net: NetName=LED3 Pin=XP1-5
+Added Pin To Net: NetName=LED2 Pin=XP1-7
+Added Pin To Net: NetName=VDD Pin=XP1-8
+Added Pin To Net: NetName=LED1 Pin=XP1-9
+Added Pin To Net: NetName=LED6 Pin=XP1-10
+Added Member To Class: ClassName=biv2-LRTP_1a Member=Component XP1 PLLD-10S
+Added Member To Class: ClassName=biv2-LRTP_1a Member=Component XP2 PLLD-10S
