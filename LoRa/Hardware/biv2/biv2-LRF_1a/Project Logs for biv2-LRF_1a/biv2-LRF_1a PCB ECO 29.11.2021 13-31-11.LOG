@@ -1,0 +1,43 @@
+Removed Pin From Net: NetName=WP Pin=DD3-15
+Removed Pin From Net: NetName=VDD Pin=VD1-2
+Added Component: Designator=C25(CAP: 0603)
+Add component (AddParameter): Name = "HelpURL"; Value = "https://www.digikey.com/product-detail/en/yageo/CC0603KRX7R7BB104/311-1088-1-ND/302998"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "CC0603KRX7R7BB104"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature"; Value = "-55...+125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "±10%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "TypeCapacitor"; Value = "Ceramic capacitor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "TypeDielectric"; Value = "X7R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "0.47u"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ValueManufacturerPartNumber"; Value = "Ceramic capacitor, 0.47u, X7R, ±10%, 16V, 0603, -55...+125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "16V"; VariantName = "[No Variations]"
+Added Component: Designator=DA1(SC-70-5)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Data Sheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=VD3(DIODE: SOD523)
+Add component (AddParameter): Name = "Current"; Value = "500mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "https://www.digikey.com/product-detail/en/diodes-incorporated/MBR0580S1-7/MBR0580S1-7DICT-ND/5080371"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Diodes Incorporated"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "SOD-123"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "BAT54XV2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RecoveryTime"; Value = "15pF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature"; Value = "-55...+150°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "TypeDiode"; Value = "Schottky diode"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ValueManufacturerPartNumber"; Value = "Schottky diode, 80V, 500mA, 1V, 15pF, SOD-123, -55...+150°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "80V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VoltageDrop"; Value = "1V"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=C25-1
+Added Pin To Net: NetName=WP Pin=C25-2
+Added Pin To Net: NetName=GND Pin=DA1-2
+Added Pin To Net: NetName=WP Pin=DA1-5
+Added Pin To Net: NetName=WP Pin=VD3-1
+Added Pin To Net: NetName=VDD Pin=VD3-2
+Added Pin To Net: NetName=NetDA1_4 Pin=DA1-4
+Added Pin To Net: NetName=NetDA1_4 Pin=VD1-2
+Added Net: Name=NetDA1_4
+Added Member To Class: ClassName=MCUModule Member=Component C25 Ceramic capacitor, 0.47u, X7R, ±10%, 16V, 0603, -55...+125°C
+Added Member To Class: ClassName=MCUModule Member=Component DA1 TPS71533
+Added Member To Class: ClassName=MCUModule Member=Component VD3 Schottky diode, 80V, 500mA, 1V, 15pF, SOD-123, -55...+150°C

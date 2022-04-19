@@ -1,0 +1,14 @@
+Added Component: Designator=R19(RES: 0402)
+Add component (AddParameter): Name = "HelpURL"; Value = "https://www.digikey.com/product-detail/en/yageo/RC0402JR-07100RL/311-100JRCT-ND/729362"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "RC0402JR-07100RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = "0.063W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature"; Value = "-55...+125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "±5%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "TypeResistor"; Value = "Resistor film"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "0R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ValueManufacturerPartNumber"; Value = "Resistor film, 0R, ±5%, 0402, 0.063W, -55...+125°C"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=VDD Pin=R19-1
+Added Pin To Net: NetName=1V8 Pin=R19-2
+Added Member To Class: ClassName=MCUModule Member=Component R19 Resistor film, 0R, ±5%, 0402, 0.063W, -55...+125°C

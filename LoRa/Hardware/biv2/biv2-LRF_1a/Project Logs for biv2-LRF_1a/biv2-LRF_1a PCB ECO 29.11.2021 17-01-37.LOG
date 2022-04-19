@@ -1,0 +1,38 @@
+Removed Pin From Net: NetName=VDD Pin=XS5-1
+Added Component: Designator=R18(RES: 0603)
+Add component (AddParameter): Name = "HelpURL"; Value = "https://www.digikey.com/product-detail/en/yageo/RC0603JR-07100RL/311-100GRCT-ND/729644"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "RC0603JR-07100RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = "0.1W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature"; Value = "-55...+125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "±5%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "TypeResistor"; Value = "Resistor film"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "200k"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ValueManufacturerPartNumber"; Value = "Resistor film, 200k, ±5%, 0603, 0.1W, -55...+125°C"; VariantName = "[No Variations]"
+Added Component: Designator=VD4(SOD523)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "DataSheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Replacement1DataSheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "Replacement2DataSheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3URL"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "NXP"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "SOD-323F"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power/Voltage"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ReplacementPart1Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ReplacementPart1PartNumber"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ReplacementPart1TopMarking"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ReplacementPart2Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ReplacementPart2TopMarking"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=R18-2
+Added Pin To Net: NetName=VDD Pin=VD4-1
+Added Pin To Net: NetName=NetR18_1 Pin=R18-1
+Added Pin To Net: NetName=NetR18_1 Pin=VD4-2
+Added Net: Name=NetR18_1
+Added Pin To Net: NetName=NetVT1_3 Pin=XS5-1
+Added Net: Name=NetVT1_3
+Added Member To Class: ClassName=MCUModule Member=Component R18 Resistor film, 200k, ±5%, 0603, 0.1W, -55...+125°C
+Added Member To Class: ClassName=MCUModule Member=Component VD4 BZX585

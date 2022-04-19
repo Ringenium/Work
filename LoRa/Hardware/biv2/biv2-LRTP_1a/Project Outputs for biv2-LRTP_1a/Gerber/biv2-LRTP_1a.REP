@@ -1,0 +1,93 @@
+*************************************************************
+FileName = biv2-LRTP_1a.GBR
+AutoAperture = True
+*************************************************************
+Generating : Board
+      File : biv2-LRTP_1a.GM4
+
+    Adding Layer      : Board
+
+
+Used DCodes :
+    D25
+*************************************************************
+
+*************************************************************
+Generating : Bottom Solder
+      File : biv2-LRTP_1a.GBS
+
+    Adding Layer      : Bottom Solder
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D14
+    D21
+    D22
+    D23
+    D24
+*************************************************************
+
+*************************************************************
+Generating : Top Solder
+      File : biv2-LRTP_1a.GTS
+
+    Adding Layer      : Top Solder
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D14
+*************************************************************
+
+*************************************************************
+Generating : Top Overlay
+      File : biv2-LRTP_1a.GTO
+
+    Adding Layer      : Top Overlay
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+    D13
+*************************************************************
+
+*************************************************************
+Generating : Bottom Layer
+      File : biv2-LRTP_1a.GBL
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D15
+    D16
+    D17
+    D18
+    D19
+    D20
+*************************************************************
+
+*************************************************************
+Generating : Top Layer
+      File : biv2-LRTP_1a.GTL
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D15
+*************************************************************
+

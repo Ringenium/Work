@@ -1,0 +1,21 @@
+Output: Gerber Files
+Type  : Gerber
+From  : Variant [[No Variations]] of PCB Document [plp-cd_2c.PcbDoc]
+   Generated File[plp-cd_2c.GTO]
+   Generated File[plp-cd_2c.GTS]
+   Generated File[plp-cd_2c.GTL]
+   Generated File[plp-cd_2c.G1]
+   Generated File[plp-cd_2c.G2]
+   Generated File[plp-cd_2c.GBL]
+   Generated File[plp-cd_2c.GBS]
+   Generated File[plp-cd_2c.GBO]
+   Generated File[plp-cd_2c.GM4]
+   Generated File[plp-cd_2c.RUL]
+   Generated File[plp-cd_2c.EXTREP]
+   Generated File[plp-cd_2c.REP]
+
+
+Files Generated   : 12
+Documents Printed : 0
+
+Finished Output Generation At 10:43:02 On 18.02.2022

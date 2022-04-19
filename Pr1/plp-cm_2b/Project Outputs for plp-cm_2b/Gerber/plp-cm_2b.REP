@@ -1,0 +1,193 @@
+*************************************************************
+FileName = plp-cm_2b.GBR
+AutoAperture = True
+*************************************************************
+Generating : Mechanical 4
+      File : plp-cm_2b.GM4
+
+    Adding Layer      : Mechanical 4
+
+
+Used DCodes :
+    D14
+*************************************************************
+
+*************************************************************
+Generating : Bottom Overlay
+      File : plp-cm_2b.GBO
+
+    Adding Layer      : Bottom Overlay
+
+
+Used DCodes :
+    D11
+    D12
+    D13
+    D14
+*************************************************************
+
+*************************************************************
+Generating : Bottom Solder
+      File : plp-cm_2b.GBS
+
+    Adding Layer      : Bottom Solder
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D15
+    D16
+    D17
+    D18
+    D25
+    D31
+    D32
+    D58
+    D59
+    D60
+    D61
+    D62
+*************************************************************
+
+*************************************************************
+Generating : Top Solder
+      File : plp-cm_2b.GTS
+
+    Adding Layer      : Top Solder
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D15
+    D16
+    D17
+    D18
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
+    D25
+    D26
+    D27
+    D28
+    D29
+    D30
+    D31
+    D32
+*************************************************************
+
+*************************************************************
+Generating : Top Overlay
+      File : plp-cm_2b.GTO
+
+    Adding Layer      : Top Overlay
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+    D13
+    D14
+*************************************************************
+
+*************************************************************
+Generating : Bottom Layer
+      File : plp-cm_2b.GBL
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D11
+    D12
+    D33
+    D34
+    D35
+    D36
+    D43
+    D49
+    D50
+    D51
+    D52
+    D53
+    D54
+    D55
+    D56
+    D57
+*************************************************************
+
+*************************************************************
+Generating : Signal Layer 2
+      File : plp-cm_2b.G2
+
+    Adding Layer      : Signal Layer 2
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D49
+    D51
+    D52
+*************************************************************
+
+*************************************************************
+Generating : Signal Layer 1
+      File : plp-cm_2b.G1
+
+    Adding Layer      : Signal Layer 1
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D49
+    D51
+    D52
+*************************************************************
+
+*************************************************************
+Generating : Top Layer
+      File : plp-cm_2b.GTL
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D11
+    D12
+    D33
+    D34
+    D35
+    D36
+    D37
+    D38
+    D39
+    D40
+    D41
+    D42
+    D43
+    D44
+    D45
+    D46
+    D47
+    D48
+    D49
+    D50
+    D51
+    D52
+*************************************************************
+

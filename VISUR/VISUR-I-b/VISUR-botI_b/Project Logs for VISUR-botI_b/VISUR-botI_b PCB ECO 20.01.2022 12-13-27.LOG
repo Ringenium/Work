@@ -1,0 +1,11 @@
+Removed Pin From Net: NetName=NetFU1_2 Pin=XS2-1
+Removed Pin From Net: NetName=NetFU1_2 Pin=XS2-2
+Removed Pin From Net: NetName=NetFU1_2 Pin=XS2-3
+Removed Pin From Net: NetName=NetFU1_2 Pin=XS2-4
+Removed Pin From Net: NetName=NetFU1_2 Pin=XS2-6
+Added Pin To Net: NetName=NetXS1_7 Pin=XS2-1
+Added Pin To Net: NetName=NetXS1_9 Pin=XS2-2
+Added Pin To Net: NetName=NetXS1_19 Pin=XS2-3
+Added Pin To Net: NetName=NetXS1_11 Pin=XS2-4
+Added Pin To Net: NetName=NetVD3_1 Pin=XS2-6
+Added Room: Name=VISUR-botI_b

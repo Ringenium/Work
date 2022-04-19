@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : PCB Document [biv2-LRF_1a.PcbDoc]
+   Generated File[biv2-LRF_1a.TXT]
+   Generated File[biv2-LRF_1a.LDP]
+   Generated File[biv2-LRF_1a.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 11:38:51 On 08.12.2021

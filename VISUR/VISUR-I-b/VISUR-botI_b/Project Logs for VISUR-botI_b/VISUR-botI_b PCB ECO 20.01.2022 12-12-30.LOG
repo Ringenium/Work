@@ -1,0 +1,31 @@
+Change Component Footprint: Designator=XS2 Old Footprint=CON: 15EDGVM-3.81-04P New Footprint=CON: 15EDGVM-3.81-06P
+Change Component Comment : Designator=XS2 Old Comment=15EDGVM-3.81-04P New Comment=15EDGVM-3.81-06P
+Change component parameters: Designator = "XS2" ("XS2"); Footprint = "CON: 15EDGVM-3.81-04P"; UniqueID = "\JKPEVZPQ" ("\JKPEVZPQ")
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.phoenixcontact.com/online/portal/ru/?uri=pxc-oc-itemdetail:pid=1830635&library=&pcck=P-11-02-11&tab=1&selectedCategory=ALL"; VariantName = "[No Variations]"
+Added Component: Designator=FU1(FUSE: 1812)
+Add component (AddParameter): Name = "HelpURL"; Value = "https://www.digikey.com/products/en?keywords=01110501Z"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Littelfuse"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MaxCurrent"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "5x20mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "01110501Z"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "TypeFuse"; Value = "Electromechanics relay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ValueManufacturerPartNumber"; Value = "Electromechanics relay, 250VAC, , 5x20mm, "; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VoltageMax"; Value = "250VAC"; VariantName = "[No Variations]"
+Added Component: Designator=VD3(DIODE: SMB)
+Added Pin To Net: NetName=NetFU1_1 Pin=FU1-1
+Added Pin To Net: NetName=NetFU1_1 Pin=VD3-2
+Added Pin To Net: NetName=NetFU1_1 Pin=XS1-13
+Added Pin To Net: NetName=NetFU1_1 Pin=XS1-14
+Added Net: Name=NetFU1_1
+Added Pin To Net: NetName=NetFU1_2 Pin=FU1-2
+Added Pin To Net: NetName=NetFU1_2 Pin=XS2-5
+Added Net: Name=NetFU1_2
+Added Pin To Net: NetName=NetVD3_1 Pin=VD3-1
+Added Pin To Net: NetName=NetVD3_1 Pin=XS1-15
+Added Pin To Net: NetName=NetVD3_1 Pin=XS1-16
+Added Pin To Net: NetName=NetVD3_1 Pin=XS2-6
+Added Net: Name=NetVD3_1
+Change Class Name : Old Net Name=VISUR_FP_I New Net Name=VISUR-botI_b
+Added Member To Class: ClassName=VISUR-botI_b Member=Component FU1 Electromechanics relay, 250VAC, , 5x20mm, 
+Added Member To Class: ClassName=VISUR-botI_b Member=Component VD3 SMBJ33CA-TR

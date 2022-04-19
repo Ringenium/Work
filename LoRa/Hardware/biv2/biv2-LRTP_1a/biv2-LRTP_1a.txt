@@ -1,0 +1,147 @@
+Board Information Report
+Filename     : E:\Work\LoRa\Hardware\biv2\biv2-LRTP_1a\biv2-LRTP_1a.PcbDoc
+Date         : 10.12.2021
+Time         : 17:45:25
+Time Elapsed : 00:00:00
+
+General
+    Board Size, 43mmx43mm
+    Components on board, 8
+count : 2
+
+Routing Information
+    Routing completion, 100,00%
+    Connections, 12
+    Connections routed, 12
+    Connections remaining, 0
+count : 4
+
+Layer, Arcs, Pads, Vias, Tracks, Texts, Fills, Regions, ComponentBodies
+    Top Layer, 0, 0, 0, 0, 0, 0, 1, 0
+    Bottom Layer, 0, 32, 0, 44, 0, 0, 2, 0
+    Mechanical 1, 0, 0, 0, 24, 0, 0, 0, 0
+    Top Assembly, 0, 0, 0, 0, 0, 0, 0, 0
+    Bottom Assembly, 0, 0, 0, 8, 2, 0, 0, 0
+    Board, 1, 0, 0, 0, 0, 0, 0, 0
+    Mechanical 13, 0, 0, 0, 0, 0, 0, 0, 8
+    Top assembly, 0, 0, 0, 24, 0, 0, 0, 0
+    Multi-Layer, 0, 6, 0, 0, 0, 0, 1, 0
+    Top Paste, 0, 0, 0, 0, 0, 0, 0, 0
+    Top Overlay, 0, 0, 0, 10, 2, 3, 6, 0
+    Top Solder, 0, 0, 0, 0, 0, 0, 0, 0
+    Bottom Solder, 0, 0, 0, 12, 0, 0, 0, 0
+    Bottom Overlay, 0, 0, 0, 28, 22, 0, 0, 0
+    Bottom Paste, 0, 0, 0, 0, 0, 0, 0, 0
+    Drill Guide, 0, 0, 0, 0, 0, 0, 0, 0
+    Keep-Out Layer, 0, 0, 0, 0, 0, 0, 0, 0
+    Drill Drawing, 0, 0, 0, 0, 0, 0, 0, 0
+count : 18
+
+Drill Pairs, Vias
+count : 0
+
+Layer, Sq.In., Sq.MM., Percent of layer
+    Top Layer, 2,143, 1382,638, 95%
+    Bottom Layer, 1,953, 1260,171, 87%
+count : 2
+
+Non-Plated Hole Size, Pads, Vias
+    2.25mm, 6, 0
+count : 1
+
+Plated Hole Size, Pads, Vias
+    0mm, 32, 0
+count : 1
+
+Non-Plated Slot Size / Length, Pads
+count : 0
+
+Plated Slot Size / Length, Pads
+count : 0
+
+Non-Plated Square Hole Size, Pads
+count : 0
+
+Plated Square Hole Size, Pads
+count : 0
+
+Top Layer Annular Ring Size, Count
+    0mm, 6
+count : 1
+
+Mid Layer Annular Ring Size, Count
+    0mm, 6
+count : 1
+
+Bottom Layer Annular Ring Size, Count
+    0mm, 6
+count : 1
+
+Pad Solder Mask, Count
+    0.05mm, 38
+count : 1
+
+Pad Paste Mask, Count
+    0mm, 38
+count : 1
+
+Pad Pwr/Gnd Expansion, Count
+    0.2mm, 38
+count : 1
+
+Pad Relief Conductor Width, Count
+    0.2mm, 38
+count : 1
+
+Pad Relief Air Gap, Count
+    0.2mm, 38
+count : 1
+
+Pad Relief Entries, Count
+    4, 38
+count : 1
+
+Via Solder Mask, Count
+count : 0
+
+Track Width, Count
+    0.1mm, 84
+    0.2mm, 12
+    0.3mm, 10
+    0.4mm, 27
+    0.8mm, 17
+count : 5
+
+Arc Line Width, Count
+    0.1mm, 1
+count : 1
+
+Arc Radius, Count
+    21.5mm, 1
+count : 1
+
+Arc Degrees, Count
+    360, 1
+count : 1
+
+Text Height, Count
+    0.6mm, 8
+    1mm, 6
+    1.524mm, 8
+    2mm, 2
+    3mm, 2
+count : 5
+
+Text Width, Count
+    0.15mm, 8
+    0.254mm, 16
+    0.4mm, 2
+count : 3
+
+Net Track Width, Count
+    0.15mm, 8
+count : 1
+
+Net Via Size, Count
+    0.6mm, 8
+count : 1

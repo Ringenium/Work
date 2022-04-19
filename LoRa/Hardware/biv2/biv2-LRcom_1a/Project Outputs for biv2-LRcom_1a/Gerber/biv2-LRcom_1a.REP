@@ -1,0 +1,83 @@
+*************************************************************
+FileName = biv2-LRcom_1a.GBR
+AutoAperture = True
+*************************************************************
+Generating : Board
+      File : biv2-LRcom_1a.GM4
+
+    Adding Layer      : Board
+
+
+Used DCodes :
+    D19
+*************************************************************
+
+*************************************************************
+Generating : Bottom Solder
+      File : biv2-LRcom_1a.GBS
+
+    Adding Layer      : Bottom Solder
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+    D13
+*************************************************************
+
+*************************************************************
+Generating : Top Solder
+      File : biv2-LRcom_1a.GTS
+
+    Adding Layer      : Top Solder
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+    D13
+*************************************************************
+
+*************************************************************
+Generating : Bottom Layer
+      File : biv2-LRcom_1a.GBL
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D14
+    D15
+    D16
+    D17
+    D18
+*************************************************************
+
+*************************************************************
+Generating : Top Layer
+      File : biv2-LRcom_1a.GTL
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D14
+    D15
+    D16
+    D17
+*************************************************************
+

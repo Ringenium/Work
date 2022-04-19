@@ -1,0 +1,24 @@
+Added Component: Designator=VD1(KM2520SURCK09)
+Added Component: Designator=VD2(KM2520SURCK09)
+Added Component: Designator=VD3(KM2520SURCK09)
+Added Component: Designator=VD4(KM2520SURCK09)
+Added Component: Designator=VD5(KM2520SURCK09)
+Added Component: Designator=VD6(KM2520SURCK09)
+Added Pin To Net: NetName=VDD Pin=VD1-1
+Added Pin To Net: NetName=LED2 Pin=VD1-2
+Added Pin To Net: NetName=VDD Pin=VD2-1
+Added Pin To Net: NetName=LED3 Pin=VD2-2
+Added Pin To Net: NetName=VDD Pin=VD3-1
+Added Pin To Net: NetName=LED4 Pin=VD3-2
+Added Pin To Net: NetName=VDD Pin=VD4-1
+Added Pin To Net: NetName=LED5 Pin=VD4-2
+Added Pin To Net: NetName=VDD Pin=VD5-1
+Added Pin To Net: NetName=LED6 Pin=VD5-2
+Added Pin To Net: NetName=LED1 Pin=VD6-1
+Added Pin To Net: NetName=LED1_GND Pin=VD6-2
+Added Member To Class: ClassName=biv2-LRTP_1a Member=Component VD1 KM2520SURCK09
+Added Member To Class: ClassName=biv2-LRTP_1a Member=Component VD2 KM2520SURCK09
+Added Member To Class: ClassName=biv2-LRTP_1a Member=Component VD3 KM2520SURCK09
+Added Member To Class: ClassName=biv2-LRTP_1a Member=Component VD4 KM2520SURCK09
+Added Member To Class: ClassName=biv2-LRTP_1a Member=Component VD5 KM2520SURCK09
+Added Member To Class: ClassName=biv2-LRTP_1a Member=Component VD6 KM2520SURCK09

@@ -1,0 +1,3 @@
+Removed Pin From Net: NetName=+5 Pin=R9-2
+Change Component Description : Designator=VD2 Old Description=EIA RS-485 ±7V New Description=EIA RS-485 ±7V 
+Added Pin To Net: NetName=+3.3 Pin=R9-2

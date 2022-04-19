@@ -1,0 +1,7 @@
+Removed Pin From Net: NetName=A Pin=XS3-1
+Removed Pin From Net: NetName=A Pin=XS3-3
+Removed Pin From Net: NetName=A Pin=XS3-4
+Removed Pin From Net: NetName=A Pin=XS3-5
+Removed Pin From Net: NetName=A Pin=XS3-6
+Added Pin To Net: NetName=GND Pin=XS3-3
+Added Pin To Net: NetName=B Pin=XS3-6

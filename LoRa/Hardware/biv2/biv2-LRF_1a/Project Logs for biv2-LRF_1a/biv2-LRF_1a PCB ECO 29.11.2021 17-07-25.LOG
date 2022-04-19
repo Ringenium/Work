@@ -1,0 +1,23 @@
+Added Component: Designator=VT1(SC-70-6)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Data Sheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Replacement 1 Data Sheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3URL"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Fairchild Semiconductor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "BSS84AKS"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ReplacementPart1Manufacturer"; Value = "ON Semiconductor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ReplacementPart1PartNumber"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ReplacementPart1TopMarking"; Value = "TK"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ReplacementPart2Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ReplacementPart2PartNumber"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ReplacementPart2TopMarking"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "TopMarking"; Value = ".16"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=VDD Pin=VT1-1
+Added Pin To Net: NetName=NetR18_1 Pin=VT1-2
+Added Pin To Net: NetName=NetVT1_3 Pin=VT1-3
+Added Pin To Net: NetName=VDD Pin=VT1-4
+Added Pin To Net: NetName=NetR18_1 Pin=VT1-5
+Added Pin To Net: NetName=NetVT1_3 Pin=VT1-6
+Added Member To Class: ClassName=MCUModule Member=Component VT1 BSS84AKS

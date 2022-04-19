@@ -1,0 +1,7 @@
+Removed Pin From Net: NetName=A Pin=XS3-1
+Removed Pin From Net: NetName=B Pin=XS3-2
+Removed Pin From Net: NetName=LED Pin=XS4-2
+Added Pin To Net: NetName=A Pin=XS3-2
+Added Pin To Net: NetName=B Pin=XS3-6
+Added Pin To Net: NetName=LED Pin=XS4-1
+Change Class Name : Old Net Name=plp-ctop_1a New Net Name=plp-ctop_3c

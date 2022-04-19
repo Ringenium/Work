@@ -1,0 +1,27 @@
+Change Component Footprint: Designator=DD3 Old Footprint=VSSOP-8 New Footprint=8-SOIC
+Change Component Designator: OldDesignator=AIN NewDesignator=AIN1
+Change Component Designator: OldDesignator=R4 NewDesignator=R3
+Change Component Designator: OldDesignator=R5 NewDesignator=R4
+Change Component Designator: OldDesignator=R9 NewDesignator=R8
+Change Component Designator: OldDesignator=R12 NewDesignator=R11
+Change Component Designator: OldDesignator=R14 NewDesignator=R12
+Change Component Designator: OldDesignator=R15 NewDesignator=R13
+Change Component Designator: OldDesignator=R16 NewDesignator=R14
+Change Component Designator: OldDesignator=R17 NewDesignator=R15
+Change Component Designator: OldDesignator=R18 NewDesignator=R16
+Change Component Designator: OldDesignator=R19 NewDesignator=R17
+Change Component Designator: OldDesignator=R20 NewDesignator=R18
+Change Component Designator: OldDesignator=R21 NewDesignator=R19
+Change Component Designator: OldDesignator=R25 NewDesignator=R5
+Change Component Designator: OldDesignator=XP1 NewDesignator=XP2
+Change Component Designator: OldDesignator=XP2 NewDesignator=XP1
+Change Component Designator: OldDesignator=XS1 NewDesignator=XS3
+Change Component Designator: OldDesignator=XS2 NewDesignator=XS1
+Change Component Designator: OldDesignator=XS3 NewDesignator=XS2
+Change Component Description : Designator=VD2 Old Description=EIA RS-485 ±7V New Description=EIA RS-485 ±7V 
+Change Net Name : Old Net Name=NetR21_1 New Net Name=NetR19_1
+Change Net Name : Old Net Name=NetR25_2 New Net Name=NetR5_2
+Change Class Name : Old Net Name=plp-cm_2a New Net Name=plp-cm_2b
+Added Member To Class: ClassName=plp-cm_2b Member=Component XS2 2199R05-06G-301523
+Added Member To Class: ClassName=plp-cm_2b Member=Component XS3 PBD 1.27-6R
+Added Room: Name=plp-cm_2b
